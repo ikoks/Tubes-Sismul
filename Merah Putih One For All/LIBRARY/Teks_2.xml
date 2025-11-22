@@ -1,0 +1,42 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Teks_2" itemID="6921d013-00000601" lastModified="1763824052">
+  <timeline>
+    <DOMTimeline name="Teks_2" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText left="-117.75" width="379.5" height="35.8" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.12229919433594" d="1.50753784179688" tx="134.4" ty="3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Merah Putih: One For All</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="2.55" lineSpacing="12" lineHeight="35.8" size="25.7" bitmapSize="514" face="ComicSansMS-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText left="-138.2" width="420.4" height="35.8" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.12229919433594" d="1.50753784179688" tx="157.35" ty="51.35"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Membangun Karakter Bangsa</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="2.55" lineSpacing="12" lineHeight="35.8" size="25.7" bitmapSize="514" face="ComicSansMS-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,2239 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="theme-color" content="#DC143C" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <title>Pancasila Mobile - Edukasi Interaktif</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        user-select: none;
+      }
+
+      :root {
+        /* Colors */
+        --merah-indonesia: #dc143c;
+        --merah-tua: #8b0000;
+        --merah-muda: #ff6b6b;
+        --putih: #ffffff;
+        --putih-abu: #f8f9fa;
+        --emas: #ffd700;
+        --emas-tua: #daa520;
+        --hitam: #1a1a1a;
+        --abu: #6c757d;
+        --abu-muda: #dee2e6;
+        --background: #f5f5f5;
+        --success: #28a745;
+        --danger: #dc3545;
+        --warning: #ffc107;
+        --info: #17a2b8;
+
+        /* Spacing */
+        --spacing-xs: 4px;
+        --spacing-sm: 8px;
+        --spacing-md: 16px;
+        --spacing-lg: 24px;
+        --spacing-xl: 32px;
+        --spacing-xxl: 48px;
+
+        /* Border Radius */
+        --radius-sm: 8px;
+        --radius-md: 12px;
+        --radius-lg: 16px;
+        --radius-xl: 24px;
+        --radius-full: 9999px;
+
+        /* Shadows */
+        --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+        --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
+        --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.2);
+        --shadow-xl: 0 12px 48px rgba(0, 0, 0, 0.25);
+      }
+
+      body {
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, sans-serif;
+        background: var(--background);
+        min-height: 100vh;
+        overflow-x: hidden;
+        position: relative;
+        color: var(--hitam);
+      }
+
+      /* Splash Screen */
+      .splash-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          135deg,
+          var(--merah-indonesia),
+          var(--merah-tua)
+        );
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        animation: splashFade 2s ease-out forwards;
+        animation-delay: 1.5s;
+      }
+
+      @keyframes splashFade {
+        to {
+          opacity: 0;
+          visibility: hidden;
+        }
+      }
+
+      .splash-logo {
+        width: 120px;
+        height: 120px;
+        background: var(--emas);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 60px;
+        animation: splashPulse 1s infinite;
+        box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.7);
+      }
+
+      @keyframes splashPulse {
+        0% {
+          box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.7);
+        }
+        70% {
+          box-shadow: 0 0 0 30px rgba(255, 215, 0, 0);
+        }
+        100% {
+          box-shadow: 0 0 0 0 rgba(255, 215, 0, 0);
+        }
+      }
+
+      .splash-title {
+        color: var(--putih);
+        font-size: 28px;
+        font-weight: 800;
+        margin-top: var(--spacing-lg);
+        letter-spacing: 2px;
+      }
+
+      .splash-subtitle {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 14px;
+        margin-top: var(--spacing-sm);
+      }
+
+      /* App Container */
+      .app-container {
+        max-width: 480px;
+        margin: 0 auto;
+        background: var(--putih);
+        min-height: 100vh;
+        position: relative;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Header */
+      .app-header {
+        background: linear-gradient(
+          135deg,
+          var(--merah-indonesia),
+          var(--merah-tua)
+        );
+        padding: var(--spacing-md);
+        padding-top: calc(env(safe-area-inset-top) + var(--spacing-md));
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        box-shadow: var(--shadow-lg);
+      }
+
+      .header-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: var(--spacing-md);
+      }
+
+      .header-title {
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-sm);
+      }
+
+      .header-icon {
+        width: 36px;
+        height: 36px;
+        background: var(--putih);
+        border-radius: var(--radius-sm);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+      }
+
+      .header-text {
+        color: var(--putih);
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+
+      .menu-btn {
+        width: 36px;
+        height: 36px;
+        background: rgba(255, 255, 255, 0.2);
+        border: none;
+        border-radius: var(--radius-sm);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+
+      .menu-btn:active {
+        transform: scale(0.9);
+        background: rgba(255, 255, 255, 0.3);
+      }
+
+      .menu-line {
+        width: 20px;
+        height: 2px;
+        background: var(--putih);
+        border-radius: 2px;
+        transition: all 0.3s;
+      }
+
+      /* Tab Navigation */
+      .tab-nav {
+        display: flex;
+        gap: var(--spacing-xs);
+        overflow-x: auto;
+        padding: var(--spacing-xs) 0;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+
+      .tab-nav::-webkit-scrollbar {
+        display: none;
+      }
+
+      .tab-item {
+        flex: 0 0 auto;
+        background: rgba(255, 255, 255, 0.2);
+        color: var(--putih);
+        border: none;
+        padding: var(--spacing-sm) var(--spacing-md);
+        border-radius: var(--radius-full);
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s;
+        white-space: nowrap;
+      }
+
+      .tab-item.active {
+        background: var(--putih);
+        color: var(--merah-indonesia);
+      }
+
+      .tab-item:active {
+        transform: scale(0.95);
+      }
+
+      /* Main Content */
+      .main-content {
+        padding-bottom: 80px;
+        min-height: calc(100vh - 140px);
+      }
+
+      /* Page */
+      .page {
+        display: none;
+        animation: pageIn 0.3s ease-out;
+      }
+
+      .page.active {
+        display: block;
+      }
+
+      @keyframes pageIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* Home Page */
+      .hero-section {
+        background: linear-gradient(
+          135deg,
+          var(--merah-muda),
+          var(--merah-indonesia)
+        );
+        padding: var(--spacing-xl);
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero-section::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        right: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(
+          circle,
+          rgba(255, 255, 255, 0.1) 0%,
+          transparent 70%
+        );
+        animation: rotate 20s linear infinite;
+      }
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .hero-badge {
+        width: 100px;
+        height: 100px;
+        background: var(--emas);
+        border-radius: 50%;
+        margin: 0 auto var(--spacing-lg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        box-shadow: 0 8px 32px rgba(255, 215, 0, 0.4);
+        position: relative;
+        z-index: 1;
+        animation: float 3s ease-in-out infinite;
+      }
+
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+
+      .hero-title {
+        color: var(--putih);
+        font-size: 32px;
+        font-weight: 800;
+        margin-bottom: var(--spacing-sm);
+        position: relative;
+        z-index: 1;
+      }
+
+      .hero-subtitle {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 16px;
+        line-height: 1.5;
+        position: relative;
+        z-index: 1;
+      }
+
+      /* Sila Cards */
+      .sila-container {
+        padding: var(--spacing-lg);
+      }
+
+      .section-title {
+        font-size: 20px;
+        font-weight: 700;
+        color: var(--hitam);
+        margin-bottom: var(--spacing-md);
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-sm);
+      }
+
+      .section-title::before {
+        content: "";
+        width: 4px;
+        height: 24px;
+        background: var(--merah-indonesia);
+        border-radius: 2px;
+      }
+
+      .sila-grid {
+        display: grid;
+        gap: var(--spacing-md);
+      }
+
+      .sila-card {
+        background: var(--putih);
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-lg);
+        box-shadow: var(--shadow-md);
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-md);
+        transition: all 0.3s;
+        cursor: pointer;
+        border: 2px solid transparent;
+      }
+
+      .sila-card:active {
+        transform: scale(0.98);
+        border-color: var(--merah-indonesia);
+        box-shadow: var(--shadow-sm);
+      }
+
+      .sila-icon-wrapper {
+        width: 60px;
+        height: 60px;
+        background: linear-gradient(
+          135deg,
+          var(--merah-indonesia),
+          var(--merah-tua)
+        );
+        border-radius: var(--radius-md);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+
+      .sila-number {
+        color: var(--putih);
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      .sila-content {
+        flex: 1;
+      }
+
+      .sila-emoji {
+        font-size: 24px;
+        margin-bottom: var(--spacing-xs);
+      }
+
+      .sila-title {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--hitam);
+        line-height: 1.3;
+      }
+
+      /* Stats Grid */
+      .stats-container {
+        padding: var(--spacing-lg);
+        background: var(--putih-abu);
+      }
+
+      .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-md);
+      }
+
+      .stat-card {
+        background: var(--putih);
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-lg);
+        text-align: center;
+        box-shadow: var(--shadow-sm);
+        transition: all 0.3s;
+      }
+
+      .stat-card:active {
+        transform: scale(0.95);
+        box-shadow: var(--shadow-md);
+      }
+
+      .stat-icon {
+        font-size: 32px;
+        margin-bottom: var(--spacing-sm);
+        display: inline-block;
+        animation: bounce 2s infinite;
+      }
+
+      @keyframes bounce {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-5px);
+        }
+      }
+
+      .stat-value {
+        font-size: 24px;
+        font-weight: 700;
+        color: var(--merah-indonesia);
+        margin-bottom: var(--spacing-xs);
+      }
+
+      .stat-label {
+        font-size: 12px;
+        color: var(--abu);
+        font-weight: 500;
+      }
+
+      /* Materi Page */
+      .materi-container {
+        padding: var(--spacing-lg);
+      }
+
+      .bab-selector {
+        display: flex;
+        gap: var(--spacing-sm);
+        overflow-x: auto;
+        padding-bottom: var(--spacing-md);
+        margin-bottom: var(--spacing-lg);
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+
+      .bab-selector::-webkit-scrollbar {
+        display: none;
+      }
+
+      .bab-chip {
+        flex: 0 0 auto;
+        background: var(--putih);
+        border: 2px solid var(--abu-muda);
+        padding: var(--spacing-sm) var(--spacing-md);
+        border-radius: var(--radius-full);
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--hitam);
+        cursor: pointer;
+        transition: all 0.3s;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-xs);
+      }
+
+      .bab-chip.active {
+        background: var(--merah-indonesia);
+        color: var(--putih);
+        border-color: var(--merah-indonesia);
+      }
+
+      .bab-chip:active {
+        transform: scale(0.95);
+      }
+
+      .materi-content {
+        display: none;
+        animation: fadeIn 0.3s;
+      }
+
+      .materi-content.active {
+        display: block;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      .video-section {
+        background: var(--hitam);
+        border-radius: var(--radius-lg);
+        aspect-ratio: 16/9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: var(--spacing-lg);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .video-play-btn {
+        width: 64px;
+        height: 64px;
+        background: var(--merah-indonesia);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.3s;
+        box-shadow: 0 4px 20px rgba(220, 20, 60, 0.4);
+      }
+
+      .video-play-btn:hover {
+        transform: scale(1.1);
+      }
+
+      .video-play-btn:active {
+        transform: scale(0.95);
+      }
+
+      .play-icon {
+        width: 0;
+        height: 0;
+        border-left: 20px solid var(--putih);
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        margin-left: 4px;
+      }
+
+      .upload-area {
+        margin-top: var(--spacing-md);
+      }
+
+      .upload-btn {
+        background: var(--putih);
+        color: var(--merah-indonesia);
+        border: none;
+        padding: var(--spacing-sm) var(--spacing-lg);
+        border-radius: var(--radius-full);
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+
+      .upload-btn:active {
+        transform: scale(0.95);
+      }
+
+      .content-card {
+        background: var(--putih);
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-lg);
+        box-shadow: var(--shadow-md);
+        margin-bottom: var(--spacing-md);
+      }
+
+      .content-title {
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--merah-indonesia);
+        margin-bottom: var(--spacing-md);
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-sm);
+      }
+
+      .content-text {
+        font-size: 14px;
+        line-height: 1.6;
+        color: var(--hitam);
+      }
+
+      .content-list {
+        margin-top: var(--spacing-md);
+        padding-left: var(--spacing-lg);
+      }
+
+      .content-list li {
+        margin-bottom: var(--spacing-sm);
+        position: relative;
+      }
+
+      .content-list li::marker {
+        color: var(--merah-indonesia);
+      }
+
+      /* Quiz Page */
+      .quiz-container {
+        padding: var(--spacing-lg);
+      }
+
+      .quiz-intro {
+        background: linear-gradient(
+          135deg,
+          var(--merah-indonesia),
+          var(--merah-tua)
+        );
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-xl);
+        color: var(--putih);
+        text-align: center;
+        margin-bottom: var(--spacing-lg);
+        box-shadow: var(--shadow-lg);
+      }
+
+      .quiz-intro-title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: var(--spacing-sm);
+      }
+
+      .quiz-intro-subtitle {
+        font-size: 14px;
+        opacity: 0.9;
+      }
+
+      .quiz-categories {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-md);
+        margin-bottom: var(--spacing-lg);
+      }
+
+      .quiz-card {
+        background: var(--putih);
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-lg);
+        text-align: center;
+        box-shadow: var(--shadow-md);
+        cursor: pointer;
+        transition: all 0.3s;
+        border: 2px solid transparent;
+      }
+
+      .quiz-card:active {
+        transform: scale(0.95);
+        border-color: var(--merah-indonesia);
+      }
+
+      .quiz-icon {
+        font-size: 36px;
+        margin-bottom: var(--spacing-sm);
+      }
+
+      .quiz-name {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--hitam);
+        margin-bottom: var(--spacing-xs);
+      }
+
+      .quiz-count {
+        font-size: 12px;
+        color: var(--abu);
+      }
+
+      .quiz-game {
+        display: none;
+        animation: slideUp 0.4s;
+      }
+
+      .quiz-game.active {
+        display: block;
+      }
+
+      @keyframes slideUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .question-container {
+        background: var(--putih);
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-lg);
+        margin-bottom: var(--spacing-lg);
+        box-shadow: var(--shadow-md);
+      }
+
+      .question-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: var(--spacing-lg);
+        padding-bottom: var(--spacing-md);
+        border-bottom: 2px solid var(--abu-muda);
+      }
+
+      .question-number {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--abu);
+      }
+
+      .question-score {
+        background: var(--emas);
+        color: var(--hitam);
+        padding: var(--spacing-xs) var(--spacing-md);
+        border-radius: var(--radius-full);
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      .question-text {
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--hitam);
+        margin-bottom: var(--spacing-lg);
+        line-height: 1.4;
+      }
+
+      .answer-list {
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-sm);
+      }
+
+      .answer-option {
+        background: var(--putih-abu);
+        border: 2px solid transparent;
+        border-radius: var(--radius-md);
+        padding: var(--spacing-md);
+        font-size: 14px;
+        color: var(--hitam);
+        cursor: pointer;
+        transition: all 0.3s;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-md);
+      }
+
+      .answer-option:active {
+        transform: scale(0.98);
+      }
+
+      .answer-option.selected {
+        background: var(--merah-indonesia);
+        color: var(--putih);
+        border-color: var(--merah-indonesia);
+      }
+
+      .answer-option.correct {
+        background: var(--success);
+        color: var(--putih);
+        border-color: var(--success);
+      }
+
+      .answer-option.wrong {
+        background: var(--danger);
+        color: var(--putih);
+        border-color: var(--danger);
+      }
+
+      .answer-radio {
+        width: 20px;
+        height: 20px;
+        border: 2px solid var(--abu-muda);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+
+      .answer-option.selected .answer-radio {
+        border-color: var(--putih);
+        background: var(--putih);
+      }
+
+      .answer-option.selected .answer-radio::after {
+        content: "";
+        width: 10px;
+        height: 10px;
+        background: var(--merah-indonesia);
+        border-radius: 50%;
+      }
+
+      .quiz-navigation {
+        display: flex;
+        gap: var(--spacing-md);
+      }
+
+      .quiz-btn {
+        flex: 1;
+        background: var(--merah-indonesia);
+        color: var(--putih);
+        border: none;
+        padding: var(--spacing-md);
+        border-radius: var(--radius-md);
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+
+      .quiz-btn:active {
+        transform: scale(0.95);
+      }
+
+      .quiz-btn:disabled {
+        background: var(--abu-muda);
+        color: var(--abu);
+        cursor: not-allowed;
+      }
+
+      .quiz-btn.secondary {
+        background: var(--putih);
+        color: var(--merah-indonesia);
+        border: 2px solid var(--merah-indonesia);
+      }
+
+      /* Profile Page */
+      .profile-container {
+        padding: var(--spacing-lg);
+      }
+
+      .profile-header {
+        background: linear-gradient(
+          135deg,
+          var(--merah-indonesia),
+          var(--merah-tua)
+        );
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-xl);
+        text-align: center;
+        color: var(--putih);
+        margin-bottom: var(--spacing-lg);
+        box-shadow: var(--shadow-lg);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .profile-header::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: repeating-linear-gradient(
+          45deg,
+          transparent,
+          transparent 10px,
+          rgba(255, 255, 255, 0.05) 10px,
+          rgba(255, 255, 255, 0.05) 20px
+        );
+        animation: slide 10s linear infinite;
+      }
+
+      @keyframes slide {
+        from {
+          transform: translate(0, 0);
+        }
+        to {
+          transform: translate(20px, 20px);
+        }
+      }
+
+      .profile-avatar {
+        width: 100px;
+        height: 100px;
+        background: var(--emas);
+        border-radius: 50%;
+        margin: 0 auto var(--spacing-md);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 48px;
+        box-shadow: 0 8px 24px rgba(255, 215, 0, 0.4);
+        position: relative;
+        z-index: 1;
+      }
+
+      .profile-name {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: var(--spacing-xs);
+        position: relative;
+        z-index: 1;
+      }
+
+      .profile-level {
+        font-size: 14px;
+        opacity: 0.9;
+        position: relative;
+        z-index: 1;
+      }
+
+      .achievement-section {
+        margin-bottom: var(--spacing-lg);
+      }
+
+      .achievement-card {
+        background: var(--putih);
+        border-radius: var(--radius-lg);
+        padding: var(--spacing-lg);
+        margin-bottom: var(--spacing-md);
+        box-shadow: var(--shadow-md);
+      }
+
+      .achievement-header {
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-md);
+        margin-bottom: var(--spacing-md);
+      }
+
+      .achievement-icon {
+        font-size: 24px;
+      }
+
+      .achievement-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--hitam);
+      }
+
+      .progress-bar {
+        background: var(--abu-muda);
+        height: 28px;
+        border-radius: var(--radius-full);
+        overflow: hidden;
+        margin-bottom: var(--spacing-sm);
+      }
+
+      .progress-fill {
+        background: linear-gradient(
+          90deg,
+          var(--merah-indonesia),
+          var(--merah-muda)
+        );
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--putih);
+        font-size: 12px;
+        font-weight: 600;
+        transition: width 1.5s ease;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .progress-fill::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(255, 255, 255, 0.3),
+          transparent
+        );
+        animation: shimmer 2s infinite;
+      }
+
+      @keyframes shimmer {
+        to {
+          left: 100%;
+        }
+      }
+
+      .achievement-info {
+        font-size: 12px;
+        color: var(--abu);
+        text-align: center;
+      }
+
+      .badges-section {
+        padding: var(--spacing-md);
+        background: var(--putih-abu);
+        border-radius: var(--radius-lg);
+      }
+
+      .badges-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: var(--spacing-md);
+        margin-top: var(--spacing-md);
+      }
+
+      .badge {
+        width: 60px;
+        height: 60px;
+        background: var(--emas);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+        box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+        transition: all 0.3s;
+        cursor: pointer;
+        margin: 0 auto;
+      }
+
+      .badge:active {
+        transform: scale(0.9) rotate(10deg);
+      }
+
+      .badge.locked {
+        background: var(--abu-muda);
+        filter: grayscale(1);
+        opacity: 0.5;
+      }
+
+      /* Bottom Navigation */
+      .bottom-nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: var(--putih);
+        border-top: 1px solid var(--abu-muda);
+        padding: var(--spacing-sm) 0;
+        padding-bottom: calc(env(safe-area-inset-bottom) + var(--spacing-sm));
+        box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+        z-index: 99;
+      }
+
+      .nav-container {
+        max-width: 480px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .nav-item {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--spacing-xs);
+        padding: var(--spacing-sm);
+        border: none;
+        background: none;
+        color: var(--abu);
+        cursor: pointer;
+        transition: all 0.3s;
+        position: relative;
+      }
+
+      .nav-item.active {
+        color: var(--merah-indonesia);
+      }
+
+      .nav-item.active::before {
+        content: "";
+        position: absolute;
+        top: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 32px;
+        height: 3px;
+        background: var(--merah-indonesia);
+        border-radius: 2px;
+      }
+
+      .nav-icon {
+        font-size: 24px;
+        transition: transform 0.3s;
+      }
+
+      .nav-item:active .nav-icon {
+        transform: scale(0.9);
+      }
+
+      .nav-label {
+        font-size: 11px;
+        font-weight: 500;
+      }
+
+      /* Floating Action Button */
+      .fab {
+        position: fixed;
+        bottom: 100px;
+        right: 20px;
+        width: 56px;
+        height: 56px;
+        background: var(--merah-indonesia);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 12px rgba(220, 20, 60, 0.4);
+        cursor: pointer;
+        transition: all 0.3s;
+        z-index: 98;
+      }
+
+      .fab:active {
+        transform: scale(0.9);
+      }
+
+      .fab-icon {
+        color: var(--putih);
+        font-size: 24px;
+      }
+
+      /* Side Menu */
+      .side-menu {
+        position: fixed;
+        top: 0;
+        right: -280px;
+        width: 280px;
+        height: 100%;
+        background: var(--putih);
+        box-shadow: -4px 0 12px rgba(0, 0, 0, 0.1);
+        transition: right 0.3s;
+        z-index: 1000;
+        overflow-y: auto;
+      }
+
+      .side-menu.active {
+        right: 0;
+      }
+
+      .menu-header {
+        background: linear-gradient(
+          135deg,
+          var(--merah-indonesia),
+          var(--merah-tua)
+        );
+        padding: var(--spacing-xl) var(--spacing-lg);
+        color: var(--putih);
+      }
+
+      .menu-title {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: var(--spacing-xs);
+      }
+
+      .menu-subtitle {
+        font-size: 14px;
+        opacity: 0.9;
+      }
+
+      .menu-close {
+        position: absolute;
+        top: var(--spacing-md);
+        right: var(--spacing-md);
+        width: 32px;
+        height: 32px;
+        background: rgba(255, 255, 255, 0.2);
+        border: none;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color: var(--putih);
+        font-size: 20px;
+      }
+
+      .menu-items {
+        padding: var(--spacing-lg);
+      }
+
+      .menu-item {
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-md);
+        padding: var(--spacing-md);
+        margin-bottom: var(--spacing-sm);
+        border-radius: var(--radius-md);
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+
+      .menu-item:hover {
+        background: var(--putih-abu);
+      }
+
+      .menu-item-icon {
+        font-size: 20px;
+        width: 24px;
+        text-align: center;
+      }
+
+      .menu-item-text {
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--hitam);
+      }
+
+      /* Overlay */
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s;
+        z-index: 999;
+      }
+
+      .overlay.active {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      /* Toast Notification */
+      .toast {
+        position: fixed;
+        bottom: 100px;
+        left: 50%;
+        transform: translateX(-50%) translateY(100px);
+        background: var(--hitam);
+        color: var(--putih);
+        padding: var(--spacing-md) var(--spacing-lg);
+        border-radius: var(--radius-full);
+        font-size: 14px;
+        opacity: 0;
+        transition: all 0.3s;
+        z-index: 10000;
+        max-width: 80%;
+        text-align: center;
+      }
+
+      .toast.show {
+        transform: translateX(-50%) translateY(0);
+        opacity: 1;
+      }
+
+      /* Loading Spinner */
+      .spinner {
+        width: 40px;
+        height: 40px;
+        border: 4px solid var(--abu-muda);
+        border-top-color: var(--merah-indonesia);
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
+        margin: var(--spacing-xl) auto;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      /* Skeleton Loading */
+      .skeleton {
+        background: linear-gradient(
+          90deg,
+          var(--abu-muda) 25%,
+          var(--putih-abu) 50%,
+          var(--abu-muda) 75%
+        );
+        background-size: 200% 100%;
+        animation: loading 1.5s infinite;
+        border-radius: var(--radius-md);
+      }
+
+      @keyframes loading {
+        0% {
+          background-position: 200% 0;
+        }
+        100% {
+          background-position: -200% 0;
+        }
+      }
+
+      /* Responsive */
+      @media (min-width: 768px) {
+        .app-container {
+          border-left: 1px solid var(--abu-muda);
+          border-right: 1px solid var(--abu-muda);
+        }
+      }
+
+      @media (max-width: 320px) {
+        .stats-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .quiz-categories {
+          grid-template-columns: 1fr;
+        }
+
+        .badges-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+
+      /* Animations for page transitions */
+      .slide-in-right {
+        animation: slideInRight 0.3s ease-out;
+      }
+
+      @keyframes slideInRight {
+        from {
+          transform: translateX(100%);
+        }
+        to {
+          transform: translateX(0);
+        }
+      }
+
+      .slide-in-left {
+        animation: slideInLeft 0.3s ease-out;
+      }
+
+      @keyframes slideInLeft {
+        from {
+          transform: translateX(-100%);
+        }
+        to {
+          transform: translateX(0);
+        }
+      }
+
+      /* Pull to Refresh */
+      .pull-indicator {
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s;
+      }
+
+      .pull-indicator.active {
+        top: 60px;
+      }
+
+      /* Touch ripple effect */
+      .ripple {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .ripple::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.5);
+        transform: translate(-50%, -50%);
+        transition: width 0.6s, height 0.6s;
+      }
+
+      .ripple:active::before {
+        width: 300px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Splash Screen -->
+    <div class="splash-screen">
+      <div class="splash-logo">🦅</div>
+      <h1 class="splash-title">PANCASILA</h1>
+      <p class="splash-subtitle">Edukasi Interaktif</p>
+    </div>
+
+    <!-- App Container -->
+    <div class="app-container">
+      <!-- Header -->
+      <header class="app-header">
+        <div class="header-top">
+          <div class="header-title">
+            <div class="header-icon">⭐</div>
+            <span class="header-text">PANCASILA</span>
+          </div>
+          <button class="menu-btn" onclick="toggleMenu()">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+          </button>
+        </div>
+        <nav class="tab-nav">
+          <button class="tab-item active" onclick="switchTab('home')">
+            🏠 Beranda
+          </button>
+          <button class="tab-item" onclick="switchTab('materi')">
+            📚 Materi
+          </button>
+          <button class="tab-item" onclick="switchTab('quiz')">🎯 Kuis</button>
+          <button class="tab-item" onclick="switchTab('profile')">
+            👤 Profil
+          </button>
+        </nav>
+      </header>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <!-- Home Page -->
+        <div id="home" class="page active">
+          <section class="hero-section">
+            <div class="hero-badge">🇮🇩</div>
+            <h1 class="hero-title">PANCASILA</h1>
+            <p class="hero-subtitle">Dasar Negara Republik Indonesia</p>
+          </section>
+
+          <section class="sila-container">
+            <h2 class="section-title">5 Sila Pancasila</h2>
+            <div class="sila-grid">
+              <div class="sila-card ripple">
+                <div class="sila-icon-wrapper">
+                  <span class="sila-number">1</span>
+                </div>
+                <div class="sila-content">
+                  <div class="sila-emoji">☪️✝️☸️</div>
+                  <div class="sila-title">Ketuhanan Yang Maha Esa</div>
+                </div>
+              </div>
+              <div class="sila-card ripple">
+                <div class="sila-icon-wrapper">
+                  <span class="sila-number">2</span>
+                </div>
+                <div class="sila-content">
+                  <div class="sila-emoji">🤝</div>
+                  <div class="sila-title">
+                    Kemanusiaan yang Adil dan Beradab
+                  </div>
+                </div>
+              </div>
+              <div class="sila-card ripple">
+                <div class="sila-icon-wrapper">
+                  <span class="sila-number">3</span>
+                </div>
+                <div class="sila-content">
+                  <div class="sila-emoji">🇮🇩</div>
+                  <div class="sila-title">Persatuan Indonesia</div>
+                </div>
+              </div>
+              <div class="sila-card ripple">
+                <div class="sila-icon-wrapper">
+                  <span class="sila-number">4</span>
+                </div>
+                <div class="sila-content">
+                  <div class="sila-emoji">🗳️</div>
+                  <div class="sila-title">
+                    Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan
+                  </div>
+                </div>
+              </div>
+              <div class="sila-card ripple">
+                <div class="sila-icon-wrapper">
+                  <span class="sila-number">5</span>
+                </div>
+                <div class="sila-content">
+                  <div class="sila-emoji">⚖️</div>
+                  <div class="sila-title">
+                    Keadilan Sosial bagi Seluruh Rakyat Indonesia
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="stats-container">
+            <h2 class="section-title">Statistik Pembelajaran</h2>
+            <div class="stats-grid">
+              <div class="stat-card ripple">
+                <div class="stat-icon">📚</div>
+                <div class="stat-value">6</div>
+                <div class="stat-label">Bab Materi</div>
+              </div>
+              <div class="stat-card ripple">
+                <div class="stat-icon">🎥</div>
+                <div class="stat-value">12</div>
+                <div class="stat-label">Video</div>
+              </div>
+              <div class="stat-card ripple">
+                <div class="stat-icon">❓</div>
+                <div class="stat-value">60+</div>
+                <div class="stat-label">Soal Kuis</div>
+              </div>
+              <div class="stat-card ripple">
+                <div class="stat-icon">🏆</div>
+                <div class="stat-value">15</div>
+                <div class="stat-label">Badge</div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- Materi Page -->
+        <div id="materi" class="page">
+          <div class="materi-container">
+            <h2 class="section-title">Pilih Bab Materi</h2>
+
+            <div class="bab-selector">
+              <button class="bab-chip active" onclick="showMateri('pancasila')">
+                <span>🌟</span> Pancasila
+              </button>
+              <button class="bab-chip" onclick="showMateri('sila1')">
+                <span>☪️</span> Sila ke-1
+              </button>
+              <button class="bab-chip" onclick="showMateri('sila2')">
+                <span>🤝</span> Sila ke-2
+              </button>
+              <button class="bab-chip" onclick="showMateri('sila3')">
+                <span>🇮🇩</span> Sila ke-3
+              </button>
+              <button class="bab-chip" onclick="showMateri('sila4')">
+                <span>🗳️</span> Sila ke-4
+              </button>
+              <button class="bab-chip" onclick="showMateri('sila5')">
+                <span>⚖️</span> Sila ke-5
+              </button>
+            </div>
+
+            <div id="materi-pancasila" class="materi-content active">
+              <div class="video-section">
+                <div class="video-play-btn">
+                  <div class="play-icon"></div>
+                </div>
+                <div class="upload-area">
+                  <input
+                    type="file"
+                    accept="video/*"
+                    style="display: none"
+                    id="videoUpload"
+                  />
+                  <button
+                    class="upload-btn"
+                    onclick="document.getElementById('videoUpload').click()"
+                  >
+                    📤 Upload Video
+                  </button>
+                </div>
+              </div>
+
+              <div class="content-card">
+                <h3 class="content-title">
+                  <span>📖</span> Pengenalan Pancasila
+                </h3>
+                <div class="content-text">
+                  <p>
+                    Pancasila adalah dasar negara Republik Indonesia yang
+                    terdiri dari lima sila yang saling berkaitan dan tidak dapat
+                    dipisahkan.
+                  </p>
+
+                  <ul class="content-list">
+                    <li>Dasar Negara Indonesia</li>
+                    <li>Ideologi Bangsa</li>
+                    <li>Pandangan Hidup</li>
+                    <li>Sumber Hukum</li>
+                    <li>Jiwa dan Kepribadian Bangsa</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div id="materi-sila1" class="materi-content">
+              <div class="content-card">
+                <h3 class="content-title">Sila Pertama</h3>
+                <div class="content-text">
+                  <p>Ketuhanan Yang Maha Esa</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quiz Page -->
+        <div id="quiz" class="page">
+          <div class="quiz-container">
+            <div class="quiz-intro">
+              <h2 class="quiz-intro-title">Uji Pemahaman</h2>
+              <p class="quiz-intro-subtitle">Tes pengetahuan Pancasila Anda</p>
+            </div>
+
+            <div class="quiz-categories">
+              <div class="quiz-card ripple" onclick="startQuiz('pancasila')">
+                <div class="quiz-icon">🌟</div>
+                <div class="quiz-name">Pancasila</div>
+                <div class="quiz-count">10 Soal</div>
+              </div>
+              <div class="quiz-card ripple" onclick="startQuiz('sila1')">
+                <div class="quiz-icon">☪️</div>
+                <div class="quiz-name">Sila ke-1</div>
+                <div class="quiz-count">10 Soal</div>
+              </div>
+              <div class="quiz-card ripple" onclick="startQuiz('sila2')">
+                <div class="quiz-icon">🤝</div>
+                <div class="quiz-name">Sila ke-2</div>
+                <div class="quiz-count">10 Soal</div>
+              </div>
+              <div class="quiz-card ripple" onclick="startQuiz('sila3')">
+                <div class="quiz-icon">🇮🇩</div>
+                <div class="quiz-name">Sila ke-3</div>
+                <div class="quiz-count">10 Soal</div>
+              </div>
+              <div class="quiz-card ripple" onclick="startQuiz('sila4')">
+                <div class="quiz-icon">🗳️</div>
+                <div class="quiz-name">Sila ke-4</div>
+                <div class="quiz-count">10 Soal</div>
+              </div>
+              <div class="quiz-card ripple" onclick="startQuiz('sila5')">
+                <div class="quiz-icon">⚖️</div>
+                <div class="quiz-name">Sila ke-5</div>
+                <div class="quiz-count">10 Soal</div>
+              </div>
+            </div>
+
+            <div id="quizGame" class="quiz-game">
+              <!-- Quiz content will be loaded here -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Profile Page -->
+        <div id="profile" class="page">
+          <div class="profile-container">
+            <div class="profile-header">
+              <div class="profile-avatar">👤</div>
+              <h2 class="profile-name">Pelajar Pancasila</h2>
+              <p class="profile-level">Level 5 - Patriot Muda</p>
+            </div>
+
+            <div class="achievement-section">
+              <h3 class="section-title">Progress Pembelajaran</h3>
+
+              <div class="achievement-card">
+                <div class="achievement-header">
+                  <span class="achievement-icon">📚</span>
+                  <span class="achievement-title">Materi Selesai</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 75%">75%</div>
+                </div>
+                <p class="achievement-info">4 dari 6 bab telah selesai</p>
+              </div>
+
+              <div class="achievement-card">
+                <div class="achievement-header">
+                  <span class="achievement-icon">🎯</span>
+                  <span class="achievement-title">Kuis Dikerjakan</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 60%">60%</div>
+                </div>
+                <p class="achievement-info">36 dari 60 soal benar</p>
+              </div>
+
+              <div class="achievement-card">
+                <div class="achievement-header">
+                  <span class="achievement-icon">⏱️</span>
+                  <span class="achievement-title">Waktu Belajar</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 85%">12 Jam</div>
+                </div>
+                <p class="achievement-info">Target: 15 jam per bulan</p>
+              </div>
+            </div>
+
+            <div class="badges-section">
+              <h3 class="section-title">Lencana Kehormatan</h3>
+              <div class="badges-grid">
+                <div class="badge">🌟</div>
+                <div class="badge">🇮🇩</div>
+                <div class="badge">⚖️</div>
+                <div class="badge">🤝</div>
+                <div class="badge">🦅</div>
+                <div class="badge">🏆</div>
+                <div class="badge locked">🔒</div>
+                <div class="badge locked">🔒</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Bottom Navigation -->
+      <nav class="bottom-nav">
+        <div class="nav-container">
+          <button class="nav-item active" onclick="showPage('home')">
+            <span class="nav-icon">🏠</span>
+            <span class="nav-label">Beranda</span>
+          </button>
+          <button class="nav-item" onclick="showPage('materi')">
+            <span class="nav-icon">📚</span>
+            <span class="nav-label">Materi</span>
+          </button>
+          <button class="nav-item" onclick="showPage('quiz')">
+            <span class="nav-icon">🎯</span>
+            <span class="nav-label">Kuis</span>
+          </button>
+          <button class="nav-item" onclick="showPage('profile')">
+            <span class="nav-icon">👤</span>
+            <span class="nav-label">Profil</span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Floating Action Button -->
+      <button class="fab" onclick="showToast('Fitur segera hadir!')">
+        <span class="fab-icon">💬</span>
+      </button>
+
+      <!-- Side Menu -->
+      <div class="side-menu" id="sideMenu">
+        <div class="menu-header">
+          <button class="menu-close" onclick="toggleMenu()">✕</button>
+          <h3 class="menu-title">Menu</h3>
+          <p class="menu-subtitle">Navigasi Aplikasi</p>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item" onclick="showToast('Pengaturan')">
+            <span class="menu-item-icon">⚙️</span>
+            <span class="menu-item-text">Pengaturan</span>
+          </div>
+          <div class="menu-item" onclick="showToast('Notifikasi')">
+            <span class="menu-item-icon">🔔</span>
+            <span class="menu-item-text">Notifikasi</span>
+          </div>
+          <div class="menu-item" onclick="showToast('Bantuan')">
+            <span class="menu-item-icon">❓</span>
+            <span class="menu-item-text">Bantuan</span>
+          </div>
+          <div class="menu-item" onclick="showToast('Tentang')">
+            <span class="menu-item-icon">ℹ️</span>
+            <span class="menu-item-text">Tentang Aplikasi</span>
+          </div>
+          <div class="menu-item" onclick="showToast('Keluar')">
+            <span class="menu-item-icon">🚪</span>
+            <span class="menu-item-text">Keluar</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Overlay -->
+      <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+
+      <!-- Toast -->
+      <div class="toast" id="toast"></div>
+    </div>
+
+    <script>
+      // Navigation
+      function showPage(pageId) {
+        // Vibrate if supported
+        if (navigator.vibrate) {
+          navigator.vibrate(10);
+        }
+
+        // Hide all pages
+        document.querySelectorAll(".page").forEach((page) => {
+          page.classList.remove("active");
+        });
+
+        // Show selected page
+        document.getElementById(pageId).classList.add("active");
+
+        // Update nav
+        document.querySelectorAll(".nav-item").forEach((item) => {
+          item.classList.remove("active");
+        });
+        event.currentTarget.classList.add("active");
+
+        // Update tabs
+        updateTabs(pageId);
+      }
+
+      // Tab Navigation
+      function switchTab(tabId) {
+        showPage(tabId);
+
+        // Update tab styles
+        document.querySelectorAll(".tab-item").forEach((tab) => {
+          tab.classList.remove("active");
+        });
+
+        const tabs = {
+          home: 0,
+          materi: 1,
+          quiz: 2,
+          profile: 3,
+        };
+
+        document
+          .querySelectorAll(".tab-item")
+          [tabs[tabId]].classList.add("active");
+      }
+
+      function updateTabs(pageId) {
+        document.querySelectorAll(".tab-item").forEach((tab) => {
+          tab.classList.remove("active");
+        });
+
+        const tabMap = {
+          home: 0,
+          materi: 1,
+          quiz: 2,
+          profile: 3,
+        };
+
+        if (tabMap[pageId] !== undefined) {
+          document
+            .querySelectorAll(".tab-item")
+            [tabMap[pageId]].classList.add("active");
+        }
+      }
+
+      // Materi
+      function showMateri(materiId) {
+        // Hide all materi
+        document.querySelectorAll(".materi-content").forEach((content) => {
+          content.classList.remove("active");
+        });
+
+        // Update chips
+        document.querySelectorAll(".bab-chip").forEach((chip) => {
+          chip.classList.remove("active");
+        });
+
+        // Show selected
+        const content = document.getElementById(`materi-${materiId}`);
+        if (content) {
+          content.classList.add("active");
+        }
+        event.currentTarget.classList.add("active");
+
+        // Vibrate
+        if (navigator.vibrate) {
+          navigator.vibrate(10);
+        }
+      }
+
+      // Quiz System
+      const quizData = {
+        pancasila: [
+          {
+            question: "Kapan Pancasila pertama kali diperkenalkan?",
+            options: [
+              "1 Juni 1945",
+              "17 Agustus 1945",
+              "18 Agustus 1945",
+              "22 Juni 1945",
+            ],
+            correct: 0,
+          },
+          {
+            question: "Siapa yang memperkenalkan Pancasila?",
+            options: [
+              "Mohammad Hatta",
+              "Soekarno",
+              "Soepomo",
+              "Mohammad Yamin",
+            ],
+            correct: 1,
+          },
+          {
+            question: "Berapa jumlah sila dalam Pancasila?",
+            options: ["3", "4", "5", "6"],
+            correct: 2,
+          },
+        ],
+      };
+
+      let currentQuestion = 0;
+      let score = 0;
+      let selectedAnswers = [];
+      let currentQuiz = "";
+
+      function startQuiz(category) {
+        currentQuiz = category;
+        currentQuestion = 0;
+        score = 0;
+        selectedAnswers = [];
+
+        const quizGame = document.getElementById("quizGame");
+        quizGame.classList.add("active");
+        loadQuestion();
+
+        // Scroll to quiz
+        quizGame.scrollIntoView({ behavior: "smooth" });
+      }
+
+      function loadQuestion() {
+        const questions = quizData[currentQuiz] || quizData.pancasila;
+
+        if (currentQuestion >= questions.length) {
+          showResult();
+          return;
+        }
+
+        const question = questions[currentQuestion];
+        const quizGame = document.getElementById("quizGame");
+
+        quizGame.innerHTML = `
+                <div class="question-container">
+                    <div class="question-header">
+                        <span class="question-number">Soal ${
+                          currentQuestion + 1
+                        } dari ${questions.length}</span>
+                        <span class="question-score">Skor: ${score}</span>
+                    </div>
+                    <p class="question-text">${question.question}</p>
+                    <div class="answer-list">
+                        ${question.options
+                          .map(
+                            (option, index) => `
+                            <div class="answer-option" onclick="selectAnswer(${index})">
+                                <div class="answer-radio"></div>
+                                <span>${option}</span>
+                            </div>
+                        `
+                          )
+                          .join("")}
+                    </div>
+                </div>
+                <div class="quiz-navigation">
+                    <button class="quiz-btn secondary" onclick="previousQuestion()" ${
+                      currentQuestion === 0 ? "disabled" : ""
+                    }>
+                        Sebelumnya
+                    </button>
+                    <button class="quiz-btn" onclick="nextQuestion()">
+                        ${
+                          currentQuestion === questions.length - 1
+                            ? "Selesai"
+                            : "Selanjutnya"
+                        }
+                    </button>
+                </div>
+            `;
+      }
+
+      function selectAnswer(index) {
+        document.querySelectorAll(".answer-option").forEach((option) => {
+          option.classList.remove("selected");
+        });
+        document
+          .querySelectorAll(".answer-option")
+          [index].classList.add("selected");
+        selectedAnswers[currentQuestion] = index;
+
+        // Vibrate
+        if (navigator.vibrate) {
+          navigator.vibrate(10);
+        }
+      }
+
+      function nextQuestion() {
+        const questions = quizData[currentQuiz] || quizData.pancasila;
+
+        if (selectedAnswers[currentQuestion] !== undefined) {
+          if (
+            selectedAnswers[currentQuestion] ===
+            questions[currentQuestion].correct
+          ) {
+            score += 10;
+          }
+        }
+
+        currentQuestion++;
+        loadQuestion();
+      }
+
+      function previousQuestion() {
+        if (currentQuestion > 0) {
+          currentQuestion--;
+          loadQuestion();
+        }
+      }
+
+      function showResult() {
+        const quizGame = document.getElementById("quizGame");
+        const percentage = (score / 30) * 100;
+        let message = "";
+        let emoji = "";
+
+        if (percentage >= 80) {
+          message = "Luar biasa! Anda sangat memahami Pancasila!";
+          emoji = "🏆";
+        } else if (percentage >= 60) {
+          message = "Bagus! Terus tingkatkan pemahaman Anda!";
+          emoji = "👍";
+        } else {
+          message = "Ayo belajar lagi untuk hasil yang lebih baik!";
+          emoji = "📚";
+        }
+
+        quizGame.innerHTML = `
+                <div class="question-container" style="text-align: center;">
+                    <div style="font-size: 64px; margin-bottom: 20px;">${emoji}</div>
+                    <h2 style="font-size: 24px; margin-bottom: 16px; color: var(--merah-indonesia);">Quiz Selesai!</h2>
+                    <div class="stat-value" style="font-size: 48px; margin-bottom: 16px;">${score}</div>
+                    <p style="margin-bottom: 24px; color: var(--abu);">${message}</p>
+                    <button class="quiz-btn" onclick="resetQuiz()" style="width: 100%;">
+                        Kembali ke Menu
+                    </button>
+                </div>
+            `;
+
+        showToast(`Skor Anda: ${score} poin!`);
+      }
+
+      function resetQuiz() {
+        document.getElementById("quizGame").classList.remove("active");
+        currentQuestion = 0;
+        score = 0;
+        selectedAnswers = [];
+      }
+
+      // Side Menu
+      function toggleMenu() {
+        const menu = document.getElementById("sideMenu");
+        const overlay = document.getElementById("overlay");
+
+        menu.classList.toggle("active");
+        overlay.classList.toggle("active");
+
+        // Vibrate
+        if (navigator.vibrate) {
+          navigator.vibrate(10);
+        }
+      }
+
+      // Toast
+      function showToast(message) {
+        const toast = document.getElementById("toast");
+        toast.textContent = message;
+        toast.classList.add("show");
+
+        setTimeout(() => {
+          toast.classList.remove("show");
+        }, 3000);
+
+        // Vibrate
+        if (navigator.vibrate) {
+          navigator.vibrate([20, 10, 20]);
+        }
+      }
+
+      // Initialize
+      document.addEventListener("DOMContentLoaded", function () {
+        // Animate progress bars
+        setTimeout(() => {
+          document.querySelectorAll(".progress-fill").forEach((fill) => {
+            const width = fill.style.width;
+            fill.style.width = "0";
+            setTimeout(() => {
+              fill.style.width = width;
+            }, 100);
+          });
+        }, 500);
+
+        // Add ripple effect
+        document.querySelectorAll(".ripple").forEach((element) => {
+          element.addEventListener("click", function (e) {
+            const ripple = document.createElement("span");
+            ripple.classList.add("ripple-effect");
+            this.appendChild(ripple);
+
+            setTimeout(() => {
+              ripple.remove();
+            }, 600);
+          });
+        });
+      });
+
+      // Touch gestures
+      let touchStartX = 0;
+      let touchEndX = 0;
+
+      document.addEventListener("touchstart", function (e) {
+        touchStartX = e.changedTouches[0].screenX;
+      });
+
+      document.addEventListener("touchend", function (e) {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+      });
+
+      function handleSwipe() {
+        const swipeThreshold = 50;
+        const diff = touchEndX - touchStartX;
+
+        if (Math.abs(diff) > swipeThreshold) {
+          const pages = ["home", "materi", "quiz", "profile"];
+          const currentPage = document.querySelector(".page.active").id;
+          const currentIndex = pages.indexOf(currentPage);
+
+          if (diff > 0 && currentIndex > 0) {
+            // Swipe right - previous page
+            showPageByIndex(pages[currentIndex - 1]);
+          } else if (diff < 0 && currentIndex < pages.length - 1) {
+            // Swipe left - next page
+            showPageByIndex(pages[currentIndex + 1]);
+          }
+        }
+      }
+
+      function showPageByIndex(pageId) {
+        // Hide all pages
+        document.querySelectorAll(".page").forEach((page) => {
+          page.classList.remove("active");
+        });
+
+        // Show selected page
+        document.getElementById(pageId).classList.add("active");
+
+        // Update nav
+        document.querySelectorAll(".nav-item").forEach((item) => {
+          item.classList.remove("active");
+        });
+
+        const navIndex = ["home", "materi", "quiz", "profile"].indexOf(pageId);
+        if (navIndex !== -1) {
+          document
+            .querySelectorAll(".nav-item")
+            [navIndex].classList.add("active");
+        }
+
+        // Update tabs
+        updateTabs(pageId);
+
+        // Vibrate
+        if (navigator.vibrate) {
+          navigator.vibrate(10);
+        }
+      }
+
+      // Service Worker for PWA
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          // navigator.serviceWorker.register('/sw.js');
+        });
+      }
+    </script>
+  </body>
+</html>

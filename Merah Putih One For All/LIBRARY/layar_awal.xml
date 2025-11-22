@@ -1,0 +1,146 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="layar_awal" itemID="69217bc7-000003b5" symbolType="button" lastModified="1763809195" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="layar_awal" currentFrame="2">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Background_2.jpg">
+                  <matrix>
+                    <Matrix a="3.12757873535156" d="3.19956970214844"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix tx="18" ty="20"/>
+                  </matrix>
+                  <members>
+                    <DOMBitmapInstance selected="true" libraryItemName="Teks-Pancasila.png">
+                      <matrix>
+                        <Matrix a="1.20285034179688" d="1.20285034179688" tx="606" ty="814"/>
+                      </matrix>
+                    </DOMBitmapInstance>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix tx="18" ty="20"/>
+                  </matrix>
+                  <members>
+                    <DOMSymbolInstance libraryItemName="Garuda-Pancasila.ai" selected="true" symbolType="graphic" loop="loop">
+                      <matrix>
+                        <Matrix tx="660.7" ty="132.5"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="328.9" y="327.1"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728" rigPropagationMatrix='{"a":69340,"b":0,"c":0,"d":69340,"tx":-1144,"ty":-621}'>
+              <elements>
+                <DOMBitmapInstance libraryItemName="Background_2.jpg">
+                  <matrix>
+                    <Matrix a="3.12757873535156" d="3.19956970214844"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMSymbolInstance libraryItemName="Garuda-Pancasila.ai">
+                  <matrix>
+                    <Matrix a="1.05804443359375" d="1.05804443359375" tx="641.8" ty="109.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="328.95" y="327.15"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="20" blurY="20" color="#FFCC33" quality="3" strength="2"/>
+                  </filters>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Teks_1">
+                  <matrix>
+                    <Matrix a="1.05804443359375" d="1.05804443359375" tx="583.95" ty="830.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="379.5" y="61.4"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="20" blurY="20" color="#FFCC00" quality="3" strength="1.5"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728" rigPropagationMatrix='{"a":69340,"b":0,"c":0,"d":69340,"tx":-1144,"ty":-621}'>
+              <elements>
+                <DOMBitmapInstance libraryItemName="Background_2.jpg">
+                  <matrix>
+                    <Matrix a="3.12757873535156" d="3.19956970214844"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMSymbolInstance libraryItemName="Garuda-Pancasila.ai" centerPoint3DX="995.9" centerPoint3DY="461.75">
+                  <matrix>
+                    <Matrix a="1.05804443359375" d="1.05804443359375" tx="647.9" ty="115.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="328.95" y="327.15"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="20" blurY="20" color="#FFCC33" quality="3" strength="2"/>
+                  </filters>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Teks_1" selected="true" centerPoint3DX="991.55" centerPoint3DY="901.15">
+                  <matrix>
+                    <Matrix a="1.05804443359375" d="1.05804443359375" tx="590.05" ty="836.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="379.5" y="61.4"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="20" blurY="20" color="#FFCC00" quality="3" strength="1.5"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Background_2.jpg">
+                  <matrix>
+                    <Matrix a="3.1275634765625" d="3.19956970214844"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix tx="18" ty="20"/>
+                  </matrix>
+                  <members>
+                    <DOMBitmapInstance selected="true" libraryItemName="Teks-Pancasila.png">
+                      <matrix>
+                        <Matrix a="1.20285034179688" d="1.20285034179688" tx="606" ty="814"/>
+                      </matrix>
+                    </DOMBitmapInstance>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix tx="18" ty="20"/>
+                  </matrix>
+                  <members>
+                    <DOMSymbolInstance libraryItemName="Garuda-Pancasila.ai" selected="true" symbolType="graphic" loop="loop">
+                      <matrix>
+                        <Matrix tx="660.7" ty="132.5"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="328.9" y="327.1"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

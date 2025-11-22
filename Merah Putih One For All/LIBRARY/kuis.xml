@@ -1,0 +1,155 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="kuis" itemID="6921d390-00000610" symbolType="button" lastModified="1763824594">
+  <timeline>
+    <DOMTimeline name="kuis" currentFrame="3">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" fontRenderingMode="standard" left="12.95" width="198.95" height="55.75" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-10.95" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Quiz</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="2.55" lineSpacing="12" lineHeight="55.75" size="40" bitmapSize="800" face="ComicSansMS-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix tx="-0.45" ty="0.65"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix tx="-0.45" ty="0.65"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                            <fill>
+                              <SolidColor/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="!529 -203S6|3529 -203!3529 -203[3929 -203 3929 197!3929 197|3929 997!3929 997[3929 1397 3529 1397!3529 1397|529 1397!529 1397[129 1397 129 997!129 997|129 197!129 197[129 -203 529 -203"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMStaticText fontRenderingMode="standard" left="12.95" width="198.95" height="55.75" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-10.95" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Quiz</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="2.55" lineSpacing="12" lineHeight="55.75" size="40" bitmapSize="800" face="ComicSansMS-Bold"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#E7E7E7"/>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                            <fill>
+                              <SolidColor/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="!560 -150|3560 -150!3560 -150[3960 -150 3960 250!3960 250|3960 1050!3960 1050[3960 1450 3560 1450!3560 1450|560 1450!560 1450[160 1450 160 1050!160 1050|160 250!160 250[160 -150 560 -150"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMStaticText fontRenderingMode="standard" left="12.95" width="198.95" height="55.75" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-8.95" ty="4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Quiz</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="2.55" lineSpacing="12" lineHeight="55.75" size="40" bitmapSize="800" face="ComicSansMS-Bold"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#E7E7E7"/>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                            <fill>
+                              <SolidColor/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="!560 -150|3560 -150!3560 -150[3960 -150 3960 250!3960 250|3960 1050!3960 1050[3960 1450 3560 1450!3560 1450|560 1450!560 1450[160 1450 160 1050!160 1050|160 250!160 250[160 -150 560 -150"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMStaticText fontRenderingMode="standard" left="12.95" width="198.95" height="55.75" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-8.95" ty="4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Quiz</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="2.55" lineSpacing="12" lineHeight="55.75" size="40" bitmapSize="800" face="ComicSansMS-Bold"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
