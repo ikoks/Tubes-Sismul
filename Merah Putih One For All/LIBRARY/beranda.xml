@@ -1,25 +1,11 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="beranda" itemID="6921d3f4-0000061a" symbolType="button" lastModified="1763825574">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="beranda" itemID="6921d3f4-0000061a" symbolType="button" lastModified="1763897941">
   <timeline>
-    <DOMTimeline name="beranda">
+    <DOMTimeline name="beranda" currentFrame="3">
       <layers>
         <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal" weight="2">
-                        <fill>
-                          <SolidColor color="#FFFFFF"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge strokeStyle="1" edges="!545 1190|3514 1195"/>
-                  </edges>
-                </DOMShape>
                 <DOMStaticText fontRenderingMode="standard" left="12.95" width="198.95" height="55.75" isSelectable="false">
                   <matrix>
                     <Matrix tx="-10.95" ty="2"/>

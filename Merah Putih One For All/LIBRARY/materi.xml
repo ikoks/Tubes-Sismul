@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="materi" itemID="6921d3ef-00000619" symbolType="button" lastModified="1763824623">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="materi" itemID="6921d3ef-00000619" symbolType="button" lastModified="1763898216">
   <timeline>
-    <DOMTimeline name="materi" currentFrame="3">
+    <DOMTimeline name="materi">
       <layers>
         <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
@@ -47,7 +47,7 @@
                         </StrokeStyle>
                       </strokes>
                       <edges>
-                        <Edge fillStyle1="1" strokeStyle="1" edges="!529 -203S6|3529 -203!3529 -203[3929 -203 3929 197!3929 197|3929 997!3929 997[3929 1397 3529 1397!3529 1397|529 1397!529 1397[129 1397 129 997!129 997|129 197!129 197[129 -203 529 -203"/>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="!529 -203|3529 -203!3529 -203[3929 -203 3929 197!3929 197|3929 997!3929 997[3929 1397 3529 1397!3529 1397|529 1397!529 1397[129 1397 129 997!129 997|129 197!129 197[129 -203 529 -203"/>
                       </edges>
                     </DOMShape>
                   </members>
@@ -127,7 +127,7 @@
                         </StrokeStyle>
                       </strokes>
                       <edges>
-                        <Edge fillStyle1="1" strokeStyle="1" edges="!560 -150|3560 -150!3560 -150[3960 -150 3960 250!3960 250|3960 1050!3960 1050[3960 1450 3560 1450!3560 1450|560 1450!560 1450[160 1450 160 1050!160 1050|160 250!160 250[160 -150 560 -150"/>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="!560 -150S6|3560 -150!3560 -150[3960 -150 3960 250!3960 250|3960 1050!3960 1050[3960 1450 3560 1450!3560 1450|560 1450!560 1450[160 1450 160 1050!160 1050|160 250!160 250[160 -150 560 -150"/>
                       </edges>
                     </DOMShape>
                   </members>

@@ -1,0 +1,178 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="poin_3" itemID="6922d838-0000018f" symbolType="button" lastModified="1763893982" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="poin_3" currentFrame="3">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix tx="-883.65" ty="-637.85"/>
+                  </matrix>
+                  <members>
+                    <DOMGroup>
+                      <matrix>
+                        <Matrix tx="-883.65" ty="-637.85"/>
+                      </matrix>
+                      <members>
+                        <DOMShape isDrawingObject="true">
+                          <matrix>
+                            <Matrix a="1.99639892578125" d="1.96234130859375" tx="-299.35" ty="-255.1"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#FF0000"/>
+                            </FillStyle>
+                          </fills>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" weight="2">
+                                <fill>
+                                  <SolidColor color="#FF0000"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge fillStyle1="1" strokeStyle="1" edges="!3200 2600|4494 2600!4494 2600[4694 2600 4694 2800!4694 2800|4694 4600!4694 4600[4694 4800 4494 4800!4494 4800|3200 4800!3200 4800[3000 4800 3000 4600!3000 4600|3000 2800!3000 2800[3000 2600 3200 2600"/>
+                          </edges>
+                        </DOMShape>
+                        <DOMShape isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="-883.65" ty="-637.85"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#FFFFFF"/>
+                            </FillStyle>
+                          </fills>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" weight="2">
+                                <fill>
+                                  <SolidColor color="#FFFFFF"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge fillStyle1="1" strokeStyle="1" edges="!18073 13035|20688 13035!20688 13035[21087 13035 21087 13427!21087 13427|21087 16758!21087 16758[21087 17150 20688 17150!20688 17150|18073 17150!18073 17150[17673 17150 17673 16758!17673 16758|17673 13427!17673 13427[17673 13035 18073
+ 13035"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix a="1.99644470214844" d="1.96240234375" tx="-293.65" ty="-233.65"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FF0000"/>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" weight="2">
+                            <fill>
+                              <SolidColor color="#FF0000"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="
+!4000 2895[4000 2978 3941 3036!3941 3036[3883 3095 3800 3095!3800 3095[3717 3095 3658 3036!3658 3036[3600 2978 3600 2895!3600 2895[3600 2812 3658 2753!3658 2753[3717 2695 3800 2695!3800 2695[3883 2695 3941 2753!3941 2753[4000 2812 4000
+ 2895"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMStaticText fontRenderingMode="standard" left="66.65" width="10.7" height="25.65" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="1.59033203125" d="1.24786376953125" tx="-28.8" ty="36.15"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>3</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="25.65" size="24" face="TwCenMT-CondensedBold" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="33.1" width="77.8" height="11.15" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="1.18115234375" d="1.5804443359375" tx="3.35" ty="176.35"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>Persatuan Indonesia</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="11.15" size="8" bitmapSize="160" face="ComicSansMS-Bold"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMSymbolInstance libraryItemName="Pohon.ai" symbolType="graphic" loop="loop">
+                      <matrix>
+                        <Matrix a="0.960800170898438" d="0.941650390625" tx="46.25" ty="79.3"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="40.7" y="46"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="poin3">
+                  <matrix>
+                    <Matrix ty="-7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="85.35" y="109.8"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter alpha="0.698039215686274" quality="3" strength="1.11"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="poin3" centerPoint3DX="85.35" centerPoint3DY="102.8">
+                  <matrix>
+                    <Matrix ty="-7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="85.35" y="109.8"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter alpha="0.698039215686274" quality="3" strength="1.11"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="poin3" centerPoint3DX="85.35" centerPoint3DY="102.8">
+                  <matrix>
+                    <Matrix ty="-7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="85.35" y="109.8"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter alpha="0.698039215686274" quality="3" strength="1.11"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
