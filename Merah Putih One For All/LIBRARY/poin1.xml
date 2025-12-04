@@ -87,7 +87,7 @@
                     </DOMShape>
                     <DOMStaticText selected="true" fontRenderingMode="standard" left="66.65" width="10.7" height="25.65" autoExpand="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="1.59027099609375" d="1.272705078125" tx="-28.85" ty="29.05"/>
+                        <Matrix a="1.59027099609375" d="1.27272033691406" tx="-28.85" ty="29.05"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>

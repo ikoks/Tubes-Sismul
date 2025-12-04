@@ -75,7 +75,7 @@
                             </DOMGroup>
                             <DOMShape isDrawingObject="true">
                               <matrix>
-                                <Matrix a="1.99635314941406" d="1.96098327636719" tx="-293.65" ty="-244.15"/>
+                                <Matrix a="1.996337890625" d="1.96098327636719" tx="-293.65" ty="-244.15"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">

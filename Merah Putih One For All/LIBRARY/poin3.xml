@@ -65,7 +65,7 @@
                     </DOMGroup>
                     <DOMShape isDrawingObject="true">
                       <matrix>
-                        <Matrix a="1.99644470214844" d="1.96238708496094" tx="-293.65" ty="-233.65"/>
+                        <Matrix a="1.99644470214844" d="1.96240234375" tx="-293.65" ty="-233.65"/>
                       </matrix>
                       <fills>
                         <FillStyle index="1">
@@ -89,7 +89,7 @@
                     </DOMShape>
                     <DOMStaticText fontRenderingMode="standard" left="66.65" width="10.7" height="25.65" autoExpand="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="1.59033203125" d="1.24786376953125" tx="-28.8" ty="36.15"/>
+                        <Matrix a="1.59034729003906" d="1.24786376953125" tx="-28.8" ty="36.15"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
