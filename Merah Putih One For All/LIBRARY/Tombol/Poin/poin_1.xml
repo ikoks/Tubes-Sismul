@@ -1,0 +1,72 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tombol/Poin/poin_1" itemID="6922d82c-0000018d" symbolType="button" lastModified="1765023825" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="poin_1">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Poin_Pancasila/Point_1" selected="true">
+                  <matrix>
+                    <Matrix ty="-8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="84.55" y="109.8"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="2" quality="3" strength="0.81"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Poin_Pancasila/Point_1" centerPoint3DX="84.55" centerPoint3DY="91.8">
+                  <matrix>
+                    <Matrix ty="-18"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="84.55" y="109.8"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="2" quality="3" strength="0.81"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Poin_Pancasila/Point_1" centerPoint3DX="84.55" centerPoint3DY="91.8">
+                  <matrix>
+                    <Matrix ty="-18"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="84.55" y="109.8"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="2" quality="3" strength="0.81"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Poin_Pancasila/Point_1" centerPoint3DX="84.55" centerPoint3DY="91.8">
+                  <matrix>
+                    <Matrix ty="-18"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="84.55" y="109.8"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="2" quality="3" strength="0.81"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

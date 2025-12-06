@@ -1,38 +1,68 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#E7E7E7" gridColor="#FF0000" width="1920" height="1080" frameRate="30" currentTimeline="1" xflVersion="2.980" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 21.0 build 38773" majorVersion="21" buildNumber="38773" gridSnapTo="true" guidesLocked="true" rulerVisible="true" viewAngle3D="122.353661987282" vanishingPoint3DX="960" vanishingPoint3DY="540" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="67077F9231F4524E8014F36E482D441F">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#E7E7E7" gridColor="#FF0000" width="1920" height="1080" frameRate="30" currentTimeline="1" xflVersion="23.0" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 23.0 build 103" majorVersion="23" buildNumber="103" gridSnapTo="true" guidesLocked="true" rulerVisible="true" viewAngle3D="122.353661987282" vanishingPoint3DX="960" vanishingPoint3DY="540" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="67077F9231F4524E8014F36E482D441F">
+     <folders>
+          <DOMFolderItem name="Object" itemID="69341ad4-0000017a"/>
+          <DOMFolderItem name="Pancasila" itemID="69343e82-00000160"/>
+          <DOMFolderItem name="Poin_Pancasila" itemID="69341a1b-0000015a"/>
+          <DOMFolderItem name="Teks" itemID="693419da-00000152"/>
+          <DOMFolderItem name="Tombol" itemID="693424d1-000001f6" isExpanded="true"/>
+          <DOMFolderItem name="Tombol/Materi" itemID="693447da-000001da" isExpanded="true"/>
+          <DOMFolderItem name="Tombol/Navbar" itemID="69342505-00000206"/>
+          <DOMFolderItem name="Tombol/Poin" itemID="693424ee-000001fe"/>
+          <DOMFolderItem name="Tombol/Tombol_Pancasila" itemID="69343ed7-0000016c"/>
+          <DOMFolderItem name="Wallpaper" itemID="69341a0a-00000156"/>
+     </folders>
      <media>
-          <DOMBitmapItem name="Background_2.jpg" itemID="6916051d-0000012d" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Background_2.jpg" sourceLastImported="1764775991" externalFileSize="15591" allowSmoothing="true" quality="50" href="Background_2.jpg" bitmapDataHRef="M 2 1763050781.dat" frameRight="12520" frameBottom="7040" isJPEG="true"/>
-          <DOMBitmapItem name="Teks-Pancasila.png" itemID="69215902-0000013d" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Teks-Pancasila.png" sourceLastImported="1764775991" externalFileSize="18685" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Teks-Pancasila.png" bitmapDataHRef="M 5 1763793154.dat" frameRight="12620" frameBottom="2040"/>
+          <DOMBitmapItem name="Wallpaper/Background_2.jpg" itemID="69342e62-00000234" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Wallpaper/Background_2.jpg" sourceLastImported="1765027418" externalFileSize="15591" allowSmoothing="true" quality="50" href="Wallpaper/Background_2.jpg" bitmapDataHRef="M 2 1763050781.dat" frameRight="12520" frameBottom="7040" isJPEG="true"/>
+          <DOMBitmapItem name="Teks/Teks-Pancasila.png" itemID="69342e62-00000235" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Teks/Teks-Pancasila.png" sourceLastImported="1765027418" externalFileSize="18685" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Teks/Teks-Pancasila.png" bitmapDataHRef="M 5 1763793154.dat" frameRight="12620" frameBottom="2040"/>
      </media>
      <symbols>
-          <Include href="Background.xml" loadImmediate="false" itemID="6921b499-000005c9" lastModified="1763816601"/>
-          <Include href="Banteng.ai.xml" itemIcon="1" loadImmediate="false" itemID="6922d2af-0000014e" lastModified="1763889839"/>
-          <Include href="beranda.xml" itemIcon="0" loadImmediate="false" itemID="6921d3f4-0000061a" lastModified="1763897941"/>
-          <Include href="Bintang.ai.xml" itemIcon="1" loadImmediate="false" itemID="6922d00d-00000140" lastModified="1763889165"/>
-          <Include href="Garuda-Pancasila.ai.xml" itemIcon="1" loadImmediate="false" itemID="692178c9-000003a9" lastModified="1763801289"/>
-          <Include href="kuis.xml" itemIcon="0" loadImmediate="false" itemID="6921d390-00000610" lastModified="1763824594"/>
-          <Include href="layar_awal.xml" itemIcon="0" loadImmediate="false" itemID="69217bc7-000003b5" lastModified="1763809195"/>
-          <Include href="materi.xml" itemIcon="0" loadImmediate="false" itemID="6921d3ef-00000619" lastModified="1763898216"/>
-          <Include href="Navbar_1.xml" loadImmediate="false" itemID="6921b4d7-000005cb" lastModified="1763824016"/>
-          <Include href="PadiDanKapas.ai.xml" itemIcon="1" loadImmediate="false" itemID="6922d2ca-00000152" lastModified="1763889866"/>
-          <Include href="Pohon.ai.xml" itemIcon="1" loadImmediate="false" itemID="6922d2bb-00000150" lastModified="1763889851"/>
-          <Include href="poin_1.xml" itemIcon="0" loadImmediate="false" itemID="6922d82c-0000018d" lastModified="1763893491"/>
-          <Include href="poin_2.xml" itemIcon="0" loadImmediate="false" itemID="6922d81a-00000189" lastModified="1763894032"/>
-          <Include href="poin_3.xml" itemIcon="0" loadImmediate="false" itemID="6922d838-0000018f" lastModified="1763893982"/>
-          <Include href="poin_4.xml" itemIcon="0" loadImmediate="false" itemID="6922d840-00000194" lastModified="1763894107"/>
-          <Include href="poin_5.xml" itemIcon="0" loadImmediate="false" itemID="6922d84a-00000199" lastModified="1763894189"/>
-          <Include href="poin1.xml" itemIcon="1" loadImmediate="false" itemID="6922d913-0000019e" lastModified="1763891475"/>
-          <Include href="poin2.xml" itemIcon="1" loadImmediate="false" itemID="6922e211-000001a8" lastModified="1763893778"/>
-          <Include href="poin3.xml" itemIcon="1" loadImmediate="false" itemID="6922e2b2-000001ad" lastModified="1763893938"/>
-          <Include href="poin4.xml" itemIcon="1" loadImmediate="false" itemID="6922e32e-000001b2" lastModified="1763894062"/>
-          <Include href="poin5.xml" itemIcon="1" loadImmediate="false" itemID="6922e380-000001b7" lastModified="1763894144"/>
-          <Include href="profile.xml" itemIcon="0" loadImmediate="false" itemID="6921d3e5-00000616" lastModified="1763824699"/>
-          <Include href="Rantai.ai.xml" itemIcon="1" loadImmediate="false" itemID="6922d2a1-0000014c" lastModified="1763889825"/>
-          <Include href="selected.xml" loadImmediate="false" itemID="6922f3e1-00000204" lastModified="1763898337"/>
-          <Include href="Teks_1.xml" loadImmediate="false" itemID="6921b3fc-000005c7" lastModified="1763816444"/>
-          <Include href="Teks_2.xml" loadImmediate="false" itemID="6921d013-00000601" lastModified="1763889390"/>
+          <Include href="Object/navbar_1.xml" loadImmediate="false" itemID="69343e44-00000154" lastModified="1765031492"/>
+          <Include href="Object/selected.xml" loadImmediate="false" itemID="6922f3e1-00000204" lastModified="1765031290"/>
+          <Include href="Pancasila/banteng.ai.xml" itemIcon="1" loadImmediate="false" itemID="69343e5a-00000157" lastModified="1765031514"/>
+          <Include href="Pancasila/bintang.ai.xml" itemIcon="1" loadImmediate="false" itemID="69343e53-00000156" lastModified="1765031507"/>
+          <Include href="Pancasila/garuda-pancasila.ai.xml" itemIcon="1" loadImmediate="false" itemID="69343e4c-00000155" lastModified="1765031500"/>
+          <Include href="Pancasila/padikapas.ai.xml" itemIcon="1" loadImmediate="false" itemID="69343e3d-00000153" lastModified="1765031485"/>
+          <Include href="Pancasila/pancasila_1.xml" loadImmediate="false" itemID="69343e33-00000152" lastModified="1765031475"/>
+          <Include href="Pancasila/pohon.ai.xml" itemIcon="1" loadImmediate="false" itemID="69343e2b-00000151" lastModified="1765031467"/>
+          <Include href="Pancasila/rantai.ai.xml" itemIcon="1" loadImmediate="false" itemID="69343e22-00000150" lastModified="1765031458"/>
+          <Include href="Poin_Pancasila/Point_1.xml" loadImmediate="false" itemID="69341fa6-000001b4" lastModified="1765024373"/>
+          <Include href="Poin_Pancasila/Point_2.xml" loadImmediate="false" itemID="693420d6-000001c7" lastModified="1765024430"/>
+          <Include href="Poin_Pancasila/Point_3.xml" loadImmediate="false" itemID="69342186-000001d6" lastModified="1765024134"/>
+          <Include href="Poin_Pancasila/Point_4.xml" loadImmediate="false" itemID="693422ed-000001dc" lastModified="1765024585"/>
+          <Include href="Poin_Pancasila/Point_5.xml" loadImmediate="false" itemID="693423a5-000001e2" lastModified="1765024805"/>
+          <Include href="Teks/Teks_1.xml" loadImmediate="false" itemID="6921b3fc-000005c7" lastModified="1763816444"/>
+          <Include href="Teks/Teks_2.xml" loadImmediate="false" itemID="6921d013-00000601" lastModified="1763889390"/>
+          <Include href="Teks/Teks_beranda.xml" loadImmediate="false" itemID="69342689-0000020c" lastModified="1765025921"/>
+          <Include href="Teks/Teks_Kuis.xml" loadImmediate="false" itemID="6934294a-00000220" lastModified="1765026153"/>
+          <Include href="Teks/Teks_Materi.xml" loadImmediate="false" itemID="693429fb-00000224" lastModified="1765026344"/>
+          <Include href="Teks/Teks_Profil.xml" loadImmediate="false" itemID="69342af8-00000228" lastModified="1765026614"/>
+          <Include href="Tombol/Materi/btn_materi1.xml" itemIcon="0" loadImmediate="false" itemID="693446a0-000001a4" lastModified="1765034039"/>
+          <Include href="Tombol/Materi/btn_materi2.xml" itemIcon="0" loadImmediate="false" itemID="69344723-000001a8" lastModified="1765034124"/>
+          <Include href="Tombol/Materi/btn_materi3.xml" itemIcon="0" loadImmediate="false" itemID="69344731-000001ac" lastModified="1765034117"/>
+          <Include href="Tombol/Materi/btn_materi4.xml" itemIcon="0" loadImmediate="false" itemID="6934473c-000001b0" lastModified="1765034152"/>
+          <Include href="Tombol/Materi/btn_materi5.xml" itemIcon="0" loadImmediate="false" itemID="6934474c-000001b4" lastModified="1765034169"/>
+          <Include href="Tombol/Materi/btn_materi6.xml" itemIcon="0" loadImmediate="false" itemID="6934477f-000001b8" lastModified="1765034200"/>
+          <Include href="Tombol/Materi/btn_materi7.xml" itemIcon="0" loadImmediate="false" itemID="6934478c-000001bc" lastModified="1765034220"/>
+          <Include href="Tombol/Materi/btn_materi8.xml" itemIcon="0" loadImmediate="false" itemID="69344798-000001c0" lastModified="1765034237"/>
+          <Include href="Tombol/Materi/btn_materi9.xml" itemIcon="0" loadImmediate="false" itemID="693447a1-000001c4" lastModified="1765034254"/>
+          <Include href="Tombol/Materi/btn_materi10.xml" itemIcon="0" loadImmediate="false" itemID="693447ab-000001c8" lastModified="1765034271"/>
+          <Include href="Tombol/Materi/btn_materi11.xml" itemIcon="0" loadImmediate="false" itemID="693447b6-000001cc" lastModified="1765034303"/>
+          <Include href="Tombol/Materi/btn_materi12.xml" itemIcon="0" loadImmediate="false" itemID="693447c2-000001d0" lastModified="1765034321"/>
+          <Include href="Tombol/Materi/btn_materi13.xml" itemIcon="0" loadImmediate="false" itemID="693447cd-000001d4" lastModified="1765034341"/>
+          <Include href="Tombol/Navbar/teks_beranda.xml" itemIcon="0" loadImmediate="false" itemID="69341a9f-00000170" lastModified="1765025981"/>
+          <Include href="Tombol/Navbar/teks_kuis.xml" itemIcon="0" loadImmediate="false" itemID="69341aa7-00000171" lastModified="1765026215"/>
+          <Include href="Tombol/Navbar/teks_materi.xml" itemIcon="0" loadImmediate="false" itemID="69341ac3-00000174" lastModified="1765026363"/>
+          <Include href="Tombol/Navbar/teks_profile.xml" itemIcon="0" loadImmediate="false" itemID="69341aaf-00000172" lastModified="1765026631"/>
+          <Include href="Tombol/Poin/poin_1.xml" itemIcon="0" loadImmediate="false" itemID="6922d82c-0000018d" lastModified="1765023825"/>
+          <Include href="Tombol/Poin/poin_2.xml" itemIcon="0" loadImmediate="false" itemID="6922d81a-00000189" lastModified="1765024325"/>
+          <Include href="Tombol/Poin/poin_3.xml" itemIcon="0" loadImmediate="false" itemID="6922d838-0000018f" lastModified="1765024191"/>
+          <Include href="Tombol/Poin/poin_4.xml" itemIcon="0" loadImmediate="false" itemID="6922d840-00000194" lastModified="1765024927"/>
+          <Include href="Tombol/Poin/poin_5.xml" itemIcon="0" loadImmediate="false" itemID="6922d84a-00000199" lastModified="1765024879"/>
+          <Include href="Tombol/Tombol_Pancasila/layar_awal.xml" itemIcon="0" loadImmediate="false" itemID="69217bc7-000003b5" lastModified="1763809195"/>
+          <Include href="Wallpaper/Background.xml" loadImmediate="false" itemID="6921b499-000005c9" lastModified="1763816601"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="182" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="Camera" color="#0099FF" autoNamed="false" layerType="camera">
                          <frames>
@@ -52,10 +82,10 @@
                     </DOMLayer>
                     <DOMLayer name="Actions" color="#FF800A" locked="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="180" keyMode="9728">
+                              <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="180" keyMode="9728">
+                              <DOMFrame index="181" keyMode="9728">
                                    <Actionscript>
                                         <script><![CDATA[//KODE DI FRAME 1 : Actions
 
@@ -76,15 +106,313 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                     <DOMLayer name="layar_profile" color="#FF0000" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="layar_kuis" color="#009999" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="layar_materi" color="#FF4FFF" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="3" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="selected" color="#FF800A" parentLayerIndex="4" autoNamed="false">
+                    <DOMLayer name="materi" color="#FF800A" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Materi_1" color="#9933CC" parentLayerIndex="4" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="182" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="182" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="isi_materi" color="#00FFFF" parentLayerIndex="3" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="btn_materi1" color="#009999" parentLayerIndex="6" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="selected">
+                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi1" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="150.7" ty="244.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                                   <frameFilters>
+                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
+                                   </frameFilters>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi2" color="#FF4FFF" parentLayerIndex="6" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi2" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="518.3" ty="244.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                                   <frameFilters>
+                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
+                                   </frameFilters>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi3" color="#9933CC" parentLayerIndex="6" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728" rigPropagationMatrix='{"a":33336,"b":0,"c":0,"d":33336,"tx":669,"ty":5481}'>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi3" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="875.9" ty="244.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                                   <frameFilters>
+                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
+                                   </frameFilters>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi4" color="#FF0000" parentLayerIndex="6" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi4" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="1248.75" ty="244.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                                   <frameFilters>
+                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
+                                   </frameFilters>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi5" color="#669900" parentLayerIndex="6" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi5" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="1615.65" ty="244.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                                   <frameFilters>
+                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
+                                   </frameFilters>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi6" color="#669900" parentLayerIndex="6" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi6" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="150.7" ty="519.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                                   <frameFilters>
+                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
+                                   </frameFilters>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi7" color="#FF0000" parentLayerIndex="6" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi7" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="518.3" ty="519.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                                   <frameFilters>
+                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
+                                   </frameFilters>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi8" color="#009999" parentLayerIndex="6" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi8" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="875.9" ty="519.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                                   <frameFilters>
+                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
+                                   </frameFilters>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi9" color="#FF4FFF" parentLayerIndex="6" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi9" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="1248.75" ty="519.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                                   <frameFilters>
+                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
+                                   </frameFilters>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi10" color="#FF800A" parentLayerIndex="6" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi10" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="1615.65" ty="519.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.85" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                                   <frameFilters>
+                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
+                                   </frameFilters>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi11" color="#9933CC" parentLayerIndex="6" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi11" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="150.7" ty="787.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.9" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                                   <frameFilters>
+                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
+                                   </frameFilters>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi12" color="#00FFFF" parentLayerIndex="6" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi12" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="518.3" ty="787.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.9" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                                   <frameFilters>
+                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
+                                   </frameFilters>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi13" color="#FF4F4F" parentLayerIndex="6" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi13" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="875.9" ty="787.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.9" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                                   <frameFilters>
+                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
+                                   </frameFilters>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="3" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="selected" color="#FF800A" parentLayerIndex="20" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Object/selected">
                                              <matrix>
                                                   <Matrix tx="1102.3" ty="99.45"/>
                                              </matrix>
@@ -96,14 +424,14 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="4" autoNamed="false">
+                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="20" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Garuda-Pancasila.ai" name="Garuda">
+                                        <DOMSymbolInstance libraryItemName="Pancasila/garuda-pancasila.ai" name="Garuda">
                                              <matrix>
                                                   <Matrix a="0.19708251953125" d="0.1551513671875" tx="27.6" ty="18.45"/>
                                              </matrix>
@@ -118,14 +446,14 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="4" autoNamed="false">
+                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="20" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="profile" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Tombol/Navbar/teks_profile" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.999984741210938" d="0.999984741210938" tx="1628.05" ty="39.95"/>
                                              </matrix>
@@ -137,14 +465,14 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="4" autoNamed="false">
+                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="20" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="kuis" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Tombol/Navbar/teks_kuis" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.999984741210938" d="0.999984741210938" tx="1347.95" ty="39.95"/>
                                              </matrix>
@@ -156,14 +484,14 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="4" autoNamed="false">
+                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="20" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="materi" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Tombol/Navbar/teks_materi" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.999984741210938" d="0.999984741210938" tx="1078" ty="39.95"/>
                                              </matrix>
@@ -175,14 +503,14 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="4" autoNamed="false">
+                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="20" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="beranda" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Tombol/Navbar/teks_beranda" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.999984741210938" d="0.999984741210938" tx="779.45" ty="40.5"/>
                                              </matrix>
@@ -194,14 +522,14 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="4" autoNamed="false">
+                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="20" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Teks_2">
+                                        <DOMSymbolInstance libraryItemName="Teks/Teks_2">
                                              <matrix>
                                                   <Matrix a="0.8546142578125" d="0.8546142578125" tx="173.65" ty="24.5"/>
                                              </matrix>
@@ -216,14 +544,14 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="4" autoNamed="false">
+                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="20" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Navbar_1" name="Navbar_1" bits32="false">
+                                        <DOMSymbolInstance libraryItemName="Object/navbar_1" name="Navbar_1" bits32="false">
                                              <matrix>
                                                   <Matrix a="0.999267578125" tx="-0.05" ty="-12.2"/>
                                              </matrix>
@@ -239,8 +567,8 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_beranda" color="#FF4FFF" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions" color="#FF4F4F" parentLayerIndex="13" autoNamed="false">
+                    <DOMLayer name="layar_beranda" color="#FF4FFF" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="actions" color="#FF4F4F" parentLayerIndex="29" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
@@ -263,8 +591,8 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_awal" color="#00FFFF" parentLayerIndex="13" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="15" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="layar_awal" color="#00FFFF" parentLayerIndex="29" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="31" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -272,7 +600,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               <DOMFrame index="1" duration="180" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="180000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500076" xformPtYOffsetPct="0.498735" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-903.5" next="0,-903.5" previous="0,-903.5" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-392.2" next="0,-392.2" previous="0,-392.2" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,105.801" next="0,105.801" previous="0,105.801" roving="0" timevalue="0"/><Keyframe anchor="0,19.7128" next="0,19.7128" previous="0,19.7128" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,105.809" next="0,105.809" previous="0,105.809" roving="0" timevalue="0"/><Keyframe anchor="0,15.5197" next="0,15.5197" previous="0,15.5197" roving="0" timevalue="58000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"><PropertyContainer id="Glow_Filter"><Property enabled="1" id="Glow_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,20" next="0,20" previous="0,20" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="28000"/></Property><Property enabled="1" id="Glow_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,20" next="0,20" previous="0,20" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="28000"/></Property><Property enabled="1" id="Glow_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,200" next="0,200" previous="0,200" roving="0" timevalue="0"/></Property><Property enabled="1" id="Glow_Quality" readonly="0" value="3" visible="1"/><Property enabled="1" id="Glow_Color" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0xffcc33ff"/></Property><Property enabled="1" id="Glow_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="Glow_InnerGlow" readonly="0" value="0" visible="1"/></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Garuda-Pancasila.ai" name="Garuda">
+                                        <DOMSymbolInstance libraryItemName="Pancasila/garuda-pancasila.ai" name="Garuda">
                                              <matrix>
                                                   <Matrix a="1.05801391601562" d="1.05807495117188" tx="647.9" ty="115.7"/>
                                              </matrix>
@@ -287,7 +615,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Teks" color="#669900" parentLayerIndex="15" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Teks" color="#669900" parentLayerIndex="31" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -295,7 +623,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               <DOMFrame index="1" duration="29" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="29000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.55224" xformPtYOffsetPct="0.500407" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,105.801" next="0,105.801" previous="0,105.801" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,105.803" next="0,105.803" previous="0,105.803" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="28000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"><PropertyContainer id="Glow_Filter"><Property enabled="1" id="Glow_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,20" next="0,20" previous="0,20" roving="0" timevalue="0"/></Property><Property enabled="1" id="Glow_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,20" next="0,20" previous="0,20" roving="0" timevalue="0"/></Property><Property enabled="1" id="Glow_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,150" next="0,150" previous="0,150" roving="0" timevalue="0"/></Property><Property enabled="1" id="Glow_Quality" readonly="0" value="3" visible="1"/><Property enabled="1" id="Glow_Color" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0xffcc33ff"/></Property><Property enabled="1" id="Glow_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="Glow_InnerGlow" readonly="0" value="0" visible="1"/></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Teks_1" name="Teks_1">
+                                        <DOMSymbolInstance libraryItemName="Teks/Teks_1" name="Teks_1">
                                              <matrix>
                                                   <Matrix a="1.05801391601562" d="1.05802917480469" tx="590.05" ty="836.25"/>
                                              </matrix>
@@ -313,7 +641,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Background" color="#FF0000" parentLayerIndex="15" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Background" color="#FF0000" parentLayerIndex="31" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -321,7 +649,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               <DOMFrame index="1" duration="59" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="59000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499987" xformPtYOffsetPct="0.499978" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="58000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,50" next="0,50" previous="0,50" roving="0" timevalue="28000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Background" name="Background">
+                                        <DOMSymbolInstance libraryItemName="Wallpaper/Background" name="Background">
                                              <transformationPoint>
                                                   <Point x="978.9" y="563.1"/>
                                              </transformationPoint>
@@ -333,8 +661,8 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="13" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="19" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="29" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="35" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -342,7 +670,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499832" xformPtYOffsetPct="0.4" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,176.566" next="0,176.566" previous="0,176.566" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="selected">
+                                        <DOMSymbolInstance libraryItemName="Object/selected">
                                              <matrix>
                                                   <Matrix tx="804.7" ty="102"/>
                                              </matrix>
@@ -357,7 +685,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="19" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="35" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -365,7 +693,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500123" xformPtYOffsetPct="0.503766" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="38000"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="48000"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="profile" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Tombol/Navbar/teks_profile" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.0847320556640625" d="0.0847320556640625" tx="1721.45" ty="67.5"/>
                                              </matrix>
@@ -380,7 +708,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="19" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="35" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -388,7 +716,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500123" xformPtYOffsetPct="0.503766" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-0.55" next="0,-0.55" previous="0,-0.55" roving="0" timevalue="38000"/><Keyframe anchor="0,-0.55" next="0,-0.55" previous="0,-0.55" roving="0" timevalue="48000"/><Keyframe anchor="0,-0.55" next="0,-0.55" previous="0,-0.55" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,128.078" next="0,128.078" previous="0,128.078" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,128.078" next="0,128.078" previous="0,128.078" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="kuis" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Tombol/Navbar/teks_kuis" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.0847320556640625" d="0.0847320556640625" tx="1441.45" ty="67.5"/>
                                              </matrix>
@@ -403,7 +731,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="19" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="35" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -411,7 +739,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.50037" xformPtYOffsetPct="0.503766" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="38000"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="48000"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="materi" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Tombol/Navbar/teks_materi" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.0847320556640625" d="0.0847320556640625" tx="1171.45" ty="67.5"/>
                                              </matrix>
@@ -426,7 +754,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="19" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="35" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -434,7 +762,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.495442" xformPtYOffsetPct="0.493724" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,9.8526" next="0,9.8526" previous="0,9.8526" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,9.8526" next="0,9.8526" previous="0,9.8526" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="beranda" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Tombol/Navbar/teks_beranda" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.0985107421875" d="0.0985107421875" tx="870.1" ty="67.1"/>
                                              </matrix>
@@ -449,7 +777,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="19" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="35" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -457,7 +785,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               <DOMFrame index="60" duration="121" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="121000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.49832" xformPtYOffsetPct="0.492847" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,310.5" next="0,310.5" previous="0,310.5" roving="0" timevalue="39000"/><Keyframe anchor="0,342.3" next="0,342.3" previous="0,342.3" roving="0" timevalue="49000"/><Keyframe anchor="0,284" next="0,284" previous="0,284" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0.1" next="0,0.1" previous="0,0.1" roving="0" timevalue="39000"/><Keyframe anchor="0,0.1" next="0,0.1" previous="0,0.1" roving="0" timevalue="49000"/><Keyframe anchor="0,0.1" next="0,0.1" previous="0,0.1" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4.5929" next="0,4.5929" previous="0,4.5929" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="39000"/><Keyframe anchor="0,111.024" next="0,111.024" previous="0,111.024" roving="0" timevalue="49000"/><Keyframe anchor="0,85.463" next="0,85.463" previous="0,85.463" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4.5929" next="0,4.5929" previous="0,4.5929" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="39000"/><Keyframe anchor="0,111.024" next="0,111.024" previous="0,111.024" roving="0" timevalue="49000"/><Keyframe anchor="0,85.463" next="0,85.463" previous="0,85.463" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="39000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"><PropertyContainer id="Bevel_Filter"><Property enabled="1" id="Bevel_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Bevel_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Bevel_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Bevel_Quality" readonly="0" value="3" visible="1"/><Property enabled="1" id="Bevel_ShadowColor" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0x000000ff"/><Keyframe roving="0" timevalue="59000" value="0xffffffff"/></Property><Property enabled="1" id="Bevel_HilightColor" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0xffffffff"/><Keyframe roving="0" timevalue="59000" value="0x999999ff"/></Property><Property enabled="1" id="Bevel_Angle" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,45" next="0,45" previous="0,45" roving="0" timevalue="0"/></Property><Property enabled="1" id="Bevel_Distance" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,3" next="0,3" previous="0,3" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Bevel_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="Bevel_Type" readonly="0" value="1" visible="1"/></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Teks_2">
+                                        <DOMSymbolInstance libraryItemName="Teks/Teks_2">
                                              <matrix>
                                                   <Matrix a="0.045928955078125" d="0.045928955078125" tx="81.55" ty="67.55"/>
                                              </matrix>
@@ -475,7 +803,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="19" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="35" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="41" keyMode="9728">
                                    <elements/>
@@ -483,7 +811,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               <DOMFrame index="41" duration="140" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="140000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.498258" xformPtYOffsetPct="-0.000333333" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/><Keyframe anchor="0,-1.3" next="0,-1.3" previous="0,-1.3" roving="0" timevalue="138000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-84" next="0,-84" previous="0,-84" roving="0" timevalue="18000"/><Keyframe anchor="0,-84" next="0,-84" previous="0,-84" roving="0" timevalue="138000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,2.23541" next="0,2.23541" previous="0,2.23541" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="18000"/><Keyframe anchor="0,99.9313" next="0,99.9313" previous="0,99.9313" roving="0" timevalue="138000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-2.23541" next="0,-2.23541" previous="0,-2.23541" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="18000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="18000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"><PropertyContainer id="DropShadow_Filter"><Property enabled="1" id="DropShadow_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="18000"/></Property><Property enabled="1" id="DropShadow_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="18000"/></Property><Property enabled="1" id="DropShadow_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="18000"/></Property><Property enabled="1" id="DropShadow_Quality" readonly="0" value="3" visible="1"/><Property enabled="1" id="DropShadow_Angle" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,45" next="0,45" previous="0,45" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Distance" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="18000"/></Property><Property enabled="1" id="DropShadow_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_InnerShadow" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_HideObject" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_Color" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0x000000ff"/><Keyframe roving="0" timevalue="18000" value="0x0000008c"/></Property></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Navbar_1" name="Navbar_1" bits32="false">
+                                        <DOMSymbolInstance libraryItemName="Object/navbar_1" name="Navbar_1" bits32="false">
                                              <matrix>
                                                   <Matrix a="0.0223388671875" d="-0.0223388671875" tx="937.1" ty="71.75"/>
                                              </matrix>
@@ -502,17 +830,17 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="isi_beranda" color="#669900" parentLayerIndex="13" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="Poin_5" color="#FF0000" parentLayerIndex="27" autoNamed="false">
+                    <DOMLayer name="isi_beranda" color="#669900" parentLayerIndex="29" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="Poin_5" color="#FF0000" parentLayerIndex="43" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="poin_5" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Tombol/Poin/poin_5" symbolType="button">
                                              <matrix>
-                                                  <Matrix a="1.56883239746094" d="1.5692138671875" tx="1504.8" ty="675.4"/>
+                                                  <Matrix a="1.56883239746094" d="1.5692138671875" tx="1516.1" ty="682.45"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="85.35" y="109.85"/>
@@ -522,16 +850,16 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_4" color="#009999" parentLayerIndex="27" autoNamed="false">
+                    <DOMLayer name="Poin_4" color="#009999" parentLayerIndex="43" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="poin_4" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Tombol/Poin/poin_4" symbolType="button">
                                              <matrix>
-                                                  <Matrix a="1.56883239746094" d="1.56886291503906" tx="1176.1" ty="675.4"/>
+                                                  <Matrix a="1.56883239746094" d="1.56886291503906" tx="1186.1" ty="682.45"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="85.35" y="109.8"/>
@@ -541,16 +869,16 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_3" color="#FF4FFF" parentLayerIndex="27" autoNamed="false">
+                    <DOMLayer name="Poin_3" color="#FF4FFF" parentLayerIndex="43" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="poin_3" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Tombol/Poin/poin_3" symbolType="button">
                                              <matrix>
-                                                  <Matrix a="1.56883239746094" d="1.56886291503906" tx="837.5" ty="675.4"/>
+                                                  <Matrix a="1.56883239746094" d="1.56886291503906" tx="846" ty="682.45"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="85.4" y="109.8"/>
@@ -560,16 +888,16 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_2" color="#FF800A" parentLayerIndex="27" autoNamed="false">
+                    <DOMLayer name="Poin_2" color="#FF800A" parentLayerIndex="43" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="poin_2" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Tombol/Poin/poin_2" symbolType="button">
                                              <matrix>
-                                                  <Matrix a="1.56871032714844" d="1.56895446777344" tx="506.75" ty="675.4"/>
+                                                  <Matrix a="1.56871032714844" d="1.56895446777344" tx="496.2" ty="682.45"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="85.3" y="109.9"/>
@@ -579,16 +907,16 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_1" color="#9933CC" parentLayerIndex="27" autoNamed="false">
+                    <DOMLayer name="Poin_1" color="#9933CC" parentLayerIndex="43" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="poin_1" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Tombol/Poin/poin_1" symbolType="button">
                                              <matrix>
-                                                  <Matrix a="1.56895446777344" d="1.56895446777344" tx="157.1" ty="675.4"/>
+                                                  <Matrix a="1.56895446777344" d="1.56895446777344" tx="157.1" ty="695"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="85.35" y="109.8"/>
@@ -598,75 +926,27 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Pancasila" color="#00FFFF" parentLayerIndex="27" autoNamed="false">
+                    <DOMLayer name="Pancasila" color="#00FFFF" parentLayerIndex="43" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMShape isDrawingObject="true">
+                                        <DOMSymbolInstance libraryItemName="Pancasila/pancasila_1">
                                              <matrix>
-                                                  <Matrix a="1.79501342773438" d="1.26811218261719" tx="-919.9" ty="-388.4"/>
-                                             </matrix>
-                                             <fills>
-                                                  <FillStyle index="1">
-                                                       <SolidColor color="#FF0000"/>
-                                                  </FillStyle>
-                                             </fills>
-                                             <strokes>
-                                                  <StrokeStyle index="1">
-                                                       <SolidStroke scaleMode="normal" weight="2">
-                                                            <fill>
-                                                                 <SolidColor color="#FF0000"/>
-                                                            </fill>
-                                                       </SolidStroke>
-                                                  </StrokeStyle>
-                                             </strokes>
-                                             <edges>
-                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!12400 8600|29600 8600!29600 8600[30000 8600 30000 9000!30000 9000|30000 15400!30000 15400[30000 15800 29600 15800!29600 15800|12400 15800!12400 15800[12000 15800 12000 15400!12000 15400|12000 9000!12000 9000[12000 8600 12400 8600"/>
-                                             </edges>
-                                        </DOMShape>
-                                        <DOMSymbolInstance libraryItemName="Garuda-Pancasila.ai" symbolType="graphic" loop="loop">
-                                             <matrix>
-                                                  <Matrix a="0.327102661132812" d="0.327102661132812" tx="860.55" ty="173.7"/>
+                                                  <Matrix tx="157.1" ty="183.85"/>
                                              </matrix>
                                              <transformationPoint>
-                                                  <Point x="328.95" y="327.1"/>
+                                                  <Point x="807.75" y="228.25"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMStaticText fontRenderingMode="standard" left="-174.95" width="493.9" height="115.65" autoExpand="true" isSelectable="false">
-                                             <matrix>
-                                                  <Matrix a="0.722686767578125" d="0.722686767578125" tx="918" ty="388.5"/>
-                                             </matrix>
-                                             <textRuns>
-                                                  <DOMTextRun>
-                                                       <characters>PANCASILA</characters>
-                                                       <textAttrs>
-                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="115.65" size="83" bitmapSize="1660" face="ComicSansMS-Bold" fillColor="#FFFFFF"/>
-                                                       </textAttrs>
-                                                  </DOMTextRun>
-                                             </textRuns>
-                                        </DOMStaticText>
-                                        <DOMStaticText fontRenderingMode="standard" left="-1035.8" width="1249.7" height="133.6" isSelectable="false">
-                                             <matrix>
-                                                  <Matrix tx="1385.85" ty="465.55"/>
-                                             </matrix>
-                                             <textRuns>
-                                                  <DOMTextRun>
-                                                       <characters>Dasar Negara Republik Indonesia yang mengandung nilai-nilai luhur bangsa.&#xD;Mari kita pelajari, pahami, dan amalkan Pancasila dalam kehidupan sehari-hari untuk membangun Indonesia yang lebih baik.</characters>
-                                                       <textAttrs>
-                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="43.2" size="31" bitmapSize="620" face="ComicSansMS-Bold" fillColor="#FFFFFF"/>
-                                                       </textAttrs>
-                                                  </DOMTextRun>
-                                             </textRuns>
-                                        </DOMStaticText>
                                    </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_awal" color="#9933CC" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions" color="#669900" parentLayerIndex="34" locked="true" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="layar_awal" color="#9933CC" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="actions" color="#669900" parentLayerIndex="50" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
@@ -699,11 +979,11 @@ stage.addEventListener(Event.ENTER_FRAME, aturLayar);
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_awal" color="#FF800A" parentLayerIndex="34" locked="true" autoNamed="false">
+                    <DOMLayer name="layar_awal" color="#FF800A" parentLayerIndex="50" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="layar_awal" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Tombol/Tombol_Pancasila/layar_awal" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="-18" ty="-20"/>
                                              </matrix>
@@ -721,9 +1001,9 @@ stage.addEventListener(Event.ENTER_FRAME, aturLayar);
      <scripts/>
      <persistentData>
           <PD n="com.air.artemis.airdest" v="Merah Putih One For All.app"/>
-          <PD n="ane.tmp.unzipped.folder" v="C:\Users\ammar\AppData\Local\Temp\Tmp_ANE_File_Unzipped_Packages"/>
+          <PD n="ane.tmp.unzipped.folder" v="C:\Users\asus\AppData\Local\Temp\Tmp_ANE_File_Unzipped_Packages"/>
           <PD n="com.air.oldTargetPlatform" v="Desktop"/>
-          <PD n="com.air.sdk.path" v="D:\program\AIRSDK_3311935\AIRSDK_3311935"/>
+          <PD n="com.air.sdk.path" v="D:\Kuliah\Semester 5\Sistem Multimedia\AIRSDK_3311935"/>
           <PD n="com.air.artemis.pubair" v="false"/>
           <PD n="com.air.artemis.pubipa" v="false"/>
           <PD n="com.air.agistri.proctype" v="armv8"/>
@@ -738,6 +1018,18 @@ stage.addEventListener(Event.ENTER_FRAME, aturLayar);
      </persistentData>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="151990" publishTime="1765034439"/>
+          <PublishItem publishSize="151990" publishTime="1765034352"/>
+          <PublishItem publishSize="110243" publishTime="1765032535"/>
+          <PublishItem publishSize="110153" publishTime="1765032511"/>
+          <PublishItem publishSize="108402" publishTime="1765026646"/>
+          <PublishItem publishSize="108614" publishTime="1765025949"/>
+          <PublishItem publishSize="108560" publishTime="1765025829"/>
+          <PublishItem publishSize="108209" publishTime="1765024892"/>
+          <PublishItem publishSize="107893" publishTime="1765024032"/>
+          <PublishItem publishSize="107845" publishTime="1765023836"/>
+          <PublishItem publishSize="107846" publishTime="1765023703"/>
+          <PublishItem publishSize="107778" publishTime="1765023555"/>
           <PublishItem publishSize="79555" publishTime="1764776630"/>
           <PublishItem publishSize="79550" publishTime="1764776568"/>
           <PublishItem publishSize="79631" publishTime="1764776510"/>
@@ -746,17 +1038,5 @@ stage.addEventListener(Event.ENTER_FRAME, aturLayar);
           <PublishItem publishSize="78634" publishTime="1763893861"/>
           <PublishItem publishSize="78552" publishTime="1763893508"/>
           <PublishItem publishSize="78549" publishTime="1763893324"/>
-          <PublishItem publishSize="78530" publishTime="1763891560"/>
-          <PublishItem publishSize="78529" publishTime="1763891055"/>
-          <PublishItem publishSize="67333" publishTime="1763889484"/>
-          <PublishItem publishSize="67926" publishTime="1763887677"/>
-          <PublishItem publishSize="67925" publishTime="1763887583"/>
-          <PublishItem publishSize="67897" publishTime="1763887396"/>
-          <PublishItem publishSize="61841" publishTime="1763824735"/>
-          <PublishItem publishSize="61753" publishTime="1763824084"/>
-          <PublishItem publishSize="61694" publishTime="1763823957"/>
-          <PublishItem publishSize="60630" publishTime="1763822022"/>
-          <PublishItem publishSize="60630" publishTime="1763821992"/>
-          <PublishItem publishSize="60630" publishTime="1763821921"/>
      </publishHistory>
 </DOMDocument>
