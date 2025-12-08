@@ -4,8 +4,8 @@
           <DOMFolderItem name="Pancasila" itemID="69343e82-00000160"/>
           <DOMFolderItem name="Poin_Pancasila" itemID="69341a1b-0000015a"/>
           <DOMFolderItem name="Teks" itemID="693419da-00000152"/>
-          <DOMFolderItem name="Tombol" itemID="693424d1-000001f6" isExpanded="true"/>
-          <DOMFolderItem name="Tombol/Materi" itemID="693447da-000001da" isExpanded="true"/>
+          <DOMFolderItem name="Tombol" itemID="693424d1-000001f6"/>
+          <DOMFolderItem name="Tombol/Materi" itemID="693447da-000001da"/>
           <DOMFolderItem name="Tombol/Navbar" itemID="69342505-00000206"/>
           <DOMFolderItem name="Tombol/Poin" itemID="693424ee-000001fe"/>
           <DOMFolderItem name="Tombol/Tombol_Pancasila" itemID="69343ed7-0000016c"/>
@@ -13,7 +13,540 @@
      </folders>
      <media>
           <DOMBitmapItem name="Wallpaper/Background_2.jpg" itemID="69342e62-00000234" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Wallpaper/Background_2.jpg" sourceLastImported="1765027418" externalFileSize="15591" allowSmoothing="true" quality="50" href="Wallpaper/Background_2.jpg" bitmapDataHRef="M 2 1763050781.dat" frameRight="12520" frameBottom="7040" isJPEG="true"/>
+          <DOMCompiledClipItem name="FLVPlayback 2.5" itemID="6936cdbd-00000116" linkageExportForAS="true" linkageClassName="fl.video.FLVPlayback" sourceLastImported="1268346527" tooltip="FLVPlayback component 2.5" customIconID="34" actionscriptClass="fl.video.FLVPlayback" livePreviewScmHRef="bt1vm6yf3d.swf" livePreviewScmSourceFilename="C:\Users\asus\AppData\Local\Adobe\Animate 2023\en_US\Configuration\tmp\TMP3572012E99C26936DAE9..swf" persistLivePreview11="true" livePreview11ScmHRef="bt1vm6yf3d1.swf" livePreview11ScmSourceFilename="C:\Users\asus\AppData\Local\Adobe\Animate 2023\en_US\Configuration\tmp\TMP3572012E99A36936DAE9..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="FLVPlayback 2.5.xml" rootSymbolLinkageID="fl.video.FLVPlayback" movieRectRight="6401" movieRectBottom="4800" playerVersion="10" actionscriptVersion="3" hashKey="LWJ4qfDKC.LqmxYv0myxv1">
+               <parametersAsXML><![CDATA[   <property id="align">
+      <Inspectable name="align" unlocalizedName="align" variable="align" category="" verbose="0" defaultValue="center" enumeration="center,top,left,bottom,right,topLeft,topRight,bottomLeft,bottomRight" type="List"/>
+   </property>
+   <property id="autoPlay">
+      <Inspectable name="autoPlay" unlocalizedName="autoPlay" variable="autoPlay" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="cuePoints">
+      <Inspectable name="cuePoints" unlocalizedName="cuePoints" variable="cuePoints" category="" verbose="0" defaultValue="" type="Video Cue Points"/>
+   </property>
+   <property id="dvrFixedDuration">
+      <Inspectable name="dvrFixedDuration" unlocalizedName="dvrFixedDuration" variable="dvrFixedDuration" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="dvrIncrement">
+      <Inspectable name="dvrIncrement" unlocalizedName="dvrIncrement" variable="dvrIncrement" category="" verbose="0" defaultValue="1800" type="Number"/>
+   </property>
+   <property id="dvrIncrementVariance">
+      <Inspectable name="dvrIncrementVariance" unlocalizedName="dvrIncrementVariance" variable="dvrIncrementVariance" category="" verbose="0" defaultValue="300" type="Number"/>
+   </property>
+   <property id="dvrSnapToLive">
+      <Inspectable name="dvrSnapToLive" unlocalizedName="dvrSnapToLive" variable="dvrSnapToLive" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="isDVR">
+      <Inspectable name="isDVR" unlocalizedName="isDVR" variable="isDVR" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="isLive">
+      <Inspectable name="isLive" unlocalizedName="isLive" variable="isLive" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="preview">
+      <Inspectable name="preview" unlocalizedName="preview" variable="preview" category="" verbose="0" defaultValue="" type="Video Preview"/>
+   </property>
+   <property id="scaleMode">
+      <Inspectable name="scaleMode" unlocalizedName="scaleMode" variable="scaleMode" category="" verbose="0" defaultValue="maintainAspectRatio" enumeration="maintainAspectRatio,noScale,exactFit" type="List"/>
+   </property>
+   <property id="skin">
+      <Inspectable name="skin" unlocalizedName="skin" variable="skin" category="" verbose="0" defaultValue="" type="Video Skin"/>
+   </property>
+   <property id="skinAutoHide">
+      <Inspectable name="skinAutoHide" unlocalizedName="skinAutoHide" variable="skinAutoHide" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="skinBackgroundAlpha">
+      <Inspectable name="skinBackgroundAlpha" unlocalizedName="skinBackgroundAlpha" variable="skinBackgroundAlpha" category="" verbose="0" defaultValue="0.85" type="Number"/>
+   </property>
+   <property id="skinBackgroundColor">
+      <Inspectable name="skinBackgroundColor" unlocalizedName="skinBackgroundColor" variable="skinBackgroundColor" category="" verbose="0" defaultValue="#47ABCB" type="Color"/>
+   </property>
+   <property id="source">
+      <Inspectable name="source" unlocalizedName="source" variable="source" category="" verbose="0" defaultValue="" type="Video Content Path"/>
+   </property>
+   <property id="volume">
+      <Inspectable name="volume" unlocalizedName="volume" variable="volume" category="" verbose="0" defaultValue="1" type="Number"/>
+   </property>
+]]></parametersAsXML>
+               <classProperties><![CDATA[<component id="fl/video/FLVPlayback" class="fl.video.FLVPlayback" livePreviewClass="FLVPlaybackStageLivePreview" modified="1268346527643">
+<movieBounds xmin="0" xmax="6400" ymin="0" ymax="4800" />
+<componentData>
+<classDefs>
+	<classDef id="fl.video.FPMediaCapabilities"/>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="fl.video.MetadataEvent"/>
+	<classDef id="fl.video.SkinErrorEvent"/>
+	<classDef id="fl.video.SoundEvent"/>
+	<classDef id="fl.video.LayoutEvent"/>
+	<classDef id="fl.video.FMSCapabilities"/>
+	<classDef id="fl.video.VideoAlign"/>
+	<classDef id="fl.video.VideoError"/>
+	<classDef id="fl.video.VolumeBarAccImpl"/>
+	<classDef id="fl.video.VideoPlayerState"/>
+	<classDef id="fl.video.AutoLayoutEvent"/>
+	<classDef id="fl.video.VideoScaleMode"/>
+	<classDef id="fl.video.SeekBarAccImpl"/>
+	<classDef id="fl.video.IVPEvent"/>
+	<classDef id="fl.video.VideoState"/>
+	<classDef id="fl.video.ReconnectClient"/>
+	<classDef id="fl.video.UIManager"/>
+	<classDef id="fl.video.CuePointManager"/>
+	<classDef id="fl.video.NCManagerNativeShim"/>
+	<classDef id="fl.video.VideoEvent"/>
+	<classDef id="fl.video.INCManager"/>
+	<classDef id="fl.video.ConnectClient"/>
+	<classDef id="fl.video.VideoProgressEvent"/>
+	<classDef id="fl.video.NCManager"/>
+	<classDef id="fl.video.NCManagerDynamicStream"/>
+	<classDef id="fl.video.QueuedCommand"/>
+	<classDef id="fl.video.DynamicStreamItem"/>
+	<classDef id="fl.video.Icon"/>
+	<classDef id="fl.video.ParseResults"/>
+	<classDef id="fl.video.FLVPlayback"/>
+	<classDef id="fl.video.ConnectClientDynamicStream"/>
+	<classDef id="fl.video.CuePointType"/>
+	<classDef id="fl.video.VideoPlayer"/>
+	<classDef id="fl.video.DynamicStream"/>
+	<classDef id="fl.video.ConnectClientNative"/>
+	<classDef id="fl.video.ControlData"/>
+	<classDef id="fl.video.DVRManager"/>
+	<classDef id="fl.video.VideoPlayerClient"/>
+	<classDef id="fl.video.FPADManager"/>
+	<classDef id="fl.video.SMILManager"/>
+	<classDef id="fl.video.NCManagerNative"/>
+</classDefs>
+<class id="fl.video.FLVPlayback" >
+	<LivePreviewVersion param1="1" />
+	<RequiresDataBinding param1="true" />
+	<minimumPlayerVersion param1="10" />
+	<IconFile param1="FLVPlayback.png" />
+	<Event param1="soundUpdate" type="fl.video.SoundEvent" />
+	<Event param1="stoppedStateEntered" type="fl.video.VideoEvent" />
+	<Event param1="unsupportedPlayerVersion" type="fl.video.VideoEvent" />
+	<Event param1="stateChange" type="fl.video.VideoEvent" />
+	<Event param1="skinLoaded" type="fl.video.VideoEvent" />
+	<Event param1="skinError" type="fl.video.SkinErrorEvent" />
+	<Event param1="seeked" type="fl.video.VideoEvent" />
+	<Event param1="scrubStart" type="fl.video.VideoEvent" />
+	<Event param1="scrubFinish" type="fl.video.VideoEvent" />
+	<Event param1="rewind" type="fl.video.VideoEvent" />
+	<Event param1="layout" type="fl.video.LayoutEvent" />
+	<Event param1="ready" type="fl.video.VideoEvent" />
+	<Event param1="progress" type="fl.video.VideoProgressEvent" />
+	<Event param1="playheadUpdate" type="fl.video.VideoEvent" />
+	<Event param1="playingStateEntered" type="fl.video.VideoEvent" />
+	<Event param1="pausedStateEntered" type="fl.video.VideoEvent" />
+	<Event param1="metadataReceived" type="fl.video.MetadataEvent" />
+	<Event param1="fastForward" type="fl.video.VideoEvent" />
+	<Event param1="cuePoint" type="fl.video.MetadataEvent" />
+	<Event param1="complete" type="fl.video.VideoEvent" />
+	<Event param1="close" type="fl.video.VideoEvent" />
+	<Event param1="bufferingStateEntered" type="fl.video.VideoEvent" />
+	<Event param1="autoRewound" type="fl.video.VideoEvent" />
+	<Event param1="autoLayout" type="fl.video.AutoLayoutEvent" />
+	<__go_to_ctor_definition_help file="C:\devsrc\flashfarm\media_frameworks\branches\FLVPlayback_AS3_DVR\FLVPlayback\..\fl\video\FLVPlayback.as" pos="31557" />
+	<method id="playheadPercentage" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="activeVideoPlayerIndex" returnType="uint" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="align" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable type="List" enumeration="center,top,left,bottom,right,topLeft,topRight,bottomLeft,bottomRight" defaultValue="center" />
+	</method>
+	<method id="autoPlay" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable defaultValue="true" />
+	</method>
+	<method id="autoRewind" returnType="Boolean" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="bitrate" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="buffering" returnType="Boolean" isProperty="true" permissions="readonly">
+	</method>
+	<method id="bufferingBar" returnType="Sprite" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="bufferingBarHidesAndDisablesOthers" returnType="Boolean" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="backButton" returnType="Sprite" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="bufferTime" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="bytesLoaded" returnType="uint" isProperty="true" permissions="readonly">
+	</method>
+	<method id="bytesTotal" returnType="uint" isProperty="true" permissions="readonly">
+	</method>
+	<method id="source" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable type="Video Content Path" />
+	</method>
+	<method id="dvrIncrement" returnType="Number" isProperty="true" permissions="readwrite">
+		<Inspectable defaultValue="1800" />
+	</method>
+	<method id="dvrIncrementVariance" returnType="Number" isProperty="true" permissions="readwrite">
+		<Inspectable defaultValue="300" />
+	</method>
+	<method id="dvrFixedDuration" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable defaultValue="false" />
+	</method>
+	<method id="dvrSnapToLive" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable defaultValue="true" />
+	</method>
+	<method id="enableLiveCast" returnType="Boolean" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="forwardButton" returnType="Sprite" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="fullScreenBackgroundColor" returnType="uint" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="fullScreenButton" returnType="Sprite" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="fullScreenSkinDelay" returnType="int" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="fullScreenTakeOver" returnType="Boolean" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="height" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="idleTimeout" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="isDVR" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable defaultValue="false" />
+	</method>
+	<method id="isRTMP" returnType="Boolean" isProperty="true" permissions="readonly">
+	</method>
+	<method id="isLive" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable defaultValue="false" />
+	</method>
+	<method id="metadata" returnType="Object" isProperty="true" permissions="readonly">
+	</method>
+	<method id="metadataLoaded" returnType="Boolean" isProperty="true" permissions="readonly">
+	</method>
+	<method id="muteButton" returnType="Sprite" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="ncMgr" returnType="INCManager" isProperty="true" permissions="readonly">
+	</method>
+	<method id="pauseButton" returnType="Sprite" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="paused" returnType="Boolean" isProperty="true" permissions="readonly">
+	</method>
+	<method id="playButton" returnType="Sprite" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="playheadTime" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="playheadUpdateInterval" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="playing" returnType="Boolean" isProperty="true" permissions="readonly">
+	</method>
+	<method id="playPauseButton" returnType="Sprite" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="preferredHeight" returnType="int" isProperty="true" permissions="readonly">
+	</method>
+	<method id="preferredWidth" returnType="int" isProperty="true" permissions="readonly">
+	</method>
+	<method id="progressInterval" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="registrationX" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="registrationY" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="registrationWidth" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="registrationHeight" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="scaleMode" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable type="List" enumeration="maintainAspectRatio,noScale,exactFit" defaultValue="maintainAspectRatio" />
+	</method>
+	<method id="scaleX" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="scaleY" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="scrubbing" returnType="Boolean" isProperty="true" permissions="readonly">
+	</method>
+	<method id="seekBar" returnType="Sprite" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="seekBarInterval" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="seekBarScrubTolerance" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="seekToPrevOffset" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="skin" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable type="Video Skin" />
+	</method>
+	<method id="skinAutoHide" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable defaultValue="false" />
+	</method>
+	<method id="skinBackgroundAlpha" returnType="Number" isProperty="true" permissions="readwrite">
+		<Inspectable defaultValue="0.85" />
+	</method>
+	<method id="skinBackgroundColor" returnType="uint" isProperty="true" permissions="readwrite">
+		<Inspectable type="Color" defaultValue="#47ABCB" />
+	</method>
+	<method id="skinFadeTime" returnType="int" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="skinScaleMaximum" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="soundTransform" returnType="SoundTransform" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="state" returnType="String" isProperty="true" permissions="readonly">
+	</method>
+	<method id="stateResponsive" returnType="Boolean" isProperty="true" permissions="readonly">
+	</method>
+	<method id="stopButton" returnType="Sprite" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="stopped" returnType="Boolean" isProperty="true" permissions="readonly">
+	</method>
+	<method id="totalTime" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="visibleVideoPlayerIndex" returnType="uint" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="volume" returnType="Number" isProperty="true" permissions="readwrite">
+		<Inspectable defaultValue="1" />
+	</method>
+	<method id="volumeBar" returnType="Sprite" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="volumeBarInterval" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="volumeBarScrubTolerance" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="width" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="x" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="y" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="endTabIndex" returnType="int" isProperty="true" permissions="readonly">
+	</method>
+	<method id="startTabIndex" returnType="int" isProperty="true" permissions="readonly">
+	</method>
+	<method id="preview" returnType="String" isProperty="true" permissions="writeonly">
+		<Inspectable type="Video Preview" />
+	</method>
+	<method id="componentInspectorSetting" returnType="Boolean" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="cuePoints" returnType="Array" isProperty="true" permissions="writeonly">
+		<Inspectable type="Video Cue Points" />
+	</method>
+	<method id="boundingBox_mc" returnType="DisplayObject" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="setScale" returnType="void" isProperty="false">
+	</method>
+	<method id="load" returnType="void" isProperty="false">
+	</method>
+	<method id="play" returnType="void" isProperty="false">
+	</method>
+	<method id="play2" returnType="void" isProperty="false">
+	</method>
+	<method id="playWhenEnoughDownloaded" returnType="void" isProperty="false">
+	</method>
+	<method id="pause" returnType="void" isProperty="false">
+	</method>
+	<method id="stop" returnType="void" isProperty="false">
+	</method>
+	<method id="seek" returnType="void" isProperty="false">
+	</method>
+	<method id="seekSeconds" returnType="void" isProperty="false">
+	</method>
+	<method id="seekPercent" returnType="void" isProperty="false">
+	</method>
+	<method id="seekToNavCuePoint" returnType="void" isProperty="false">
+	</method>
+	<method id="seekToNextNavCuePoint" returnType="void" isProperty="false">
+	</method>
+	<method id="seekToPrevNavCuePoint" returnType="void" isProperty="false">
+	</method>
+	<method id="addASCuePoint" returnType="Object" isProperty="false">
+	</method>
+	<method id="removeASCuePoint" returnType="Object" isProperty="false">
+	</method>
+	<method id="findCuePoint" returnType="Object" isProperty="false">
+	</method>
+	<method id="findNearestCuePoint" returnType="Object" isProperty="false">
+	</method>
+	<method id="findNextCuePointWithName" returnType="Object" isProperty="false">
+	</method>
+	<method id="setFLVCuePointEnabled" returnType="Number" isProperty="false">
+	</method>
+	<method id="isFLVCuePointEnabled" returnType="Boolean" isProperty="false">
+	</method>
+	<method id="bringVideoPlayerToFront" returnType="void" isProperty="false">
+	</method>
+	<method id="getVideoPlayer" returnType="VideoPlayer" isProperty="false">
+	</method>
+	<method id="closeVideoPlayer" returnType="void" isProperty="false">
+	</method>
+	<method id="enterFullScreenDisplayState" returnType="void" isProperty="false">
+	</method>
+	<method id="assignTabIndexes" returnType="int" isProperty="false">
+	</method>
+	<method id="FLVPlayback" isConstructor="true" isProperty="false">
+	</method>
+</class>
+</componentData>
+<livePreview class="FLVPlaybackStageLivePreview">
+<movieBounds xmin="0" xmax="6401" ymin="0" ymax="4800" />
+<componentData>
+<classDefs>
+	<classDef id="fl.livepreview.IEditContextV1"/>
+	<classDef id="fl.livepreview.IPreviewInterface"/>
+	<classDef id="fl.video.CuePointType"/>
+	<classDef id="fl.video.VideoPlayerState"/>
+	<classDef id="fl.video.DynamicStreamItem"/>
+	<classDef id="fl.video.ControlData"/>
+	<classDef id="fl.video.CuePointManager"/>
+	<classDef id="fl.video.UIManager"/>
+	<classDef id="fl.video.INCManager"/>
+	<classDef id="fl.video.VideoScaleMode"/>
+	<classDef id="fl.livepreview.EditContextFlags"/>
+	<classDef id="fl.video.VideoState"/>
+	<classDef id="fl.video.QueuedCommand"/>
+	<classDef id="fl.video.IVPEvent"/>
+	<classDef id="fl.video.ParseResults"/>
+	<classDef id="fl.video.FPMediaCapabilities"/>
+	<classDef id="fl.video.SMILManager"/>
+	<classDef id="fl.video.FPADManager"/>
+	<classDef id="fl.video.FMSCapabilities"/>
+	<classDef id="fl.video.VideoAlign"/>
+	<classDef id="fl.video.ConnectClient"/>
+	<classDef id="fl.video.ReconnectClient"/>
+	<classDef id="fl.video.VideoPlayerClient"/>
+	<classDef id="fl.video.LayoutEvent"/>
+	<classDef id="fl.video.SoundEvent"/>
+	<classDef id="fl.video.VolumeBarAccImpl"/>
+	<classDef id="fl.video.SeekBarAccImpl"/>
+	<classDef id="fl.livepreview.IVideoInterfaceV1"/>
+	<classDef id="fl.video.VideoError"/>
+	<classDef id="UIManagerStage"/>
+	<classDef id="fl.video.NCManager"/>
+	<classDef id="fl.video.VideoEvent"/>
+	<classDef id="fl.video.MetadataEvent"/>
+	<classDef id="fl.video.ConnectClientDynamicStream"/>
+	<classDef id="fl.video.ConnectClientNative"/>
+	<classDef id="fl.video.DVRManager"/>
+	<classDef id="fl.video.VideoProgressEvent"/>
+	<classDef id="fl.video.AutoLayoutEvent"/>
+	<classDef id="fl.video.NCManagerDynamicStream"/>
+	<classDef id="fl.video.NCManagerNative"/>
+	<classDef id="fl.video.DynamicStream"/>
+	<classDef id="fl.video.SkinErrorEvent"/>
+	<classDef id="fl.video.VideoPlayer"/>
+	<classDef id="FLVPlaybackStageLivePreview"/>
+	<classDef id="fl.stage.video.StopButtonDown"/>
+	<classDef id="fl.stage.video.StopButtonNormal"/>
+	<classDef id="fl.stage.video.StopButtonOver"/>
+	<classDef id="fl.video.FLVPlayback"/>
+	<classDef id="fl.stage.video.ComponentVersionView"/>
+	<classDef id="fl.stage.video.BackgroundBox"/>
+	<classDef id="FLVPlaybackStage"/>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="fl.video.Icon"/>
+</classDefs>
+<class id="FLVPlaybackStageLivePreview" >
+	<method id="width" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="height" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="source" returnType="String" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="isLive" returnType="Boolean" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="volume" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="align" returnType="String" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="skinAutoHide" returnType="Boolean" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="scaleMode" returnType="String" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="autoPlay" returnType="Boolean" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="skin" returnType="String" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="skinBackgroundAlpha" returnType="Number" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="skinBackgroundColor" returnType="uint" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="DocumentRoot" returnType="String" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="FullPathSourceFromRelativePath" returnType="String" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="avatar_mc" returnType="DisplayObject" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="caPreviewClass" returnType="ComponentVersionView" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="createButtonsOverlay" returnType="void" isProperty="false">
+	</method>
+	<method id="destroyButtonsOverlay" returnType="void" isProperty="false">
+	</method>
+	<method id="SetFLVplaybackPlayheadUpdateTimer" returnType="void" isProperty="false">
+	</method>
+	<method id="initFLVplaybackPlayheadUpdateTimer" returnType="void" isProperty="false">
+	</method>
+	<method id="stopFLVplaybackPlayheadUpdateTimer" returnType="void" isProperty="false">
+	</method>
+	<method id="onFLVplaybackPlayheadUpdateTimer" returnType="void" isProperty="false">
+	</method>
+	<method id="startFLVplaybackRemotePreloadBufferingTimer" returnType="void" isProperty="false">
+	</method>
+	<method id="stopFLVplaybackRemotePreloadBufferingTimer" returnType="void" isProperty="false">
+	</method>
+	<method id="onFLVplaybackRemotePreloadBufferingTimer" returnType="void" isProperty="false">
+	</method>
+	<method id="FileExist" returnType="Boolean" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="draw" returnType="void" isProperty="false">
+	</method>
+	<method id="setIPreviewInterface" returnType="void" isProperty="false">
+	</method>
+	<method id="designTimeEdit" returnType="Boolean" isProperty="false">
+	</method>
+	<method id="load" returnType="void" isProperty="false">
+	</method>
+	<method id="play" returnType="void" isProperty="false">
+	</method>
+	<method id="pause" returnType="void" isProperty="false">
+	</method>
+	<method id="stop" returnType="void" isProperty="false">
+	</method>
+	<method id="seek" returnType="void" isProperty="false">
+	</method>
+	<method id="seekVideo" returnType="void" isProperty="false">
+	</method>
+	<method id="seekSeconds" returnType="void" isProperty="false">
+	</method>
+	<method id="startSeek" returnType="Boolean" isProperty="false">
+	</method>
+	<method id="stopSeek" returnType="void" isProperty="false">
+	</method>
+	<method id="setDocumentRoot" returnType="void" isProperty="false">
+	</method>
+	<method id="ResetSource" returnType="void" isProperty="false">
+	</method>
+	<method id="DisableSetSource" returnType="void" isProperty="false">
+	</method>
+	<method id="EnableSetSource" returnType="void" isProperty="false">
+	</method>
+	<method id="loadPreview" returnType="void" isProperty="false">
+	</method>
+	<method id="unloadPreview" returnType="void" isProperty="false">
+	</method>
+	<method id="close" returnType="void" isProperty="false">
+	</method>
+	<method id="Mute" returnType="void" isProperty="false">
+	</method>
+	<method id="grabBitmap" returnType="Boolean" isProperty="false">
+	</method>
+	<method id="FLVPlaybackStageLivePreview" isConstructor="true" isProperty="false">
+	</method>
+</class>
+</componentData>
+</livePreview>
+</component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="bt1vm6yf3d2.dat"/>
+               </customIcon>
+               <SwcItem name="fl.video.FLVPlayback" version="1268346527" isTopLevel="true"/>
+          </DOMCompiledClipItem>
           <DOMBitmapItem name="Teks/Teks-Pancasila.png" itemID="69342e62-00000235" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Teks/Teks-Pancasila.png" sourceLastImported="1765027418" externalFileSize="18685" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Teks/Teks-Pancasila.png" bitmapDataHRef="M 5 1763793154.dat" frameRight="12620" frameBottom="2040"/>
+          <DOMBitmapItem name="Wallpaper/Textured.jpeg" itemID="6936ce8c-0000016a" sourceExternalFilepath="./LIBRARY/Wallpaper/Textured.jpeg" sourceLastImported="1765199437" externalFileSize="54855" allowSmoothing="true" quality="50" href="Wallpaper/Textured.jpeg" bitmapDataHRef="M 4 1765199500.dat" frameRight="12500" frameBottom="8320" isJPEG="true"/>
      </media>
      <symbols>
           <Include href="Object/navbar_1.xml" loadImmediate="false" itemID="69343e44-00000154" lastModified="1765031492"/>
@@ -60,9 +593,10 @@
           <Include href="Tombol/Poin/poin_5.xml" itemIcon="0" loadImmediate="false" itemID="6922d84a-00000199" lastModified="1765024879"/>
           <Include href="Tombol/Tombol_Pancasila/layar_awal.xml" itemIcon="0" loadImmediate="false" itemID="69217bc7-000003b5" lastModified="1763809195"/>
           <Include href="Wallpaper/Background.xml" loadImmediate="false" itemID="6921b499-000005c9" lastModified="1763816601"/>
+          <Include href="Wallpaper/background_materi.xml" loadImmediate="false" itemID="6936d987-00000199" lastModified="1765202311"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="182" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="195" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="Camera" color="#0099FF" autoNamed="false" layerType="camera">
                          <frames>
@@ -82,12 +616,15 @@
                     </DOMLayer>
                     <DOMLayer name="Actions" color="#FF800A" locked="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="181" keyMode="9728">
+                              <DOMFrame index="0" duration="182" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="181" keyMode="9728">
+                              <DOMFrame index="182" keyMode="9728">
                                    <Actionscript>
                                         <script><![CDATA[//KODE DI FRAME 1 : Actions
+import flash.display.StageScaleMode;
+import flash.display.StageAlign;
+import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
@@ -103,11 +640,21 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_profile" color="#FF0000" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="layar_kuis" color="#009999" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="layar_materi" color="#FF4FFF" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="materi" color="#FF800A" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="Materi_1" color="#9933CC" parentLayerIndex="4" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="layar_profile" color="#FF0000" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="layar_kuis" color="#009999" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Layer_10" color="#9933CC" parentLayerIndex="2" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" duration="195" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="195" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="layar_materi" color="#FF4FFF" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="materi_1" color="#FF800A" parentLayerIndex="4" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Video" color="#FF4F4F" parentLayerIndex="5" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="182" keyMode="9728">
                                    <elements/>
@@ -117,8 +664,218 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="isi_materi" color="#00FFFF" parentLayerIndex="3" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="btn_materi1" color="#009999" parentLayerIndex="6" autoNamed="false">
+                    <DOMLayer name="Judul" color="#9933CC" parentLayerIndex="5" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="182" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="182" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText fontRenderingMode="standard" left="-23" width="190" height="103.1" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="901" ty="54.3"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Judul</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="103.1" size="74" bitmapSize="1480" face="ComicSansMS-Bold"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_back" color="#00FFFF" parentLayerIndex="5" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="182" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="182" keyMode="9728">
+                                   <elements>
+                                        <DOMGroup>
+                                             <matrix>
+                                                  <Matrix a="1.76699829101562" d="1.24122619628906" tx="-364.7" ty="-21.55"/>
+                                             </matrix>
+                                             <members>
+                                                  <DOMShape>
+                                                       <matrix>
+                                                            <Matrix a="1.76699829101562" d="1.24122619628906" tx="-364.7" ty="-21.55"/>
+                                                       </matrix>
+                                                       <fills>
+                                                            <FillStyle index="1">
+                                                                 <SolidColor color="#FF1B1B"/>
+                                                            </FillStyle>
+                                                            <FillStyle index="2">
+                                                                 <LinearGradient>
+                                                                      <matrix>
+                                                                           <Matrix a="0.0001220703125" b="0.0149993896484375" c="-0.0361328125" d="0.0003204345703125" tx="290.15" ty="107.7"/>
+                                                                      </matrix>
+                                                                      <GradientEntry color="#FF1717" ratio="0"/>
+                                                                      <GradientEntry color="#FFFFFF" ratio="1"/>
+                                                                 </LinearGradient>
+                                                            </FillStyle>
+                                                            <FillStyle index="3">
+                                                                 <SolidColor/>
+                                                            </FillStyle>
+                                                            <FillStyle index="4">
+                                                                 <SolidColor color="#FFFFFF"/>
+                                                            </FillStyle>
+                                                            <FillStyle index="5">
+                                                                 <SolidColor color="#FFCC00"/>
+                                                            </FillStyle>
+                                                       </fills>
+                                                       <strokes>
+                                                            <StrokeStyle index="1">
+                                                                 <SolidStroke scaleMode="normal" weight="2">
+                                                                      <fill>
+                                                                           <SolidColor/>
+                                                                      </fill>
+                                                                 </SolidStroke>
+                                                            </StrokeStyle>
+                                                            <StrokeStyle index="2">
+                                                                 <SolidStroke scaleMode="normal">
+                                                                      <fill>
+                                                                           <SolidColor/>
+                                                                      </fill>
+                                                                 </SolidStroke>
+                                                            </StrokeStyle>
+                                                       </strokes>
+                                                       <edges>
+                                                            <Edge fillStyle1="2" strokeStyle="1" edges="!4806 2067S6[4811 1996 4821 1932"/>
+                                                            <Edge fillStyle1="1" strokeStyle="1" edges="!4821 1932S6[#1307.03 #657.5A 5042 1450!5042 1450[#13F6.57 #564.AF 5198 1333!5198 1333[5558 1137 5965 1209!5965 1209[6371 1280 6468 1370!6468 1370[6566 1458 6604 1506!6604 1506[6641 1554 6692 1631!6692 1631[#1A44.3F #690.A8 6749 1762.5
+!6749 1762.5[#1A6A.A3 #70F.5 6774 1862"/>
+                                                            <Edge fillStyle1="2" strokeStyle="1" edges="
+!6774 1862S6[6803 2009 6800 2198"/>
+                                                            <Edge fillStyle0="1" fillStyle1="2" edges="
+!5596 1579S3[5622 1573 5645 1567!5645 1567[5665 1564 5897 1564!5897 1564[6003 1564 6132 1561!6132 1561[6249 1574 6484 1675!6484 1675[6584 1718 6680 1786!6680 1786[#1A3C.1 #714.B 6749 1840.5!6749 1840.5[#1A69.BC #73B.21 6774 1862"/>
+                                                            <Edge fillStyle0="3" fillStyle1="2" strokeStyle="1" edges="
+!6800 2198S7|6731 2442"/>
+                                                            <Edge fillStyle0="3" fillStyle1="4" strokeStyle="1" edges="
+!6731 2442S7[6669 2618 6505 2733!6505 2733[6204 2944 5859 2965!5859 2965[5514 2986 5144 2737!5144 2737[#13E0.75 #A8B.B 5042 2655.5!5042 2655.5[#133D.5C #9EF.E8 4866 2388"/>
+                                                            <Edge fillStyle0="3" fillStyle1="2" strokeStyle="1" edges="
+!4866 2388S7[4812 2277 4806 2067"/>
+                                                            <Edge fillStyle1="3" strokeStyle="1" edges="
+!6800 2198S6[6800 2241 6793 2303!6793 2303[#1A82.43 #932.64 6749 2501!6749 2501[#1A56.09 #9E0.48 6734 2559!6734 2559[6682 2753 6440 2919!6440 2919[6198 3083 5856 3105!5856 3105[5514 3126 5142 2891!5142 2891[#13DF.AC #B28.96 5042 2815
+!5042 2815[#12A7.D5 #A0D.8E 4804 2093!4804 2093[4804 2080 4806 2067"/>
+                                                            <Edge fillStyle0="1" fillStyle1="4" strokeStyle="2" edges="
+!5196 1682S7[5174 1675 5155 1663!5155 1663[5108 1633 5171 1530!5171 1530[5234 1427 5342 1408!5342 1408[5450 1389 5536 1439!5536 1439[5620 1488 5617 1531!5617 1531[5614 1557 5596 1579"/>
+                                                            <Edge fillStyle0="2" fillStyle1="4" strokeStyle="2" edges="
+!5596 1579S7[5583 1593 5564 1606!5564 1606[5515 1638 5415 1664!5415 1664[5315 1689 5258 1691!5258 1691[5225 1691 5196 1682"/>
+                                                            <Edge fillStyle0="1" fillStyle1="2" edges="
+!5099 1731S3[5117 1721 5137 1710!5137 1710[5169 1693 5196 1682"/>
+                                                            <Edge fillStyle0="2" fillStyle1="4" strokeStyle="2" edges="
+!5099 1731S7[5100 1732 5101 1733!5101 1733[5121 1753 5121 1780!5121 1780[5121 1806 5101 1825!5101 1825[5082 1845 5055 1845!5055 1845[5048.25 1845 5042 1844!5042 1844[5023.25 1840 5009 1825!5009 1825[4994 1810 4991 1790"/>
+                                                            <Edge fillStyle0="1" fillStyle1="4" strokeStyle="2" edges="
+!4991 1790S7[4990 1785 4990 1780!4990 1780[4990 1753 5009 1733!5009 1733[5023.25 #6B6.C 5042 1715!5042 1715[5048.25 1714 5055 1714!5055 1714[5081 1714 5099 1731"/>
+                                                            <Edge fillStyle0="1" fillStyle1="2" edges="
+!4821 1932S3[4846 1909 4890 1869!4890 1869[4947 1815 4991 1790"/>
+                                                            <Edge fillStyle0="5" fillStyle1="2" strokeStyle="2" edges="
+!6267 1919S7[6251 1887 5996 1893!5996 1893[5868 1897 5744 1906!5744 1906[5756 1863 5762 1818!5762 1818[5774 1729 5744 1721!5744 1721[5725 1716 5654 1749!5654 1749[5580 1784 5504 1835!5504 1835[5301 1973 5304 2078!5304 2078[5307 2181 5515
+ 2325!5515 2325[5704 2455 5744 2448!5744 2448[5761 2445 5754 2360!5754 2360|5744 2276!5744 2276[5872 2286 6002 2288!6002 2288[6263 2293 6276 2259!6276 2259[6292 2217 6289 2088!6289 2088[6286 1957 6267 1919"/>
+                                                            <Edge fillStyle0="2" fillStyle1="4" edges="
+!4866 2388S3[#134F.06 #9A8.1C 5042 2537!5042 2537[#142E.9B #A3B.2B 5326 2671!5326 2671[5613 2764 5947 2742!5947 2742[6281 2719 6476 2614!6476 2614[6574 2562 6731 2442"/>
+                                                            <Edge cubics="!6505 2733(;6304,2874 6089,2951 5859,2965q6505 2733Q6204 2944q5859 2965);"/>
+                                                            <Edge cubics="!5144 2737(;5109,2713 5077,2688 5042,2656q5144 2737Q5088 2700q5042 2656);"/>
+                                                            <Edge cubics="!5042 2656(;4969,2586 4909,2497 4866,2388q5042 2656Q4925 2544q4866 2388);"/>
+                                                            <Edge cubics="!4804 2093(;4804,2084 4805,2076 4806,2067q4804 2093Q4804 2080q4806 2067);"/>
+                                                            <Edge cubics="!4806 2067(;4809,2022 4814,1979 4821,1932q4806 2067 4821 1932);"/>
+                                                            <Edge cubics="!4821 1932(;4853,1726 4928,1565 5042,1450q4821 1932Q4871 1623q5042 1450);"/>
+                                                            <Edge cubics="!5042 1450(;5089,1404 5140,1365 5198,1333q5042 1450Q5110 1381q5198 1333);"/>
+                                                            <Edge cubics="!5859 2965(;5629,2979 5391,2903 5144,2737q5859 2965Q5514 2986q5144 2737);"/>
+                                                            <Edge cubics="!5536 1439(;5592,1472 5619,1502 5617,1531q5536 1439Q5620 1488q5617 1531);"/>
+                                                            <Edge cubics="!5415 1664(;5348,1681 5296,1690 5258,1691q5415 1664Q5315 1689q5258 1691);"/>
+                                                            <Edge cubics="!5155 1663(;5124,1643 5129,1599 5171,1530q5155 1663Q5108 1633q5171 1530);"/>
+                                                            <Edge cubics="!5258 1691(;5238,1692 5219,1689 5196,1682q5258 1691Q5225 1691q5196 1682);"/>
+                                                            <Edge cubics="!5196 1682(;5185,1679 5170,1672 5155,1663q5196 1682 5155 1663);"/>
+                                                            <Edge cubics="!5171 1530(;5213,1461 5270,1421 5342,1408q5171 1530Q5234 1427q5342 1408);"/>
+                                                            <Edge cubics="!5564 1606(;5531,1627 5482,1647 5415,1664q5564 1606Q5515 1638q5415 1664);"/>
+                                                            <Edge cubics="!5342 1408(;5414,1395 5479,1406 5536,1439q5342 1408Q5450 1389q5536 1439);"/>
+                                                            <Edge cubics="!5101 1733(;5114,1746 5121,1762 5121,1780q5101 1733Q5121 1753q5121 1780);"/>
+                                                            <Edge cubics="!5121 1780(;5121,1797 5114,1813 5101,1825q5121 1780Q5121 1806q5101 1825);"/>
+                                                            <Edge cubics="!4990 1780(;4990,1762 4996,1746 5009,1733q4990 1780Q4990 1753q5009 1733);"/>
+                                                            <Edge cubics="!5101 1825(;5088,1839 5073,1845 5055,1845q5101 1825Q5082 1845q5055 1845);"/>
+                                                            <Edge cubics="!5596 1579(;5692,1555 5696,1564 5897,1564q5596 1579 5645 1567 5897 1564);"/>
+                                                            <Edge cubics="!5617 1531(;5615,1548 5608,1564 5596,1579q5617 1531Q5614 1557q5596 1579);"/>
+                                                            <Edge cubics="!5596 1579(;5587,1588 5577,1597 5564,1606q5596 1579Q5583 1593q5564 1606);"/>
+                                                            <Edge cubics="!5897 1564(;5968,1564 6046,1563 6132,1561q5897 1564Q6003 1564q6132 1561);"/>
+                                                            <Edge cubics="!6132 1561(;6210,1570 6327,1608 6484,1675q6132 1561Q6249 1574q6484 1675);"/>
+                                                            <Edge cubics="!4821 1932(;4838,1917 4861,1896 4890,1869q4821 1932Q4846 1909q4890 1869);"/>
+                                                            <Edge cubics="!5009 1825(;4999,1815 4993,1803 4991,1790q5009 1825Q4994 1810q4991 1790);"/>
+                                                            <Edge cubics="!4991 1790(;4990,1787 4990,1783 4990,1780q4991 1790Q4990 1785q4990 1780);"/>
+                                                            <Edge cubics="!4890 1869(;4928,1833 4962,1807 4991,1790q4890 1869Q4947 1815q4991 1790);"/>
+                                                            <Edge cubics="!5137 1710(;5158,1699 5178,1689 5196,1682q5137 1710Q5169 1693q5196 1682);"/>
+                                                            <Edge cubics="!5099 1731(;5100,1732 5100,1732 5101,1733q5099 1731Q5100 1732q5101 1733);"/>
+                                                            <Edge cubics="!5099 1731(;5111,1724 5124,1717 5137,1710q5099 1731Q5117 1721q5137 1710);"/>
+                                                            <Edge cubics="!5055 1714(;5072,1714 5087,1720 5099,1731q5055 1714Q5081 1714q5099 1731);"/>
+                                                            <Edge cubics="!6604 1506(;6629,1538 6658,1580 6692,1631q6604 1506Q6641 1554q6692 1631);"/>
+                                                            <Edge cubics="!6468 1370(;6533,1429 6579,1474 6604,1506q6468 1370Q6566 1458q6604 1506);"/>
+                                                            <Edge cubics="!6692 1631(;6714,1665 6734,1711 6749,1763q6692 1631Q6724 1681q6749 1763);"/>
+                                                            <Edge cubics="!6749 1763(;6759,1797 6767,1828 6774,1862q6749 1763 6774 1862);"/>
+                                                            <Edge cubics="!5965 1209(;6236,1256 6403,1310 6468,1370q5965 1209Q6371 1280q6468 1370);"/>
+                                                            <Edge cubics="!6800 2198(;6800,2227 6798,2262 6793,2303q6800 2198Q6800 2241q6793 2303);"/>
+                                                            <Edge cubics="!6734 2559(;6699,2688 6601,2808 6440,2919q6734 2559Q6682 2753q6440 2919);"/>
+                                                            <Edge cubics="!6793 2303(;6789,2338 6774,2404 6749,2501q6793 2303 6749 2501);"/>
+                                                            <Edge cubics="!6749 2501(;6744,2520 6739,2539 6734,2559q6749 2501 6734 2559);"/>
+                                                            <Edge cubics="!6476 2614(;6541,2579 6626,2522 6731,2442q6476 2614Q6574 2562q6731 2442);"/>
+                                                            <Edge cubics="!6731 2442(;6690,2559 6614,2656 6505,2733q6731 2442Q6669 2618q6505 2733);"/>
+                                                            <Edge cubics="!6440 2919(;6279,3028 6084,3090 5856,3105q6440 2919Q6198 3083q5856 3105);"/>
+                                                            <Edge cubics="!6774 1862(;6793,1960 6802,2072 6800,2198q6774 1862Q6803 2009q6800 2198);"/>
+                                                            <Edge cubics="!4866 2388(;4830,2314 4810,2207 4806,2067q4866 2388Q4812 2277q4806 2067);"/>
+                                                            <Edge cubics="!5142 2891(;5107,2869 5075,2845 5042,2815q5142 2891Q5088 2857q5042 2815);"/>
+                                                            <Edge cubics="!5042 2815(;4866,2657 4785,2415 4804,2093q5042 2815Q4776 2574q4804 2093);"/>
+                                                            <Edge cubics="!5856 3105(;5628,3119 5390,3048 5142,2891q5856 3105Q5514 3126q5142 2891);"/>
+                                                            <Edge cubics="!5198 1333(;5438,1202 5694,1161 5965,1209q5198 1333Q5558 1137q5965 1209);"/>
+                                                            <Edge cubics="!5947 2742(;6170,2727 6346,2684 6476,2614q5947 2742Q6281 2719q6476 2614);"/>
+                                                            <Edge cubics="!4866 2388(;4919,2446 4979,2497 5042,2537q4866 2388Q4943 2472q5042 2537);"/>
+                                                            <Edge cubics="!5042 2537(;5128,2594 5222,2637 5326,2671q5042 2537Q5167 2619q5326 2671);"/>
+                                                            <Edge cubics="!5326 2671(;5517,2733 5724,2757 5947,2742q5326 2671Q5613 2764q5947 2742);"/>
+                                                            <Edge cubics="!6267 1919(;6242,1868 5744,1906 5744,1906q6267 1919Q6251 1887q5996 1893Q5868 1897q5744 1906);"/>
+                                                            <Edge cubics="!5744 1906(;5744,1906 5792,1734 5744,1721q5744 1906Q5756 1863q5762 1818Q5774 1729q5744 1721);"/>
+                                                            <Edge cubics="!5744 1721(;5696,1708 5300,1919 5304,2078q5744 1721Q5725 1716q5654 1749Q5580 1784q5504 1835Q5301 1973q5304 2078);"/>
+                                                            <Edge cubics="!5304 2078(;5308,2237 5716,2453 5744,2448q5304 2078Q5307 2181q5515 2325Q5704 2455q5744 2448);"/>
+                                                            <Edge cubics="!5744 2448(;5772,2443 5744,2276 5744,2276q5744 2448Q5761 2445q5754 2360Q5744 2276q5744 2276);"/>
+                                                            <Edge cubics="!5744 2276(;5744,2276 6255,2314 6276,2259q5744 2276Q5872 2286q6002 2288Q6263 2293q6276 2259);"/>
+                                                            <Edge cubics="!6276 2259(;6297,2204 6292,1970 6267,1919q6276 2259Q6292 2217q6289 2088Q6286 1957q6267 1919);"/>
+                                                            <Edge cubics="!6484 1675(;6551,1704 6616,1741 6680,1786q6484 1675Q6584 1718q6680 1786);"/>
+                                                            <Edge cubics="!6680 1786(;6704,1804 6727,1822 6749,1841q6680 1786Q6716 1813q6749 1841);"/>
+                                                            <Edge cubics="!6749 1841(;6758,1848 6766,1855 6774,1862q6749 1841Q6762 1851q6774 1862);"/>
+                                                            <Edge cubics="!6800 2198(;6800,2198 6731,2442 6731,2442q6800 2198 6731 2442);"/>
+                                                            <Edge cubics="!5042 1715(;5046,1714 5050,1714 5055,1714q5042 1715Q5048 1714q5055 1714);"/>
+                                                            <Edge cubics="!5042 1844(;5029,1841 5018,1835 5009,1825q5042 1844Q5023 1840q5009 1825);"/>
+                                                            <Edge cubics="!5055 1845(;5050,1845 5046,1845 5042,1844q5055 1845Q5048 1845q5042 1844);"/>
+                                                            <Edge cubics="!5009 1733(;5018,1724 5029,1718 5042,1715q5009 1733Q5023 1719q5042 1715);"/>
+                                                       </edges>
+                                                  </DOMShape>
+                                             </members>
+                                        </DOMGroup>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="background" color="#9933CC" parentLayerIndex="5" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="182" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="182" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Wallpaper/background_materi" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="-26" ty="-100"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="991.6" y="660"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="isi_materi" color="#00FFFF" parentLayerIndex="4" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="btn_materi1" color="#009999" parentLayerIndex="10" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -140,7 +897,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi2" color="#FF4FFF" parentLayerIndex="6" autoNamed="false">
+                    <DOMLayer name="btn_materi2" color="#FF4FFF" parentLayerIndex="10" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -162,7 +919,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi3" color="#9933CC" parentLayerIndex="6" autoNamed="false">
+                    <DOMLayer name="btn_materi3" color="#9933CC" parentLayerIndex="10" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -184,7 +941,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi4" color="#FF0000" parentLayerIndex="6" autoNamed="false">
+                    <DOMLayer name="btn_materi4" color="#FF0000" parentLayerIndex="10" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -206,7 +963,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi5" color="#669900" parentLayerIndex="6" autoNamed="false">
+                    <DOMLayer name="btn_materi5" color="#669900" parentLayerIndex="10" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -228,7 +985,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi6" color="#669900" parentLayerIndex="6" autoNamed="false">
+                    <DOMLayer name="btn_materi6" color="#669900" parentLayerIndex="10" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -250,7 +1007,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi7" color="#FF0000" parentLayerIndex="6" autoNamed="false">
+                    <DOMLayer name="btn_materi7" color="#FF0000" parentLayerIndex="10" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -272,7 +1029,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi8" color="#009999" parentLayerIndex="6" autoNamed="false">
+                    <DOMLayer name="btn_materi8" color="#009999" parentLayerIndex="10" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -294,7 +1051,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi9" color="#FF4FFF" parentLayerIndex="6" autoNamed="false">
+                    <DOMLayer name="btn_materi9" color="#FF4FFF" parentLayerIndex="10" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -316,7 +1073,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi10" color="#FF800A" parentLayerIndex="6" autoNamed="false">
+                    <DOMLayer name="btn_materi10" color="#FF800A" parentLayerIndex="10" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -338,7 +1095,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi11" color="#9933CC" parentLayerIndex="6" autoNamed="false">
+                    <DOMLayer name="btn_materi11" color="#9933CC" parentLayerIndex="10" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -360,7 +1117,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi12" color="#00FFFF" parentLayerIndex="6" autoNamed="false">
+                    <DOMLayer name="btn_materi12" color="#00FFFF" parentLayerIndex="10" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -382,7 +1139,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi13" color="#FF4F4F" parentLayerIndex="6" autoNamed="false">
+                    <DOMLayer name="btn_materi13" color="#FF4F4F" parentLayerIndex="10" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -404,8 +1161,8 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="3" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="selected" color="#FF800A" parentLayerIndex="20" autoNamed="false">
+                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="4" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="selected" color="#FF800A" parentLayerIndex="24" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -424,7 +1181,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="20" autoNamed="false">
+                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="24" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -446,7 +1203,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="20" autoNamed="false">
+                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="24" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -465,7 +1222,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="20" autoNamed="false">
+                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="24" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -484,7 +1241,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="20" autoNamed="false">
+                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="24" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -503,7 +1260,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="20" autoNamed="false">
+                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="24" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -522,7 +1279,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="20" autoNamed="false">
+                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="24" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -544,7 +1301,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="20" autoNamed="false">
+                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="24" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -568,7 +1325,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="layar_beranda" color="#FF4FFF" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions" color="#FF4F4F" parentLayerIndex="29" locked="true" autoNamed="false">
+                    <DOMLayer name="actions" color="#FF4F4F" parentLayerIndex="33" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
@@ -591,8 +1348,8 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_awal" color="#00FFFF" parentLayerIndex="29" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="31" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="layar_awal" color="#00FFFF" parentLayerIndex="33" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="35" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -615,7 +1372,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Teks" color="#669900" parentLayerIndex="31" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Teks" color="#669900" parentLayerIndex="35" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -641,7 +1398,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Background" color="#FF0000" parentLayerIndex="31" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Background" color="#FF0000" parentLayerIndex="35" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -661,8 +1418,8 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="29" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="35" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="33" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="39" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -685,7 +1442,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="35" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="39" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -708,7 +1465,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="35" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="39" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -731,7 +1488,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="35" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="39" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -754,7 +1511,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="35" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="39" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -777,7 +1534,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="35" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="39" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -803,7 +1560,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="35" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="39" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="41" keyMode="9728">
                                    <elements/>
@@ -830,8 +1587,8 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="isi_beranda" color="#669900" parentLayerIndex="29" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="Poin_5" color="#FF0000" parentLayerIndex="43" locked="true" autoNamed="false">
+                    <DOMLayer name="isi_beranda" color="#669900" parentLayerIndex="33" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="Poin_5" color="#FF0000" parentLayerIndex="47" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
@@ -850,7 +1607,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_4" color="#009999" parentLayerIndex="43" locked="true" autoNamed="false">
+                    <DOMLayer name="Poin_4" color="#009999" parentLayerIndex="47" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
@@ -869,7 +1626,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_3" color="#FF4FFF" parentLayerIndex="43" locked="true" autoNamed="false">
+                    <DOMLayer name="Poin_3" color="#FF4FFF" parentLayerIndex="47" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
@@ -888,7 +1645,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_2" color="#FF800A" parentLayerIndex="43" locked="true" autoNamed="false">
+                    <DOMLayer name="Poin_2" color="#FF800A" parentLayerIndex="47" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
@@ -907,7 +1664,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_1" color="#9933CC" parentLayerIndex="43" locked="true" autoNamed="false">
+                    <DOMLayer name="Poin_1" color="#9933CC" parentLayerIndex="47" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
@@ -926,7 +1683,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Pancasila" color="#00FFFF" parentLayerIndex="43" locked="true" autoNamed="false">
+                    <DOMLayer name="Pancasila" color="#00FFFF" parentLayerIndex="47" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
@@ -946,7 +1703,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="layar_awal" color="#9933CC" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions" color="#669900" parentLayerIndex="50" locked="true" autoNamed="false">
+                    <DOMLayer name="actions" color="#669900" parentLayerIndex="54" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
@@ -979,7 +1736,7 @@ stage.addEventListener(Event.ENTER_FRAME, aturLayar);
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_awal" color="#FF800A" parentLayerIndex="50" locked="true" autoNamed="false">
+                    <DOMLayer name="layar_awal" color="#FF800A" parentLayerIndex="54" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -1000,24 +1757,37 @@ stage.addEventListener(Event.ENTER_FRAME, aturLayar);
      </timelines>
      <scripts/>
      <persistentData>
-          <PD n="com.air.artemis.airdest" v="Merah Putih One For All.app"/>
+          <PD n="com.air.artemis.airdest" v="Merah Putih One For All.apk"/>
           <PD n="ane.tmp.unzipped.folder" v="C:\Users\asus\AppData\Local\Temp\Tmp_ANE_File_Unzipped_Packages"/>
-          <PD n="com.air.oldTargetPlatform" v="Desktop"/>
+          <PD n="com.air.oldTargetPlatform" v="Android"/>
           <PD n="com.air.sdk.path" v="D:\Kuliah\Semester 5\Sistem Multimedia\AIRSDK_3311935"/>
-          <PD n="com.air.artemis.pubair" v="false"/>
-          <PD n="com.air.artemis.pubipa" v="false"/>
+          <PD n="com.air.artemis.pubair" v="true"/>
           <PD n="com.air.agistri.proctype" v="armv8"/>
+          <PD n="com.air.artemis.pubipa" v="false"/>
           <PD n="flash.swf.basename" v="Merah Putih One For All"/>
           <PD n="com.air.agistri.runtimetype" v="embed"/>
           <PD n="com.air.agistri.publishtype" v="release"/>
-          <PD n="com.air.artemis.pubcaptive" v="true"/>
           <PD n="com.air.agistri.hostip" v="Default"/>
-          <PD n="flash.fla.filepath" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes/Merah Putih One For All/Merah Putih One For All.xfl"/>
-          <PD n="swf.folder.path" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes/"/>
+          <PD n="com.air.artemis.pubcaptive" v="true"/>
+          <PD n="flash.fla.filepath" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes-Sismul/Merah Putih One For All/Merah Putih One For All.xfl"/>
+          <PD n="swf.folder.path" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes-Sismul/"/>
           <PD n="com.air.artemis.pubexe" v="false"/>
      </persistentData>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="279709" publishTime="1765205689"/>
+          <PublishItem publishSize="279096" publishTime="1765205461"/>
+          <PublishItem publishSize="279096" publishTime="1765205400"/>
+          <PublishItem publishSize="279733" publishTime="1765205170"/>
+          <PublishItem publishSize="279732" publishTime="1765204993"/>
+          <PublishItem publishSize="279734" publishTime="1765204913"/>
+          <PublishItem publishSize="279733" publishTime="1765204578"/>
+          <PublishItem publishSize="279719" publishTime="1765204122"/>
+          <PublishItem publishSize="272311" publishTime="1765203914"/>
+          <PublishItem publishSize="279723" publishTime="1765203502"/>
+          <PublishItem publishSize="279730" publishTime="1765203024"/>
+          <PublishItem publishSize="279730" publishTime="1765202988"/>
+          <PublishItem publishSize="279693" publishTime="1765202943"/>
           <PublishItem publishSize="151990" publishTime="1765034439"/>
           <PublishItem publishSize="151990" publishTime="1765034352"/>
           <PublishItem publishSize="110243" publishTime="1765032535"/>
@@ -1025,18 +1795,106 @@ stage.addEventListener(Event.ENTER_FRAME, aturLayar);
           <PublishItem publishSize="108402" publishTime="1765026646"/>
           <PublishItem publishSize="108614" publishTime="1765025949"/>
           <PublishItem publishSize="108560" publishTime="1765025829"/>
-          <PublishItem publishSize="108209" publishTime="1765024892"/>
-          <PublishItem publishSize="107893" publishTime="1765024032"/>
-          <PublishItem publishSize="107845" publishTime="1765023836"/>
-          <PublishItem publishSize="107846" publishTime="1765023703"/>
-          <PublishItem publishSize="107778" publishTime="1765023555"/>
-          <PublishItem publishSize="79555" publishTime="1764776630"/>
-          <PublishItem publishSize="79550" publishTime="1764776568"/>
-          <PublishItem publishSize="79631" publishTime="1764776510"/>
-          <PublishItem publishSize="79404" publishTime="1764776114"/>
-          <PublishItem publishSize="78825" publishTime="1763894198"/>
-          <PublishItem publishSize="78634" publishTime="1763893861"/>
-          <PublishItem publishSize="78552" publishTime="1763893508"/>
-          <PublishItem publishSize="78549" publishTime="1763893324"/>
      </publishHistory>
+     <swcCache>
+          <Swc hashKey="LWJ4qfDKC.LqmxYv0myxv1" href="bycqp6yfa8.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.video.FPMediaCapabilities"/>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="fl.video.MetadataEvent"/>
+                    <ClassDefinition value="fl.video.SkinErrorEvent"/>
+                    <ClassDefinition value="fl.video.SoundEvent"/>
+                    <ClassDefinition value="fl.video.LayoutEvent"/>
+                    <ClassDefinition value="fl.video.FMSCapabilities"/>
+                    <ClassDefinition value="fl.video.VideoAlign"/>
+                    <ClassDefinition value="fl.video.VideoError"/>
+                    <ClassDefinition value="fl.video.VolumeBarAccImpl"/>
+                    <ClassDefinition value="fl.video.VideoPlayerState"/>
+                    <ClassDefinition value="fl.video.AutoLayoutEvent"/>
+                    <ClassDefinition value="fl.video.VideoScaleMode"/>
+                    <ClassDefinition value="fl.video.SeekBarAccImpl"/>
+                    <ClassDefinition value="fl.video.IVPEvent"/>
+                    <ClassDefinition value="fl.video.VideoState"/>
+                    <ClassDefinition value="fl.video.ReconnectClient"/>
+                    <ClassDefinition value="fl.video.UIManager"/>
+                    <ClassDefinition value="fl.video.CuePointManager"/>
+                    <ClassDefinition value="fl.video.NCManagerNativeShim"/>
+                    <ClassDefinition value="fl.video.VideoEvent"/>
+                    <ClassDefinition value="fl.video.INCManager"/>
+                    <ClassDefinition value="fl.video.ConnectClient"/>
+                    <ClassDefinition value="fl.video.VideoProgressEvent"/>
+                    <ClassDefinition value="fl.video.NCManager"/>
+                    <ClassDefinition value="fl.video.NCManagerDynamicStream"/>
+                    <ClassDefinition value="fl.video.QueuedCommand"/>
+                    <ClassDefinition value="fl.video.DynamicStreamItem"/>
+                    <ClassDefinition value="fl.video.Icon"/>
+                    <ClassDefinition value="fl.video.ParseResults"/>
+                    <ClassDefinition value="fl.video.FLVPlayback"/>
+                    <ClassDefinition value="fl.video.ConnectClientDynamicStream"/>
+                    <ClassDefinition value="fl.video.CuePointType"/>
+                    <ClassDefinition value="fl.video.VideoPlayer"/>
+                    <ClassDefinition value="fl.video.DynamicStream"/>
+                    <ClassDefinition value="fl.video.ConnectClientNative"/>
+                    <ClassDefinition value="fl.video.ControlData"/>
+                    <ClassDefinition value="fl.video.DVRManager"/>
+                    <ClassDefinition value="fl.video.VideoPlayerClient"/>
+                    <ClassDefinition value="fl.video.FPADManager"/>
+                    <ClassDefinition value="fl.video.SMILManager"/>
+                    <ClassDefinition value="fl.video.NCManagerNative"/>
+                    <ClassDefinition value="fl.livepreview.IEditContextV1"/>
+                    <ClassDefinition value="fl.livepreview.IPreviewInterface"/>
+                    <ClassDefinition value="fl.video.CuePointType"/>
+                    <ClassDefinition value="fl.video.VideoPlayerState"/>
+                    <ClassDefinition value="fl.video.DynamicStreamItem"/>
+                    <ClassDefinition value="fl.video.ControlData"/>
+                    <ClassDefinition value="fl.video.CuePointManager"/>
+                    <ClassDefinition value="fl.video.UIManager"/>
+                    <ClassDefinition value="fl.video.INCManager"/>
+                    <ClassDefinition value="fl.video.VideoScaleMode"/>
+                    <ClassDefinition value="fl.livepreview.EditContextFlags"/>
+                    <ClassDefinition value="fl.video.VideoState"/>
+                    <ClassDefinition value="fl.video.QueuedCommand"/>
+                    <ClassDefinition value="fl.video.IVPEvent"/>
+                    <ClassDefinition value="fl.video.ParseResults"/>
+                    <ClassDefinition value="fl.video.FPMediaCapabilities"/>
+                    <ClassDefinition value="fl.video.SMILManager"/>
+                    <ClassDefinition value="fl.video.FPADManager"/>
+                    <ClassDefinition value="fl.video.FMSCapabilities"/>
+                    <ClassDefinition value="fl.video.VideoAlign"/>
+                    <ClassDefinition value="fl.video.ConnectClient"/>
+                    <ClassDefinition value="fl.video.ReconnectClient"/>
+                    <ClassDefinition value="fl.video.VideoPlayerClient"/>
+                    <ClassDefinition value="fl.video.LayoutEvent"/>
+                    <ClassDefinition value="fl.video.SoundEvent"/>
+                    <ClassDefinition value="fl.video.VolumeBarAccImpl"/>
+                    <ClassDefinition value="fl.video.SeekBarAccImpl"/>
+                    <ClassDefinition value="fl.livepreview.IVideoInterfaceV1"/>
+                    <ClassDefinition value="fl.video.VideoError"/>
+                    <ClassDefinition value="UIManagerStage"/>
+                    <ClassDefinition value="fl.video.NCManager"/>
+                    <ClassDefinition value="fl.video.VideoEvent"/>
+                    <ClassDefinition value="fl.video.MetadataEvent"/>
+                    <ClassDefinition value="fl.video.ConnectClientDynamicStream"/>
+                    <ClassDefinition value="fl.video.ConnectClientNative"/>
+                    <ClassDefinition value="fl.video.DVRManager"/>
+                    <ClassDefinition value="fl.video.VideoProgressEvent"/>
+                    <ClassDefinition value="fl.video.AutoLayoutEvent"/>
+                    <ClassDefinition value="fl.video.NCManagerDynamicStream"/>
+                    <ClassDefinition value="fl.video.NCManagerNative"/>
+                    <ClassDefinition value="fl.video.DynamicStream"/>
+                    <ClassDefinition value="fl.video.SkinErrorEvent"/>
+                    <ClassDefinition value="fl.video.VideoPlayer"/>
+                    <ClassDefinition value="FLVPlaybackStageLivePreview"/>
+                    <ClassDefinition value="fl.stage.video.StopButtonDown"/>
+                    <ClassDefinition value="fl.stage.video.StopButtonNormal"/>
+                    <ClassDefinition value="fl.stage.video.StopButtonOver"/>
+                    <ClassDefinition value="fl.video.FLVPlayback"/>
+                    <ClassDefinition value="fl.stage.video.ComponentVersionView"/>
+                    <ClassDefinition value="fl.stage.video.BackgroundBox"/>
+                    <ClassDefinition value="FLVPlaybackStage"/>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="fl.video.Icon"/>
+               </classDefinitions>
+          </Swc>
+     </swcCache>
 </DOMDocument>
