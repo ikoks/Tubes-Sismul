@@ -174,7 +174,7 @@
     <Property name="filename">Untitled-1.exe</Property>
   </PublishProperties>
 </flash_profile>
-<flash_profile version="1.0" name="Mobile Android" current="true">
+<flash_profile version="1.0" name="Mobile Android">
   <PublishFormatProperties enabled="true">
     <defaultNames>0</defaultNames>
     <flash>1</flash>
@@ -349,7 +349,7 @@
     <Property name="filename">Merah Putih One For All.exe</Property>
   </PublishProperties>
 </flash_profile>
-<flash_profile version="1.0" name="Desktop">
+<flash_profile version="1.0" name="Desktop" current="true">
   <PublishFormatProperties enabled="true">
     <defaultNames>0</defaultNames>
     <flash>1</flash>

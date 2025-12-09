@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tombol/Navbar/teks_materi" itemID="69341ac3-00000174" symbolType="button" lastModified="1765026363" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tombol/Navbar/teks_materi" itemID="69341ac3-00000174" symbolType="button" lastModified="1765213143" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="teks_materi" currentFrame="1">
+    <DOMTimeline name="teks_materi" currentFrame="3">
       <layers>
         <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
@@ -26,7 +26,7 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Teks/Teks_Materi" selected="true">
+                <DOMSymbolInstance libraryItemName="Teks/Teks_Materi">
                   <matrix>
                     <Matrix ty="-9.5"/>
                   </matrix>
@@ -41,9 +41,9 @@
             </DOMFrame>
             <DOMFrame index="2" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Teks/Teks_Materi" centerPoint3DX="103.45" centerPoint3DY="32.5">
+                <DOMSymbolInstance libraryItemName="Teks/Teks_Materi">
                   <matrix>
-                    <Matrix tx="2" ty="-7.5"/>
+                    <Matrix ty="-9.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="101.45" y="40"/>
@@ -56,9 +56,9 @@
             </DOMFrame>
             <DOMFrame index="3" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Teks/Teks_Materi" centerPoint3DX="103.45" centerPoint3DY="32.5">
+                <DOMSymbolInstance libraryItemName="Teks/Teks_Materi">
                   <matrix>
-                    <Matrix tx="2" ty="-7.5"/>
+                    <Matrix ty="-9.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="101.45" y="40"/>

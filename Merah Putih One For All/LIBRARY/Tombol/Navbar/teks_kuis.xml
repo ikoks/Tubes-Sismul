@@ -1,6 +1,6 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tombol/Navbar/teks_kuis" itemID="69341aa7-00000171" symbolType="button" lastModified="1765026215" lastUniqueIdentifier="1">
   <timeline>
-    <DOMTimeline name="teks_kuis" currentFrame="3">
+    <DOMTimeline name="teks_kuis">
       <layers>
         <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
