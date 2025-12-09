@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#E7E7E7" gridColor="#FF0000" width="1920" height="1080" frameRate="30" currentTimeline="1" xflVersion="23.0" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 23.0 build 103" majorVersion="23" buildNumber="103" gridSnapTo="true" guidesLocked="true" rulerVisible="true" viewAngle3D="122.353661987282" vanishingPoint3DX="960" vanishingPoint3DY="540" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="67077F9231F4524E8014F36E482D441F">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#E7E7E7" gridColor="#FF0000" width="1920" height="1080" frameRate="30" currentTimeline="1" xflVersion="2.980" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 21.0 build 38773" majorVersion="21" buildNumber="38773" gridSnapTo="true" guidesLocked="true" rulerVisible="true" viewAngle3D="122.353661987282" vanishingPoint3DX="960" vanishingPoint3DY="540" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="67077F9231F4524E8014F36E482D441F">
      <folders>
           <DOMFolderItem name="Background" itemID="69383eff-000001ee" isExpanded="true"/>
           <DOMFolderItem name="Buttons" itemID="69383f3c-000001fa" isExpanded="true"/>
@@ -9,15 +9,16 @@
           <DOMFolderItem name="Objects" itemID="69384017-0000022b" isExpanded="true"/>
           <DOMFolderItem name="Pancasila" itemID="69383fd2-0000021a"/>
           <DOMFolderItem name="Poin_Pancasila" itemID="69383f4f-000001fe"/>
-          <DOMFolderItem name="Teks" itemID="69383f0b-000001f5" isExpanded="true"/>
+          <DOMFolderItem name="Teks" itemID="69383f0b-000001f5"/>
      </folders>
      <media>
-          <DOMBitmapItem name="Background/Background_2.jpg" itemID="69384b79-0000062f" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Background/Background_2.jpg" sourceLastImported="1765295323" externalFileSize="15591" allowSmoothing="true" quality="50" href="Background/Background_2.jpg" bitmapDataHRef="M 2 1763050781.dat" frameRight="12520" frameBottom="7040" isJPEG="true"/>
+          <DOMBitmapItem name="Background/Background_2.jpg" itemID="69384b79-0000062f" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Background/Background_2.jpg" sourceLastImported="1765298484" externalFileSize="15591" allowSmoothing="true" quality="50" href="Background/Background_2.jpg" bitmapDataHRef="M 2 1763050781.dat" frameRight="12520" frameBottom="7040" isJPEG="true"/>
           <DOMBitmapItem name="Teks/Teks-Pancasila.png" itemID="69384b79-00000630" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Teks/Teks-Pancasila.png" sourceLastImported="1765295323" externalFileSize="18685" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Teks/Teks-Pancasila.png" bitmapDataHRef="M 5 1763793154.dat" frameRight="12620" frameBottom="2040"/>
-          <DOMBitmapItem name="Background/Textured.jpeg" itemID="69384fd3-00000811" sourceExternalFilepath="./LIBRARY/Background/Textured.jpeg" sourceLastImported="1765199436" externalFileSize="54855" allowSmoothing="true" quality="50" href="Background/Textured.jpeg" bitmapDataHRef="M 3 1765298131.dat" frameRight="12500" frameBottom="8320" isJPEG="true"/>
+          <DOMBitmapItem name="Background/Textured.jpeg" itemID="69384fd3-00000811" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Background/Textured.jpeg" sourceLastImported="1765298484" externalFileSize="54855" allowSmoothing="true" quality="50" href="Background/Textured.jpeg" bitmapDataHRef="M 3 1765298131.dat" frameRight="12500" frameBottom="8320" isJPEG="true"/>
      </media>
      <symbols>
           <Include href="Background/Background1.xml" loadImmediate="false" itemID="69383ef6-000001ed" lastModified="1765293814"/>
+          <Include href="btn_back_materi1.xml" itemIcon="0" loadImmediate="false" itemID="693855c7-000003d0" lastModified="1765299655"/>
           <Include href="Buttons/layar/layar_awal.xml" itemIcon="0" loadImmediate="false" itemID="69217bc7-000003b5" lastModified="1763809195"/>
           <Include href="Buttons/Materi/btn_materi1.xml" itemIcon="0" loadImmediate="false" itemID="693446a0-000001a4" lastModified="1765297573"/>
           <Include href="Buttons/Materi/btn_materi2.xml" itemIcon="0" loadImmediate="false" itemID="69344723-000001a8" lastModified="1765297622"/>
@@ -61,7 +62,7 @@
      <timelines>
           <DOMTimeline name="Scene 1" currentFrame="182" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
                <layers>
-                    <DOMLayer name="Actions" color="#FF800A" locked="true" autoNamed="false">
+                    <DOMLayer name="Actions" color="#FF800A" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -78,10 +79,19 @@ stage.align = StageAlign.TOP_LEFT;
 
 // 3. Atur scale mode (mode skala)
 // Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.NO_BORDER;
-btn_materi1.addEventListener(MouseEvent.CLICK, Test);
-function Test(e:MouseEvent):void{
-	trace("Okee");
+stage.scaleMode = StageScaleMode.SHOW_ALL;
+
+
+//event button beranda
+beranda_btn.addEventListener(MouseEvent.CLICK, changeBeranda);
+function changeBeranda(e:MouseEvent):void{
+	gotoAndStop(181);
+}
+
+//event button materi 1
+btn_materi1.addEventListener(MouseEvent.CLICK, changeMateri1);
+function changeMateri1(e:MouseEvent):void{
+	gotoAndStop(183);
 }]]></script>
                                    </Actionscript>
                                    <elements/>
@@ -89,17 +99,17 @@ function Test(e:MouseEvent):void{
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="layar_profile" color="#FF0000" locked="true" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="layar_kuis" color="#009999" locked="true" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="layar_materi" color="#FF4FFF" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="materi_1" color="#FF4FFF" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi1" color="#FF0000" parentLayerIndex="4" autoNamed="false">
+                    <DOMLayer name="layar_kuis" color="#009999" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="layar_materi" color="#FF4FFF" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="materi_1" color="#FF4FFF" parentLayerIndex="3" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi1" color="#FF0000" parentLayerIndex="4" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="182" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="182" keyMode="9728">
                                    <elements>
-                                        <DOMStaticText fontRenderingMode="standard" left="-23" width="190" height="103.1" autoExpand="true" isSelectable="false">
+                                        <DOMStaticText selected="true" fontRenderingMode="standard" left="-23" width="190" height="103.1" autoExpand="true" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="901" ty="54.3"/>
                                              </matrix>
@@ -116,181 +126,33 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi1" color="#FF800A" parentLayerIndex="4" autoNamed="false">
+                    <DOMLayer name="btn_back_materi1" color="#FF800A" parentLayerIndex="4" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="182" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="182" keyMode="9728">
                                    <elements>
-                                        <DOMGroup>
+                                        <DOMSymbolInstance libraryItemName="btn_back_materi1" name="btn_back_materi1" selected="true" symbolType="button">
                                              <matrix>
-                                                  <Matrix a="1.76698303222656" d="1.2412109375" tx="-364.7" ty="-21.55"/>
+                                                  <Matrix tx="59.5" ty="52.3"/>
                                              </matrix>
-                                             <members>
-                                                  <DOMShape>
-                                                       <matrix>
-                                                            <Matrix a="1.76698303222656" d="1.2412109375" tx="-364.7" ty="-21.55"/>
-                                                       </matrix>
-                                                       <fills>
-                                                            <FillStyle index="1">
-                                                                 <SolidColor color="#FF1B1B"/>
-                                                            </FillStyle>
-                                                            <FillStyle index="2">
-                                                                 <LinearGradient>
-                                                                      <matrix>
-                                                                           <Matrix a="9.1552734375e-05" b="0.0149688720703125" c="-0.036102294921875" d="0.0002899169921875" tx="290.05" ty="107.6"/>
-                                                                      </matrix>
-                                                                      <GradientEntry color="#FF1717" ratio="0"/>
-                                                                      <GradientEntry color="#FFFFFF" ratio="1"/>
-                                                                 </LinearGradient>
-                                                            </FillStyle>
-                                                            <FillStyle index="3">
-                                                                 <SolidColor/>
-                                                            </FillStyle>
-                                                            <FillStyle index="4">
-                                                                 <SolidColor color="#FFFFFF"/>
-                                                            </FillStyle>
-                                                            <FillStyle index="5">
-                                                                 <SolidColor color="#FFCC00"/>
-                                                            </FillStyle>
-                                                       </fills>
-                                                       <strokes>
-                                                            <StrokeStyle index="1">
-                                                                 <SolidStroke scaleMode="normal" weight="2">
-                                                                      <fill>
-                                                                           <SolidColor/>
-                                                                      </fill>
-                                                                 </SolidStroke>
-                                                            </StrokeStyle>
-                                                            <StrokeStyle index="2">
-                                                                 <SolidStroke scaleMode="normal">
-                                                                      <fill>
-                                                                           <SolidColor/>
-                                                                      </fill>
-                                                                 </SolidStroke>
-                                                            </StrokeStyle>
-                                                       </strokes>
-                                                       <edges>
-                                                            <Edge fillStyle1="2" strokeStyle="1" edges="!4806 2067S6[4811 1996 4821 1932"/>
-                                                            <Edge fillStyle1="1" strokeStyle="1" edges="!4821 1932S6[4871 1623 5042 1450!5042 1450[5110 1381 5198 1333!5198 1333[5558 1137 5965 1209!5965 1209[6371 1280 6468 1370!6468 1370[6566 1458 6604 1506!6604 1506[6641 1554 6692 1631!6692 1631[6724 1681 6749 1763!6749 1763[6763 1807 6774
- 1862"/>
-                                                            <Edge fillStyle1="2" strokeStyle="1" edges="
-!6774 1862S6[6803 2009 6800 2198"/>
-                                                            <Edge fillStyle0="1" fillStyle1="2" edges="
-!5596 1579S3[5622 1573 5645 1567!5645 1567[5665 1564 5897 1564!5897 1564[6003 1564 6132 1561!6132 1561[6249 1574 6484 1675!6484 1675[6584 1718 6680 1786!6680 1786[6716 1813 6749 1841!6749 1841[6762 1851 6774 1862"/>
-                                                            <Edge fillStyle0="3" fillStyle1="2" strokeStyle="1" edges="
-!6800 2198S7|6731 2442"/>
-                                                            <Edge fillStyle0="3" fillStyle1="4" strokeStyle="1" edges="
-!6731 2442S7[6669 2618 6505 2733!6505 2733[6204 2944 5859 2965!5859 2965[5514 2986 5144 2737!5144 2737[5088 2700 5042 2656!5042 2656[4925 2544 4866 2388"/>
-                                                            <Edge fillStyle0="3" fillStyle1="2" strokeStyle="1" edges="
-!4866 2388S7[4812 2277 4806 2067"/>
-                                                            <Edge fillStyle1="3" strokeStyle="1" edges="
-!6800 2198S6[6800 2241 6793 2303!6793 2303[6786 2354 6749 2501!6749 2501[6742 2528 6734 2559!6734 2559[6682 2753 6440 2919!6440 2919[6198 3083 5856 3105!5856 3105[5514 3126 5142 2891!5142 2891[5088 2857 5042 2815!5042 2815[4776 2574 4804
- 2093!4804 2093[4804 2080 4806 2067"/>
-                                                            <Edge fillStyle0="1" fillStyle1="4" strokeStyle="2" edges="
-!5196 1682S7[5174 1675 5155 1663!5155 1663[5108 1633 5171 1530!5171 1530[5234 1427 5342 1408!5342 1408[5450 1389 5536 1439!5536 1439[5620 1488 5617 1531!5617 1531[5614 1557 5596 1579"/>
-                                                            <Edge fillStyle0="2" fillStyle1="4" strokeStyle="2" edges="
-!5596 1579S7[5583 1593 5564 1606!5564 1606[5515 1638 5415 1664!5415 1664[5315 1689 5258 1691!5258 1691[5225 1691 5196 1682"/>
-                                                            <Edge fillStyle0="1" fillStyle1="2" edges="
-!5099 1731S3[5117 1721 5137 1710!5137 1710[5169 1693 5196 1682"/>
-                                                            <Edge fillStyle0="2" fillStyle1="4" strokeStyle="2" edges="
-!5099 1731S7[5100 1732 5101 1733!5101 1733[5121 1753 5121 1780!5121 1780[5121 1806 5101 1825!5101 1825[5082 1845 5055 1845!5055 1845[5048 1845 5042 1844!5042 1844[5023 1840 5009 1825!5009 1825[4994 1810 4991 1790"/>
-                                                            <Edge fillStyle0="1" fillStyle1="4" strokeStyle="2" edges="
-!4991 1790S7[4990 1785 4990 1780!4990 1780[4990 1753 5009 1733!5009 1733[5023 1719 5042 1715!5042 1715[5048 1714 5055 1714!5055 1714[5081 1714 5099 1731"/>
-                                                            <Edge fillStyle0="1" fillStyle1="2" edges="
-!4821 1932S3[4846 1909 4890 1869!4890 1869[4947 1815 4991 1790"/>
-                                                            <Edge fillStyle0="5" fillStyle1="2" strokeStyle="2" edges="
-!6267 1919S7[6251 1887 5996 1893!5996 1893[5868 1897 5744 1906!5744 1906[5756 1863 5762 1818!5762 1818[5774 1729 5744 1721!5744 1721[5725 1716 5654 1749!5654 1749[5580 1784 5504 1835!5504 1835[5301 1973 5304 2078!5304 2078[5307 2181 5515
- 2325!5515 2325[5704 2455 5744 2448!5744 2448[5761 2445 5754 2360!5754 2360|5744 2276!5744 2276[5872 2286 6002 2288!6002 2288[6263 2293 6276 2259!6276 2259[6292 2217 6289 2088!6289 2088[6286 1957 6267 1919"/>
-                                                            <Edge fillStyle0="2" fillStyle1="4" edges="
-!4866 2388S3[4943 2472 5042 2537!5042 2537[5167 2619 5326 2671!5326 2671[5613 2764 5947 2742!5947 2742[6281 2719 6476 2614!6476 2614[6574 2562 6731 2442"/>
-                                                            <Edge cubics="!6505 2733(;6304,2874 6089,2951 5859,2965q6505 2733Q6204 2944q5859 2965);"/>
-                                                            <Edge cubics="!5144 2737(;5109,2713 5077,2688 5042,2656q5144 2737Q5088 2700q5042 2656);"/>
-                                                            <Edge cubics="!5042 2656(;4969,2586 4909,2497 4866,2388q5042 2656Q4925 2544q4866 2388);"/>
-                                                            <Edge cubics="!4804 2093(;4804,2084 4805,2076 4806,2067q4804 2093Q4804 2080q4806 2067);"/>
-                                                            <Edge cubics="!4806 2067(;4809,2022 4814,1979 4821,1932q4806 2067 4821 1932);"/>
-                                                            <Edge cubics="!4821 1932(;4853,1726 4928,1565 5042,1450q4821 1932Q4871 1623q5042 1450);"/>
-                                                            <Edge cubics="!5042 1450(;5089,1404 5140,1365 5198,1333q5042 1450Q5110 1381q5198 1333);"/>
-                                                            <Edge cubics="!5859 2965(;5629,2979 5391,2903 5144,2737q5859 2965Q5514 2986q5144 2737);"/>
-                                                            <Edge cubics="!5536 1439(;5592,1472 5619,1502 5617,1531q5536 1439Q5620 1488q5617 1531);"/>
-                                                            <Edge cubics="!5415 1664(;5348,1681 5296,1690 5258,1691q5415 1664Q5315 1689q5258 1691);"/>
-                                                            <Edge cubics="!5155 1663(;5124,1643 5129,1599 5171,1530q5155 1663Q5108 1633q5171 1530);"/>
-                                                            <Edge cubics="!5258 1691(;5238,1692 5219,1689 5196,1682q5258 1691Q5225 1691q5196 1682);"/>
-                                                            <Edge cubics="!5196 1682(;5185,1679 5170,1672 5155,1663q5196 1682 5155 1663);"/>
-                                                            <Edge cubics="!5171 1530(;5213,1461 5270,1421 5342,1408q5171 1530Q5234 1427q5342 1408);"/>
-                                                            <Edge cubics="!5564 1606(;5531,1627 5482,1647 5415,1664q5564 1606Q5515 1638q5415 1664);"/>
-                                                            <Edge cubics="!5342 1408(;5414,1395 5479,1406 5536,1439q5342 1408Q5450 1389q5536 1439);"/>
-                                                            <Edge cubics="!5101 1733(;5114,1746 5121,1762 5121,1780q5101 1733Q5121 1753q5121 1780);"/>
-                                                            <Edge cubics="!5121 1780(;5121,1797 5114,1813 5101,1825q5121 1780Q5121 1806q5101 1825);"/>
-                                                            <Edge cubics="!4990 1780(;4990,1762 4996,1746 5009,1733q4990 1780Q4990 1753q5009 1733);"/>
-                                                            <Edge cubics="!5101 1825(;5088,1839 5073,1845 5055,1845q5101 1825Q5082 1845q5055 1845);"/>
-                                                            <Edge cubics="!5596 1579(;5692,1555 5696,1564 5897,1564q5596 1579 5645 1567 5897 1564);"/>
-                                                            <Edge cubics="!5617 1531(;5615,1548 5608,1564 5596,1579q5617 1531Q5614 1557q5596 1579);"/>
-                                                            <Edge cubics="!5596 1579(;5587,1588 5577,1597 5564,1606q5596 1579Q5583 1593q5564 1606);"/>
-                                                            <Edge cubics="!5897 1564(;5968,1564 6046,1563 6132,1561q5897 1564Q6003 1564q6132 1561);"/>
-                                                            <Edge cubics="!6132 1561(;6210,1570 6327,1608 6484,1675q6132 1561Q6249 1574q6484 1675);"/>
-                                                            <Edge cubics="!4821 1932(;4838,1917 4861,1896 4890,1869q4821 1932Q4846 1909q4890 1869);"/>
-                                                            <Edge cubics="!5009 1825(;4999,1815 4993,1803 4991,1790q5009 1825Q4994 1810q4991 1790);"/>
-                                                            <Edge cubics="!4991 1790(;4990,1787 4990,1783 4990,1780q4991 1790Q4990 1785q4990 1780);"/>
-                                                            <Edge cubics="!4890 1869(;4928,1833 4962,1807 4991,1790q4890 1869Q4947 1815q4991 1790);"/>
-                                                            <Edge cubics="!5137 1710(;5158,1699 5178,1689 5196,1682q5137 1710Q5169 1693q5196 1682);"/>
-                                                            <Edge cubics="!5099 1731(;5100,1732 5100,1732 5101,1733q5099 1731Q5100 1732q5101 1733);"/>
-                                                            <Edge cubics="!5099 1731(;5111,1724 5124,1717 5137,1710q5099 1731Q5117 1721q5137 1710);"/>
-                                                            <Edge cubics="!5055 1714(;5072,1714 5087,1720 5099,1731q5055 1714Q5081 1714q5099 1731);"/>
-                                                            <Edge cubics="!6604 1506(;6629,1538 6658,1580 6692,1631q6604 1506Q6641 1554q6692 1631);"/>
-                                                            <Edge cubics="!6468 1370(;6533,1429 6579,1474 6604,1506q6468 1370Q6566 1458q6604 1506);"/>
-                                                            <Edge cubics="!6692 1631(;6714,1665 6734,1711 6749,1763q6692 1631Q6724 1681q6749 1763);"/>
-                                                            <Edge cubics="!6749 1763(;6759,1797 6767,1828 6774,1862q6749 1763 6774 1862);"/>
-                                                            <Edge cubics="!5965 1209(;6236,1256 6403,1310 6468,1370q5965 1209Q6371 1280q6468 1370);"/>
-                                                            <Edge cubics="!6800 2198(;6800,2227 6798,2262 6793,2303q6800 2198Q6800 2241q6793 2303);"/>
-                                                            <Edge cubics="!6734 2559(;6699,2688 6601,2808 6440,2919q6734 2559Q6682 2753q6440 2919);"/>
-                                                            <Edge cubics="!6793 2303(;6789,2338 6774,2404 6749,2501q6793 2303 6749 2501);"/>
-                                                            <Edge cubics="!6749 2501(;6744,2520 6739,2539 6734,2559q6749 2501 6734 2559);"/>
-                                                            <Edge cubics="!6476 2614(;6541,2579 6626,2522 6731,2442q6476 2614Q6574 2562q6731 2442);"/>
-                                                            <Edge cubics="!6731 2442(;6690,2559 6614,2656 6505,2733q6731 2442Q6669 2618q6505 2733);"/>
-                                                            <Edge cubics="!6440 2919(;6279,3028 6084,3090 5856,3105q6440 2919Q6198 3083q5856 3105);"/>
-                                                            <Edge cubics="!6774 1862(;6793,1960 6802,2072 6800,2198q6774 1862Q6803 2009q6800 2198);"/>
-                                                            <Edge cubics="!4866 2388(;4830,2314 4810,2207 4806,2067q4866 2388Q4812 2277q4806 2067);"/>
-                                                            <Edge cubics="!5142 2891(;5107,2869 5075,2845 5042,2815q5142 2891Q5088 2857q5042 2815);"/>
-                                                            <Edge cubics="!5042 2815(;4866,2657 4785,2415 4804,2093q5042 2815Q4776 2574q4804 2093);"/>
-                                                            <Edge cubics="!5856 3105(;5628,3119 5390,3048 5142,2891q5856 3105Q5514 3126q5142 2891);"/>
-                                                            <Edge cubics="!5198 1333(;5438,1202 5694,1161 5965,1209q5198 1333Q5558 1137q5965 1209);"/>
-                                                            <Edge cubics="!5947 2742(;6170,2727 6346,2684 6476,2614q5947 2742Q6281 2719q6476 2614);"/>
-                                                            <Edge cubics="!4866 2388(;4919,2446 4979,2497 5042,2537q4866 2388Q4943 2472q5042 2537);"/>
-                                                            <Edge cubics="!5042 2537(;5128,2594 5222,2637 5326,2671q5042 2537Q5167 2619q5326 2671);"/>
-                                                            <Edge cubics="!5326 2671(;5517,2733 5724,2757 5947,2742q5326 2671Q5613 2764q5947 2742);"/>
-                                                            <Edge cubics="!6267 1919(;6242,1868 5744,1906 5744,1906q6267 1919Q6251 1887q5996 1893Q5868 1897q5744 1906);"/>
-                                                            <Edge cubics="!5744 1906(;5744,1906 5792,1734 5744,1721q5744 1906Q5756 1863q5762 1818Q5774 1729q5744 1721);"/>
-                                                            <Edge cubics="!5744 1721(;5696,1708 5300,1919 5304,2078q5744 1721Q5725 1716q5654 1749Q5580 1784q5504 1835Q5301 1973q5304 2078);"/>
-                                                            <Edge cubics="!5304 2078(;5308,2237 5716,2453 5744,2448q5304 2078Q5307 2181q5515 2325Q5704 2455q5744 2448);"/>
-                                                            <Edge cubics="!5744 2448(;5772,2443 5744,2276 5744,2276q5744 2448Q5761 2445q5754 2360Q5744 2276q5744 2276);"/>
-                                                            <Edge cubics="!5744 2276(;5744,2276 6255,2314 6276,2259q5744 2276Q5872 2286q6002 2288Q6263 2293q6276 2259);"/>
-                                                            <Edge cubics="!6276 2259(;6297,2204 6292,1970 6267,1919q6276 2259Q6292 2217q6289 2088Q6286 1957q6267 1919);"/>
-                                                            <Edge cubics="!6484 1675(;6551,1704 6616,1741 6680,1786q6484 1675Q6584 1718q6680 1786);"/>
-                                                            <Edge cubics="!6680 1786(;6704,1804 6727,1822 6749,1841q6680 1786Q6716 1813q6749 1841);"/>
-                                                            <Edge cubics="!6749 1841(;6758,1848 6766,1855 6774,1862q6749 1841Q6762 1851q6774 1862);"/>
-                                                            <Edge cubics="!6800 2198(;6800,2198 6731,2442 6731,2442q6800 2198 6731 2442);"/>
-                                                            <Edge cubics="!5042 1715(;5046,1714 5050,1714 5055,1714q5042 1715Q5048 1714q5055 1714);"/>
-                                                            <Edge cubics="!5042 1844(;5029,1841 5018,1835 5009,1825q5042 1844Q5023 1840q5009 1825);"/>
-                                                            <Edge cubics="!5055 1845(;5050,1845 5046,1845 5042,1844q5055 1845Q5048 1845q5042 1844);"/>
-                                                            <Edge cubics="!5009 1733(;5018,1724 5029,1718 5042,1715q5009 1733Q5023 1719q5042 1715);"/>
-                                                       </edges>
-                                                  </DOMShape>
-                                             </members>
-                                        </DOMGroup>
+                                             <transformationPoint>
+                                                  <Point x="88.3" y="59.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Background" color="#009999" parentLayerIndex="4" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Background" color="#009999" parentLayerIndex="4" locked="true" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="182" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="182" keyMode="9728">
                                    <elements>
-                                        <DOMBitmapInstance libraryItemName="Background/Textured.jpeg">
+                                        <DOMBitmapInstance selected="true" libraryItemName="Background/Textured.jpeg">
                                              <matrix>
                                                   <Matrix a="3.18869018554688" d="3.18869018554688" tx="-27" ty="-107"/>
                                              </matrix>
@@ -299,8 +161,8 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi" color="#00FFFF" parentLayerIndex="3" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="btn_materi13" color="#FF800A" parentLayerIndex="8" autoNamed="false">
+                    <DOMLayer name="btn_materi" color="#00FFFF" parentLayerIndex="3" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="btn_materi13" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -319,7 +181,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi12" color="#FF800A" parentLayerIndex="8" autoNamed="false">
+                    <DOMLayer name="btn_materi12" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -338,7 +200,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi11" color="#FF800A" parentLayerIndex="8" autoNamed="false">
+                    <DOMLayer name="btn_materi11" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -357,7 +219,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi10" color="#FF800A" parentLayerIndex="8" autoNamed="false">
+                    <DOMLayer name="btn_materi10" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -376,7 +238,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi9" color="#FF800A" parentLayerIndex="8" autoNamed="false">
+                    <DOMLayer name="btn_materi9" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -395,7 +257,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi8" color="#FF800A" parentLayerIndex="8" autoNamed="false">
+                    <DOMLayer name="btn_materi8" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -414,7 +276,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi7" color="#FF800A" parentLayerIndex="8" autoNamed="false">
+                    <DOMLayer name="btn_materi7" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -433,7 +295,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi6" color="#FF800A" parentLayerIndex="8" autoNamed="false">
+                    <DOMLayer name="btn_materi6" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -452,7 +314,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi5" color="#FF800A" parentLayerIndex="8" autoNamed="false">
+                    <DOMLayer name="btn_materi5" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -471,7 +333,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi4" color="#FF800A" parentLayerIndex="8" autoNamed="false">
+                    <DOMLayer name="btn_materi4" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -490,7 +352,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi3" color="#FF800A" parentLayerIndex="8" autoNamed="false">
+                    <DOMLayer name="btn_materi3" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -509,7 +371,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi2" color="#FF800A" parentLayerIndex="8" autoNamed="false">
+                    <DOMLayer name="btn_materi2" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -528,7 +390,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi1" color="#9933CC" parentLayerIndex="8" autoNamed="false">
+                    <DOMLayer name="btn_materi1" color="#9933CC" parentLayerIndex="8" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -547,8 +409,8 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="3" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="selected" color="#FF800A" parentLayerIndex="22" autoNamed="false">
+                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="3" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="selected" color="#FF800A" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -567,7 +429,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="22" autoNamed="false">
+                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -589,7 +451,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="22" autoNamed="false">
+                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -608,7 +470,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="22" autoNamed="false">
+                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -627,7 +489,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="22" autoNamed="false">
+                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -646,14 +508,14 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="22" autoNamed="false">
+                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/beranda" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/beranda" name="beranda_btn" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.999984741210938" d="0.999984741210938" tx="779.45" ty="40.5"/>
                                              </matrix>
@@ -665,7 +527,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="22" autoNamed="false">
+                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -687,7 +549,7 @@ function Test(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="22" autoNamed="false">
+                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -723,14 +585,22 @@ function Test(e:MouseEvent):void{
 //KODE DI FRAME 1 : Actions
 
 // 1. Hentikan timeline agar tidak auto-play
-//stop();
+stop();
 
 // 2. Atur alignment (perataan) ke pojok kiri atas
 stage.align = StageAlign.TOP_LEFT;
 
 // 3. Atur scale mode (mode skala)
 // Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.NO_BORDER;
+stage.scaleMode = StageScaleMode.SHOW_ALL;
+
+
+//event button materi
+materi_btn.addEventListener(MouseEvent.CLICK, changeMateri);
+
+function changeMateri(e:MouseEvent):void{
+	gotoAndStop(182);
+}
 ]]></script>
                                    </Actionscript>
                                    <elements/>
@@ -743,10 +613,10 @@ stage.scaleMode = StageScaleMode.NO_BORDER;
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="1" duration="180" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195" propagateRotMap="[0]" propagateScaleXMap="[1.0580100000000001,0.19712800000000005]" propagateScaleYMap="[1.0580100000000001,0.19712800000000005]" propagateSkewXMap="[0]" propagateSkewYMap="[0]">
+                              <DOMFrame index="1" duration="180" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="180000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500076" xformPtYOffsetPct="0.498735" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-903.5" next="0,-903.5" previous="0,-903.5" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-392.2" next="0,-392.2" previous="0,-392.2" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,105.801" next="0,105.801" previous="0,105.801" roving="0" timevalue="0"/><Keyframe anchor="0,19.7128" next="0,19.7128" previous="0,19.7128" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,105.809" next="0,105.809" previous="0,105.809" roving="0" timevalue="0"/><Keyframe anchor="0,15.5197" next="0,15.5197" previous="0,15.5197" roving="0" timevalue="58000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"><PropertyContainer id="Glow_Filter"><Property enabled="1" id="Glow_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,20" next="0,20" previous="0,20" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="28000"/></Property><Property enabled="1" id="Glow_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,20" next="0,20" previous="0,20" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="28000"/></Property><Property enabled="1" id="Glow_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,200" next="0,200" previous="0,200" roving="0" timevalue="0"/></Property><Property enabled="1" id="Glow_Quality" readonly="0" value="3" visible="1"/><Property enabled="1" id="Glow_Color" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0xffcc33ff"/></Property><Property enabled="1" id="Glow_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="Glow_InnerGlow" readonly="0" value="0" visible="1"/></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Pancasila/Garuda-Pancasila.ai" name="Garuda">
+                                        <DOMSymbolInstance libraryItemName="Pancasila/Garuda-Pancasila.ai" name="Garuda" selected="true">
                                              <matrix>
                                                   <Matrix a="1.05801391601562" d="1.05807495117188" tx="647.9" ty="115.7"/>
                                              </matrix>
@@ -766,7 +636,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="1" duration="29" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195" propagateRotMap="[0]" propagateScaleXMap="[1.058013916015625]" propagateScaleYMap="[1.058013916015625]" propagateSkewXMap="[0]" propagateSkewYMap="[0]">
+                              <DOMFrame index="1" duration="29" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="29000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.55224" xformPtYOffsetPct="0.500407" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,105.801" next="0,105.801" previous="0,105.801" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,105.803" next="0,105.803" previous="0,105.803" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="28000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"><PropertyContainer id="Glow_Filter"><Property enabled="1" id="Glow_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,20" next="0,20" previous="0,20" roving="0" timevalue="0"/></Property><Property enabled="1" id="Glow_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,20" next="0,20" previous="0,20" roving="0" timevalue="0"/></Property><Property enabled="1" id="Glow_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,150" next="0,150" previous="0,150" roving="0" timevalue="0"/></Property><Property enabled="1" id="Glow_Quality" readonly="0" value="3" visible="1"/><Property enabled="1" id="Glow_Color" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0xffcc33ff"/></Property><Property enabled="1" id="Glow_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="Glow_InnerGlow" readonly="0" value="0" visible="1"/></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Teks/Teks_1" name="Teks_1">
@@ -792,7 +662,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="1" duration="59" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195" propagateRotMap="[0,0]" propagateScaleXMap="[1,0.01]" propagateScaleYMap="[1,0.01]" propagateSkewXMap="[0,0]" propagateSkewYMap="[0,0]">
+                              <DOMFrame index="1" duration="59" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="59000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499987" xformPtYOffsetPct="0.499978" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="58000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,50" next="0,50" previous="0,50" roving="0" timevalue="28000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Background/Background1" name="Background">
@@ -813,10 +683,10 @@ stage.scaleMode = StageScaleMode.NO_BORDER;
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195" propagateRotMap="[0,0,0,0]" propagateScaleXMap="[1,0.01,0.01,0.01]" propagateScaleYMap="[1,0.01,0.01,0.01]" propagateSkewXMap="[0,0,0,0]" propagateSkewYMap="[0,0,0,0]">
+                              <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499832" xformPtYOffsetPct="0.4" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,176.566" next="0,176.566" previous="0,176.566" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Objects/selected">
+                                        <DOMSymbolInstance libraryItemName="Objects/selected" selected="true">
                                              <matrix>
                                                   <Matrix tx="804.7" ty="102"/>
                                              </matrix>
@@ -836,10 +706,10 @@ stage.scaleMode = StageScaleMode.NO_BORDER;
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195" propagateRotMap="[0,0,0,0]" propagateScaleXMap="[0.084732100000000005,1,1.3793,1]" propagateScaleYMap="[0.084732100000000005,1,1.3793,1]" propagateSkewXMap="[0,0,0,0]" propagateSkewYMap="[0,0,0,0]">
+                              <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500123" xformPtYOffsetPct="0.503766" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="38000"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="48000"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/profile" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/profile" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.0847320556640625" d="0.0847320556640625" tx="1721.45" ty="67.5"/>
                                              </matrix>
@@ -859,10 +729,10 @@ stage.scaleMode = StageScaleMode.NO_BORDER;
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195" propagateRotMap="[0,0,0,0]" propagateScaleXMap="[0.084732100000000005,1,1.28078,1]" propagateScaleYMap="[0.084732100000000005,1,1.28078,1]" propagateSkewXMap="[0,0,0,0]" propagateSkewYMap="[0,0,0,0]">
+                              <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500123" xformPtYOffsetPct="0.503766" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-0.55" next="0,-0.55" previous="0,-0.55" roving="0" timevalue="38000"/><Keyframe anchor="0,-0.55" next="0,-0.55" previous="0,-0.55" roving="0" timevalue="48000"/><Keyframe anchor="0,-0.55" next="0,-0.55" previous="0,-0.55" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,128.078" next="0,128.078" previous="0,128.078" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,128.078" next="0,128.078" previous="0,128.078" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/kuis" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/kuis" name="quiz_btn" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.0847320556640625" d="0.0847320556640625" tx="1441.45" ty="67.5"/>
                                              </matrix>
@@ -882,10 +752,10 @@ stage.scaleMode = StageScaleMode.NO_BORDER;
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195" propagateRotMap="[0,0,0,0]" propagateScaleXMap="[0.084732100000000005,1,1.3793,1]" propagateScaleYMap="[0.084732100000000005,1,1.3793,1]" propagateSkewXMap="[0,0,0,0]" propagateSkewYMap="[0,0,0,0]">
+                              <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.50037" xformPtYOffsetPct="0.503766" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="38000"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="48000"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/materi" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/materi" name="materi_btn" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.0847320556640625" d="0.0847320556640625" tx="1171.45" ty="67.5"/>
                                              </matrix>
@@ -905,10 +775,10 @@ stage.scaleMode = StageScaleMode.NO_BORDER;
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195" propagateRotMap="[0,0,0]" propagateScaleXMap="[0.098526000000000002,1,1.3793,1]" propagateScaleYMap="[0.098526000000000002,1,1.3793,1]" propagateSkewXMap="[0,0,0]" propagateSkewYMap="[0,0,0]">
+                              <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.495442" xformPtYOffsetPct="0.493724" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,9.8526" next="0,9.8526" previous="0,9.8526" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,9.8526" next="0,9.8526" previous="0,9.8526" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/beranda" name="beranda_btn" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/beranda" name="beranda_btn" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.0985107421875" d="0.0985107421875" tx="870.1" ty="67.1"/>
                                              </matrix>
@@ -928,10 +798,10 @@ stage.scaleMode = StageScaleMode.NO_BORDER;
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="60" duration="121" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195" propagateRotMap="[0,0]" propagateScaleXMap="[0.045929000000000011,1,1.1102400000000001,0.85462999999999989]" propagateScaleYMap="[0.045929000000000011,1,1.1102400000000001,0.85462999999999989]" propagateSkewXMap="[0,0]" propagateSkewYMap="[0,0]">
+                              <DOMFrame index="60" duration="121" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="121000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.49832" xformPtYOffsetPct="0.492847" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,310.5" next="0,310.5" previous="0,310.5" roving="0" timevalue="39000"/><Keyframe anchor="0,342.3" next="0,342.3" previous="0,342.3" roving="0" timevalue="49000"/><Keyframe anchor="0,284" next="0,284" previous="0,284" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0.1" next="0,0.1" previous="0,0.1" roving="0" timevalue="39000"/><Keyframe anchor="0,0.1" next="0,0.1" previous="0,0.1" roving="0" timevalue="49000"/><Keyframe anchor="0,0.1" next="0,0.1" previous="0,0.1" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4.5929" next="0,4.5929" previous="0,4.5929" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="39000"/><Keyframe anchor="0,111.024" next="0,111.024" previous="0,111.024" roving="0" timevalue="49000"/><Keyframe anchor="0,85.463" next="0,85.463" previous="0,85.463" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4.5929" next="0,4.5929" previous="0,4.5929" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="39000"/><Keyframe anchor="0,111.024" next="0,111.024" previous="0,111.024" roving="0" timevalue="49000"/><Keyframe anchor="0,85.463" next="0,85.463" previous="0,85.463" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="39000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"><PropertyContainer id="Bevel_Filter"><Property enabled="1" id="Bevel_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Bevel_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Bevel_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Bevel_Quality" readonly="0" value="3" visible="1"/><Property enabled="1" id="Bevel_ShadowColor" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0x000000ff"/><Keyframe roving="0" timevalue="59000" value="0xffffffff"/></Property><Property enabled="1" id="Bevel_HilightColor" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0xffffffff"/><Keyframe roving="0" timevalue="59000" value="0x999999ff"/></Property><Property enabled="1" id="Bevel_Angle" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,45" next="0,45" previous="0,45" roving="0" timevalue="0"/></Property><Property enabled="1" id="Bevel_Distance" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,3" next="0,3" previous="0,3" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Bevel_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="Bevel_Type" readonly="0" value="1" visible="1"/></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Teks/Teks_2">
+                                        <DOMSymbolInstance libraryItemName="Teks/Teks_2" selected="true">
                                              <matrix>
                                                   <Matrix a="0.045928955078125" d="0.045928955078125" tx="81.55" ty="67.55"/>
                                              </matrix>
@@ -954,10 +824,10 @@ stage.scaleMode = StageScaleMode.NO_BORDER;
                               <DOMFrame index="0" duration="41" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="41" duration="140" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195" propagateRotMap="[0,0]" propagateScaleXMap="[0.022354100000000002,1,0.99931335449218761]" propagateScaleYMap="[0.022354100000000002,1]" propagateSkewXMap="[0,0]" propagateSkewYMap="[0,0]">
+                              <DOMFrame index="41" duration="140" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="140000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.498258" xformPtYOffsetPct="-0.000333333" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/><Keyframe anchor="0,-1.3" next="0,-1.3" previous="0,-1.3" roving="0" timevalue="138000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-84" next="0,-84" previous="0,-84" roving="0" timevalue="18000"/><Keyframe anchor="0,-84" next="0,-84" previous="0,-84" roving="0" timevalue="138000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,2.23541" next="0,2.23541" previous="0,2.23541" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="18000"/><Keyframe anchor="0,99.9313" next="0,99.9313" previous="0,99.9313" roving="0" timevalue="138000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-2.23541" next="0,-2.23541" previous="0,-2.23541" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="18000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="18000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"><PropertyContainer id="DropShadow_Filter"><Property enabled="1" id="DropShadow_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="18000"/></Property><Property enabled="1" id="DropShadow_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="18000"/></Property><Property enabled="1" id="DropShadow_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="18000"/></Property><Property enabled="1" id="DropShadow_Quality" readonly="0" value="3" visible="1"/><Property enabled="1" id="DropShadow_Angle" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,45" next="0,45" previous="0,45" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Distance" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="18000"/></Property><Property enabled="1" id="DropShadow_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_InnerShadow" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_HideObject" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_Color" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0x000000ff"/><Keyframe roving="0" timevalue="18000" value="0x0000008c"/></Property></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Objects/Navbar_1" name="Navbar_1" bits32="false">
+                                        <DOMSymbolInstance libraryItemName="Objects/Navbar_1" name="Navbar_1" selected="true" bits32="false">
                                              <matrix>
                                                   <Matrix a="0.0223388671875" d="-0.0223388671875" tx="937.1" ty="71.75"/>
                                              </matrix>
@@ -984,7 +854,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_5" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_5" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="1.56883239746094" d="1.5692138671875" tx="1504.8" ty="675.4"/>
                                              </matrix>
@@ -1003,7 +873,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_4" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_4" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="1.56883239746094" d="1.56886291503906" tx="1176.1" ty="675.4"/>
                                              </matrix>
@@ -1022,7 +892,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_3" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_3" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="1.56883239746094" d="1.56886291503906" tx="837.5" ty="675.4"/>
                                              </matrix>
@@ -1041,7 +911,7 @@ stage.scaleMode = StageScaleMode.NO_BORDER;
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_2" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_2" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="1.56871032714844" d="1.56895446777344" tx="506.75" ty="675.4"/>
                                              </matrix>
@@ -1058,9 +928,9 @@ stage.scaleMode = StageScaleMode.NO_BORDER;
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="180" keyMode="9728" rigPropagationMatrix='{"a":130832,"b":0,"c":0,"d":130832,"tx":-13907,"ty":-16012}'>
+                              <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_1" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_1" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="1.56895446777344" d="1.56895446777344" tx="157.1" ty="675.4"/>
                                              </matrix>
@@ -1077,9 +947,9 @@ stage.scaleMode = StageScaleMode.NO_BORDER;
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="180" keyMode="9728" rigPropagationMatrix='{"a":142934,"b":0,"c":0,"d":142934,"tx":-4772,"ty":-16610}'>
+                              <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Pancasila/Isi_Beranda" symbolType="graphic" loop="loop">
+                                        <DOMSymbolInstance libraryItemName="Pancasila/Isi_Beranda" selected="true" symbolType="graphic" loop="loop">
                                              <matrix>
                                                   <Matrix tx="157.1" ty="156.9"/>
                                              </matrix>
@@ -1106,7 +976,7 @@ stage.align = StageAlign.TOP_LEFT;
 
 // 3. Atur scale mode (mode skala)
 // Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
+stage.scaleMode = StageScaleMode.SHOW_ALL;]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
@@ -1185,23 +1055,33 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
      </extendedSwatchLists>
      <persistentData>
           <PD n="com.air.artemis.airdest" v="Merah Putih One For All.app"/>
-          <PD n="ane.tmp.unzipped.folder" v="C:\Users\asus\AppData\Local\Temp\Tmp_ANE_File_Unzipped_Packages"/>
+          <PD n="ane.tmp.unzipped.folder" v="C:\Users\ammar\AppData\Local\Temp\Tmp_ANE_File_Unzipped_Packages"/>
           <PD n="com.air.oldTargetPlatform" v="Desktop"/>
-          <PD n="com.air.sdk.path" v="D:\Kuliah\Semester 5\Sistem Multimedia\AIRSDK_3311935"/>
+          <PD n="com.air.sdk.path" v="D:\program\AIRSDK_3311935\AIRSDK_3311935"/>
           <PD n="com.air.artemis.pubair" v="false"/>
-          <PD n="com.air.artemis.pubipa" v="false"/>
           <PD n="com.air.agistri.proctype" v="armv8"/>
+          <PD n="com.air.artemis.pubipa" v="false"/>
           <PD n="flash.swf.basename" v="Merah Putih One For All"/>
           <PD n="com.air.agistri.runtimetype" v="embed"/>
           <PD n="com.air.agistri.publishtype" v="release"/>
-          <PD n="com.air.artemis.pubcaptive" v="true"/>
           <PD n="com.air.agistri.hostip" v="Default"/>
-          <PD n="flash.fla.filepath" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes/Merah Putih One For All/Merah Putih One For All.xfl"/>
+          <PD n="com.air.artemis.pubcaptive" v="true"/>
           <PD n="swf.folder.path" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes/"/>
+          <PD n="flash.fla.filepath" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes/Merah Putih One For All/Merah Putih One For All.xfl"/>
           <PD n="com.air.artemis.pubexe" v="false"/>
      </persistentData>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="151307" publishTime="1765299894"/>
+          <PublishItem publishSize="151230" publishTime="1765299520"/>
+          <PublishItem publishSize="151226" publishTime="1765299468"/>
+          <PublishItem publishSize="151187" publishTime="1765299192"/>
+          <PublishItem publishSize="151210" publishTime="1765299097"/>
+          <PublishItem publishSize="151200" publishTime="1765298906"/>
+          <PublishItem publishSize="151194" publishTime="1765298830"/>
+          <PublishItem publishSize="151116" publishTime="1765298625"/>
+          <PublishItem publishSize="151113" publishTime="1765298603"/>
+          <PublishItem publishSize="151113" publishTime="1765298518"/>
           <PublishItem publishSize="114605" publishTime="1765297886"/>
           <PublishItem publishSize="115784" publishTime="1765297483"/>
           <PublishItem publishSize="111149" publishTime="1765297280"/>
@@ -1212,15 +1092,5 @@ stage.scaleMode = StageScaleMode.NO_BORDER;]]></script>
           <PublishItem publishSize="110130" publishTime="1765296385"/>
           <PublishItem publishSize="110109" publishTime="1765296294"/>
           <PublishItem publishSize="110111" publishTime="1765296181"/>
-          <PublishItem publishSize="110141" publishTime="1765296031"/>
-          <PublishItem publishSize="110119" publishTime="1765295894"/>
-          <PublishItem publishSize="110119" publishTime="1765295868"/>
-          <PublishItem publishSize="110068" publishTime="1765295733"/>
-          <PublishItem publishSize="110068" publishTime="1765295591"/>
-          <PublishItem publishSize="109981" publishTime="1765295398"/>
-          <PublishItem publishSize="109573" publishTime="1765295328"/>
-          <PublishItem publishSize="79615" publishTime="1765293481"/>
-          <PublishItem publishSize="79411" publishTime="1765293075"/>
-          <PublishItem publishSize="78825" publishTime="1763894198"/>
      </publishHistory>
 </DOMDocument>

@@ -40,7 +40,7 @@
                 </DOMGroup>
               </elements>
             </DOMFrame>
-            <DOMFrame index="1" keyMode="9728" rigPropagationMatrix='{"a":69340,"b":0,"c":0,"d":69340,"tx":-1144,"ty":-621}'>
+            <DOMFrame index="1" keyMode="9728">
               <elements>
                 <DOMBitmapInstance libraryItemName="Background/Background_2.jpg">
                   <matrix>
@@ -71,7 +71,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="2" keyMode="9728" rigPropagationMatrix='{"a":69340,"b":0,"c":0,"d":69340,"tx":-1144,"ty":-621}'>
+            <DOMFrame index="2" keyMode="9728">
               <elements>
                 <DOMBitmapInstance libraryItemName="Background/Background_2.jpg">
                   <matrix>
