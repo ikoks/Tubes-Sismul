@@ -1,12 +1,12 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="poin4" itemID="6922e32e-000001b2" symbolType="graphic" lastModified="1763894062">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/Poin/poin_4" itemID="6922d840-00000194" symbolType="button" lastModified="1763894107" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="poin4" layerDepthEnabled="true">
+    <DOMTimeline name="poin_4" currentFrame="3">
       <layers>
         <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix tx="-1177.25" ty="-637.85"/>
                   </matrix>
@@ -118,7 +118,7 @@
                             </DOMTextRun>
                           </textRuns>
                         </DOMStaticText>
-                        <DOMSymbolInstance libraryItemName="Banteng.ai" symbolType="graphic" centerPoint3DX="87.95" centerPoint3DY="108.4" loop="loop">
+                        <DOMSymbolInstance libraryItemName="Pancasila/Banteng.ai" symbolType="graphic" loop="loop">
                           <matrix>
                             <Matrix a="0.921798706054688" d="0.921981811523438" tx="52.15" ty="70.7"/>
                           </matrix>
@@ -130,6 +130,51 @@
                     </DOMGroup>
                   </members>
                 </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Poin_Pancasila/poin4">
+                  <matrix>
+                    <Matrix ty="-7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="85.35" y="109.8"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter alpha="0.698039215686274" quality="3" strength="1.11"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Poin_Pancasila/poin4" centerPoint3DX="85.35" centerPoint3DY="102.8">
+                  <matrix>
+                    <Matrix ty="-7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="85.35" y="109.8"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter alpha="0.698039215686274" quality="3" strength="1.11"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Poin_Pancasila/poin4" selected="true" centerPoint3DX="85.35" centerPoint3DY="102.8">
+                  <matrix>
+                    <Matrix ty="-7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="85.35" y="109.8"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter alpha="0.698039215686274" quality="3" strength="1.11"/>
+                  </filters>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

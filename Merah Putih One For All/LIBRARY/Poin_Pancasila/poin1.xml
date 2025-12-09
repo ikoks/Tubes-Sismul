@@ -1,67 +1,29 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="poin1" itemID="6922d913-0000019e" symbolType="graphic" lastModified="1763891475">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Poin_Pancasila/poin1" itemID="6922d913-0000019e" symbolType="graphic" lastModified="1765294802">
   <timeline>
     <DOMTimeline name="poin1" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+        <DOMLayer name="Layer_1" color="#00FFFF">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMGroup selected="true">
-                  <matrix>
-                    <Matrix ty="3"/>
-                  </matrix>
                   <members>
-                    <DOMGroup selected="true">
-                      <matrix>
-                        <Matrix ty="3"/>
-                      </matrix>
-                      <members>
-                        <DOMShape isDrawingObject="true">
-                          <matrix>
-                            <Matrix a="1.996337890625" d="1.996337890625" tx="-299.45" ty="-259.5"/>
-                          </matrix>
-                          <fills>
-                            <FillStyle index="1">
-                              <SolidColor color="#FF0000"/>
-                            </FillStyle>
-                          </fills>
-                          <strokes>
-                            <StrokeStyle index="1">
-                              <SolidStroke scaleMode="normal" weight="2">
-                                <fill>
-                                  <SolidColor color="#FF0000"/>
-                                </fill>
-                              </SolidStroke>
-                            </StrokeStyle>
-                          </strokes>
-                          <edges>
-                            <Edge fillStyle1="1" strokeStyle="1" edges="!3200 2600|4494 2600!4494 2600[4694 2600 4694 2800!4694 2800|4694 4600!4694 4600[4694 4800 4494 4800!4494 4800|3200 4800!3200 4800[3000 4800 3000 4600!3000 4600|3000 2800!3000 2800[3000 2600 3200 2600"/>
-                          </edges>
-                        </DOMShape>
-                        <DOMShape isDrawingObject="true">
-                          <matrix>
-                            <Matrix ty="3"/>
-                          </matrix>
-                          <fills>
-                            <FillStyle index="1">
-                              <SolidColor color="#FFFFFF"/>
-                            </FillStyle>
-                          </fills>
-                          <strokes>
-                            <StrokeStyle index="1">
-                              <SolidStroke scaleMode="normal" weight="2">
-                                <fill>
-                                  <SolidColor color="#FFFFFF"/>
-                                </fill>
-                              </SolidStroke>
-                            </StrokeStyle>
-                          </strokes>
-                          <edges>
-                            <Edge fillStyle1="1" strokeStyle="1" edges="!399 147|3015 147!3015 147[3414 147 3414 546!3414 546|3414 3934!3414 3934[3414 4333 3015 4333!3015 4333|399 4333!399 4333[0 4333 0 3934!0 3934|0 546!0 546[0 147 399 147"/>
-                          </edges>
-                        </DOMShape>
-                      </members>
-                    </DOMGroup>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="0.04229736328125" c="-0.134017944335938" d="0" tx="85.6" ty="45.35"/>
+                            </matrix>
+                            <GradientEntry color="#FF0000" ratio="0"/>
+                            <GradientEntry color="#FFFFFF" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!399 0S2|2983 0!2983 0[3382 0 3382 400!3382 400|3382 3993!3382 3993[3382 4392 2983 4392!2983 4392|399 4392!399 4392[0 4392 0 3993!0 3993|0 400!0 400[0 0 399 0"/>
+                      </edges>
+                    </DOMShape>
                     <DOMShape selected="true" isDrawingObject="true">
                       <matrix>
                         <Matrix a="1.996337890625" d="1.996337890625" tx="-293.6" ty="-244.6"/>
@@ -98,7 +60,7 @@
                         </DOMTextRun>
                       </textRuns>
                     </DOMStaticText>
-                    <DOMSymbolInstance libraryItemName="Bintang.ai" selected="true" symbolType="graphic" centerPoint3DX="86.15" centerPoint3DY="113.35" loop="loop">
+                    <DOMSymbolInstance libraryItemName="Pancasila/Bintang.ai" selected="true" symbolType="graphic" centerPoint3DX="86.15" centerPoint3DY="113.35" loop="loop">
                       <matrix>
                         <Matrix a="0.807708740234375" d="0.807708740234375" tx="59.3" ty="84.95"/>
                       </matrix>
@@ -122,6 +84,9 @@
                   </members>
                 </DOMGroup>
               </elements>
+              <frameFilters>
+                <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="3" quality="3" strength="0.81"/>
+              </frameFilters>
             </DOMFrame>
           </frames>
         </DOMLayer>

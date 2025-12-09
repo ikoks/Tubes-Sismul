@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="poin_5" itemID="6922d84a-00000199" symbolType="button" lastModified="1763894189" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/Poin/poin_5" itemID="6922d84a-00000199" symbolType="button" lastModified="1763894189" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="poin_5" currentFrame="3">
       <layers>
@@ -123,7 +123,7 @@
                                 </DOMTextRun>
                               </textRuns>
                             </DOMStaticText>
-                            <DOMSymbolInstance libraryItemName="PadiDanKapas.ai" symbolType="graphic" loop="loop">
+                            <DOMSymbolInstance libraryItemName="Pancasila/PadiDanKapas.ai" symbolType="graphic" loop="loop">
                               <matrix>
                                 <Matrix a="0.959991455078125" d="0.940902709960938" tx="56.25" ty="68.6"/>
                               </matrix>
@@ -141,7 +141,7 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="poin5">
+                <DOMSymbolInstance libraryItemName="Poin_Pancasila/poin5">
                   <matrix>
                     <Matrix ty="-7"/>
                   </matrix>
@@ -156,7 +156,7 @@
             </DOMFrame>
             <DOMFrame index="2" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="poin5" centerPoint3DX="85.35" centerPoint3DY="102.8">
+                <DOMSymbolInstance libraryItemName="Poin_Pancasila/poin5" centerPoint3DX="85.35" centerPoint3DY="102.8">
                   <matrix>
                     <Matrix ty="-7"/>
                   </matrix>
@@ -171,7 +171,7 @@
             </DOMFrame>
             <DOMFrame index="3" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="poin5" centerPoint3DX="85.35" centerPoint3DY="102.8">
+                <DOMSymbolInstance libraryItemName="Poin_Pancasila/poin5" centerPoint3DX="85.35" centerPoint3DY="102.8">
                   <matrix>
                     <Matrix ty="-7"/>
                   </matrix>

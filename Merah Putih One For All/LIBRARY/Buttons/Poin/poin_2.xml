@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="poin_3" itemID="6922d838-0000018f" symbolType="button" lastModified="1763893982" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/Poin/poin_2" itemID="6922d81a-00000189" symbolType="button" lastModified="1763894032" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="poin_3" currentFrame="3">
+    <DOMTimeline name="poin_2" currentFrame="2">
       <layers>
         <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
@@ -8,17 +8,17 @@
               <elements>
                 <DOMGroup>
                   <matrix>
-                    <Matrix tx="-883.65" ty="-637.85"/>
+                    <Matrix tx="-594.65" ty="-637.85"/>
                   </matrix>
                   <members>
                     <DOMGroup>
                       <matrix>
-                        <Matrix tx="-883.65" ty="-637.85"/>
+                        <Matrix tx="-594.65" ty="-637.85"/>
                       </matrix>
                       <members>
                         <DOMShape isDrawingObject="true">
                           <matrix>
-                            <Matrix a="1.99639892578125" d="1.96234130859375" tx="-299.35" ty="-255.1"/>
+                            <Matrix a="1.99516296386719" d="1.99717712402344" tx="-299.25" ty="-259.65"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -40,7 +40,7 @@
                         </DOMShape>
                         <DOMShape isDrawingObject="true">
                           <matrix>
-                            <Matrix tx="-883.65" ty="-637.85"/>
+                            <Matrix tx="-594.65" ty="-637.85"/>
                           </matrix>
                           <fills>
                             <FillStyle index="1">
@@ -57,15 +57,15 @@
                             </StrokeStyle>
                           </strokes>
                           <edges>
-                            <Edge fillStyle1="1" strokeStyle="1" edges="!18073 13035|20688 13035!20688 13035[21087 13035 21087 13427!21087 13427|21087 16758!21087 16758[21087 17150 20688 17150!20688 17150|18073 17150!18073 17150[17673 17150 17673 16758!17673 16758|17673 13427!17673 13427[17673 13035 18073
- 13035"/>
+                            <Edge fillStyle1="1" strokeStyle="1" edges="!12293 12961|14906 12961!14906 12961[15305 12961 15305 13360!15305 13360|15305 16750!15305 16750[15305 17149 14906 17149!14906 17149|12293 17149!12293 17149[11894 17149 11894 16750!11894 16750|11894 13360!11894 13360[11894 12961 12293
+ 12961"/>
                           </edges>
                         </DOMShape>
                       </members>
                     </DOMGroup>
                     <DOMShape isDrawingObject="true">
                       <matrix>
-                        <Matrix a="1.99644470214844" d="1.96240234375" tx="-293.65" ty="-233.65"/>
+                        <Matrix a="1.99522399902344" d="1.9971923828125" tx="-293.45" ty="-244.85"/>
                       </matrix>
                       <fills>
                         <FillStyle index="1">
@@ -89,36 +89,36 @@
                     </DOMShape>
                     <DOMStaticText fontRenderingMode="standard" left="66.65" width="10.7" height="25.65" autoExpand="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="1.59034729003906" d="1.24786376953125" tx="-28.8" ty="36.15"/>
+                        <Matrix a="1.58935546875" d="1.27328491210938" tx="-28.75" ty="28.9"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
-                          <characters>3</characters>
+                          <characters>2</characters>
                           <textAttrs>
                             <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="25.65" size="24" face="TwCenMT-CondensedBold" fillColor="#FFFFFF"/>
                           </textAttrs>
                         </DOMTextRun>
                       </textRuns>
                     </DOMStaticText>
-                    <DOMStaticText fontRenderingMode="standard" left="33.1" width="77.8" height="11.15" autoExpand="true" isSelectable="false">
+                    <DOMStaticText fontRenderingMode="standard" left="2.55" width="138.9" height="11.15" autoExpand="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="1.18115234375" d="1.5804443359375" tx="3.35" ty="176.35"/>
+                        <Matrix a="1.18040466308594" d="1.6114501953125" tx="1.35" ty="173.4"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
-                          <characters>Persatuan Indonesia</characters>
+                          <characters>Kemanusiaan yang Adil dan Beradab</characters>
                           <textAttrs>
-                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="11.15" size="8" bitmapSize="160" face="ComicSansMS-Bold"/>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="11.15" size="8" face="ComicSansMS-Bold"/>
                           </textAttrs>
                         </DOMTextRun>
                       </textRuns>
                     </DOMStaticText>
-                    <DOMSymbolInstance libraryItemName="Pohon.ai" symbolType="graphic" loop="loop">
+                    <DOMSymbolInstance libraryItemName="Pancasila/Rantai.ai" symbolType="graphic" loop="loop">
                       <matrix>
-                        <Matrix a="0.960800170898438" d="0.941650390625" tx="46.25" ty="79.3"/>
+                        <Matrix a="0.68988037109375" d="0.690582275390625" tx="57.85" ty="82.45"/>
                       </matrix>
                       <transformationPoint>
-                        <Point x="40.7" y="46"/>
+                        <Point x="42.2" y="49.8"/>
                       </transformationPoint>
                     </DOMSymbolInstance>
                   </members>
@@ -127,12 +127,12 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="poin3">
+                <DOMSymbolInstance libraryItemName="Poin_Pancasila/poin2">
                   <matrix>
                     <Matrix ty="-7"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="85.35" y="109.8"/>
+                    <Point x="85.3" y="109.8"/>
                   </transformationPoint>
                   <filters>
                     <GlowFilter alpha="0.698039215686274" quality="3" strength="1.11"/>
@@ -142,12 +142,12 @@
             </DOMFrame>
             <DOMFrame index="2" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="poin3" centerPoint3DX="85.35" centerPoint3DY="102.8">
+                <DOMSymbolInstance libraryItemName="Poin_Pancasila/poin2" selected="true" centerPoint3DX="85.35" centerPoint3DY="102.8">
                   <matrix>
                     <Matrix ty="-7"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="85.35" y="109.8"/>
+                    <Point x="85.3" y="109.8"/>
                   </transformationPoint>
                   <filters>
                     <GlowFilter alpha="0.698039215686274" quality="3" strength="1.11"/>
@@ -157,15 +157,15 @@
             </DOMFrame>
             <DOMFrame index="3" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="poin3" centerPoint3DX="85.35" centerPoint3DY="102.8">
+                <DOMSymbolInstance libraryItemName="Poin_Pancasila/poin2" centerPoint3DX="85.35" centerPoint3DY="102.8">
                   <matrix>
                     <Matrix ty="-7"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="85.35" y="109.8"/>
+                    <Point x="85.3" y="109.8"/>
                   </transformationPoint>
                   <filters>
-                    <GlowFilter alpha="0.698039215686274" quality="3" strength="1.11"/>
+                    <GlowFilter quality="3" strength="1.11"/>
                   </filters>
                 </DOMSymbolInstance>
               </elements>
