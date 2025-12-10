@@ -70,6 +70,9 @@
                               <DOMFrame index="181" keyMode="9728">
                                    <Actionscript>
                                         <script><![CDATA[//KODE DI FRAME 1 : Actions
+import flash.display.StageScaleMode;
+import flash.display.StageAlign;
+import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
@@ -856,7 +859,7 @@ function changeMateri(e:MouseEvent):void{
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_5" selected="true" symbolType="button">
                                              <matrix>
-                                                  <Matrix a="1.56883239746094" d="1.5692138671875" tx="1504.8" ty="675.4"/>
+                                                  <Matrix a="1.56883239746094" d="1.5692138671875" tx="1516.1" ty="682.45"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="85.35" y="109.85"/>
@@ -875,7 +878,7 @@ function changeMateri(e:MouseEvent):void{
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_4" selected="true" symbolType="button">
                                              <matrix>
-                                                  <Matrix a="1.56883239746094" d="1.56886291503906" tx="1176.1" ty="675.4"/>
+                                                  <Matrix a="1.56883239746094" d="1.56886291503906" tx="1186.1" ty="682.45"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="85.35" y="109.8"/>
@@ -894,7 +897,7 @@ function changeMateri(e:MouseEvent):void{
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_3" selected="true" symbolType="button">
                                              <matrix>
-                                                  <Matrix a="1.56883239746094" d="1.56886291503906" tx="837.5" ty="675.4"/>
+                                                  <Matrix a="1.56883239746094" d="1.56886291503906" tx="846" ty="682.45"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="85.4" y="109.8"/>
@@ -913,7 +916,7 @@ function changeMateri(e:MouseEvent):void{
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_2" selected="true" symbolType="button">
                                              <matrix>
-                                                  <Matrix a="1.56871032714844" d="1.56895446777344" tx="506.75" ty="675.4"/>
+                                                  <Matrix a="1.56871032714844" d="1.56895446777344" tx="496.2" ty="682.45"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="85.3" y="109.9"/>
@@ -932,7 +935,7 @@ function changeMateri(e:MouseEvent):void{
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_1" selected="true" symbolType="button">
                                              <matrix>
-                                                  <Matrix a="1.56895446777344" d="1.56895446777344" tx="157.1" ty="675.4"/>
+                                                  <Matrix a="1.56895446777344" d="1.56895446777344" tx="157.1" ty="695"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="85.35" y="109.8"/>
@@ -967,12 +970,13 @@ function changeMateri(e:MouseEvent):void{
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
                                         <script><![CDATA[//KODE DI FRAME 1 : Actions
+import flash.display.StageScaleMode;
+import flash.display.StageAlign;
+import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 //stop();
 
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
 
 // 3. Atur scale mode (mode skala)
 // Ini kode yang membuat 1920x1080 pas di semua layar
@@ -1061,13 +1065,14 @@ stage.scaleMode = StageScaleMode.SHOW_ALL;]]></script>
           <PD n="com.air.artemis.pubair" v="false"/>
           <PD n="com.air.agistri.proctype" v="armv8"/>
           <PD n="com.air.artemis.pubipa" v="false"/>
+          <PD n="com.air.agistri.proctype" v="armv8"/>
           <PD n="flash.swf.basename" v="Merah Putih One For All"/>
           <PD n="com.air.agistri.runtimetype" v="embed"/>
           <PD n="com.air.agistri.publishtype" v="release"/>
-          <PD n="com.air.agistri.hostip" v="Default"/>
           <PD n="com.air.artemis.pubcaptive" v="true"/>
-          <PD n="swf.folder.path" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes/"/>
-          <PD n="flash.fla.filepath" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes/Merah Putih One For All/Merah Putih One For All.xfl"/>
+          <PD n="com.air.agistri.hostip" v="Default"/>
+          <PD n="swf.folder.path" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes-Sismul/"/>
+          <PD n="flash.fla.filepath" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes-Sismul/Merah Putih One For All/Merah Putih One For All.xfl"/>
           <PD n="com.air.artemis.pubexe" v="false"/>
      </persistentData>
      <PrinterSettings/>
