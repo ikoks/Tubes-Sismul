@@ -1,93 +1,73 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#E7E7E7" gridColor="#FF0000" width="1920" height="1080" frameRate="30" currentTimeline="1" xflVersion="2.980" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 21.0 build 38773" majorVersion="21" buildNumber="38773" gridSnapTo="true" guidesLocked="true" rulerVisible="true" viewAngle3D="122.353661987282" vanishingPoint3DX="960" vanishingPoint3DY="540" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="67077F9231F4524E8014F36E482D441F">
      <folders>
-          <DOMFolderItem name="Object" itemID="69341ad4-0000017a"/>
-          <DOMFolderItem name="Pancasila" itemID="69343e82-00000160"/>
-          <DOMFolderItem name="Poin_Pancasila" itemID="69341a1b-0000015a"/>
-          <DOMFolderItem name="Teks" itemID="693419da-00000152" isExpanded="true"/>
-          <DOMFolderItem name="Tombol" itemID="693424d1-000001f6" isExpanded="true"/>
-          <DOMFolderItem name="Tombol/Materi" itemID="693447da-000001da"/>
-          <DOMFolderItem name="Tombol/Navbar" itemID="69342505-00000206" isExpanded="true"/>
-          <DOMFolderItem name="Tombol/Poin" itemID="693424ee-000001fe"/>
-          <DOMFolderItem name="Tombol/Tombol_Pancasila" itemID="69343ed7-0000016c"/>
-          <DOMFolderItem name="Wallpaper" itemID="69341a0a-00000156"/>
+          <DOMFolderItem name="Background" itemID="69383eff-000001ee" isExpanded="true"/>
+          <DOMFolderItem name="Buttons" itemID="69383f3c-000001fa" isExpanded="true"/>
+          <DOMFolderItem name="Buttons/layar" itemID="69384007-00000226"/>
+          <DOMFolderItem name="Buttons/Materi" itemID="69384b80-00000633"/>
+          <DOMFolderItem name="Buttons/Navbar" itemID="69383f67-00000207"/>
+          <DOMFolderItem name="Buttons/Poin" itemID="69383fb1-00000211"/>
+          <DOMFolderItem name="Objects" itemID="69384017-0000022b" isExpanded="true"/>
+          <DOMFolderItem name="Pancasila" itemID="69383fd2-0000021a"/>
+          <DOMFolderItem name="Poin_Pancasila" itemID="69383f4f-000001fe"/>
+          <DOMFolderItem name="Teks" itemID="69383f0b-000001f5"/>
      </folders>
      <media>
-          <DOMBitmapItem name="Wallpaper/Background_2.jpg" itemID="69342e62-00000234" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Wallpaper/Background_2.jpg" sourceLastImported="1765027418" externalFileSize="15591" allowSmoothing="true" quality="50" href="Wallpaper/Background_2.jpg" bitmapDataHRef="M 2 1763050781.dat" frameRight="12520" frameBottom="7040" isJPEG="true"/>
-          <DOMBitmapItem name="Teks/Teks-Pancasila.png" itemID="69342e62-00000235" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Teks/Teks-Pancasila.png" sourceLastImported="1765027418" externalFileSize="18685" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Teks/Teks-Pancasila.png" bitmapDataHRef="M 5 1763793154.dat" frameRight="12620" frameBottom="2040"/>
-          <DOMBitmapItem name="Wallpaper/Textured.jpeg" itemID="6936ce8c-0000016a" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Wallpaper/Textured.jpeg" sourceLastImported="1765210240" externalFileSize="54855" allowSmoothing="true" quality="50" href="Wallpaper/Textured.jpeg" bitmapDataHRef="M 4 1765199500.dat" frameRight="12500" frameBottom="8320" isJPEG="true"/>
+          <DOMBitmapItem name="Background/Background_2.jpg" itemID="69384b79-0000062f" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Background/Background_2.jpg" sourceLastImported="1765298484" externalFileSize="15591" allowSmoothing="true" quality="50" href="Background/Background_2.jpg" bitmapDataHRef="M 2 1763050781.dat" frameRight="12520" frameBottom="7040" isJPEG="true"/>
+          <DOMBitmapItem name="Teks/Teks-Pancasila.png" itemID="69384b79-00000630" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Teks/Teks-Pancasila.png" sourceLastImported="1765295323" externalFileSize="18685" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Teks/Teks-Pancasila.png" bitmapDataHRef="M 5 1763793154.dat" frameRight="12620" frameBottom="2040"/>
+          <DOMBitmapItem name="Background/Textured.jpeg" itemID="69384fd3-00000811" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Background/Textured.jpeg" sourceLastImported="1765298484" externalFileSize="54855" allowSmoothing="true" quality="50" href="Background/Textured.jpeg" bitmapDataHRef="M 3 1765298131.dat" frameRight="12500" frameBottom="8320" isJPEG="true"/>
      </media>
      <symbols>
-          <Include href="Object/navbar_1.xml" loadImmediate="false" itemID="69343e44-00000154" lastModified="1765031492"/>
-          <Include href="Object/selected.xml" loadImmediate="false" itemID="6922f3e1-00000204" lastModified="1765031290"/>
-          <Include href="Pancasila/banteng.ai.xml" itemIcon="1" loadImmediate="false" itemID="69343e5a-00000157" lastModified="1765031514"/>
-          <Include href="Pancasila/bintang.ai.xml" itemIcon="1" loadImmediate="false" itemID="69343e53-00000156" lastModified="1765031507"/>
-          <Include href="Pancasila/garuda-pancasila.ai.xml" itemIcon="1" loadImmediate="false" itemID="69343e4c-00000155" lastModified="1765031500"/>
-          <Include href="Pancasila/padikapas.ai.xml" itemIcon="1" loadImmediate="false" itemID="69343e3d-00000153" lastModified="1765031485"/>
-          <Include href="Pancasila/pancasila_1.xml" loadImmediate="false" itemID="69343e33-00000152" lastModified="1765031475"/>
-          <Include href="Pancasila/pohon.ai.xml" itemIcon="1" loadImmediate="false" itemID="69343e2b-00000151" lastModified="1765031467"/>
-          <Include href="Pancasila/rantai.ai.xml" itemIcon="1" loadImmediate="false" itemID="69343e22-00000150" lastModified="1765031458"/>
-          <Include href="Poin_Pancasila/Point_1.xml" loadImmediate="false" itemID="69341fa6-000001b4" lastModified="1765024373"/>
-          <Include href="Poin_Pancasila/Point_2.xml" loadImmediate="false" itemID="693420d6-000001c7" lastModified="1765024430"/>
-          <Include href="Poin_Pancasila/Point_3.xml" loadImmediate="false" itemID="69342186-000001d6" lastModified="1765024134"/>
-          <Include href="Poin_Pancasila/Point_4.xml" loadImmediate="false" itemID="693422ed-000001dc" lastModified="1765024585"/>
-          <Include href="Poin_Pancasila/Point_5.xml" loadImmediate="false" itemID="693423a5-000001e2" lastModified="1765024805"/>
+          <Include href="Background/Background1.xml" loadImmediate="false" itemID="69383ef6-000001ed" lastModified="1765293814"/>
+          <Include href="btn_back_materi1.xml" itemIcon="0" loadImmediate="false" itemID="693855c7-000003d0" lastModified="1765299655"/>
+          <Include href="Buttons/layar/layar_awal.xml" itemIcon="0" loadImmediate="false" itemID="69217bc7-000003b5" lastModified="1763809195"/>
+          <Include href="Buttons/Materi/btn_materi1.xml" itemIcon="0" loadImmediate="false" itemID="693446a0-000001a4" lastModified="1765297573"/>
+          <Include href="Buttons/Materi/btn_materi2.xml" itemIcon="0" loadImmediate="false" itemID="69344723-000001a8" lastModified="1765297622"/>
+          <Include href="Buttons/Materi/btn_materi3.xml" itemIcon="0" loadImmediate="false" itemID="69344731-000001ac" lastModified="1765297648"/>
+          <Include href="Buttons/Materi/btn_materi4.xml" itemIcon="0" loadImmediate="false" itemID="6934473c-000001b0" lastModified="1765297674"/>
+          <Include href="Buttons/Materi/btn_materi5.xml" itemIcon="0" loadImmediate="false" itemID="6934474c-000001b4" lastModified="1765297695"/>
+          <Include href="Buttons/Materi/btn_materi6.xml" itemIcon="0" loadImmediate="false" itemID="6934477f-000001b8" lastModified="1765297715"/>
+          <Include href="Buttons/Materi/btn_materi7.xml" itemIcon="0" loadImmediate="false" itemID="6934478c-000001bc" lastModified="1765297740"/>
+          <Include href="Buttons/Materi/btn_materi8.xml" itemIcon="0" loadImmediate="false" itemID="69344798-000001c0" lastModified="1765297761"/>
+          <Include href="Buttons/Materi/btn_materi9.xml" itemIcon="0" loadImmediate="false" itemID="693447a1-000001c4" lastModified="1765297782"/>
+          <Include href="Buttons/Materi/btn_materi10.xml" itemIcon="0" loadImmediate="false" itemID="693447ab-000001c8" lastModified="1765297808"/>
+          <Include href="Buttons/Materi/btn_materi11.xml" itemIcon="0" loadImmediate="false" itemID="693447b6-000001cc" lastModified="1765297827"/>
+          <Include href="Buttons/Materi/btn_materi12.xml" itemIcon="0" loadImmediate="false" itemID="693447c2-000001d0" lastModified="1765297851"/>
+          <Include href="Buttons/Materi/btn_materi13.xml" itemIcon="0" loadImmediate="false" itemID="693447cd-000001d4" lastModified="1765297873"/>
+          <Include href="Buttons/Navbar/beranda.xml" itemIcon="0" loadImmediate="false" itemID="6921d3f4-0000061a" lastModified="1765295720"/>
+          <Include href="Buttons/Navbar/kuis.xml" itemIcon="0" loadImmediate="false" itemID="6921d390-00000610" lastModified="1765295860"/>
+          <Include href="Buttons/Navbar/materi.xml" itemIcon="0" loadImmediate="false" itemID="6921d3ef-00000619" lastModified="1765296022"/>
+          <Include href="Buttons/Navbar/profile.xml" itemIcon="0" loadImmediate="false" itemID="6921d3e5-00000616" lastModified="1765296286"/>
+          <Include href="Buttons/Poin/poin_1.xml" itemIcon="0" loadImmediate="false" itemID="6922d82c-0000018d" lastModified="1763893491"/>
+          <Include href="Buttons/Poin/poin_2.xml" itemIcon="0" loadImmediate="false" itemID="6922d81a-00000189" lastModified="1763894032"/>
+          <Include href="Buttons/Poin/poin_3.xml" itemIcon="0" loadImmediate="false" itemID="6922d838-0000018f" lastModified="1763893982"/>
+          <Include href="Buttons/Poin/poin_4.xml" itemIcon="0" loadImmediate="false" itemID="6922d840-00000194" lastModified="1763894107"/>
+          <Include href="Buttons/Poin/poin_5.xml" itemIcon="0" loadImmediate="false" itemID="6922d84a-00000199" lastModified="1763894189"/>
+          <Include href="Objects/Navbar_1.xml" loadImmediate="false" itemID="6921b4d7-000005cb" lastModified="1765296375"/>
+          <Include href="Objects/selected.xml" loadImmediate="false" itemID="6922f3e1-00000204" lastModified="1763898337"/>
+          <Include href="Pancasila/Banteng.ai.xml" itemIcon="1" loadImmediate="false" itemID="6922d2af-0000014e" lastModified="1763889839"/>
+          <Include href="Pancasila/Bintang.ai.xml" itemIcon="1" loadImmediate="false" itemID="6922d00d-00000140" lastModified="1763889165"/>
+          <Include href="Pancasila/Garuda-Pancasila.ai.xml" itemIcon="1" loadImmediate="false" itemID="692178c9-000003a9" lastModified="1763801289"/>
+          <Include href="Pancasila/Isi_Beranda.xml" itemIcon="1" loadImmediate="false" itemID="69384171-00000230" lastModified="1765294848"/>
+          <Include href="Pancasila/PadiDanKapas.ai.xml" itemIcon="1" loadImmediate="false" itemID="6922d2ca-00000152" lastModified="1763889866"/>
+          <Include href="Pancasila/Pohon.ai.xml" itemIcon="1" loadImmediate="false" itemID="6922d2bb-00000150" lastModified="1763889851"/>
+          <Include href="Pancasila/Rantai.ai.xml" itemIcon="1" loadImmediate="false" itemID="6922d2a1-0000014c" lastModified="1763889825"/>
+          <Include href="Poin_Pancasila/poin1.xml" itemIcon="1" loadImmediate="false" itemID="6922d913-0000019e" lastModified="1765294802"/>
+          <Include href="Poin_Pancasila/poin2.xml" itemIcon="1" loadImmediate="false" itemID="6922e211-000001a8" lastModified="1765294950"/>
+          <Include href="Poin_Pancasila/poin3.xml" itemIcon="1" loadImmediate="false" itemID="6922e2b2-000001ad" lastModified="1765295027"/>
+          <Include href="Poin_Pancasila/poin4.xml" itemIcon="1" loadImmediate="false" itemID="6922e32e-000001b2" lastModified="1765295117"/>
+          <Include href="Poin_Pancasila/poin5.xml" itemIcon="1" loadImmediate="false" itemID="6922e380-000001b7" lastModified="1765295182"/>
           <Include href="Teks/Teks_1.xml" loadImmediate="false" itemID="6921b3fc-000005c7" lastModified="1763816444"/>
           <Include href="Teks/Teks_2.xml" loadImmediate="false" itemID="6921d013-00000601" lastModified="1763889390"/>
-          <Include href="Teks/Teks_beranda.xml" loadImmediate="false" itemID="69342689-0000020c" lastModified="1765025921"/>
-          <Include href="Teks/Teks_Kuis.xml" loadImmediate="false" itemID="6934294a-00000220" lastModified="1765026153"/>
-          <Include href="Teks/Teks_Materi.xml" loadImmediate="false" itemID="693429fb-00000224" lastModified="1765026344"/>
-          <Include href="Teks/Teks_Profil.xml" loadImmediate="false" itemID="69342af8-00000228" lastModified="1765026614"/>
-          <Include href="Tombol/Materi/btn_materi1.xml" itemIcon="0" loadImmediate="false" itemID="693446a0-000001a4" lastModified="1765034039"/>
-          <Include href="Tombol/Materi/btn_materi2.xml" itemIcon="0" loadImmediate="false" itemID="69344723-000001a8" lastModified="1765034124"/>
-          <Include href="Tombol/Materi/btn_materi3.xml" itemIcon="0" loadImmediate="false" itemID="69344731-000001ac" lastModified="1765034117"/>
-          <Include href="Tombol/Materi/btn_materi4.xml" itemIcon="0" loadImmediate="false" itemID="6934473c-000001b0" lastModified="1765034152"/>
-          <Include href="Tombol/Materi/btn_materi5.xml" itemIcon="0" loadImmediate="false" itemID="6934474c-000001b4" lastModified="1765034169"/>
-          <Include href="Tombol/Materi/btn_materi6.xml" itemIcon="0" loadImmediate="false" itemID="6934477f-000001b8" lastModified="1765034200"/>
-          <Include href="Tombol/Materi/btn_materi7.xml" itemIcon="0" loadImmediate="false" itemID="6934478c-000001bc" lastModified="1765034220"/>
-          <Include href="Tombol/Materi/btn_materi8.xml" itemIcon="0" loadImmediate="false" itemID="69344798-000001c0" lastModified="1765034237"/>
-          <Include href="Tombol/Materi/btn_materi9.xml" itemIcon="0" loadImmediate="false" itemID="693447a1-000001c4" lastModified="1765034254"/>
-          <Include href="Tombol/Materi/btn_materi10.xml" itemIcon="0" loadImmediate="false" itemID="693447ab-000001c8" lastModified="1765034271"/>
-          <Include href="Tombol/Materi/btn_materi11.xml" itemIcon="0" loadImmediate="false" itemID="693447b6-000001cc" lastModified="1765034303"/>
-          <Include href="Tombol/Materi/btn_materi12.xml" itemIcon="0" loadImmediate="false" itemID="693447c2-000001d0" lastModified="1765034321"/>
-          <Include href="Tombol/Materi/btn_materi13.xml" itemIcon="0" loadImmediate="false" itemID="693447cd-000001d4" lastModified="1765034341"/>
-          <Include href="Tombol/Navbar/teks_beranda.xml" itemIcon="0" loadImmediate="false" itemID="69341a9f-00000170" lastModified="1765025981"/>
-          <Include href="Tombol/Navbar/teks_kuis.xml" itemIcon="0" loadImmediate="false" itemID="69341aa7-00000171" lastModified="1765026215"/>
-          <Include href="Tombol/Navbar/teks_materi.xml" itemIcon="0" loadImmediate="false" itemID="69341ac3-00000174" lastModified="1765213143"/>
-          <Include href="Tombol/Navbar/teks_profile.xml" itemIcon="0" loadImmediate="false" itemID="69341aaf-00000172" lastModified="1765026631"/>
-          <Include href="Tombol/Poin/poin_1.xml" itemIcon="0" loadImmediate="false" itemID="6922d82c-0000018d" lastModified="1765023825"/>
-          <Include href="Tombol/Poin/poin_2.xml" itemIcon="0" loadImmediate="false" itemID="6922d81a-00000189" lastModified="1765024325"/>
-          <Include href="Tombol/Poin/poin_3.xml" itemIcon="0" loadImmediate="false" itemID="6922d838-0000018f" lastModified="1765024191"/>
-          <Include href="Tombol/Poin/poin_4.xml" itemIcon="0" loadImmediate="false" itemID="6922d840-00000194" lastModified="1765024927"/>
-          <Include href="Tombol/Poin/poin_5.xml" itemIcon="0" loadImmediate="false" itemID="6922d84a-00000199" lastModified="1765024879"/>
-          <Include href="Tombol/Tombol_Pancasila/layar_awal.xml" itemIcon="0" loadImmediate="false" itemID="69217bc7-000003b5" lastModified="1763809195"/>
-          <Include href="Wallpaper/Background.xml" loadImmediate="false" itemID="6921b499-000005c9" lastModified="1763816601"/>
-          <Include href="Wallpaper/background_materi.xml" loadImmediate="false" itemID="6936d987-00000199" lastModified="1765202311"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="180" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="182" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
                <layers>
-                    <DOMLayer name="Camera" color="#0099FF" autoNamed="false" layerType="camera">
-                         <frames>
-                              <DOMFrame index="0" duration="182" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="__Camera__" name="___camera___instance" isVisible="false">
-                                             <matrix>
-                                                  <Matrix tx="960" ty="540"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
                     <DOMLayer name="Actions" color="#FF800A" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="182" keyMode="9728">
+                              <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="182" keyMode="9728">
+                              <DOMFrame index="181" keyMode="9728">
                                    <Actionscript>
                                         <script><![CDATA[//KODE DI FRAME 1 : Actions
 import flash.display.StageScaleMode;
@@ -102,34 +82,37 @@ stage.align = StageAlign.TOP_LEFT;
 
 // 3. Atur scale mode (mode skala)
 // Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;]]></script>
+stage.scaleMode = StageScaleMode.SHOW_ALL;
+
+
+//event button beranda
+beranda_btn.addEventListener(MouseEvent.CLICK, changeBeranda);
+function changeBeranda(e:MouseEvent):void{
+	gotoAndStop(181);
+}
+
+//event button materi 1
+btn_materi1.addEventListener(MouseEvent.CLICK, changeMateri1);
+function changeMateri1(e:MouseEvent):void{
+	gotoAndStop(183);
+}]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_profile" color="#FF0000" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="layar_kuis" color="#009999" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="Layer_10" color="#9933CC" parentLayerIndex="2">
-                         <frames>
-                              <DOMFrame index="0" duration="195" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="195" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="layar_materi" color="#FF4FFF" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="materi_1" color="#FF800A" parentLayerIndex="4" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="Judul" color="#9933CC" parentLayerIndex="5" autoNamed="false">
+                    <DOMLayer name="layar_profile" color="#FF0000" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="layar_kuis" color="#009999" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="layar_materi" color="#FF4FFF" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="materi_1" color="#FF4FFF" parentLayerIndex="3" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi1" color="#FF0000" parentLayerIndex="4" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="182" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="182" keyMode="9728">
                                    <elements>
-                                        <DOMStaticText fontRenderingMode="standard" left="-23" width="190" height="103.1" autoExpand="true" isSelectable="false">
+                                        <DOMStaticText selected="true" fontRenderingMode="standard" left="-23" width="190" height="103.1" autoExpand="true" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="901" ty="54.3"/>
                                              </matrix>
@@ -146,465 +129,50 @@ stage.scaleMode = StageScaleMode.SHOW_ALL;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back" color="#00FFFF" parentLayerIndex="5" autoNamed="false">
+                    <DOMLayer name="btn_back_materi1" color="#FF800A" parentLayerIndex="4" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="182" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="182" keyMode="9728">
                                    <elements>
-                                        <DOMGroup>
+                                        <DOMSymbolInstance libraryItemName="btn_back_materi1" name="btn_back_materi1" selected="true" symbolType="button">
                                              <matrix>
-                                                  <Matrix a="1.76699829101562" d="1.24122619628906" tx="-364.7" ty="-21.55"/>
+                                                  <Matrix tx="59.5" ty="52.3"/>
                                              </matrix>
-                                             <members>
-                                                  <DOMShape>
-                                                       <matrix>
-                                                            <Matrix a="1.76699829101562" d="1.24122619628906" tx="-364.7" ty="-21.55"/>
-                                                       </matrix>
-                                                       <fills>
-                                                            <FillStyle index="1">
-                                                                 <SolidColor color="#FF1B1B"/>
-                                                            </FillStyle>
-                                                            <FillStyle index="2">
-                                                                 <LinearGradient>
-                                                                      <matrix>
-                                                                           <Matrix a="0.0001068115234375" b="0.014984130859375" c="-0.0361175537109375" d="0.00030517578125" tx="290.1" ty="107.65"/>
-                                                                      </matrix>
-                                                                      <GradientEntry color="#FF1717" ratio="0"/>
-                                                                      <GradientEntry color="#FFFFFF" ratio="1"/>
-                                                                 </LinearGradient>
-                                                            </FillStyle>
-                                                            <FillStyle index="3">
-                                                                 <SolidColor/>
-                                                            </FillStyle>
-                                                            <FillStyle index="4">
-                                                                 <SolidColor color="#FFFFFF"/>
-                                                            </FillStyle>
-                                                            <FillStyle index="5">
-                                                                 <SolidColor color="#FFCC00"/>
-                                                            </FillStyle>
-                                                       </fills>
-                                                       <strokes>
-                                                            <StrokeStyle index="1">
-                                                                 <SolidStroke scaleMode="normal" weight="2">
-                                                                      <fill>
-                                                                           <SolidColor/>
-                                                                      </fill>
-                                                                 </SolidStroke>
-                                                            </StrokeStyle>
-                                                            <StrokeStyle index="2">
-                                                                 <SolidStroke scaleMode="normal">
-                                                                      <fill>
-                                                                           <SolidColor/>
-                                                                      </fill>
-                                                                 </SolidStroke>
-                                                            </StrokeStyle>
-                                                       </strokes>
-                                                       <edges>
-                                                            <Edge fillStyle1="2" strokeStyle="1" edges="!4806 2067[4811 1996 4821 1932"/>
-                                                            <Edge fillStyle1="1" strokeStyle="1" edges="!4821 1932[4871 1623 5042 1450!5042 1450[5110 1381 5198 1333!5198 1333[5558 1137 5965 1209!5965 1209[6371 1280 6468 1370!6468 1370[6566 1458 6604 1506!6604 1506[6641 1554 6692 1631!6692 1631[6724 1681 6749 1763!6749 1763[6763 1807 6774
- 1862"/>
-                                                            <Edge fillStyle1="2" strokeStyle="1" edges="
-!6774 1862[6803 2009 6800 2198"/>
-                                                            <Edge fillStyle0="1" fillStyle1="2" edges="
-!5596 1579[5622 1573 5645 1567!5645 1567[5665 1564 5897 1564!5897 1564[6003 1564 6132 1561!6132 1561[6249 1574 6484 1675!6484 1675[6584 1718 6680 1786!6680 1786[6716 1813 6749 1841!6749 1841[6762 1851 6774 1862"/>
-                                                            <Edge fillStyle0="3" fillStyle1="2" strokeStyle="1" edges="
-!6800 2198|6731 2442"/>
-                                                            <Edge fillStyle0="3" fillStyle1="4" strokeStyle="1" edges="
-!6731 2442[6669 2618 6505 2733!6505 2733[6204 2944 5859 2965!5859 2965[5514 2986 5144 2737!5144 2737[5088 2700 5042 2656!5042 2656[4925 2544 4866 2388"/>
-                                                            <Edge fillStyle0="3" fillStyle1="2" strokeStyle="1" edges="
-!4866 2388[4812 2277 4806 2067"/>
-                                                            <Edge fillStyle1="3" strokeStyle="1" edges="
-!6800 2198[6800 2241 6793 2303!6793 2303[6786 2354 6749 2501!6749 2501[6742 2528 6734 2559!6734 2559[6682 2753 6440 2919!6440 2919[6198 3083 5856 3105!5856 3105[5514 3126 5142 2891!5142 2891[5088 2857 5042 2815!5042 2815[4776 2574 4804
- 2093!4804 2093[4804 2080 4806 2067"/>
-                                                            <Edge fillStyle0="1" fillStyle1="4" strokeStyle="2" edges="
-!5196 1682[5174 1675 5155 1663!5155 1663[5108 1633 5171 1530!5171 1530[5234 1427 5342 1408!5342 1408[5450 1389 5536 1439!5536 1439[5620 1488 5617 1531!5617 1531[5614 1557 5596 1579"/>
-                                                            <Edge fillStyle0="2" fillStyle1="4" strokeStyle="2" edges="
-!5596 1579[5583 1593 5564 1606!5564 1606[5515 1638 5415 1664!5415 1664[5315 1689 5258 1691!5258 1691[5225 1691 5196 1682"/>
-                                                            <Edge fillStyle0="1" fillStyle1="2" edges="
-!5099 1731[5117 1721 5137 1710!5137 1710[5169 1693 5196 1682"/>
-                                                            <Edge fillStyle0="2" fillStyle1="4" strokeStyle="2" edges="
-!5099 1731[5100 1732 5101 1733!5101 1733[5121 1753 5121 1780!5121 1780[5121 1806 5101 1825!5101 1825[5082 1845 5055 1845!5055 1845[5048 1845 5042 1844!5042 1844[5023 1840 5009 1825!5009 1825[4994 1810 4991 1790"/>
-                                                            <Edge fillStyle0="1" fillStyle1="4" strokeStyle="2" edges="
-!4991 1790[4990 1785 4990 1780!4990 1780[4990 1753 5009 1733!5009 1733[5023 1719 5042 1715!5042 1715[5048 1714 5055 1714!5055 1714[5081 1714 5099 1731"/>
-                                                            <Edge fillStyle0="1" fillStyle1="2" edges="
-!4821 1932[4846 1909 4890 1869!4890 1869[4947 1815 4991 1790"/>
-                                                            <Edge fillStyle0="5" fillStyle1="2" strokeStyle="2" edges="
-!6267 1919[6251 1887 5996 1893!5996 1893[5868 1897 5744 1906!5744 1906[5756 1863 5762 1818!5762 1818[5774 1729 5744 1721!5744 1721[5725 1716 5654 1749!5654 1749[5580 1784 5504 1835!5504 1835[5301 1973 5304 2078!5304 2078[5307 2181 5515
- 2325!5515 2325[5704 2455 5744 2448!5744 2448[5761 2445 5754 2360!5754 2360|5744 2276!5744 2276[5872 2286 6002 2288!6002 2288[6263 2293 6276 2259!6276 2259[6292 2217 6289 2088!6289 2088[6286 1957 6267 1919"/>
-                                                            <Edge fillStyle0="2" fillStyle1="4" edges="
-!4866 2388[4943 2472 5042 2537!5042 2537[5167 2619 5326 2671!5326 2671[5613 2764 5947 2742!5947 2742[6281 2719 6476 2614!6476 2614[6574 2562 6731 2442"/>
-                                                            <Edge cubics="!6505 2733(;6304,2874 6089,2951 5859,2965q6505 2733Q6204 2944q5859 2965);"/>
-                                                            <Edge cubics="!5144 2737(;5109,2713 5077,2688 5042,2656q5144 2737Q5088 2700q5042 2656);"/>
-                                                            <Edge cubics="!5042 2656(;4969,2586 4909,2497 4866,2388q5042 2656Q4925 2544q4866 2388);"/>
-                                                            <Edge cubics="!4804 2093(;4804,2084 4805,2076 4806,2067q4804 2093Q4804 2080q4806 2067);"/>
-                                                            <Edge cubics="!4806 2067(;4809,2022 4814,1979 4821,1932q4806 2067 4821 1932);"/>
-                                                            <Edge cubics="!4821 1932(;4853,1726 4928,1565 5042,1450q4821 1932Q4871 1623q5042 1450);"/>
-                                                            <Edge cubics="!5042 1450(;5089,1404 5140,1365 5198,1333q5042 1450Q5110 1381q5198 1333);"/>
-                                                            <Edge cubics="!5859 2965(;5629,2979 5391,2903 5144,2737q5859 2965Q5514 2986q5144 2737);"/>
-                                                            <Edge cubics="!5536 1439(;5592,1472 5619,1502 5617,1531q5536 1439Q5620 1488q5617 1531);"/>
-                                                            <Edge cubics="!5415 1664(;5348,1681 5296,1690 5258,1691q5415 1664Q5315 1689q5258 1691);"/>
-                                                            <Edge cubics="!5155 1663(;5124,1643 5129,1599 5171,1530q5155 1663Q5108 1633q5171 1530);"/>
-                                                            <Edge cubics="!5258 1691(;5238,1692 5219,1689 5196,1682q5258 1691Q5225 1691q5196 1682);"/>
-                                                            <Edge cubics="!5196 1682(;5185,1679 5170,1672 5155,1663q5196 1682 5155 1663);"/>
-                                                            <Edge cubics="!5171 1530(;5213,1461 5270,1421 5342,1408q5171 1530Q5234 1427q5342 1408);"/>
-                                                            <Edge cubics="!5564 1606(;5531,1627 5482,1647 5415,1664q5564 1606Q5515 1638q5415 1664);"/>
-                                                            <Edge cubics="!5342 1408(;5414,1395 5479,1406 5536,1439q5342 1408Q5450 1389q5536 1439);"/>
-                                                            <Edge cubics="!5101 1733(;5114,1746 5121,1762 5121,1780q5101 1733Q5121 1753q5121 1780);"/>
-                                                            <Edge cubics="!5121 1780(;5121,1797 5114,1813 5101,1825q5121 1780Q5121 1806q5101 1825);"/>
-                                                            <Edge cubics="!4990 1780(;4990,1762 4996,1746 5009,1733q4990 1780Q4990 1753q5009 1733);"/>
-                                                            <Edge cubics="!5101 1825(;5088,1839 5073,1845 5055,1845q5101 1825Q5082 1845q5055 1845);"/>
-                                                            <Edge cubics="!5596 1579(;5692,1555 5696,1564 5897,1564q5596 1579 5645 1567 5897 1564);"/>
-                                                            <Edge cubics="!5617 1531(;5615,1548 5608,1564 5596,1579q5617 1531Q5614 1557q5596 1579);"/>
-                                                            <Edge cubics="!5596 1579(;5587,1588 5577,1597 5564,1606q5596 1579Q5583 1593q5564 1606);"/>
-                                                            <Edge cubics="!5897 1564(;5968,1564 6046,1563 6132,1561q5897 1564Q6003 1564q6132 1561);"/>
-                                                            <Edge cubics="!6132 1561(;6210,1570 6327,1608 6484,1675q6132 1561Q6249 1574q6484 1675);"/>
-                                                            <Edge cubics="!4821 1932(;4838,1917 4861,1896 4890,1869q4821 1932Q4846 1909q4890 1869);"/>
-                                                            <Edge cubics="!5009 1825(;4999,1815 4993,1803 4991,1790q5009 1825Q4994 1810q4991 1790);"/>
-                                                            <Edge cubics="!4991 1790(;4990,1787 4990,1783 4990,1780q4991 1790Q4990 1785q4990 1780);"/>
-                                                            <Edge cubics="!4890 1869(;4928,1833 4962,1807 4991,1790q4890 1869Q4947 1815q4991 1790);"/>
-                                                            <Edge cubics="!5137 1710(;5158,1699 5178,1689 5196,1682q5137 1710Q5169 1693q5196 1682);"/>
-                                                            <Edge cubics="!5099 1731(;5100,1732 5100,1732 5101,1733q5099 1731Q5100 1732q5101 1733);"/>
-                                                            <Edge cubics="!5099 1731(;5111,1724 5124,1717 5137,1710q5099 1731Q5117 1721q5137 1710);"/>
-                                                            <Edge cubics="!5055 1714(;5072,1714 5087,1720 5099,1731q5055 1714Q5081 1714q5099 1731);"/>
-                                                            <Edge cubics="!6604 1506(;6629,1538 6658,1580 6692,1631q6604 1506Q6641 1554q6692 1631);"/>
-                                                            <Edge cubics="!6468 1370(;6533,1429 6579,1474 6604,1506q6468 1370Q6566 1458q6604 1506);"/>
-                                                            <Edge cubics="!6692 1631(;6714,1665 6734,1711 6749,1763q6692 1631Q6724 1681q6749 1763);"/>
-                                                            <Edge cubics="!6749 1763(;6759,1797 6767,1828 6774,1862q6749 1763 6774 1862);"/>
-                                                            <Edge cubics="!5965 1209(;6236,1256 6403,1310 6468,1370q5965 1209Q6371 1280q6468 1370);"/>
-                                                            <Edge cubics="!6800 2198(;6800,2227 6798,2262 6793,2303q6800 2198Q6800 2241q6793 2303);"/>
-                                                            <Edge cubics="!6734 2559(;6699,2688 6601,2808 6440,2919q6734 2559Q6682 2753q6440 2919);"/>
-                                                            <Edge cubics="!6793 2303(;6789,2338 6774,2404 6749,2501q6793 2303 6749 2501);"/>
-                                                            <Edge cubics="!6749 2501(;6744,2520 6739,2539 6734,2559q6749 2501 6734 2559);"/>
-                                                            <Edge cubics="!6476 2614(;6541,2579 6626,2522 6731,2442q6476 2614Q6574 2562q6731 2442);"/>
-                                                            <Edge cubics="!6731 2442(;6690,2559 6614,2656 6505,2733q6731 2442Q6669 2618q6505 2733);"/>
-                                                            <Edge cubics="!6440 2919(;6279,3028 6084,3090 5856,3105q6440 2919Q6198 3083q5856 3105);"/>
-                                                            <Edge cubics="!6774 1862(;6793,1960 6802,2072 6800,2198q6774 1862Q6803 2009q6800 2198);"/>
-                                                            <Edge cubics="!4866 2388(;4830,2314 4810,2207 4806,2067q4866 2388Q4812 2277q4806 2067);"/>
-                                                            <Edge cubics="!5142 2891(;5107,2869 5075,2845 5042,2815q5142 2891Q5088 2857q5042 2815);"/>
-                                                            <Edge cubics="!5042 2815(;4866,2657 4785,2415 4804,2093q5042 2815Q4776 2574q4804 2093);"/>
-                                                            <Edge cubics="!5856 3105(;5628,3119 5390,3048 5142,2891q5856 3105Q5514 3126q5142 2891);"/>
-                                                            <Edge cubics="!5198 1333(;5438,1202 5694,1161 5965,1209q5198 1333Q5558 1137q5965 1209);"/>
-                                                            <Edge cubics="!5947 2742(;6170,2727 6346,2684 6476,2614q5947 2742Q6281 2719q6476 2614);"/>
-                                                            <Edge cubics="!4866 2388(;4919,2446 4979,2497 5042,2537q4866 2388Q4943 2472q5042 2537);"/>
-                                                            <Edge cubics="!5042 2537(;5128,2594 5222,2637 5326,2671q5042 2537Q5167 2619q5326 2671);"/>
-                                                            <Edge cubics="!5326 2671(;5517,2733 5724,2757 5947,2742q5326 2671Q5613 2764q5947 2742);"/>
-                                                            <Edge cubics="!6267 1919(;6242,1868 5744,1906 5744,1906q6267 1919Q6251 1887q5996 1893Q5868 1897q5744 1906);"/>
-                                                            <Edge cubics="!5744 1906(;5744,1906 5792,1734 5744,1721q5744 1906Q5756 1863q5762 1818Q5774 1729q5744 1721);"/>
-                                                            <Edge cubics="!5744 1721(;5696,1708 5300,1919 5304,2078q5744 1721Q5725 1716q5654 1749Q5580 1784q5504 1835Q5301 1973q5304 2078);"/>
-                                                            <Edge cubics="!5304 2078(;5308,2237 5716,2453 5744,2448q5304 2078Q5307 2181q5515 2325Q5704 2455q5744 2448);"/>
-                                                            <Edge cubics="!5744 2448(;5772,2443 5744,2276 5744,2276q5744 2448Q5761 2445q5754 2360Q5744 2276q5744 2276);"/>
-                                                            <Edge cubics="!5744 2276(;5744,2276 6255,2314 6276,2259q5744 2276Q5872 2286q6002 2288Q6263 2293q6276 2259);"/>
-                                                            <Edge cubics="!6276 2259(;6297,2204 6292,1970 6267,1919q6276 2259Q6292 2217q6289 2088Q6286 1957q6267 1919);"/>
-                                                            <Edge cubics="!6484 1675(;6551,1704 6616,1741 6680,1786q6484 1675Q6584 1718q6680 1786);"/>
-                                                            <Edge cubics="!6680 1786(;6704,1804 6727,1822 6749,1841q6680 1786Q6716 1813q6749 1841);"/>
-                                                            <Edge cubics="!6749 1841(;6758,1848 6766,1855 6774,1862q6749 1841Q6762 1851q6774 1862);"/>
-                                                            <Edge cubics="!6800 2198(;6800,2198 6731,2442 6731,2442q6800 2198 6731 2442);"/>
-                                                            <Edge cubics="!5042 1715(;5046,1714 5050,1714 5055,1714q5042 1715Q5048 1714q5055 1714);"/>
-                                                            <Edge cubics="!5042 1844(;5029,1841 5018,1835 5009,1825q5042 1844Q5023 1840q5009 1825);"/>
-                                                            <Edge cubics="!5055 1845(;5050,1845 5046,1845 5042,1844q5055 1845Q5048 1845q5042 1844);"/>
-                                                            <Edge cubics="!5009 1733(;5018,1724 5029,1718 5042,1715q5009 1733Q5023 1719q5042 1715);"/>
-                                                       </edges>
-                                                  </DOMShape>
-                                             </members>
-                                        </DOMGroup>
+                                             <transformationPoint>
+                                                  <Point x="88.3" y="59.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background" color="#9933CC" parentLayerIndex="5" autoNamed="false">
+                    <DOMLayer name="Background" color="#009999" parentLayerIndex="4" locked="true" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="182" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="182" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Wallpaper/background_materi">
+                                        <DOMBitmapInstance selected="true" libraryItemName="Background/Textured.jpeg">
                                              <matrix>
-                                                  <Matrix tx="-26" ty="-100"/>
+                                                  <Matrix a="3.18869018554688" d="3.18869018554688" tx="-27" ty="-107"/>
                                              </matrix>
-                                             <transformationPoint>
-                                                  <Point x="991.6" y="660"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
+                                        </DOMBitmapInstance>
                                    </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="isi_materi" color="#00FFFF" parentLayerIndex="4" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="btn_materi1" color="#009999" parentLayerIndex="9" autoNamed="false">
+                    <DOMLayer name="btn_materi" color="#00FFFF" parentLayerIndex="3" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="btn_materi13" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi1" symbolType="button">
-                                             <matrix>
-                                                  <Matrix tx="150.7" ty="244.05"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="82.65" y="82.7"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                                   <frameFilters>
-                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
-                                   </frameFilters>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="btn_materi2" color="#FF4FFF" parentLayerIndex="9" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" duration="181" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="181" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi2" symbolType="button">
-                                             <matrix>
-                                                  <Matrix tx="518.3" ty="244.05"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="82.65" y="82.7"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                                   <frameFilters>
-                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
-                                   </frameFilters>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="btn_materi3" color="#9933CC" parentLayerIndex="9" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" duration="181" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="181" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi3" symbolType="button">
-                                             <matrix>
-                                                  <Matrix tx="875.9" ty="244.05"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="82.65" y="82.7"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                                   <frameFilters>
-                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
-                                   </frameFilters>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="btn_materi4" color="#FF0000" parentLayerIndex="9" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" duration="181" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="181" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi4" symbolType="button">
-                                             <matrix>
-                                                  <Matrix tx="1248.75" ty="244.05"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="82.65" y="82.7"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                                   <frameFilters>
-                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
-                                   </frameFilters>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="btn_materi5" color="#669900" parentLayerIndex="9" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" duration="181" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="181" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi5" symbolType="button">
-                                             <matrix>
-                                                  <Matrix tx="1615.65" ty="244.05"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="82.65" y="82.7"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                                   <frameFilters>
-                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
-                                   </frameFilters>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="btn_materi6" color="#669900" parentLayerIndex="9" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" duration="181" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="181" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi6" symbolType="button">
-                                             <matrix>
-                                                  <Matrix tx="150.7" ty="519.8"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="82.65" y="82.7"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                                   <frameFilters>
-                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
-                                   </frameFilters>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="btn_materi7" color="#FF0000" parentLayerIndex="9" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" duration="181" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="181" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi7" symbolType="button">
-                                             <matrix>
-                                                  <Matrix tx="518.3" ty="519.8"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="82.65" y="82.7"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                                   <frameFilters>
-                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
-                                   </frameFilters>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="btn_materi8" color="#009999" parentLayerIndex="9" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" duration="181" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="181" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi8" symbolType="button">
-                                             <matrix>
-                                                  <Matrix tx="875.9" ty="519.8"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="82.65" y="82.7"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                                   <frameFilters>
-                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
-                                   </frameFilters>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="btn_materi9" color="#FF4FFF" parentLayerIndex="9" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" duration="181" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="181" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi9" symbolType="button">
-                                             <matrix>
-                                                  <Matrix tx="1248.75" ty="519.8"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="82.65" y="82.7"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                                   <frameFilters>
-                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
-                                   </frameFilters>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="btn_materi10" color="#FF800A" parentLayerIndex="9" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" duration="181" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="181" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi10" symbolType="button">
-                                             <matrix>
-                                                  <Matrix tx="1615.65" ty="519.8"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="82.85" y="82.7"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                                   <frameFilters>
-                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
-                                   </frameFilters>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="btn_materi11" color="#9933CC" parentLayerIndex="9" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" duration="181" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="181" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi11" symbolType="button">
-                                             <matrix>
-                                                  <Matrix tx="150.7" ty="787.1"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="82.9" y="82.7"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                                   <frameFilters>
-                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
-                                   </frameFilters>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="btn_materi12" color="#00FFFF" parentLayerIndex="9" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" duration="181" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="181" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi12" symbolType="button">
-                                             <matrix>
-                                                  <Matrix tx="518.3" ty="787.1"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="82.9" y="82.7"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                                   <frameFilters>
-                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
-                                   </frameFilters>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="btn_materi13" color="#FF4F4F" parentLayerIndex="9" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" duration="181" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="181" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Materi/btn_materi13" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi13" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="875.9" ty="787.1"/>
                                              </matrix>
@@ -613,21 +181,246 @@ stage.scaleMode = StageScaleMode.SHOW_ALL;]]></script>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
                                    </elements>
-                                   <frameFilters>
-                                        <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="12" quality="3" strength="0.81"/>
-                                   </frameFilters>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="4" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="selected" color="#FF800A" parentLayerIndex="23" autoNamed="false">
+                    <DOMLayer name="btn_materi12" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Object/selected">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi12" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="518.3" ty="787.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.9" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi11" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi11" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="150.7" ty="787.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.9" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi10" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi10" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="1615.65" ty="519.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.85" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi9" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi9" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="1248.75" ty="519.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi8" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi8" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="875.9" ty="519.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi7" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi7" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="518.3" ty="519.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi6" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi6" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="150.7" ty="519.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi5" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi5" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="1615.65" ty="244.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi4" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi4" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="1248.75" ty="244.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi3" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi3" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="875.9" ty="244.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi2" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi2" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="518.3" ty="244.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi1" color="#9933CC" parentLayerIndex="8" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi1" name="btn_materi1" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="150.7" ty="244.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="82.65" y="82.7"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="3" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="selected" color="#FF800A" parentLayerIndex="22" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Objects/selected">
                                              <matrix>
                                                   <Matrix tx="1102.3" ty="99.45"/>
                                              </matrix>
@@ -639,14 +432,14 @@ stage.scaleMode = StageScaleMode.SHOW_ALL;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="23" autoNamed="false">
+                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Pancasila/garuda-pancasila.ai" name="Garuda">
+                                        <DOMSymbolInstance libraryItemName="Pancasila/Garuda-Pancasila.ai" name="Garuda">
                                              <matrix>
                                                   <Matrix a="0.19708251953125" d="0.1551513671875" tx="27.6" ty="18.45"/>
                                              </matrix>
@@ -661,14 +454,14 @@ stage.scaleMode = StageScaleMode.SHOW_ALL;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="23" autoNamed="false">
+                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Navbar/teks_profile" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/profile" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.999984741210938" d="0.999984741210938" tx="1628.05" ty="39.95"/>
                                              </matrix>
@@ -680,14 +473,14 @@ stage.scaleMode = StageScaleMode.SHOW_ALL;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="23" autoNamed="false">
+                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Navbar/teks_kuis" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/kuis" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.999984741210938" d="0.999984741210938" tx="1347.95" ty="39.95"/>
                                              </matrix>
@@ -699,14 +492,14 @@ stage.scaleMode = StageScaleMode.SHOW_ALL;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="23" autoNamed="false">
+                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Navbar/teks_materi" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/materi" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.999984741210938" d="0.999984741210938" tx="1078" ty="39.95"/>
                                              </matrix>
@@ -718,14 +511,14 @@ stage.scaleMode = StageScaleMode.SHOW_ALL;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="23" autoNamed="false">
+                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Navbar/teks_beranda" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/beranda" name="beranda_btn" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.999984741210938" d="0.999984741210938" tx="779.45" ty="40.5"/>
                                              </matrix>
@@ -737,7 +530,7 @@ stage.scaleMode = StageScaleMode.SHOW_ALL;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="23" autoNamed="false">
+                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -759,14 +552,14 @@ stage.scaleMode = StageScaleMode.SHOW_ALL;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="23" autoNamed="false">
+                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Object/navbar_1" name="Navbar_1" bits32="false">
+                                        <DOMSymbolInstance libraryItemName="Objects/Navbar_1" name="Navbar_1" bits32="false">
                                              <matrix>
                                                   <Matrix a="0.999267578125" tx="-0.05" ty="-12.2"/>
                                              </matrix>
@@ -782,19 +575,20 @@ stage.scaleMode = StageScaleMode.SHOW_ALL;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_beranda" color="#FF4FFF" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions" color="#FF4F4F" parentLayerIndex="32" autoNamed="false">
+                    <DOMLayer name="layar_beranda" color="#FF4FFF" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="actions" color="#FF4F4F" parentLayerIndex="31" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[//KODE DI FRAME 1 : Actions
+                                        <script><![CDATA[import flash.events.MouseEvent;
+
+//KODE DI FRAME 1 : Actions
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-trace("tes"+Materi);
 
 // 2. Atur alignment (perataan) ke pojok kiri atas
 stage.align = StageAlign.TOP_LEFT;
@@ -803,25 +597,21 @@ stage.align = StageAlign.TOP_LEFT;
 // Ini kode yang membuat 1920x1080 pas di semua layar
 stage.scaleMode = StageScaleMode.SHOW_ALL;
 
-// --- KODE TOMBOL MATERI ---
 
-// 1. Pasang sensor klik pada tombol 'teks_materi'
-Materi.addEventListener(MouseEvent.MOUSE_OVER, masukKeMateri);
+//event button materi
+materi_btn.addEventListener(MouseEvent.CLICK, changeMateri);
 
-// 2. Fungsi perintah loncat
-function masukKeMateri(e:MouseEvent):void {
-    trace("ok");
-    
-    gotoAndStop(182); 
-    
-}]]></script>
+function changeMateri(e:MouseEvent):void{
+	gotoAndStop(182);
+}
+]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_awal" color="#00FFFF" parentLayerIndex="32" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="34" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="layar_awal" color="#00FFFF" parentLayerIndex="31" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="33" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -829,7 +619,7 @@ function masukKeMateri(e:MouseEvent):void {
                               <DOMFrame index="1" duration="180" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="180000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500076" xformPtYOffsetPct="0.498735" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-903.5" next="0,-903.5" previous="0,-903.5" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-392.2" next="0,-392.2" previous="0,-392.2" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,105.801" next="0,105.801" previous="0,105.801" roving="0" timevalue="0"/><Keyframe anchor="0,19.7128" next="0,19.7128" previous="0,19.7128" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,105.809" next="0,105.809" previous="0,105.809" roving="0" timevalue="0"/><Keyframe anchor="0,15.5197" next="0,15.5197" previous="0,15.5197" roving="0" timevalue="58000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"><PropertyContainer id="Glow_Filter"><Property enabled="1" id="Glow_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,20" next="0,20" previous="0,20" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="28000"/></Property><Property enabled="1" id="Glow_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,20" next="0,20" previous="0,20" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="28000"/></Property><Property enabled="1" id="Glow_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,200" next="0,200" previous="0,200" roving="0" timevalue="0"/></Property><Property enabled="1" id="Glow_Quality" readonly="0" value="3" visible="1"/><Property enabled="1" id="Glow_Color" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0xffcc33ff"/></Property><Property enabled="1" id="Glow_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="Glow_InnerGlow" readonly="0" value="0" visible="1"/></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Pancasila/garuda-pancasila.ai" name="Garuda">
+                                        <DOMSymbolInstance libraryItemName="Pancasila/Garuda-Pancasila.ai" name="Garuda" selected="true">
                                              <matrix>
                                                   <Matrix a="1.05801391601562" d="1.05807495117188" tx="647.9" ty="115.7"/>
                                              </matrix>
@@ -844,7 +634,7 @@ function masukKeMateri(e:MouseEvent):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Teks" color="#669900" parentLayerIndex="34" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Teks" color="#669900" parentLayerIndex="33" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -870,7 +660,7 @@ function masukKeMateri(e:MouseEvent):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Background" color="#FF0000" parentLayerIndex="34" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Background" color="#FF0000" parentLayerIndex="33" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -878,7 +668,7 @@ function masukKeMateri(e:MouseEvent):void {
                               <DOMFrame index="1" duration="59" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="59000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499987" xformPtYOffsetPct="0.499978" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="58000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,50" next="0,50" previous="0,50" roving="0" timevalue="28000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="58000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Wallpaper/Background" name="Background">
+                                        <DOMSymbolInstance libraryItemName="Background/Background1" name="Background">
                                              <transformationPoint>
                                                   <Point x="978.9" y="563.1"/>
                                              </transformationPoint>
@@ -890,8 +680,8 @@ function masukKeMateri(e:MouseEvent):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="32" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="38" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="31" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="37" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -899,7 +689,7 @@ function masukKeMateri(e:MouseEvent):void {
                               <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499832" xformPtYOffsetPct="0.4" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,176.566" next="0,176.566" previous="0,176.566" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Object/selected">
+                                        <DOMSymbolInstance libraryItemName="Objects/selected" selected="true">
                                              <matrix>
                                                   <Matrix tx="804.7" ty="102"/>
                                              </matrix>
@@ -914,7 +704,7 @@ function masukKeMateri(e:MouseEvent):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="38" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="37" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -922,7 +712,7 @@ function masukKeMateri(e:MouseEvent):void {
                               <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500123" xformPtYOffsetPct="0.503766" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="38000"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="48000"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Navbar/teks_profile" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/profile" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.0847320556640625" d="0.0847320556640625" tx="1721.45" ty="67.5"/>
                                              </matrix>
@@ -937,7 +727,7 @@ function masukKeMateri(e:MouseEvent):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="38" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="37" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -945,7 +735,7 @@ function masukKeMateri(e:MouseEvent):void {
                               <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500123" xformPtYOffsetPct="0.503766" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-0.55" next="0,-0.55" previous="0,-0.55" roving="0" timevalue="38000"/><Keyframe anchor="0,-0.55" next="0,-0.55" previous="0,-0.55" roving="0" timevalue="48000"/><Keyframe anchor="0,-0.55" next="0,-0.55" previous="0,-0.55" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,128.078" next="0,128.078" previous="0,128.078" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,128.078" next="0,128.078" previous="0,128.078" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Navbar/teks_kuis" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/kuis" name="quiz_btn" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.0847320556640625" d="0.0847320556640625" tx="1441.45" ty="67.5"/>
                                              </matrix>
@@ -960,7 +750,7 @@ function masukKeMateri(e:MouseEvent):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="38" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="37" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -968,7 +758,7 @@ function masukKeMateri(e:MouseEvent):void {
                               <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.50037" xformPtYOffsetPct="0.503766" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="38000"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="48000"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Navbar/teks_materi" name="Materi" selected="true" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/materi" name="materi_btn" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.0847320556640625" d="0.0847320556640625" tx="1171.45" ty="67.5"/>
                                              </matrix>
@@ -983,7 +773,7 @@ function masukKeMateri(e:MouseEvent):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="38" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="37" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -991,7 +781,7 @@ function masukKeMateri(e:MouseEvent):void {
                               <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.495442" xformPtYOffsetPct="0.493724" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,9.8526" next="0,9.8526" previous="0,9.8526" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,9.8526" next="0,9.8526" previous="0,9.8526" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Navbar/teks_beranda" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/beranda" name="beranda_btn" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.0985107421875" d="0.0985107421875" tx="870.1" ty="67.1"/>
                                              </matrix>
@@ -1006,7 +796,7 @@ function masukKeMateri(e:MouseEvent):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="38" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="37" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -1014,7 +804,7 @@ function masukKeMateri(e:MouseEvent):void {
                               <DOMFrame index="60" duration="121" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="121000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.49832" xformPtYOffsetPct="0.492847" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,310.5" next="0,310.5" previous="0,310.5" roving="0" timevalue="39000"/><Keyframe anchor="0,342.3" next="0,342.3" previous="0,342.3" roving="0" timevalue="49000"/><Keyframe anchor="0,284" next="0,284" previous="0,284" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0.1" next="0,0.1" previous="0,0.1" roving="0" timevalue="39000"/><Keyframe anchor="0,0.1" next="0,0.1" previous="0,0.1" roving="0" timevalue="49000"/><Keyframe anchor="0,0.1" next="0,0.1" previous="0,0.1" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4.5929" next="0,4.5929" previous="0,4.5929" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="39000"/><Keyframe anchor="0,111.024" next="0,111.024" previous="0,111.024" roving="0" timevalue="49000"/><Keyframe anchor="0,85.463" next="0,85.463" previous="0,85.463" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4.5929" next="0,4.5929" previous="0,4.5929" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="39000"/><Keyframe anchor="0,111.024" next="0,111.024" previous="0,111.024" roving="0" timevalue="49000"/><Keyframe anchor="0,85.463" next="0,85.463" previous="0,85.463" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="39000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"><PropertyContainer id="Bevel_Filter"><Property enabled="1" id="Bevel_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Bevel_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Bevel_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Bevel_Quality" readonly="0" value="3" visible="1"/><Property enabled="1" id="Bevel_ShadowColor" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0x000000ff"/><Keyframe roving="0" timevalue="59000" value="0xffffffff"/></Property><Property enabled="1" id="Bevel_HilightColor" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0xffffffff"/><Keyframe roving="0" timevalue="59000" value="0x999999ff"/></Property><Property enabled="1" id="Bevel_Angle" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,45" next="0,45" previous="0,45" roving="0" timevalue="0"/></Property><Property enabled="1" id="Bevel_Distance" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,3" next="0,3" previous="0,3" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Bevel_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="Bevel_Type" readonly="0" value="1" visible="1"/></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Teks/Teks_2">
+                                        <DOMSymbolInstance libraryItemName="Teks/Teks_2" selected="true">
                                              <matrix>
                                                   <Matrix a="0.045928955078125" d="0.045928955078125" tx="81.55" ty="67.55"/>
                                              </matrix>
@@ -1032,7 +822,7 @@ function masukKeMateri(e:MouseEvent):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="38" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="37" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="41" keyMode="9728">
                                    <elements/>
@@ -1040,7 +830,7 @@ function masukKeMateri(e:MouseEvent):void {
                               <DOMFrame index="41" duration="140" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="140000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.498258" xformPtYOffsetPct="-0.000333333" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/><Keyframe anchor="0,-1.3" next="0,-1.3" previous="0,-1.3" roving="0" timevalue="138000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-84" next="0,-84" previous="0,-84" roving="0" timevalue="18000"/><Keyframe anchor="0,-84" next="0,-84" previous="0,-84" roving="0" timevalue="138000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,2.23541" next="0,2.23541" previous="0,2.23541" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="18000"/><Keyframe anchor="0,99.9313" next="0,99.9313" previous="0,99.9313" roving="0" timevalue="138000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-2.23541" next="0,-2.23541" previous="0,-2.23541" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="18000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="18000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"><PropertyContainer id="DropShadow_Filter"><Property enabled="1" id="DropShadow_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="18000"/></Property><Property enabled="1" id="DropShadow_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="18000"/></Property><Property enabled="1" id="DropShadow_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="18000"/></Property><Property enabled="1" id="DropShadow_Quality" readonly="0" value="3" visible="1"/><Property enabled="1" id="DropShadow_Angle" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,45" next="0,45" previous="0,45" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Distance" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="18000"/></Property><Property enabled="1" id="DropShadow_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_InnerShadow" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_HideObject" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_Color" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0x000000ff"/><Keyframe roving="0" timevalue="18000" value="0x0000008c"/></Property></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Object/navbar_1" name="Navbar_1" bits32="false">
+                                        <DOMSymbolInstance libraryItemName="Objects/Navbar_1" name="Navbar_1" selected="true" bits32="false">
                                              <matrix>
                                                   <Matrix a="0.0223388671875" d="-0.0223388671875" tx="937.1" ty="71.75"/>
                                              </matrix>
@@ -1059,15 +849,15 @@ function masukKeMateri(e:MouseEvent):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="isi_beranda" color="#669900" parentLayerIndex="32" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="Poin_5" color="#FF0000" parentLayerIndex="46" autoNamed="false">
+                    <DOMLayer name="isi_beranda" color="#669900" parentLayerIndex="31" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Poin_5" color="#FF0000" parentLayerIndex="45" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Poin/poin_5" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_5" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="1.56883239746094" d="1.5692138671875" tx="1516.1" ty="682.45"/>
                                              </matrix>
@@ -1079,14 +869,14 @@ function masukKeMateri(e:MouseEvent):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_4" color="#009999" parentLayerIndex="46" autoNamed="false">
+                    <DOMLayer name="Poin_4" color="#009999" parentLayerIndex="45" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Poin/poin_4" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_4" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="1.56883239746094" d="1.56886291503906" tx="1186.1" ty="682.45"/>
                                              </matrix>
@@ -1098,14 +888,14 @@ function masukKeMateri(e:MouseEvent):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_3" color="#FF4FFF" parentLayerIndex="46" autoNamed="false">
+                    <DOMLayer name="Poin_3" color="#FF4FFF" parentLayerIndex="45" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Poin/poin_3" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_3" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="1.56883239746094" d="1.56886291503906" tx="846" ty="682.45"/>
                                              </matrix>
@@ -1117,14 +907,14 @@ function masukKeMateri(e:MouseEvent):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_2" color="#FF800A" parentLayerIndex="46" autoNamed="false">
+                    <DOMLayer name="Poin_2" color="#FF800A" parentLayerIndex="45" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Poin/poin_2" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_2" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="1.56871032714844" d="1.56895446777344" tx="496.2" ty="682.45"/>
                                              </matrix>
@@ -1136,14 +926,14 @@ function masukKeMateri(e:MouseEvent):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_1" color="#9933CC" parentLayerIndex="46" autoNamed="false">
+                    <DOMLayer name="Poin_1" color="#9933CC" parentLayerIndex="45" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Poin/poin_1" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_1" selected="true" symbolType="button">
                                              <matrix>
                                                   <Matrix a="1.56895446777344" d="1.56895446777344" tx="157.1" ty="695"/>
                                              </matrix>
@@ -1155,16 +945,16 @@ function masukKeMateri(e:MouseEvent):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Pancasila" color="#00FFFF" parentLayerIndex="46" autoNamed="false">
+                    <DOMLayer name="Pancasila" color="#00FFFF" parentLayerIndex="45" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Pancasila/pancasila_1">
+                                        <DOMSymbolInstance libraryItemName="Pancasila/Isi_Beranda" selected="true" symbolType="graphic" loop="loop">
                                              <matrix>
-                                                  <Matrix tx="157.1" ty="183.85"/>
+                                                  <Matrix tx="157.1" ty="156.9"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="807.75" y="228.25"/>
@@ -1174,8 +964,8 @@ function masukKeMateri(e:MouseEvent):void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_awal" color="#9933CC" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions" color="#669900" parentLayerIndex="53" autoNamed="false">
+                    <DOMLayer name="layar_awal" color="#9933CC" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="actions" color="#669900" parentLayerIndex="52" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
@@ -1188,28 +978,19 @@ import flash.events.Event;
 //stop();
 
 
-// 1. Fungsi untuk memaksa layar tetap rapi
-function aturLayar(e:Event = null):void {
-    stage.scaleMode = StageScaleMode.SHOW_ALL; // Pastikan semua terlihat
-    stage.align = StageAlign.TOP_LEFT; // Kunci di pojok kiri atas
-}
-
-// 2. Jalankan fungsi ini SEKARANG
-aturLayar();
-
-// 3. Jalankan fungsi ini SETIAP KALI layar berubah (misal HP diputar)
-stage.addEventListener(Event.ENTER_FRAME, aturLayar);
-]]></script>
+// 3. Atur scale mode (mode skala)
+// Ini kode yang membuat 1920x1080 pas di semua layar
+stage.scaleMode = StageScaleMode.SHOW_ALL;]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_awal" color="#FF800A" parentLayerIndex="53" autoNamed="false">
+                    <DOMLayer name="layar_awal" color="#FF800A" parentLayerIndex="52" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Tombol/Tombol_Pancasila/layar_awal" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/layar/layar_awal" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="-18" ty="-20"/>
                                              </matrix>
@@ -1225,12 +1006,64 @@ stage.addEventListener(Event.ENTER_FRAME, aturLayar);
           </DOMTimeline>
      </timelines>
      <scripts/>
+     <extendedSwatchLists>
+          <swatchList>
+               <swatchListInfo name="Default Swatches"/>
+
+               <swatches>
+                    <swatchListInfo name="Default Swatches"/>
+
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#FFFFFF" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </LinearGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#FFFFFF" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#FF0000" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#00FF00" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#0000FF" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#0066FD" ratio="0"/>
+                         <GradientEntry color="#FFFFFF" ratio="0.376470588235294"/>
+                         <GradientEntry color="#FFFFFF" ratio="0.47843137254902"/>
+                         <GradientEntry color="#996600" ratio="0.501960784313725"/>
+                         <GradientEntry color="#FFCC00" ratio="0.666666666666667"/>
+                         <GradientEntry color="#FFFFFF" ratio="1"/>
+                    </LinearGradientSwatchItem>
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#FF0000" ratio="0"/>
+                         <GradientEntry color="#FFFF00" ratio="0.164705882352941"/>
+                         <GradientEntry color="#00FF00" ratio="0.364705882352941"/>
+                         <GradientEntry color="#00FFFF" ratio="0.498039215686275"/>
+                         <GradientEntry color="#0000FF" ratio="0.666666666666667"/>
+                         <GradientEntry color="#FF00FF" ratio="0.831372549019608"/>
+                         <GradientEntry color="#FF0000" ratio="1"/>
+                    </LinearGradientSwatchItem>
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#FF0000" ratio="0"/>
+                         <GradientEntry color="#FFFFFF" ratio="1"/>
+                    </LinearGradientSwatchItem>
+               </swatches>
+          </swatchList>
+     </extendedSwatchLists>
      <persistentData>
-          <PD n="com.air.artemis.airdest" v="Merah Putih One For All.apk"/>
+          <PD n="com.air.artemis.airdest" v="Merah Putih One For All.app"/>
           <PD n="ane.tmp.unzipped.folder" v="C:\Users\ammar\AppData\Local\Temp\Tmp_ANE_File_Unzipped_Packages"/>
-          <PD n="com.air.oldTargetPlatform" v="Android"/>
+          <PD n="com.air.oldTargetPlatform" v="Desktop"/>
           <PD n="com.air.sdk.path" v="D:\program\AIRSDK_3311935\AIRSDK_3311935"/>
-          <PD n="com.air.artemis.pubair" v="true"/>
+          <PD n="com.air.artemis.pubair" v="false"/>
+          <PD n="com.air.agistri.proctype" v="armv8"/>
           <PD n="com.air.artemis.pubipa" v="false"/>
           <PD n="com.air.agistri.proctype" v="armv8"/>
           <PD n="flash.swf.basename" v="Merah Putih One For All"/>
@@ -1244,25 +1077,25 @@ stage.addEventListener(Event.ENTER_FRAME, aturLayar);
      </persistentData>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="188772" publishTime="1765215809"/>
-          <PublishItem publishSize="188773" publishTime="1765215758"/>
-          <PublishItem publishSize="188768" publishTime="1765215408"/>
-          <PublishItem publishSize="188767" publishTime="1765214958"/>
-          <PublishItem publishSize="188743" publishTime="1765214812"/>
-          <PublishItem publishSize="188728" publishTime="1765214763"/>
-          <PublishItem publishSize="188708" publishTime="1765214563"/>
-          <PublishItem publishSize="145203" publishTime="1765214438"/>
-          <PublishItem publishSize="145177" publishTime="1765214390"/>
-          <PublishItem publishSize="188621" publishTime="1765213165"/>
-          <PublishItem publishSize="188621" publishTime="1765212996"/>
-          <PublishItem publishSize="188613" publishTime="1765212307"/>
-          <PublishItem publishSize="188613" publishTime="1765211455"/>
-          <PublishItem publishSize="188619" publishTime="1765211394"/>
-          <PublishItem publishSize="145169" publishTime="1765211177"/>
-          <PublishItem publishSize="145169" publishTime="1765211114"/>
-          <PublishItem publishSize="145170" publishTime="1765210894"/>
-          <PublishItem publishSize="145169" publishTime="1765210875"/>
-          <PublishItem publishSize="145169" publishTime="1765210753"/>
-          <PublishItem publishSize="145169" publishTime="1765210702"/>
+          <PublishItem publishSize="151307" publishTime="1765299894"/>
+          <PublishItem publishSize="151230" publishTime="1765299520"/>
+          <PublishItem publishSize="151226" publishTime="1765299468"/>
+          <PublishItem publishSize="151187" publishTime="1765299192"/>
+          <PublishItem publishSize="151210" publishTime="1765299097"/>
+          <PublishItem publishSize="151200" publishTime="1765298906"/>
+          <PublishItem publishSize="151194" publishTime="1765298830"/>
+          <PublishItem publishSize="151116" publishTime="1765298625"/>
+          <PublishItem publishSize="151113" publishTime="1765298603"/>
+          <PublishItem publishSize="151113" publishTime="1765298518"/>
+          <PublishItem publishSize="114605" publishTime="1765297886"/>
+          <PublishItem publishSize="115784" publishTime="1765297483"/>
+          <PublishItem publishSize="111149" publishTime="1765297280"/>
+          <PublishItem publishSize="103642" publishTime="1765297233"/>
+          <PublishItem publishSize="111120" publishTime="1765297098"/>
+          <PublishItem publishSize="110160" publishTime="1765296468"/>
+          <PublishItem publishSize="110129" publishTime="1765296410"/>
+          <PublishItem publishSize="110130" publishTime="1765296385"/>
+          <PublishItem publishSize="110109" publishTime="1765296294"/>
+          <PublishItem publishSize="110111" publishTime="1765296181"/>
      </publishHistory>
 </DOMDocument>
