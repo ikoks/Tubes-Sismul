@@ -1,9 +1,9 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#E7E7E7" gridColor="#FF0000" width="1920" height="1080" frameRate="30" currentTimeline="1" xflVersion="2.980" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 21.0 build 38773" majorVersion="21" buildNumber="38773" gridSnapTo="true" guidesLocked="true" rulerVisible="true" viewAngle3D="122.353661987282" vanishingPoint3DX="960" vanishingPoint3DY="540" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="67077F9231F4524E8014F36E482D441F">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#E7E7E7" gridColor="#FF0000" width="1920" height="1080" frameRate="30" currentTimeline="1" xflVersion="23.0" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 23.0 build 103" majorVersion="23" buildNumber="103" gridSnapTo="true" guidesLocked="true" rulerVisible="true" viewAngle3D="122.353661987282" vanishingPoint3DX="960" vanishingPoint3DY="540" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="67077F9231F4524E8014F36E482D441F">
      <folders>
           <DOMFolderItem name="Background" itemID="69383eff-000001ee" isExpanded="true"/>
           <DOMFolderItem name="Buttons" itemID="69383f3c-000001fa" isExpanded="true"/>
           <DOMFolderItem name="Buttons/layar" itemID="69384007-00000226"/>
-          <DOMFolderItem name="Buttons/Materi" itemID="69384b80-00000633"/>
+          <DOMFolderItem name="Buttons/Materi" itemID="69384b80-00000633" isExpanded="true"/>
           <DOMFolderItem name="Buttons/Navbar" itemID="69383f67-00000207"/>
           <DOMFolderItem name="Buttons/Poin" itemID="69383fb1-00000211"/>
           <DOMFolderItem name="Objects" itemID="69384017-0000022b" isExpanded="true"/>
@@ -14,12 +14,12 @@
      <media>
           <DOMBitmapItem name="Background/Background_2.jpg" itemID="69384b79-0000062f" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Background/Background_2.jpg" sourceLastImported="1765298484" externalFileSize="15591" allowSmoothing="true" quality="50" href="Background/Background_2.jpg" bitmapDataHRef="M 2 1763050781.dat" frameRight="12520" frameBottom="7040" isJPEG="true"/>
           <DOMBitmapItem name="Teks/Teks-Pancasila.png" itemID="69384b79-00000630" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Teks/Teks-Pancasila.png" sourceLastImported="1765295323" externalFileSize="18685" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Teks/Teks-Pancasila.png" bitmapDataHRef="M 5 1763793154.dat" frameRight="12620" frameBottom="2040"/>
-          <DOMBitmapItem name="Background/Textured.jpeg" itemID="69384fd3-00000811" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Background/Textured.jpeg" sourceLastImported="1765298484" externalFileSize="54855" allowSmoothing="true" quality="50" href="Background/Textured.jpeg" bitmapDataHRef="M 3 1765298131.dat" frameRight="12500" frameBottom="8320" isJPEG="true"/>
+          <DOMBitmapItem name="Background/Textured.jpeg" itemID="69384fd3-00000811" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Background/Textured.jpeg" sourceLastImported="1765345765" externalFileSize="54855" allowSmoothing="true" quality="50" href="Background/Textured.jpeg" bitmapDataHRef="M 3 1765298131.dat" frameRight="12500" frameBottom="8320" isJPEG="true"/>
      </media>
      <symbols>
           <Include href="Background/Background1.xml" loadImmediate="false" itemID="69383ef6-000001ed" lastModified="1765293814"/>
-          <Include href="btn_back_materi1.xml" itemIcon="0" loadImmediate="false" itemID="693855c7-000003d0" lastModified="1765299655"/>
           <Include href="Buttons/layar/layar_awal.xml" itemIcon="0" loadImmediate="false" itemID="69217bc7-000003b5" lastModified="1763809195"/>
+          <Include href="Buttons/Materi/btn_back_materi.xml" itemIcon="0" loadImmediate="false" itemID="69390c47-0000025b" lastModified="1765346375"/>
           <Include href="Buttons/Materi/btn_materi1.xml" itemIcon="0" loadImmediate="false" itemID="693446a0-000001a4" lastModified="1765297573"/>
           <Include href="Buttons/Materi/btn_materi2.xml" itemIcon="0" loadImmediate="false" itemID="69344723-000001a8" lastModified="1765297622"/>
           <Include href="Buttons/Materi/btn_materi3.xml" itemIcon="0" loadImmediate="false" itemID="69344731-000001ac" lastModified="1765297648"/>
@@ -60,7 +60,7 @@
           <Include href="Teks/Teks_2.xml" loadImmediate="false" itemID="6921d013-00000601" lastModified="1763889390"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="182" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="192" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="Actions" color="#FF800A" autoNamed="false">
                          <frames>
@@ -68,9 +68,21 @@
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="layar_profile" color="#FF0000" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="layar_kuis" color="#009999" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="layar_materi" color="#FF4FFF" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="actions_materi" color="#009999" parentLayerIndex="3" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="181" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="181" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[//KODE DI FRAME 1 : Actions
-import flash.display.StageScaleMode;
+                                        <script><![CDATA[import flash.display.StageScaleMode;
 import flash.display.StageAlign;
 import flash.events.Event;
 
@@ -95,24 +107,412 @@ function changeBeranda(e:MouseEvent):void{
 btn_materi1.addEventListener(MouseEvent.CLICK, changeMateri1);
 function changeMateri1(e:MouseEvent):void{
 	gotoAndStop(183);
+}
+
+//event button materi 2
+btn_materi2.addEventListener(MouseEvent.CLICK, changeMateri2);
+function changeMateri2(e:MouseEvent):void{
+	gotoAndStop(184);
+}
+
+//event button materi 3
+btn_materi3.addEventListener(MouseEvent.CLICK, changeMateri3);
+function changeMateri3(e:MouseEvent):void{
+	gotoAndStop(185);
+}
+
+//event button materi 4
+btn_materi4.addEventListener(MouseEvent.CLICK, changeMateri4);
+function changeMateri4(e:MouseEvent):void{
+	gotoAndStop(186);
+}
+
+//event button materi 5
+btn_materi5.addEventListener(MouseEvent.CLICK, changeMateri5);
+function changeMateri5(e:MouseEvent):void{
+	gotoAndStop(187);
+}
+
+//event button materi 6
+btn_materi6.addEventListener(MouseEvent.CLICK, changeMateri6);
+function changeMateri6(e:MouseEvent):void{
+	gotoAndStop(188);
+}
+
+//event button materi 7
+btn_materi7.addEventListener(MouseEvent.CLICK, changeMateri7);
+function changeMateri7(e:MouseEvent):void{
+	gotoAndStop(189);
+}
+
+//event button materi 8
+btn_materi8.addEventListener(MouseEvent.CLICK, changeMateri8);
+function changeMateri8(e:MouseEvent):void{
+	gotoAndStop(190);
+}
+
+//event button materi 9
+btn_materi9.addEventListener(MouseEvent.CLICK, changeMateri9);
+function changeMateri9(e:MouseEvent):void{
+	gotoAndStop(191);
+}
+
+//event button materi 10
+btn_materi10.addEventListener(MouseEvent.CLICK, changeMateri10);
+function changeMateri10(e:MouseEvent):void{
+	gotoAndStop(192);
+}
+
+//event button materi 11
+btn_materi11.addEventListener(MouseEvent.CLICK, changeMateri11);
+function changeMateri11(e:MouseEvent):void{
+	gotoAndStop(193);
+}
+
+//event button materi 12
+btn_materi12.addEventListener(MouseEvent.CLICK, changeMateri12);
+function changeMateri12(e:MouseEvent):void{
+	gotoAndStop(194);
+}
+
+//event button materi 13
+btn_materi13.addEventListener(MouseEvent.CLICK, changeMateri13);
+function changeMateri13(e:MouseEvent):void{
+	gotoAndStop(195);
 }]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_profile" color="#FF0000" locked="true" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="layar_kuis" color="#009999" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="layar_materi" color="#FF4FFF" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="materi_1" color="#FF4FFF" parentLayerIndex="3" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi1" color="#FF0000" parentLayerIndex="4" locked="true" autoNamed="false">
+                    <DOMLayer name="actions_isi_materi" color="#00FFFF" parentLayerIndex="3" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="182" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="182" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.display.StageScaleMode;
+import flash.display.StageAlign;
+import flash.events.Event;
+
+// 1. Hentikan timeline agar tidak auto-play
+stop();
+
+// 2. Atur alignment (perataan) ke pojok kiri atas
+stage.align = StageAlign.TOP_LEFT;
+
+// 3. Atur scale mode (mode skala)
+// Ini kode yang membuat 1920x1080 pas di semua layar
+stage.scaleMode = StageScaleMode.SHOW_ALL;
+
+//event button kembali ke materi 1
+btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri1);
+function changeBackMateri1(e:MouseEvent):void{
+	gotoAndStop(182);
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="183" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.display.StageScaleMode;
+import flash.display.StageAlign;
+import flash.events.Event;
+
+// 1. Hentikan timeline agar tidak auto-play
+stop();
+
+// 2. Atur alignment (perataan) ke pojok kiri atas
+stage.align = StageAlign.TOP_LEFT;
+
+// 3. Atur scale mode (mode skala)
+// Ini kode yang membuat 1920x1080 pas di semua layar
+stage.scaleMode = StageScaleMode.SHOW_ALL;
+
+//event button kembali ke materi 2
+btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri2);
+function changeBackMateri2(e:MouseEvent):void{
+	gotoAndStop(182);
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="184" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.display.StageScaleMode;
+import flash.display.StageAlign;
+import flash.events.Event;
+
+// 1. Hentikan timeline agar tidak auto-play
+stop();
+
+// 2. Atur alignment (perataan) ke pojok kiri atas
+stage.align = StageAlign.TOP_LEFT;
+
+// 3. Atur scale mode (mode skala)
+// Ini kode yang membuat 1920x1080 pas di semua layar
+stage.scaleMode = StageScaleMode.SHOW_ALL;
+
+//event button kembali ke materi 3
+btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri3);
+function changeBackMateri3(e:MouseEvent):void{
+	gotoAndStop(182);
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="185" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.display.StageScaleMode;
+import flash.display.StageAlign;
+import flash.events.Event;
+
+// 1. Hentikan timeline agar tidak auto-play
+stop();
+
+// 2. Atur alignment (perataan) ke pojok kiri atas
+stage.align = StageAlign.TOP_LEFT;
+
+// 3. Atur scale mode (mode skala)
+// Ini kode yang membuat 1920x1080 pas di semua layar
+stage.scaleMode = StageScaleMode.SHOW_ALL;
+
+//event button kembali ke materi 4
+btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri4);
+function changeBackMateri4(e:MouseEvent):void{
+	gotoAndStop(182);
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="186" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.display.StageScaleMode;
+import flash.display.StageAlign;
+import flash.events.Event;
+
+// 1. Hentikan timeline agar tidak auto-play
+stop();
+
+// 2. Atur alignment (perataan) ke pojok kiri atas
+stage.align = StageAlign.TOP_LEFT;
+
+// 3. Atur scale mode (mode skala)
+// Ini kode yang membuat 1920x1080 pas di semua layar
+stage.scaleMode = StageScaleMode.SHOW_ALL;
+
+//event button kembali ke materi 5
+btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri5);
+function changeBackMateri5(e:MouseEvent):void{
+	gotoAndStop(182);
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="187" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.display.StageScaleMode;
+import flash.display.StageAlign;
+import flash.events.Event;
+
+// 1. Hentikan timeline agar tidak auto-play
+stop();
+
+// 2. Atur alignment (perataan) ke pojok kiri atas
+stage.align = StageAlign.TOP_LEFT;
+
+// 3. Atur scale mode (mode skala)
+// Ini kode yang membuat 1920x1080 pas di semua layar
+stage.scaleMode = StageScaleMode.SHOW_ALL;
+
+//event button kembali ke materi 6
+btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri6);
+function changeBackMateri6(e:MouseEvent):void{
+	gotoAndStop(182);
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="188" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.display.StageScaleMode;
+import flash.display.StageAlign;
+import flash.events.Event;
+
+// 1. Hentikan timeline agar tidak auto-play
+stop();
+
+// 2. Atur alignment (perataan) ke pojok kiri atas
+stage.align = StageAlign.TOP_LEFT;
+
+// 3. Atur scale mode (mode skala)
+// Ini kode yang membuat 1920x1080 pas di semua layar
+stage.scaleMode = StageScaleMode.SHOW_ALL;
+
+//event button kembali ke materi 7
+btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri7);
+function changeBackMateri7(e:MouseEvent):void{
+	gotoAndStop(182);
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="189" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.display.StageScaleMode;
+import flash.display.StageAlign;
+import flash.events.Event;
+
+// 1. Hentikan timeline agar tidak auto-play
+stop();
+
+// 2. Atur alignment (perataan) ke pojok kiri atas
+stage.align = StageAlign.TOP_LEFT;
+
+// 3. Atur scale mode (mode skala)
+// Ini kode yang membuat 1920x1080 pas di semua layar
+stage.scaleMode = StageScaleMode.SHOW_ALL;
+
+//event button kembali ke materi 8
+btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri8);
+function changeBackMateri8(e:MouseEvent):void{
+	gotoAndStop(182);
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="190" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.display.StageScaleMode;
+import flash.display.StageAlign;
+import flash.events.Event;
+
+// 1. Hentikan timeline agar tidak auto-play
+stop();
+
+// 2. Atur alignment (perataan) ke pojok kiri atas
+stage.align = StageAlign.TOP_LEFT;
+
+// 3. Atur scale mode (mode skala)
+// Ini kode yang membuat 1920x1080 pas di semua layar
+stage.scaleMode = StageScaleMode.SHOW_ALL;
+
+//event button kembali ke materi 9
+btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri9);
+function changeBackMateri9(e:MouseEvent):void{
+	gotoAndStop(182);
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="191" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.display.StageScaleMode;
+import flash.display.StageAlign;
+import flash.events.Event;
+
+// 1. Hentikan timeline agar tidak auto-play
+stop();
+
+// 2. Atur alignment (perataan) ke pojok kiri atas
+stage.align = StageAlign.TOP_LEFT;
+
+// 3. Atur scale mode (mode skala)
+// Ini kode yang membuat 1920x1080 pas di semua layar
+stage.scaleMode = StageScaleMode.SHOW_ALL;
+
+//event button kembali ke materi 10
+btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri10);
+function changeBackMateri10(e:MouseEvent):void{
+	gotoAndStop(182);
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="192" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.display.StageScaleMode;
+import flash.display.StageAlign;
+import flash.events.Event;
+
+// 1. Hentikan timeline agar tidak auto-play
+stop();
+
+// 2. Atur alignment (perataan) ke pojok kiri atas
+stage.align = StageAlign.TOP_LEFT;
+
+// 3. Atur scale mode (mode skala)
+// Ini kode yang membuat 1920x1080 pas di semua layar
+stage.scaleMode = StageScaleMode.SHOW_ALL;
+
+//event button kembali ke materi 11
+btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri11);
+function changeBackMateri11(e:MouseEvent):void{
+	gotoAndStop(182);
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="193" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.display.StageScaleMode;
+import flash.display.StageAlign;
+import flash.events.Event;
+
+// 1. Hentikan timeline agar tidak auto-play
+stop();
+
+// 2. Atur alignment (perataan) ke pojok kiri atas
+stage.align = StageAlign.TOP_LEFT;
+
+// 3. Atur scale mode (mode skala)
+// Ini kode yang membuat 1920x1080 pas di semua layar
+stage.scaleMode = StageScaleMode.SHOW_ALL;
+
+//event button kembali ke materi 12
+btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri12);
+function changeBackMateri12(e:MouseEvent):void{
+	gotoAndStop(182);
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="194" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.display.StageScaleMode;
+import flash.display.StageAlign;
+import flash.events.Event;
+
+// 1. Hentikan timeline agar tidak auto-play
+stop();
+
+// 2. Atur alignment (perataan) ke pojok kiri atas
+stage.align = StageAlign.TOP_LEFT;
+
+// 3. Atur scale mode (mode skala)
+// Ini kode yang membuat 1920x1080 pas di semua layar
+stage.scaleMode = StageScaleMode.SHOW_ALL;
+
+//event button kembali ke materi 13
+btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri13);
+function changeBackMateri13(e:MouseEvent):void{
+	gotoAndStop(182);
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="materi_13" color="#FF4FFF" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi13" color="#FF0000" parentLayerIndex="6" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="194" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="194" keyMode="9728">
                                    <elements>
-                                        <DOMStaticText selected="true" fontRenderingMode="standard" left="-23" width="190" height="103.1" autoExpand="true" isSelectable="false">
+                                        <DOMStaticText fontRenderingMode="standard" left="-23" width="190" height="103.1" autoExpand="true" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="901" ty="54.3"/>
                                              </matrix>
@@ -129,14 +529,14 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi1" color="#FF800A" parentLayerIndex="4" locked="true" autoNamed="false">
+                    <DOMLayer name="btn_back_materi13" color="#FF800A" parentLayerIndex="6" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="182" keyMode="9728">
+                              <DOMFrame index="0" duration="194" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="182" keyMode="9728">
+                              <DOMFrame index="194" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="btn_back_materi1" name="btn_back_materi1" selected="true" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_back_materi" name="btn_back_materi" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="59.5" ty="52.3"/>
                                              </matrix>
@@ -148,14 +548,24 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Background" color="#009999" parentLayerIndex="4" locked="true" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="video_13" color="#FF0000" parentLayerIndex="6" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="182" keyMode="9728">
+                              <DOMFrame index="0" duration="194" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="182" keyMode="9728">
+                              <DOMFrame index="194" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="background_13" color="#009999" parentLayerIndex="6" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="194" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="194" keyMode="9728">
                                    <elements>
-                                        <DOMBitmapInstance selected="true" libraryItemName="Background/Textured.jpeg">
+                                        <DOMBitmapInstance libraryItemName="Background/Textured.jpeg">
                                              <matrix>
                                                   <Matrix a="3.18869018554688" d="3.18869018554688" tx="-27" ty="-107"/>
                                              </matrix>
@@ -164,15 +574,855 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi" color="#00FFFF" parentLayerIndex="3" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="btn_materi13" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                    <DOMLayer name="materi_12" color="#FF4FFF" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi12" color="#FF0000" parentLayerIndex="11" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="193" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="193" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText fontRenderingMode="standard" left="-23" width="190" height="103.1" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="901" ty="54.3"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Judul</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="103.1" size="74" bitmapSize="1480" face="ComicSansMS-Bold"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_back_materi12" color="#FF800A" parentLayerIndex="11" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="193" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="193" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_back_materi" name="btn_back_materi" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="59.5" ty="52.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="88.3" y="59.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="video_12" color="#FF0000" parentLayerIndex="11" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="193" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="193" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="background_12" color="#009999" parentLayerIndex="11" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="193" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="193" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="Background/Textured.jpeg">
+                                             <matrix>
+                                                  <Matrix a="3.18869018554688" d="3.18869018554688" tx="-27" ty="-107"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="materi_11" color="#FF4FFF" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi11" color="#FF0000" parentLayerIndex="16" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="192" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="192" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText selected="true" fontRenderingMode="standard" left="-877.6" width="1177.7" height="208.2" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="1305.45" ty="34"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Tinjauan Pancasila &amp; Hubungannya dengan UUD 1945</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="103.1" size="74" face="ComicSansMS-Bold"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_back_materi11" color="#FF800A" parentLayerIndex="16" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="192" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="192" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_back_materi" name="btn_back_materi" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="59.5" ty="52.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="88.3" y="59.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="video_11" color="#FF0000" parentLayerIndex="16" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="192" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="192" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="background_11" color="#009999" parentLayerIndex="16" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="192" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="192" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="Background/Textured.jpeg">
+                                             <matrix>
+                                                  <Matrix a="3.18869018554688" d="3.18869018554688" tx="-27" ty="-107"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="materi_10" color="#FF4FFF" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi10" color="#FF0000" parentLayerIndex="21" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="191" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="191" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText fontRenderingMode="standard" left="-23" width="190" height="103.1" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="901" ty="54.3"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Judul</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="103.1" size="74" bitmapSize="1480" face="ComicSansMS-Bold"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_back_materi10" color="#FF800A" parentLayerIndex="21" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="191" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="191" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_back_materi" name="btn_back_materi" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="59.5" ty="52.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="88.3" y="59.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="video_10" color="#FF0000" parentLayerIndex="21" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="191" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="191" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="background_10" color="#009999" parentLayerIndex="21" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="191" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="191" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="Background/Textured.jpeg">
+                                             <matrix>
+                                                  <Matrix a="3.18869018554688" d="3.18869018554688" tx="-27" ty="-107"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="materi_9" color="#FF4FFF" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi9" color="#FF0000" parentLayerIndex="26" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="190" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="190" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText fontRenderingMode="standard" left="-23" width="190" height="103.1" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="901" ty="54.3"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Judul</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="103.1" size="74" bitmapSize="1480" face="ComicSansMS-Bold"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_back_materi9" color="#FF800A" parentLayerIndex="26" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="190" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="190" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_back_materi" name="btn_back_materi" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="59.5" ty="52.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="88.3" y="59.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="video_9" color="#FF0000" parentLayerIndex="26" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="190" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="190" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="background_9" color="#009999" parentLayerIndex="26" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="190" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="190" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="Background/Textured.jpeg">
+                                             <matrix>
+                                                  <Matrix a="3.18869018554688" d="3.18869018554688" tx="-27" ty="-107"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="materi_8" color="#FF4FFF" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi8" color="#FF0000" parentLayerIndex="31" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="189" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="189" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText fontRenderingMode="standard" left="-23" width="190" height="103.1" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="901" ty="54.3"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Judul</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="103.1" size="74" bitmapSize="1480" face="ComicSansMS-Bold"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_back_materi8" color="#FF800A" parentLayerIndex="31" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="189" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="189" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_back_materi" name="btn_back_materi" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="59.5" ty="52.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="88.3" y="59.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="video_8" color="#FF0000" parentLayerIndex="31" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="189" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="189" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="background_8" color="#009999" parentLayerIndex="31" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="189" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="189" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="Background/Textured.jpeg">
+                                             <matrix>
+                                                  <Matrix a="3.18869018554688" d="3.18869018554688" tx="-27" ty="-107"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="materi_7" color="#FF4FFF" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi7" color="#FF0000" parentLayerIndex="36" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="188" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="188" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText fontRenderingMode="standard" left="-23" width="190" height="103.1" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="901" ty="54.3"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Judul</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="103.1" size="74" bitmapSize="1480" face="ComicSansMS-Bold"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_back_materi7" color="#FF800A" parentLayerIndex="36" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="188" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="188" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_back_materi" name="btn_back_materi" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="59.5" ty="52.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="88.3" y="59.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="video_7" color="#FF0000" parentLayerIndex="36" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="188" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="188" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="background_7" color="#009999" parentLayerIndex="36" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="188" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="188" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="Background/Textured.jpeg">
+                                             <matrix>
+                                                  <Matrix a="3.18869018554688" d="3.18869018554688" tx="-27" ty="-107"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="materi_6" color="#FF4FFF" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi6" color="#FF0000" parentLayerIndex="41" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="187" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="187" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText fontRenderingMode="standard" left="-23" width="190" height="103.1" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="901" ty="54.3"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Judul</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="103.1" size="74" bitmapSize="1480" face="ComicSansMS-Bold"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_back_materi6" color="#FF800A" parentLayerIndex="41" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="187" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="187" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_back_materi" name="btn_back_materi" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="59.5" ty="52.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="88.3" y="59.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="video_6" color="#FF0000" parentLayerIndex="41" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="187" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="187" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="background_6" color="#009999" parentLayerIndex="41" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="187" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="187" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="Background/Textured.jpeg">
+                                             <matrix>
+                                                  <Matrix a="3.18869018554688" d="3.18869018554688" tx="-27" ty="-107"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="materi_5" color="#FF4FFF" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi5" color="#FF0000" parentLayerIndex="46" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="186" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="186" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText fontRenderingMode="standard" left="-23" width="190" height="103.1" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="901" ty="54.3"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Judul</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="103.1" size="74" bitmapSize="1480" face="ComicSansMS-Bold"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_back_materi5" color="#FF800A" parentLayerIndex="46" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="186" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="186" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_back_materi" name="btn_back_materi" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="59.5" ty="52.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="88.3" y="59.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="video_5" color="#009999" parentLayerIndex="46" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="186" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="186" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="background_5" color="#009999" parentLayerIndex="46" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="186" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="186" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="Background/Textured.jpeg">
+                                             <matrix>
+                                                  <Matrix a="3.18869018554688" d="3.18869018554688" tx="-27" ty="-107"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="materi_4" color="#FF4FFF" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi4" color="#FF0000" parentLayerIndex="51" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="185" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="185" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText fontRenderingMode="standard" left="-601.4" width="1346.8" height="103.1" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="1016.9" ty="54.3"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Dari PPKI Hingga Masyarakat Madani</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="103.1" size="74" bitmapSize="1480" face="ComicSansMS-Bold"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_back_materi4" color="#FF800A" parentLayerIndex="51" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="185" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="185" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_back_materi" name="btn_back_materi" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="59.5" ty="52.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="88.3" y="59.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="video_4" color="#FF4FFF" parentLayerIndex="51" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="185" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="185" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="background_4" color="#009999" parentLayerIndex="51" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="185" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="185" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="Background/Textured.jpeg">
+                                             <matrix>
+                                                  <Matrix a="3.18869018554688" d="3.18869018554688" tx="-27" ty="-107"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="materi_3" color="#FF4FFF" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi3" color="#FF0000" parentLayerIndex="56" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="184" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="184" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText fontRenderingMode="standard" left="-616" width="1376" height="103.1" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="1001.65" ty="54.3"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Pancasila (Sejarah Perjuangan Bangsa)</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="103.1" size="74" bitmapSize="1480" face="ComicSansMS-Bold"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_back_materi3" color="#FF800A" parentLayerIndex="56" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="184" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="184" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_back_materi" name="btn_back_materi" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="59.5" ty="52.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="88.3" y="59.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="video_3" color="#FF800A" parentLayerIndex="56" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="184" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="184" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="background_3" color="#009999" parentLayerIndex="56" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="184" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="184" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="Background/Textured.jpeg">
+                                             <matrix>
+                                                  <Matrix a="3.18869018554688" d="3.18869018554688" tx="-27" ty="-107"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="materi_2" color="#FF4FFF" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi2" color="#FF0000" parentLayerIndex="61" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="183" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="183" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText fontRenderingMode="standard" left="-637.7" width="1419.4" height="103.1" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="1001.65" ty="54.3"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Landasan &amp; Tujuan Pendidikan Pancasila</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="103.1" size="74" bitmapSize="1480" face="ComicSansMS-Bold"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_back_materi2" color="#FF800A" parentLayerIndex="61" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="183" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="183" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_back_materi" name="btn_back_materi" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="59.5" ty="52.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="88.3" y="59.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="video_2" color="#9933CC" parentLayerIndex="61" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="183" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="183" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="background_2" color="#009999" parentLayerIndex="61" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="183" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="183" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="Background/Textured.jpeg">
+                                             <matrix>
+                                                  <Matrix a="3.18869018554688" d="3.18869018554688" tx="-27" ty="-107"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="materi_1" color="#FF4FFF" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi1" color="#FF0000" parentLayerIndex="66" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="182" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="182" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText fontRenderingMode="standard" left="-416.05" width="976.1" height="103.1" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="901" ty="54.3"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Selayang Pandang Pancasila</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="103.1" size="74" bitmapSize="1480" face="ComicSansMS-Bold"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_back_materi1" color="#FF800A" parentLayerIndex="66" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="182" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="182" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_back_materi" name="btn_back_materi" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="59.5" ty="52.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="88.3" y="59.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="video_1" color="#00FFFF" parentLayerIndex="66" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="182" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="182" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="background_1" color="#009999" parentLayerIndex="66" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="182" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="182" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="Background/Textured.jpeg">
+                                             <matrix>
+                                                  <Matrix a="3.18869018554688" d="3.18869018554688" tx="-27" ty="-107"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="btn_materi" color="#00FFFF" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="btn_materi13" color="#FF800A" parentLayerIndex="71" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi13" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi13" name="btn_materi13" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="875.9" ty="787.1"/>
                                              </matrix>
@@ -184,14 +1434,14 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi12" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                    <DOMLayer name="btn_materi12" color="#FF800A" parentLayerIndex="71" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi12" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi12" name="btn_materi12" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="518.3" ty="787.1"/>
                                              </matrix>
@@ -203,14 +1453,14 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi11" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                    <DOMLayer name="btn_materi11" color="#FF800A" parentLayerIndex="71" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi11" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi11" name="btn_materi11" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="150.7" ty="787.1"/>
                                              </matrix>
@@ -222,14 +1472,14 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi10" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                    <DOMLayer name="btn_materi10" color="#FF800A" parentLayerIndex="71" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi10" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi10" name="btn_materi10" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="1615.65" ty="519.8"/>
                                              </matrix>
@@ -241,14 +1491,14 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi9" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                    <DOMLayer name="btn_materi9" color="#FF800A" parentLayerIndex="71" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi9" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi9" name="btn_materi9" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="1248.75" ty="519.8"/>
                                              </matrix>
@@ -260,14 +1510,14 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi8" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                    <DOMLayer name="btn_materi8" color="#FF800A" parentLayerIndex="71" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi8" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi8" name="btn_materi8" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="875.9" ty="519.8"/>
                                              </matrix>
@@ -279,14 +1529,14 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi7" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                    <DOMLayer name="btn_materi7" color="#FF800A" parentLayerIndex="71" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi7" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi7" name="btn_materi7" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="518.3" ty="519.8"/>
                                              </matrix>
@@ -298,14 +1548,14 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi6" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                    <DOMLayer name="btn_materi6" color="#FF800A" parentLayerIndex="71" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi6" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi6" name="btn_materi6" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="150.7" ty="519.8"/>
                                              </matrix>
@@ -317,14 +1567,14 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi5" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                    <DOMLayer name="btn_materi5" color="#FF800A" parentLayerIndex="71" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi5" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi5" name="btn_materi5" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="1615.65" ty="244.05"/>
                                              </matrix>
@@ -336,14 +1586,14 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi4" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                    <DOMLayer name="btn_materi4" color="#FF800A" parentLayerIndex="71" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi4" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi4" name="btn_materi4" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="1248.75" ty="244.05"/>
                                              </matrix>
@@ -355,14 +1605,14 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi3" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                    <DOMLayer name="btn_materi3" color="#FF800A" parentLayerIndex="71" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi3" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi3" name="btn_materi3" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="875.9" ty="244.05"/>
                                              </matrix>
@@ -374,14 +1624,14 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi2" color="#FF800A" parentLayerIndex="8" locked="true" autoNamed="false">
+                    <DOMLayer name="btn_materi2" color="#FF800A" parentLayerIndex="71" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="181" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi2" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Materi/btn_materi2" name="btn_materi2" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="518.3" ty="244.05"/>
                                              </matrix>
@@ -393,7 +1643,7 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi1" color="#9933CC" parentLayerIndex="8" locked="true" autoNamed="false">
+                    <DOMLayer name="btn_materi1" color="#9933CC" parentLayerIndex="71" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -412,8 +1662,8 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="3" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="selected" color="#FF800A" parentLayerIndex="22" locked="true" autoNamed="false">
+                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="3" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="selected" color="#FF800A" parentLayerIndex="85" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -432,7 +1682,7 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="22" locked="true" autoNamed="false">
+                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="85" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -454,7 +1704,7 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="22" locked="true" autoNamed="false">
+                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="85" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -473,7 +1723,7 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="22" locked="true" autoNamed="false">
+                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="85" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -492,7 +1742,7 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="22" locked="true" autoNamed="false">
+                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="85" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -511,7 +1761,7 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="22" locked="true" autoNamed="false">
+                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="85" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -530,7 +1780,7 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="22" locked="true" autoNamed="false">
+                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="85" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -552,7 +1802,7 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="22" locked="true" autoNamed="false">
+                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="85" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="181" keyMode="9728">
                                    <elements/>
@@ -575,8 +1825,8 @@ function changeMateri1(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_beranda" color="#FF4FFF" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions" color="#FF4F4F" parentLayerIndex="31" locked="true" autoNamed="false">
+                    <DOMLayer name="layar_beranda" color="#FF4FFF" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="actions_beranda" color="#FF4F4F" parentLayerIndex="94" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
@@ -585,7 +1835,6 @@ function changeMateri1(e:MouseEvent):void{
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.MouseEvent;
 
-//KODE DI FRAME 1 : Actions
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
@@ -597,21 +1846,18 @@ stage.align = StageAlign.TOP_LEFT;
 // Ini kode yang membuat 1920x1080 pas di semua layar
 stage.scaleMode = StageScaleMode.SHOW_ALL;
 
-
 //event button materi
 materi_btn.addEventListener(MouseEvent.CLICK, changeMateri);
-
 function changeMateri(e:MouseEvent):void{
 	gotoAndStop(182);
-}
-]]></script>
+}]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_awal" color="#00FFFF" parentLayerIndex="31" locked="true" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="33" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="layar_awal" color="#00FFFF" parentLayerIndex="94" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="96" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -619,7 +1865,7 @@ function changeMateri(e:MouseEvent):void{
                               <DOMFrame index="1" duration="180" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="180000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500076" xformPtYOffsetPct="0.498735" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-903.5" next="0,-903.5" previous="0,-903.5" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-392.2" next="0,-392.2" previous="0,-392.2" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,105.801" next="0,105.801" previous="0,105.801" roving="0" timevalue="0"/><Keyframe anchor="0,19.7128" next="0,19.7128" previous="0,19.7128" roving="0" timevalue="58000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,105.809" next="0,105.809" previous="0,105.809" roving="0" timevalue="0"/><Keyframe anchor="0,15.5197" next="0,15.5197" previous="0,15.5197" roving="0" timevalue="58000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"><PropertyContainer id="Glow_Filter"><Property enabled="1" id="Glow_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,20" next="0,20" previous="0,20" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="28000"/></Property><Property enabled="1" id="Glow_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,20" next="0,20" previous="0,20" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="28000"/></Property><Property enabled="1" id="Glow_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,200" next="0,200" previous="0,200" roving="0" timevalue="0"/></Property><Property enabled="1" id="Glow_Quality" readonly="0" value="3" visible="1"/><Property enabled="1" id="Glow_Color" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0xffcc33ff"/></Property><Property enabled="1" id="Glow_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="Glow_InnerGlow" readonly="0" value="0" visible="1"/></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Pancasila/Garuda-Pancasila.ai" name="Garuda" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Pancasila/Garuda-Pancasila.ai" name="Garuda">
                                              <matrix>
                                                   <Matrix a="1.05801391601562" d="1.05807495117188" tx="647.9" ty="115.7"/>
                                              </matrix>
@@ -634,7 +1880,7 @@ function changeMateri(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Teks" color="#669900" parentLayerIndex="33" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Teks" color="#669900" parentLayerIndex="96" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -660,7 +1906,7 @@ function changeMateri(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Background" color="#FF0000" parentLayerIndex="33" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Background" color="#FF0000" parentLayerIndex="96" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -680,8 +1926,8 @@ function changeMateri(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="31" locked="true" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="37" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="94" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="100" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -689,7 +1935,7 @@ function changeMateri(e:MouseEvent):void{
                               <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499832" xformPtYOffsetPct="0.4" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,176.566" next="0,176.566" previous="0,176.566" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Objects/selected" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Objects/selected">
                                              <matrix>
                                                   <Matrix tx="804.7" ty="102"/>
                                              </matrix>
@@ -704,7 +1950,7 @@ function changeMateri(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="37" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Profile" color="#9933CC" parentLayerIndex="100" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -712,7 +1958,7 @@ function changeMateri(e:MouseEvent):void{
                               <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500123" xformPtYOffsetPct="0.503766" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="38000"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="48000"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/profile" selected="true" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/profile" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.0847320556640625" d="0.0847320556640625" tx="1721.45" ty="67.5"/>
                                              </matrix>
@@ -727,7 +1973,7 @@ function changeMateri(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="37" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="100" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -735,7 +1981,7 @@ function changeMateri(e:MouseEvent):void{
                               <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500123" xformPtYOffsetPct="0.503766" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-0.55" next="0,-0.55" previous="0,-0.55" roving="0" timevalue="38000"/><Keyframe anchor="0,-0.55" next="0,-0.55" previous="0,-0.55" roving="0" timevalue="48000"/><Keyframe anchor="0,-0.55" next="0,-0.55" previous="0,-0.55" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,128.078" next="0,128.078" previous="0,128.078" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,128.078" next="0,128.078" previous="0,128.078" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/kuis" name="quiz_btn" selected="true" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/kuis" name="quiz_btn" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.0847320556640625" d="0.0847320556640625" tx="1441.45" ty="67.5"/>
                                              </matrix>
@@ -750,7 +1996,7 @@ function changeMateri(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="37" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="100" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -758,7 +2004,7 @@ function changeMateri(e:MouseEvent):void{
                               <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.50037" xformPtYOffsetPct="0.503766" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="38000"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="48000"/><Keyframe anchor="0,-0.5" next="0,-0.5" previous="0,-0.5" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="48000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.47321" next="0,8.47321" previous="0,8.47321" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/materi" name="materi_btn" selected="true" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/materi" name="materi_btn" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.0847320556640625" d="0.0847320556640625" tx="1171.45" ty="67.5"/>
                                              </matrix>
@@ -773,7 +2019,7 @@ function changeMateri(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="37" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="100" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
@@ -781,7 +2027,7 @@ function changeMateri(e:MouseEvent):void{
                               <DOMFrame index="120" duration="61" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="61000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.495442" xformPtYOffsetPct="0.493724" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="38000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,9.8526" next="0,9.8526" previous="0,9.8526" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,9.8526" next="0,9.8526" previous="0,9.8526" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="38000"/><Keyframe anchor="0,137.93" next="0,137.93" previous="0,137.93" roving="0" timevalue="48000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="59000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/beranda" name="beranda_btn" selected="true" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Navbar/beranda" name="beranda_btn" symbolType="button">
                                              <matrix>
                                                   <Matrix a="0.0985107421875" d="0.0985107421875" tx="870.1" ty="67.1"/>
                                              </matrix>
@@ -796,7 +2042,7 @@ function changeMateri(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="37" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="100" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -804,7 +2050,7 @@ function changeMateri(e:MouseEvent):void{
                               <DOMFrame index="60" duration="121" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="121000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.49832" xformPtYOffsetPct="0.492847" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,310.5" next="0,310.5" previous="0,310.5" roving="0" timevalue="39000"/><Keyframe anchor="0,342.3" next="0,342.3" previous="0,342.3" roving="0" timevalue="49000"/><Keyframe anchor="0,284" next="0,284" previous="0,284" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0.1" next="0,0.1" previous="0,0.1" roving="0" timevalue="39000"/><Keyframe anchor="0,0.1" next="0,0.1" previous="0,0.1" roving="0" timevalue="49000"/><Keyframe anchor="0,0.1" next="0,0.1" previous="0,0.1" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4.5929" next="0,4.5929" previous="0,4.5929" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="39000"/><Keyframe anchor="0,111.024" next="0,111.024" previous="0,111.024" roving="0" timevalue="49000"/><Keyframe anchor="0,85.463" next="0,85.463" previous="0,85.463" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4.5929" next="0,4.5929" previous="0,4.5929" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="39000"/><Keyframe anchor="0,111.024" next="0,111.024" previous="0,111.024" roving="0" timevalue="49000"/><Keyframe anchor="0,85.463" next="0,85.463" previous="0,85.463" roving="0" timevalue="59000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="39000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"><PropertyContainer id="Bevel_Filter"><Property enabled="1" id="Bevel_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Bevel_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Bevel_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Bevel_Quality" readonly="0" value="3" visible="1"/><Property enabled="1" id="Bevel_ShadowColor" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0x000000ff"/><Keyframe roving="0" timevalue="59000" value="0xffffffff"/></Property><Property enabled="1" id="Bevel_HilightColor" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0xffffffff"/><Keyframe roving="0" timevalue="59000" value="0x999999ff"/></Property><Property enabled="1" id="Bevel_Angle" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,45" next="0,45" previous="0,45" roving="0" timevalue="0"/></Property><Property enabled="1" id="Bevel_Distance" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,3" next="0,3" previous="0,3" roving="0" timevalue="59000"/></Property><Property enabled="1" id="Bevel_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="Bevel_Type" readonly="0" value="1" visible="1"/></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Teks/Teks_2" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Teks/Teks_2">
                                              <matrix>
                                                   <Matrix a="0.045928955078125" d="0.045928955078125" tx="81.55" ty="67.55"/>
                                              </matrix>
@@ -822,7 +2068,7 @@ function changeMateri(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="37" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="100" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="41" keyMode="9728">
                                    <elements/>
@@ -830,7 +2076,7 @@ function changeMateri(e:MouseEvent):void{
                               <DOMFrame index="41" duration="140" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="140000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.498258" xformPtYOffsetPct="-0.000333333" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/><Keyframe anchor="0,-1.3" next="0,-1.3" previous="0,-1.3" roving="0" timevalue="138000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-84" next="0,-84" previous="0,-84" roving="0" timevalue="18000"/><Keyframe anchor="0,-84" next="0,-84" previous="0,-84" roving="0" timevalue="138000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="18000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,2.23541" next="0,2.23541" previous="0,2.23541" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="18000"/><Keyframe anchor="0,99.9313" next="0,99.9313" previous="0,99.9313" roving="0" timevalue="138000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-2.23541" next="0,-2.23541" previous="0,-2.23541" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="18000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="18000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"><PropertyContainer id="DropShadow_Filter"><Property enabled="1" id="DropShadow_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="18000"/></Property><Property enabled="1" id="DropShadow_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="18000"/></Property><Property enabled="1" id="DropShadow_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="18000"/></Property><Property enabled="1" id="DropShadow_Quality" readonly="0" value="3" visible="1"/><Property enabled="1" id="DropShadow_Angle" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,45" next="0,45" previous="0,45" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Distance" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="18000"/></Property><Property enabled="1" id="DropShadow_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_InnerShadow" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_HideObject" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_Color" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0x000000ff"/><Keyframe roving="0" timevalue="18000" value="0x0000008c"/></Property></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Objects/Navbar_1" name="Navbar_1" selected="true" bits32="false">
+                                        <DOMSymbolInstance libraryItemName="Objects/Navbar_1" name="Navbar_1" bits32="false">
                                              <matrix>
                                                   <Matrix a="0.0223388671875" d="-0.0223388671875" tx="937.1" ty="71.75"/>
                                              </matrix>
@@ -849,15 +2095,15 @@ function changeMateri(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="isi_beranda" color="#669900" parentLayerIndex="31" locked="true" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="Poin_5" color="#FF0000" parentLayerIndex="45" locked="true" autoNamed="false">
+                    <DOMLayer name="isi_beranda" color="#669900" parentLayerIndex="94" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Poin_5" color="#FF0000" parentLayerIndex="108" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_5" selected="true" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_5" symbolType="button">
                                              <matrix>
                                                   <Matrix a="1.56883239746094" d="1.5692138671875" tx="1516.1" ty="682.45"/>
                                              </matrix>
@@ -869,14 +2115,14 @@ function changeMateri(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_4" color="#009999" parentLayerIndex="45" locked="true" autoNamed="false">
+                    <DOMLayer name="Poin_4" color="#009999" parentLayerIndex="108" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_4" selected="true" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_4" symbolType="button">
                                              <matrix>
                                                   <Matrix a="1.56883239746094" d="1.56886291503906" tx="1186.1" ty="682.45"/>
                                              </matrix>
@@ -888,14 +2134,14 @@ function changeMateri(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_3" color="#FF4FFF" parentLayerIndex="45" locked="true" autoNamed="false">
+                    <DOMLayer name="Poin_3" color="#FF4FFF" parentLayerIndex="108" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_3" selected="true" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_3" symbolType="button">
                                              <matrix>
                                                   <Matrix a="1.56883239746094" d="1.56886291503906" tx="846" ty="682.45"/>
                                              </matrix>
@@ -907,14 +2153,14 @@ function changeMateri(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_2" color="#FF800A" parentLayerIndex="45" locked="true" autoNamed="false">
+                    <DOMLayer name="Poin_2" color="#FF800A" parentLayerIndex="108" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_2" selected="true" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_2" symbolType="button">
                                              <matrix>
                                                   <Matrix a="1.56871032714844" d="1.56895446777344" tx="496.2" ty="682.45"/>
                                              </matrix>
@@ -926,14 +2172,14 @@ function changeMateri(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_1" color="#9933CC" parentLayerIndex="45" locked="true" autoNamed="false">
+                    <DOMLayer name="Poin_1" color="#9933CC" parentLayerIndex="108" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_1" selected="true" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Poin/poin_1" symbolType="button">
                                              <matrix>
                                                   <Matrix a="1.56895446777344" d="1.56895446777344" tx="157.1" ty="695"/>
                                              </matrix>
@@ -945,14 +2191,14 @@ function changeMateri(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Pancasila" color="#00FFFF" parentLayerIndex="45" locked="true" autoNamed="false">
+                    <DOMLayer name="Pancasila" color="#00FFFF" parentLayerIndex="108" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="180" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="180" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Pancasila/Isi_Beranda" selected="true" symbolType="graphic" loop="loop">
+                                        <DOMSymbolInstance libraryItemName="Pancasila/Isi_Beranda" symbolType="graphic" loop="loop">
                                              <matrix>
                                                   <Matrix tx="157.1" ty="156.9"/>
                                              </matrix>
@@ -964,33 +2210,34 @@ function changeMateri(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_awal" color="#9933CC" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions" color="#669900" parentLayerIndex="52" locked="true" autoNamed="false">
+                    <DOMLayer name="layar_awal" color="#9933CC" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="actions_awal" color="#669900" parentLayerIndex="115" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[//KODE DI FRAME 1 : Actions
-import flash.display.StageScaleMode;
+                                        <script><![CDATA[import flash.display.StageScaleMode;
 import flash.display.StageAlign;
 import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 //stop();
 
-
 // 3. Atur scale mode (mode skala)
 // Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;]]></script>
+stage.scaleMode = StageScaleMode.SHOW_ALL;
+
+
+]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_awal" color="#FF800A" parentLayerIndex="52" locked="true" autoNamed="false">
+                    <DOMLayer name="layar_awal" color="#FF800A" parentLayerIndex="115" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/layar/layar_awal" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/layar/layar_awal" name="layar_awal_btn" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="-18" ty="-20"/>
                                              </matrix>
@@ -1059,43 +2306,42 @@ stage.scaleMode = StageScaleMode.SHOW_ALL;]]></script>
      </extendedSwatchLists>
      <persistentData>
           <PD n="com.air.artemis.airdest" v="Merah Putih One For All.app"/>
-          <PD n="ane.tmp.unzipped.folder" v="C:\Users\ammar\AppData\Local\Temp\Tmp_ANE_File_Unzipped_Packages"/>
+          <PD n="ane.tmp.unzipped.folder" v="C:\Users\asus\AppData\Local\Temp\Tmp_ANE_File_Unzipped_Packages"/>
           <PD n="com.air.oldTargetPlatform" v="Desktop"/>
-          <PD n="com.air.sdk.path" v="D:\program\AIRSDK_3311935\AIRSDK_3311935"/>
+          <PD n="com.air.sdk.path" v="D:\Kuliah\Semester 5\Sistem Multimedia\AIRSDK_3311935"/>
           <PD n="com.air.artemis.pubair" v="false"/>
           <PD n="com.air.agistri.proctype" v="armv8"/>
           <PD n="com.air.artemis.pubipa" v="false"/>
-          <PD n="com.air.agistri.proctype" v="armv8"/>
           <PD n="flash.swf.basename" v="Merah Putih One For All"/>
           <PD n="com.air.agistri.runtimetype" v="embed"/>
           <PD n="com.air.agistri.publishtype" v="release"/>
-          <PD n="com.air.artemis.pubcaptive" v="true"/>
           <PD n="com.air.agistri.hostip" v="Default"/>
-          <PD n="swf.folder.path" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes-Sismul/"/>
+          <PD n="com.air.artemis.pubcaptive" v="true"/>
           <PD n="flash.fla.filepath" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes-Sismul/Merah Putih One For All/Merah Putih One For All.xfl"/>
+          <PD n="swf.folder.path" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes-Sismul/"/>
           <PD n="com.air.artemis.pubexe" v="false"/>
      </persistentData>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="177289" publishTime="1765346865"/>
+          <PublishItem publishSize="176859" publishTime="1765346626"/>
+          <PublishItem publishSize="168456" publishTime="1765346552"/>
+          <PublishItem publishSize="176713" publishTime="1765346458"/>
+          <PublishItem publishSize="176713" publishTime="1765346416"/>
+          <PublishItem publishSize="176713" publishTime="1765346227"/>
+          <PublishItem publishSize="176704" publishTime="1765338122"/>
+          <PublishItem publishSize="176705" publishTime="1765337666"/>
+          <PublishItem publishSize="176597" publishTime="1765337241"/>
+          <PublishItem publishSize="176860" publishTime="1765336969"/>
+          <PublishItem publishSize="168399" publishTime="1765336805"/>
+          <PublishItem publishSize="176784" publishTime="1765336617"/>
+          <PublishItem publishSize="176681" publishTime="1765331261"/>
+          <PublishItem publishSize="174184" publishTime="1765328990"/>
           <PublishItem publishSize="151307" publishTime="1765299894"/>
           <PublishItem publishSize="151230" publishTime="1765299520"/>
           <PublishItem publishSize="151226" publishTime="1765299468"/>
           <PublishItem publishSize="151187" publishTime="1765299192"/>
           <PublishItem publishSize="151210" publishTime="1765299097"/>
           <PublishItem publishSize="151200" publishTime="1765298906"/>
-          <PublishItem publishSize="151194" publishTime="1765298830"/>
-          <PublishItem publishSize="151116" publishTime="1765298625"/>
-          <PublishItem publishSize="151113" publishTime="1765298603"/>
-          <PublishItem publishSize="151113" publishTime="1765298518"/>
-          <PublishItem publishSize="114605" publishTime="1765297886"/>
-          <PublishItem publishSize="115784" publishTime="1765297483"/>
-          <PublishItem publishSize="111149" publishTime="1765297280"/>
-          <PublishItem publishSize="103642" publishTime="1765297233"/>
-          <PublishItem publishSize="111120" publishTime="1765297098"/>
-          <PublishItem publishSize="110160" publishTime="1765296468"/>
-          <PublishItem publishSize="110129" publishTime="1765296410"/>
-          <PublishItem publishSize="110130" publishTime="1765296385"/>
-          <PublishItem publishSize="110109" publishTime="1765296294"/>
-          <PublishItem publishSize="110111" publishTime="1765296181"/>
      </publishHistory>
 </DOMDocument>

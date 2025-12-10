@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Pancasila/banteng.ai" itemID="69343e5a-00000157" symbolType="graphic" lastModified="1765031514">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Pancasila/Banteng.ai" itemID="6922d2af-0000014e" symbolType="graphic" lastModified="1763889839">
   <timeline>
-    <DOMTimeline name="banteng.ai" layerDepthEnabled="true">
+    <DOMTimeline name="Banteng.ai" layerDepthEnabled="true">
       <layers>
         <DOMLayer name="Layer_1" color="#0000FF" current="true" isSelected="true" autoNamed="false">
           <frames>

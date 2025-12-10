@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Pancasila/garuda-pancasila.ai" itemID="69343e4c-00000155" symbolType="graphic" lastModified="1765031500">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Pancasila/Garuda-Pancasila.ai" itemID="692178c9-000003a9" symbolType="graphic" lastModified="1763801289">
   <timeline>
-    <DOMTimeline name="garuda-pancasila.ai" layerDepthEnabled="true">
+    <DOMTimeline name="Garuda-Pancasila.ai" layerDepthEnabled="true">
       <layers>
         <DOMLayer name="Garuda_Pancasila_ai" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
           <frames>

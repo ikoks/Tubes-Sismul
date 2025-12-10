@@ -2,7 +2,7 @@
   <timeline>
     <DOMTimeline name="poin3" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+        <DOMLayer name="Layer_1" color="#00FFFF">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
