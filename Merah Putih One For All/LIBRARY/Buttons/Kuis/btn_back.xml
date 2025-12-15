@@ -18,7 +18,7 @@
                 </DOMShape>
                 <DOMDynamicText fontRenderingMode="standard" width="100" height="27.9" isSelectable="false" lineType="multiline no wrap">
                   <matrix>
-                    <Matrix a="1.88087463378906" d="1.88087463378906" tx="-94" ty="-26.2"/>
+                    <Matrix a="1.880859375" d="1.880859375" tx="-94" ty="-26.2"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -45,7 +45,7 @@
                 </DOMShape>
                 <DOMDynamicText fontRenderingMode="standard" width="100" height="27.9" isSelectable="false" lineType="multiline no wrap">
                   <matrix>
-                    <Matrix a="1.88087463378906" d="1.88087463378906" tx="-94" ty="-26.2"/>
+                    <Matrix a="1.880859375" d="1.880859375" tx="-94" ty="-26.2"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -72,7 +72,7 @@
                 </DOMShape>
                 <DOMDynamicText fontRenderingMode="standard" width="100" height="27.9" isSelectable="false" lineType="multiline no wrap">
                   <matrix>
-                    <Matrix a="1.88087463378906" d="1.88087463378906" tx="-92" ty="-24.2"/>
+                    <Matrix a="1.880859375" d="1.880859375" tx="-92" ty="-24.2"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -99,7 +99,7 @@
                 </DOMShape>
                 <DOMDynamicText selected="true" fontRenderingMode="standard" width="100" height="27.9" isSelectable="false" lineType="multiline no wrap">
                   <matrix>
-                    <Matrix a="1.88087463378906" d="1.88087463378906" tx="-92" ty="-24.2"/>
+                    <Matrix a="1.880859375" d="1.880859375" tx="-92" ty="-24.2"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
