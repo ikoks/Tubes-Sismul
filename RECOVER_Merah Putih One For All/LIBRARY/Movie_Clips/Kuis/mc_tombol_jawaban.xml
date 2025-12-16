@@ -1,0 +1,94 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Movie_Clips/Kuis/mc_tombol_jawaban" itemID="693eb64b-00000167" lastModified="1765785676">
+  <timeline>
+    <DOMTimeline name="mc_tombol_jawaban" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="actions" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="teks" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="txt_label" fontRenderingMode="standard" left="42.75" width="139.2" height="47.7" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix d="1.19819641113281" tx="-111.55" ty="-29.6"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Teks</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="13.9" size="10" bitmapSize="200" face="ComicSansMS-Bold"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="visual" color="#00FFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" name="netral" labelType="name" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CCCCCC"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-1400 -800|1400 -800!1400 -800[1700 -800 1700 -500!1700 -500|1700 500!1700 500[1700 800 1400 800!1400 800|-1400 800!-1400 800[-1700 800 -1700 500!-1700 500|-1700 -500!-1700 -500[-1700 -800 -1400 -800"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+              <frameFilters>
+                <DropShadowFilter alpha="0.949019607843137" blurX="7" blurY="7" distance="3" quality="3" strength="0.81"/>
+              </frameFilters>
+            </DOMFrame>
+            <DOMFrame index="1" name="benar" labelType="name" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#00FF00"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-1400 -800|1400 -800!1400 -800[1700 -800 1700 -500!1700 -500|1700 500!1700 500[1700 800 1400 800!1400 800|-1400 800!-1400 800[-1700 800 -1700 500!-1700 500|-1700 -500!-1700 -500[-1700 -800 -1400 -800"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+              <frameFilters>
+                <DropShadowFilter alpha="0.949019607843137" blurX="7" blurY="7" distance="3" quality="3" strength="0.81"/>
+              </frameFilters>
+            </DOMFrame>
+            <DOMFrame index="2" name="salah" labelType="name" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-1400 -800|1400 -800!1400 -800[1700 -800 1700 -500!1700 -500|1700 500!1700 500[1700 800 1400 800!1400 800|-1400 800!-1400 800[-1700 800 -1700 500!-1700 500|-1700 -500!-1700 -500[-1700 -800 -1400 -800"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+              <frameFilters>
+                <DropShadowFilter alpha="0.949019607843137" blurX="7" blurY="7" distance="3" quality="3" strength="0.81"/>
+              </frameFilters>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

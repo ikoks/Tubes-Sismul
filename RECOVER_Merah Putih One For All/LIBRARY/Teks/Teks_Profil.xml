@@ -1,0 +1,47 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Teks/Teks_Profil" itemID="69342af8-00000228" lastModified="1765026614">
+  <timeline>
+    <DOMTimeline name="Teks_Profil" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMShape selected="true">
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#FFFFFF"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!520 0S2|3520 0!3520 0[3920 0 3920 400!3920 400|3920 1200!3920 1200[3920 1600 3520 1600!3520 1600|520 1600!520 1600[120 1600 120 1200!120 1200|120 400!120 400[120 0 520 0"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMStaticText fontRenderingMode="standard" left="12.95" width="198.95" height="55.75" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="-10.95" ty="11.5"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>Profile</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" letterSpacing="2.55" lineSpacing="12" lineHeight="55.75" size="40" bitmapSize="800" face="ComicSansMS-Bold" fillColor="#FF0000"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,72 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Bintang.ai" itemID="6922d00d-00000140" symbolType="graphic" lastModified="1763889165">
+  <timeline>
+    <DOMTimeline name="Bintang.ai" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#0000FF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#FFD900"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!1277 540|941 838!941 838|1075 1347!1075 1347|661 1063!661 1063|249 1347!249 1347|384 838!384 838|53 540!53 540|504 540!504 540|661 60!661 60|840 540!840 540|1277 540"/>
+                            <Edge cubics="!1277 540(;1277,540 941,838 941,838q1277 540 941 838);"/>
+                            <Edge cubics="!941 838(;941,838 1075,1347 1075,1347q941 838 1075 1347);"/>
+                            <Edge cubics="!1075 1347(;1075,1347 661,1063 661,1063q1075 1347 661 1063);"/>
+                            <Edge cubics="!661 1063(;661,1063 249,1347 249,1347q661 1063 249 1347);"/>
+                            <Edge cubics="!249 1347(;249,1347 384,838 384,838q249 1347 384 838);"/>
+                            <Edge cubics="!384 838(;384,838 53,540 53,540q384 838 53 540);"/>
+                            <Edge cubics="!53 540(;53,540 504,540 504,540q53 540 504 540);"/>
+                            <Edge cubics="!504 540(;504,540 661,60 661,60q504 540 661 60);"/>
+                            <Edge cubics="!661 60(;661,60 840,540 840,540q661 60 840 540);"/>
+                            <Edge cubics="!840 540(;840,540 1277,540 1277,540q840 540 1277 540);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" caps="none" weight="2" joints="miter" miterLimit="10">
+                                <fill>
+                                  <SolidColor/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!53 540|504 540!504 540|661 60!661 60|840 540!840 540|1277 540!1277 540|941 838!941 838|1075 1347!1075 1347|661 1063!661 1063|249 1347!249 1347|384 838!384 838|53 540"/>
+                            <Edge cubics="!53 540(;53,540 504,540 504,540q53 540 504 540);"/>
+                            <Edge cubics="!504 540(;504,540 661,60 661,60q504 540 661 60);"/>
+                            <Edge cubics="!661 60(;661,60 840,540 840,540q661 60 840 540);"/>
+                            <Edge cubics="!840 540(;840,540 1277,540 1277,540q840 540 1277 540);"/>
+                            <Edge cubics="!1277 540(;1277,540 941,838 941,838q1277 540 941 838);"/>
+                            <Edge cubics="!941 838(;941,838 1075,1347 1075,1347q941 838 1075 1347);"/>
+                            <Edge cubics="!1075 1347(;1075,1347 661,1063 661,1063q1075 1347 661 1063);"/>
+                            <Edge cubics="!661 1063(;661,1063 249,1347 249,1347q661 1063 249 1347);"/>
+                            <Edge cubics="!249 1347(;249,1347 384,838 384,838q249 1347 384 838);"/>
+                            <Edge cubics="!384 838(;384,838 53,540 53,540q384 838 53 540);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

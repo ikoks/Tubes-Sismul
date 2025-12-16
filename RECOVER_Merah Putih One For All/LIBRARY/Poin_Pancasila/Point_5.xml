@@ -1,0 +1,96 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Poin_Pancasila/Point_5" itemID="693423a5-000001e2" lastModified="1765024805">
+  <timeline>
+    <DOMTimeline name="Point_5" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <matrix>
+                        <Matrix a="1.996337890625" d="1.96092224121094" tx="-299.45" ty="-254.9"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="0.03021240234375" c="-0.067138671875" d="0" tx="193.9" ty="151.15"/>
+                            </matrix>
+                            <GradientEntry color="#FF0000" ratio="0"/>
+                            <GradientEntry color="#FFFFFF" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!3200 2600S2|4494 2600!4494 2600[4694 2600 4694 2800!4694 2800|4694 4600!4694 4600[4694 4800 4494 4800!4494 4800|3200 4800!3200 4800[3000 4800 3000 4600!3000 4600|3000 2800!3000 2800[3000 2600 3200 2600"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <matrix>
+                        <Matrix a="1.996337890625" d="1.96098327636719" tx="-293.7" ty="-244.15"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FF0000"/>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" weight="2">
+                            <fill>
+                              <SolidColor color="#FF0000"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="!4000 2895S6[4000 2978 3941 3036!3941 3036[3883 3095 3800 3095!3800 3095[3717 3095 3658 3036!3658 3036[3600 2978 3600 2895!3600 2895[3600 2812 3658 2753!3658 2753[3717 2695 3800 2695!3800 2695[3883 2695 3941 2753!3941 2753[4000 2812 4000
+ 2895"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMStaticText selected="true" fontRenderingMode="standard" left="66.65" width="10.7" height="25.65" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="1.59031677246094" d="1.24693298339844" tx="-28.85" ty="25.45"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>5</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="25.65" size="24" face="TwCenMT-CondensedBold" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText selected="true" fontRenderingMode="standard" left="-100.55" width="125.8" height="24.3" isSelectable="false">
+                      <matrix>
+                        <Matrix a="1.18112182617188" d="1.57928466796875" tx="130.05" ty="165.55"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>Keadilan Sosial bagi Seluruh Rakyat Indonesia</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="11.15" size="8" bitmapSize="160" face="ComicSansMS-Bold"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMSymbolInstance libraryItemName="Pancasila/padikapas.ai" selected="true" symbolType="graphic" loop="loop">
+                      <matrix>
+                        <Matrix a="0.959991455078125" d="0.940902709960938" tx="56.2" ty="68.6"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="34.1" y="57.65"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
