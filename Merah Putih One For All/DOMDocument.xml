@@ -19,7 +19,7 @@
      </fonts>
      <media>
           <DOMBitmapItem name="Background/Background_2.jpg" itemID="69384b79-0000062f" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Background/Background_2.jpg" sourceLastImported="1765298484" externalFileSize="15591" allowSmoothing="true" quality="50" href="Background/Background_2.jpg" bitmapDataHRef="M 2 1763050781.dat" frameRight="12520" frameBottom="7040" isJPEG="true"/>
-          <DOMBitmapItem name="Background/Background_3.jpeg" itemID="693ec07f-00000182" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Background/Background_3.jpeg" sourceLastImported="1765844652" externalFileSize="8489" allowSmoothing="true" quality="50" href="Background/Background_3.jpeg" bitmapDataHRef="M 5 1765720191.dat" frameRight="14700" frameBottom="6900" isJPEG="true"/>
+          <DOMBitmapItem name="Background/Background_3.jpeg" itemID="693ec07f-00000182" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Background/Background_3.jpeg" sourceLastImported="1765885617" externalFileSize="8489" allowSmoothing="true" quality="50" href="Background/Background_3.jpeg" bitmapDataHRef="M 5 1765720191.dat" frameRight="14700" frameBottom="6900" isJPEG="true"/>
           <DOMBitmapItem name="Teks/Teks-Pancasila.png" itemID="69384b79-00000630" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Teks/Teks-Pancasila.png" sourceLastImported="1765295323" externalFileSize="18685" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Teks/Teks-Pancasila.png" bitmapDataHRef="M 5 1763793154.dat" frameRight="12620" frameBottom="2040"/>
           <DOMBitmapItem name="Background/Textured.jpeg" itemID="69384fd3-00000811" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Background/Textured.jpeg" sourceLastImported="1765345765" externalFileSize="54855" allowSmoothing="true" quality="50" href="Background/Textured.jpeg" bitmapDataHRef="M 3 1765298131.dat" frameRight="12500" frameBottom="8320" isJPEG="true"/>
      </media>
@@ -85,30 +85,60 @@
           <Include href="Teks/Teks_2.xml" loadImmediate="false" itemID="6921d013-00000601" lastModified="1763889390"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="18" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
                <layers>
+                    <DOMLayer name="actions_global" color="#00FFFF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.display.StageScaleMode;
+import flash.display.StageAlign;
+import flash.display.StageDisplayState;
+import flash.system.Capabilities; // Wajib import ini buat deteksi OS
+import flash.events.Event;
+import flash.events.MouseEvent;
+import flash.text.TextFieldAutoSize; // Biar teks skor bisa rata kanan
+import flash.utils.setTimeout;      // Biar kode setTimeout jalan
+import flash.display.MovieClip;
+
+// Cek Sistem Operasi
+var jenisOS:String = Capabilities.os.toLowerCase();
+
+// Logika IF (Jika Android) dan ELSE (Jika Desktop/Lainnya)
+if (jenisOS.indexOf("android") >= 0 || jenisOS.indexOf("iphone") >= 0) {
+	
+	// --- KODE KHUSUS HP (ANDROID/iOS) ---
+	stage.scaleMode = StageScaleMode.SHOW_ALL;
+	stage.align = StageAlign.TOP_LEFT;
+	
+} else {
+	
+	// --- KODE KHUSUS DESKTOP (PC/LAPTOP) ---
+	stage.scaleMode = StageScaleMode.EXACT_FIT;
+	stage.align = StageAlign.TOP_LEFT;
+	
+	// Otomatis Fullscreen kalau di Laptop/PC
+	stage.displayState = StageDisplayState.FULL_SCREEN;
+}
+
+]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
                     <DOMLayer name="layar_kuis" color="#009999" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis" color="#009999" parentLayerIndex="0" autoNamed="false">
+                    <DOMLayer name="actions_kuis" color="#009999" parentLayerIndex="1" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="16" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
-
 
 //event button kuis ke beranda
 beranda_btn.addEventListener(MouseEvent.CLICK, changeKuisBeranda);
@@ -204,27 +234,18 @@ function changeKuis13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_13" color="#00FFFF" parentLayerIndex="0" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis13" color="#00FFFF" parentLayerIndex="2" autoNamed="false">
+                    <DOMLayer name="kuis_13" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="actions_kuis13" color="#00FFFF" parentLayerIndex="3" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="53" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="53" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke materi 1
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis13);
@@ -241,18 +262,8 @@ function mulaiKuis13(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="54" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
-import flash.events.MouseEvent;
-import flash.text.TextFieldAutoSize; // Biar teks skor bisa rata kanan
-import flash.utils.setTimeout;      // Biar kode setTimeout jalan
-import flash.display.MovieClip;
-
-// 1. Setup Layar
+                                        <script><![CDATA[// 1. Setup Layar
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -322,15 +333,11 @@ initGame();]]></script>
                               </DOMFrame>
                               <DOMFrame index="55" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -366,7 +373,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="2" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="3" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="53" keyMode="9728">
                                    <elements/>
@@ -451,7 +458,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi13" color="#9933CC" parentLayerIndex="2" autoNamed="false">
+                    <DOMLayer name="kuis_materi13" color="#9933CC" parentLayerIndex="3" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="53" keyMode="9728">
                                    <elements/>
@@ -587,7 +594,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="2" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="3" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="53" keyMode="9728">
                                    <elements/>
@@ -640,27 +647,18 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_12" color="#00FFFF" parentLayerIndex="0" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis12" color="#00FFFF" parentLayerIndex="7" autoNamed="false">
+                    <DOMLayer name="kuis_12" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="actions_kuis12" color="#00FFFF" parentLayerIndex="8" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="50" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="50" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis12);
@@ -677,18 +675,8 @@ function mulaiKuis12(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="51" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
-import flash.events.MouseEvent;
-import flash.text.TextFieldAutoSize; // Biar teks skor bisa rata kanan
-import flash.utils.setTimeout;      // Biar kode setTimeout jalan
-import flash.display.MovieClip;
-
-// 1. Setup Layar
+                                        <script><![CDATA[// 1. Setup Layar
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // --- DATABASE SOAL ---
 // Pastikan tidak redeclare jika frame dimuat ulang
@@ -759,15 +747,11 @@ initGame();]]></script>
                               </DOMFrame>
                               <DOMFrame index="52" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -803,7 +787,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="7" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="8" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="50" keyMode="9728">
                                    <elements/>
@@ -890,7 +874,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi12" color="#9933CC" parentLayerIndex="7" autoNamed="false">
+                    <DOMLayer name="kuis_materi12" color="#9933CC" parentLayerIndex="8" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="50" keyMode="9728">
                                    <elements/>
@@ -1029,7 +1013,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="7" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="8" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="50" keyMode="9728">
                                    <elements/>
@@ -1082,27 +1066,18 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_11" color="#00FFFF" parentLayerIndex="0" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis11" color="#00FFFF" parentLayerIndex="12" autoNamed="false">
+                    <DOMLayer name="kuis_11" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="actions_kuis11" color="#00FFFF" parentLayerIndex="13" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="47" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="47" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis11);
@@ -1119,18 +1094,8 @@ function mulaiKuis11(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="48" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
-import flash.events.MouseEvent;
-import flash.text.TextFieldAutoSize; // Biar teks skor bisa rata kanan
-import flash.utils.setTimeout;      // Biar kode setTimeout jalan
-import flash.display.MovieClip;
-
-// 1. Setup Layar
+                                        <script><![CDATA[// 1. Setup Layar
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -1200,15 +1165,11 @@ initGame();]]></script>
                               </DOMFrame>
                               <DOMFrame index="49" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -1244,7 +1205,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="12" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="13" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="47" keyMode="9728">
                                    <elements/>
@@ -1331,7 +1292,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi11" color="#9933CC" parentLayerIndex="12" autoNamed="false">
+                    <DOMLayer name="kuis_materi11" color="#9933CC" parentLayerIndex="13" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="47" keyMode="9728">
                                    <elements/>
@@ -1470,7 +1431,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="12" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="13" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="47" keyMode="9728">
                                    <elements/>
@@ -1523,27 +1484,18 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_10" color="#00FFFF" parentLayerIndex="0" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis10" color="#00FFFF" parentLayerIndex="17" autoNamed="false">
+                    <DOMLayer name="kuis_10" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="actions_kuis10" color="#00FFFF" parentLayerIndex="18" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="44" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="44" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis10);
@@ -1560,18 +1512,8 @@ function mulaiKuis10(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="45" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
-import flash.events.MouseEvent;
-import flash.text.TextFieldAutoSize; // Biar teks skor bisa rata kanan
-import flash.utils.setTimeout;      // Biar kode setTimeout jalan
-import flash.display.MovieClip;
-
-// 1. Setup Layar
+                                        <script><![CDATA[// 1. Setup Layar
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -1641,15 +1583,11 @@ initGame();]]></script>
                               </DOMFrame>
                               <DOMFrame index="46" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -1685,7 +1623,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="17" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="18" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="44" keyMode="9728">
                                    <elements/>
@@ -1772,7 +1710,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi10" color="#9933CC" parentLayerIndex="17" autoNamed="false">
+                    <DOMLayer name="kuis_materi10" color="#9933CC" parentLayerIndex="18" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="44" keyMode="9728">
                                    <elements/>
@@ -1911,7 +1849,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="17" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="18" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="44" keyMode="9728">
                                    <elements/>
@@ -1964,27 +1902,18 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_9" color="#00FFFF" parentLayerIndex="0" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis9" color="#00FFFF" parentLayerIndex="22" autoNamed="false">
+                    <DOMLayer name="kuis_9" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="actions_kuis9" color="#00FFFF" parentLayerIndex="23" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="41" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="41" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis9);
@@ -2001,18 +1930,8 @@ function mulaiKuis9(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="42" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
-import flash.events.MouseEvent;
-import flash.text.TextFieldAutoSize; // Biar teks skor bisa rata kanan
-import flash.utils.setTimeout;      // Biar kode setTimeout jalan
-import flash.display.MovieClip;
-
-// 1. Setup Layar
+                                        <script><![CDATA[// 1. Setup Layar
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -2082,15 +2001,11 @@ initGame();]]></script>
                               </DOMFrame>
                               <DOMFrame index="43" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -2126,7 +2041,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="22" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="23" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="41" keyMode="9728">
                                    <elements/>
@@ -2213,7 +2128,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi9" color="#9933CC" parentLayerIndex="22" autoNamed="false">
+                    <DOMLayer name="kuis_materi9" color="#9933CC" parentLayerIndex="23" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="41" keyMode="9728">
                                    <elements/>
@@ -2352,7 +2267,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="22" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="23" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="41" keyMode="9728">
                                    <elements/>
@@ -2405,27 +2320,18 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_8" color="#00FFFF" parentLayerIndex="22" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis8" color="#00FFFF" parentLayerIndex="27" autoNamed="false">
+                    <DOMLayer name="kuis_8" color="#00FFFF" parentLayerIndex="23" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="actions_kuis8" color="#00FFFF" parentLayerIndex="28" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="38" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="38" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis8);
@@ -2442,18 +2348,8 @@ function mulaiKuis8(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="39" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
-import flash.events.MouseEvent;
-import flash.text.TextFieldAutoSize; // Biar teks skor bisa rata kanan
-import flash.utils.setTimeout;      // Biar kode setTimeout jalan
-import flash.display.MovieClip;
-
-// 1. Setup Layar
+                                        <script><![CDATA[// 1. Setup Layar
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -2523,15 +2419,11 @@ initGame();]]></script>
                               </DOMFrame>
                               <DOMFrame index="40" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -2567,7 +2459,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="27" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="28" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="38" keyMode="9728">
                                    <elements/>
@@ -2654,7 +2546,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi8" color="#9933CC" parentLayerIndex="27" autoNamed="false">
+                    <DOMLayer name="kuis_materi8" color="#9933CC" parentLayerIndex="28" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="38" keyMode="9728">
                                    <elements/>
@@ -2793,7 +2685,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="27" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="28" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="38" keyMode="9728">
                                    <elements/>
@@ -2846,27 +2738,18 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_7" color="#00FFFF" parentLayerIndex="0" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis7" color="#00FFFF" parentLayerIndex="32" autoNamed="false">
+                    <DOMLayer name="kuis_7" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="actions_kuis7" color="#00FFFF" parentLayerIndex="33" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="35" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="35" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis7);
@@ -2883,18 +2766,8 @@ function mulaiKuis7(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="36" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
-import flash.events.MouseEvent;
-import flash.text.TextFieldAutoSize; // Biar teks skor bisa rata kanan
-import flash.utils.setTimeout;      // Biar kode setTimeout jalan
-import flash.display.MovieClip;
-
-// 1. Setup Layar
+                                        <script><![CDATA[// 1. Setup Layar
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -2964,15 +2837,11 @@ initGame();]]></script>
                               </DOMFrame>
                               <DOMFrame index="37" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -3008,7 +2877,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="32" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="33" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="35" keyMode="9728">
                                    <elements/>
@@ -3095,7 +2964,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi7" color="#9933CC" parentLayerIndex="32" autoNamed="false">
+                    <DOMLayer name="kuis_materi7" color="#9933CC" parentLayerIndex="33" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="35" keyMode="9728">
                                    <elements/>
@@ -3234,7 +3103,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="32" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="33" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="35" keyMode="9728">
                                    <elements/>
@@ -3287,27 +3156,18 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_6" color="#00FFFF" parentLayerIndex="0" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis6" color="#00FFFF" parentLayerIndex="37" autoNamed="false">
+                    <DOMLayer name="kuis_6" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="actions_kuis6" color="#00FFFF" parentLayerIndex="38" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="32" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="32" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis6);
@@ -3324,18 +3184,8 @@ function mulaiKuis6(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="33" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
-import flash.events.MouseEvent;
-import flash.text.TextFieldAutoSize; // Biar teks skor bisa rata kanan
-import flash.utils.setTimeout;      // Biar kode setTimeout jalan
-import flash.display.MovieClip;
-
-// 1. Setup Layar
+                                        <script><![CDATA[// 1. Setup Layar
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -3405,15 +3255,11 @@ initGame();]]></script>
                               </DOMFrame>
                               <DOMFrame index="34" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -3449,7 +3295,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="37" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="38" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="32" keyMode="9728">
                                    <elements/>
@@ -3536,7 +3382,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi6" color="#9933CC" parentLayerIndex="37" autoNamed="false">
+                    <DOMLayer name="kuis_materi6" color="#9933CC" parentLayerIndex="38" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="32" keyMode="9728">
                                    <elements/>
@@ -3675,7 +3521,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="37" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="38" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="32" keyMode="9728">
                                    <elements/>
@@ -3728,27 +3574,18 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_5" color="#00FFFF" parentLayerIndex="0" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis5" color="#00FFFF" parentLayerIndex="42" autoNamed="false">
+                    <DOMLayer name="kuis_5" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="actions_kuis5" color="#00FFFF" parentLayerIndex="43" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="29" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="29" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis5);
@@ -3766,18 +3603,8 @@ function mulaiKuis5(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="30" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
-import flash.events.MouseEvent;
-import flash.text.TextFieldAutoSize; // Biar teks skor bisa rata kanan
-import flash.utils.setTimeout;      // Biar kode setTimeout jalan
-import flash.display.MovieClip;
-
-// 1. Setup Layar
+                                        <script><![CDATA[// 1. Setup Layar
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -3847,15 +3674,11 @@ initGame();]]></script>
                               </DOMFrame>
                               <DOMFrame index="31" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -3891,7 +3714,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="42" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="43" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="29" keyMode="9728">
                                    <elements/>
@@ -3978,7 +3801,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi5" color="#9933CC" parentLayerIndex="42" autoNamed="false">
+                    <DOMLayer name="kuis_materi5" color="#9933CC" parentLayerIndex="43" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="29" keyMode="9728">
                                    <elements/>
@@ -4117,7 +3940,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="42" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="43" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="29" keyMode="9728">
                                    <elements/>
@@ -4170,27 +3993,18 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_4" color="#00FFFF" parentLayerIndex="0" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis4" color="#00FFFF" parentLayerIndex="47" autoNamed="false">
+                    <DOMLayer name="kuis_4" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="actions_kuis4" color="#00FFFF" parentLayerIndex="48" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="26" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="26" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis4);
@@ -4208,18 +4022,8 @@ function mulaiKuis4(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="27" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
-import flash.events.MouseEvent;
-import flash.text.TextFieldAutoSize; // Biar teks skor bisa rata kanan
-import flash.utils.setTimeout;      // Biar kode setTimeout jalan
-import flash.display.MovieClip;
-
-// 1. Setup Layar
+                                        <script><![CDATA[// 1. Setup Layar
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -4289,15 +4093,11 @@ initGame();]]></script>
                               </DOMFrame>
                               <DOMFrame index="28" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -4333,7 +4133,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="47" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="48" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="26" keyMode="9728">
                                    <elements/>
@@ -4420,7 +4220,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi4" color="#9933CC" parentLayerIndex="47" autoNamed="false">
+                    <DOMLayer name="kuis_materi4" color="#9933CC" parentLayerIndex="48" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="26" keyMode="9728">
                                    <elements/>
@@ -4559,7 +4359,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="47" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="48" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="26" keyMode="9728">
                                    <elements/>
@@ -4612,27 +4412,18 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_3" color="#00FFFF" parentLayerIndex="0" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis3" color="#00FFFF" parentLayerIndex="52" autoNamed="false">
+                    <DOMLayer name="kuis_3" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="actions_kuis3" color="#00FFFF" parentLayerIndex="53" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="23" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="23" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis3);
@@ -4650,18 +4441,8 @@ function mulaiKuis3(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="24" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
-import flash.events.MouseEvent;
-import flash.text.TextFieldAutoSize; // Biar teks skor bisa rata kanan
-import flash.utils.setTimeout;      // Biar kode setTimeout jalan
-import flash.display.MovieClip;
-
-// 1. Setup Layar
+                                        <script><![CDATA[// 1. Setup Layar
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -4731,15 +4512,11 @@ initGame();]]></script>
                               </DOMFrame>
                               <DOMFrame index="25" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -4775,7 +4552,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="52" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="53" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="23" keyMode="9728">
                                    <elements/>
@@ -4862,7 +4639,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi3" color="#9933CC" parentLayerIndex="52" autoNamed="false">
+                    <DOMLayer name="kuis_materi3" color="#9933CC" parentLayerIndex="53" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="23" keyMode="9728">
                                    <elements/>
@@ -5001,7 +4778,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="52" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="53" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="23" keyMode="9728">
                                    <elements/>
@@ -5054,27 +4831,18 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_2" color="#00FFFF" parentLayerIndex="0" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis2" color="#00FFFF" parentLayerIndex="57" autoNamed="false">
+                    <DOMLayer name="kuis_2" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="actions_kuis2" color="#00FFFF" parentLayerIndex="58" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="20" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis2);
@@ -5092,18 +4860,8 @@ function mulaiKuis2(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="21" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
-import flash.events.MouseEvent;
-import flash.text.TextFieldAutoSize; // Biar teks skor bisa rata kanan
-import flash.utils.setTimeout;      // Biar kode setTimeout jalan
-import flash.display.MovieClip;
-
-// 1. Setup Layar
+                                        <script><![CDATA[// 1. Setup Layar
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -5173,15 +4931,11 @@ initGame();]]></script>
                               </DOMFrame>
                               <DOMFrame index="22" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -5217,7 +4971,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="57" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="58" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -5304,7 +5058,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi2" color="#9933CC" parentLayerIndex="57" autoNamed="false">
+                    <DOMLayer name="kuis_materi2" color="#9933CC" parentLayerIndex="58" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -5443,7 +5197,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="57" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="58" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -5496,27 +5250,18 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_1" color="#00FFFF" parentLayerIndex="0" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis1" color="#00FFFF" parentLayerIndex="62" autoNamed="false">
+                    <DOMLayer name="kuis_1" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="actions_kuis1" color="#00FFFF" parentLayerIndex="63" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="17" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="17" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis1);
@@ -5534,18 +5279,8 @@ function mulaiKuis1(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="18" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
-import flash.events.MouseEvent;
-import flash.text.TextFieldAutoSize; // Biar teks skor bisa rata kanan
-import flash.utils.setTimeout;      // Biar kode setTimeout jalan
-import flash.display.MovieClip;
-
-// 1. Setup Layar
+                                        <script><![CDATA[// 1. Setup Layar
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // --- DATABASE SOAL ---
 // Pastikan tidak redeclare jika frame dimuat ulang
@@ -5725,15 +5460,11 @@ function pergiKeHasil():void {
                               </DOMFrame>
                               <DOMFrame index="19" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
-stage.align = StageAlign.TOP_LEFT;
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 // Ambil skor dari variabel global yang kita simpan tadi
 var nilaiAkhir:int = 0;
@@ -5769,7 +5500,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="62" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="63" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="19" keyMode="9728">
                                    <elements/>
@@ -5853,7 +5584,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi1" color="#9933CC" parentLayerIndex="62" autoNamed="false">
+                    <DOMLayer name="kuis_materi1" color="#9933CC" parentLayerIndex="63" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="18" keyMode="9728">
                                    <elements/>
@@ -5989,7 +5720,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="62" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="63" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="17" keyMode="9728">
                                    <elements/>
@@ -6039,8 +5770,8 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis" color="#00FFFF" parentLayerIndex="0" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="btn_kuis13" color="#FF800A" parentLayerIndex="67" autoNamed="false">
+                    <DOMLayer name="btn_kuis" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="btn_kuis13" color="#FF800A" parentLayerIndex="68" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6059,7 +5790,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis12" color="#FF800A" parentLayerIndex="67" autoNamed="false">
+                    <DOMLayer name="btn_kuis12" color="#FF800A" parentLayerIndex="68" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6078,7 +5809,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis11" color="#FF800A" parentLayerIndex="67" autoNamed="false">
+                    <DOMLayer name="btn_kuis11" color="#FF800A" parentLayerIndex="68" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6097,7 +5828,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis10" color="#FF800A" parentLayerIndex="67" autoNamed="false">
+                    <DOMLayer name="btn_kuis10" color="#FF800A" parentLayerIndex="68" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6116,7 +5847,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis9" color="#FF800A" parentLayerIndex="67" autoNamed="false">
+                    <DOMLayer name="btn_kuis9" color="#FF800A" parentLayerIndex="68" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6135,7 +5866,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis8" color="#FF800A" parentLayerIndex="67" autoNamed="false">
+                    <DOMLayer name="btn_kuis8" color="#FF800A" parentLayerIndex="68" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6154,7 +5885,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis7" color="#FF800A" parentLayerIndex="67" autoNamed="false">
+                    <DOMLayer name="btn_kuis7" color="#FF800A" parentLayerIndex="68" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6173,7 +5904,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis6" color="#FF800A" parentLayerIndex="67" autoNamed="false">
+                    <DOMLayer name="btn_kuis6" color="#FF800A" parentLayerIndex="68" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6192,7 +5923,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis5" color="#FF800A" parentLayerIndex="67" autoNamed="false">
+                    <DOMLayer name="btn_kuis5" color="#FF800A" parentLayerIndex="68" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6211,7 +5942,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis4" color="#FF800A" parentLayerIndex="67" autoNamed="false">
+                    <DOMLayer name="btn_kuis4" color="#FF800A" parentLayerIndex="68" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6230,7 +5961,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis3" color="#FF800A" parentLayerIndex="67" autoNamed="false">
+                    <DOMLayer name="btn_kuis3" color="#FF800A" parentLayerIndex="68" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6249,7 +5980,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis2" color="#FF800A" parentLayerIndex="67" autoNamed="false">
+                    <DOMLayer name="btn_kuis2" color="#FF800A" parentLayerIndex="68" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6268,7 +5999,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis1" color="#9933CC" parentLayerIndex="67" autoNamed="false">
+                    <DOMLayer name="btn_kuis1" color="#9933CC" parentLayerIndex="68" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6287,8 +6018,8 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="0" current="true" isSelected="true" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="81" autoNamed="false">
+                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="82" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6310,7 +6041,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="81" autoNamed="false">
+                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="82" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6329,7 +6060,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="81" autoNamed="false">
+                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="82" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6348,7 +6079,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="81" autoNamed="false">
+                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="82" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6367,7 +6098,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="81" autoNamed="false">
+                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="82" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6386,7 +6117,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="81" autoNamed="false">
+                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="82" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6408,7 +6139,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="81" autoNamed="false">
+                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="82" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6432,27 +6163,17 @@ if(getChildByName("btn_kembali")){
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="layar_materi" color="#FF4FFF" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions_materi" color="#009999" parentLayerIndex="89" autoNamed="false">
+                    <DOMLayer name="actions_materi" color="#009999" parentLayerIndex="90" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="2" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
-
 
 //event button materi ke beranda
 beranda_btn.addEventListener(MouseEvent.CLICK, changeMateriBeranda);
@@ -6548,26 +6269,17 @@ function changeMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="actions_isi_materi" color="#00FFFF" parentLayerIndex="89" autoNamed="false">
+                    <DOMLayer name="actions_isi_materi" color="#00FFFF" parentLayerIndex="90" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="3" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke materi 1
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri1);
@@ -6579,19 +6291,10 @@ function changeBackMateri1(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="4" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke materi 2
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri2);
@@ -6603,19 +6306,10 @@ function changeBackMateri2(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="5" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke materi 3
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri3);
@@ -6627,19 +6321,10 @@ function changeBackMateri3(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="6" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke materi 4
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri4);
@@ -6651,19 +6336,10 @@ function changeBackMateri4(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="7" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke materi 5
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri5);
@@ -6675,19 +6351,10 @@ function changeBackMateri5(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="8" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke materi 6
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri6);
@@ -6699,19 +6366,10 @@ function changeBackMateri6(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="9" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke materi 7
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri7);
@@ -6723,19 +6381,10 @@ function changeBackMateri7(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="10" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke materi 8
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri8);
@@ -6747,19 +6396,10 @@ function changeBackMateri8(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="11" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke materi 9
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri9);
@@ -6771,19 +6411,10 @@ function changeBackMateri9(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="12" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke materi 10
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri10);
@@ -6795,19 +6426,10 @@ function changeBackMateri10(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="13" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke materi 11
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri11);
@@ -6819,19 +6441,10 @@ function changeBackMateri11(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="14" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke materi 12
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri12);
@@ -6843,19 +6456,10 @@ function changeBackMateri12(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="15" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
+                                        <script><![CDATA[import flash.events.Event;
 
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button kembali ke materi 13
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri13);
@@ -6867,8 +6471,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_13" color="#FF4FFF" parentLayerIndex="89" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi13" color="#FF0000" parentLayerIndex="92" autoNamed="false">
+                    <DOMLayer name="materi_13" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi13" color="#FF0000" parentLayerIndex="93" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="15" keyMode="9728">
                                    <elements/>
@@ -6892,7 +6496,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi13" color="#FF800A" parentLayerIndex="92" autoNamed="false">
+                    <DOMLayer name="btn_back_materi13" color="#FF800A" parentLayerIndex="93" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="15" keyMode="9728">
                                    <elements/>
@@ -6911,7 +6515,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="video_13" color="#FF0000" parentLayerIndex="92" autoNamed="false">
+                    <DOMLayer name="video_13" color="#FF0000" parentLayerIndex="93" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="15" keyMode="9728">
                                    <elements/>
@@ -6921,7 +6525,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_13" color="#009999" parentLayerIndex="92" autoNamed="false">
+                    <DOMLayer name="background_13" color="#009999" parentLayerIndex="93" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="15" keyMode="9728">
                                    <elements/>
@@ -6937,15 +6541,15 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_12" color="#FF4FFF" parentLayerIndex="89" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi12" color="#FF0000" parentLayerIndex="97" autoNamed="false">
+                    <DOMLayer name="materi_12" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi12" color="#FF0000" parentLayerIndex="98" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="14" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="14" keyMode="9728">
                                    <elements>
-                                        <DOMStaticText selected="true" fontRenderingMode="standard" left="-646.05" width="1436.1" height="103.1" autoExpand="true" isSelectable="false">
+                                        <DOMStaticText fontRenderingMode="standard" left="-646.05" width="1436.1" height="103.1" autoExpand="true" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="1015" ty="54.3"/>
                                              </matrix>
@@ -6962,7 +6566,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi12" color="#FF800A" parentLayerIndex="97" autoNamed="false">
+                    <DOMLayer name="btn_back_materi12" color="#FF800A" parentLayerIndex="98" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="14" keyMode="9728">
                                    <elements/>
@@ -6981,7 +6585,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="video_12" color="#FF0000" parentLayerIndex="97" autoNamed="false">
+                    <DOMLayer name="video_12" color="#FF0000" parentLayerIndex="98" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="14" keyMode="9728">
                                    <elements/>
@@ -6991,7 +6595,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_12" color="#009999" parentLayerIndex="97" autoNamed="false">
+                    <DOMLayer name="background_12" color="#009999" parentLayerIndex="98" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="14" keyMode="9728">
                                    <elements/>
@@ -7007,8 +6611,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_11" color="#FF4FFF" parentLayerIndex="89" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi11" color="#FF0000" parentLayerIndex="102" autoNamed="false">
+                    <DOMLayer name="materi_11" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi11" color="#FF0000" parentLayerIndex="103" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="13" keyMode="9728">
                                    <elements/>
@@ -7032,7 +6636,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi11" color="#FF800A" parentLayerIndex="102" autoNamed="false">
+                    <DOMLayer name="btn_back_materi11" color="#FF800A" parentLayerIndex="103" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="13" keyMode="9728">
                                    <elements/>
@@ -7051,7 +6655,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="video_11" color="#FF0000" parentLayerIndex="102" autoNamed="false">
+                    <DOMLayer name="video_11" color="#FF0000" parentLayerIndex="103" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="13" keyMode="9728">
                                    <elements/>
@@ -7061,7 +6665,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_11" color="#009999" parentLayerIndex="102" autoNamed="false">
+                    <DOMLayer name="background_11" color="#009999" parentLayerIndex="103" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="13" keyMode="9728">
                                    <elements/>
@@ -7077,8 +6681,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_10" color="#FF4FFF" parentLayerIndex="89" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi10" color="#FF0000" parentLayerIndex="107" autoNamed="false">
+                    <DOMLayer name="materi_10" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi10" color="#FF0000" parentLayerIndex="108" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="12" keyMode="9728">
                                    <elements/>
@@ -7102,7 +6706,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi10" color="#FF800A" parentLayerIndex="107" autoNamed="false">
+                    <DOMLayer name="btn_back_materi10" color="#FF800A" parentLayerIndex="108" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="12" keyMode="9728">
                                    <elements/>
@@ -7121,7 +6725,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="video_10" color="#FF0000" parentLayerIndex="107" autoNamed="false">
+                    <DOMLayer name="video_10" color="#FF0000" parentLayerIndex="108" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="12" keyMode="9728">
                                    <elements/>
@@ -7131,7 +6735,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_10" color="#009999" parentLayerIndex="107" autoNamed="false">
+                    <DOMLayer name="background_10" color="#009999" parentLayerIndex="108" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="12" keyMode="9728">
                                    <elements/>
@@ -7147,15 +6751,15 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_9" color="#FF4FFF" parentLayerIndex="89" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi9" color="#FF0000" parentLayerIndex="112" autoNamed="false">
+                    <DOMLayer name="materi_9" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi9" color="#FF0000" parentLayerIndex="113" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="11" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="11" keyMode="9728">
                                    <elements>
-                                        <DOMStaticText selected="true" fontRenderingMode="standard" left="-621.2" width="1386.4" height="103.1" autoExpand="true" isSelectable="false">
+                                        <DOMStaticText fontRenderingMode="standard" left="-621.2" width="1386.4" height="103.1" autoExpand="true" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="1015" ty="54.3"/>
                                              </matrix>
@@ -7172,7 +6776,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi9" color="#FF800A" parentLayerIndex="112" autoNamed="false">
+                    <DOMLayer name="btn_back_materi9" color="#FF800A" parentLayerIndex="113" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="11" keyMode="9728">
                                    <elements/>
@@ -7191,7 +6795,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="video_9" color="#FF0000" parentLayerIndex="112" autoNamed="false">
+                    <DOMLayer name="video_9" color="#FF0000" parentLayerIndex="113" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="11" keyMode="9728">
                                    <elements/>
@@ -7201,7 +6805,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_9" color="#009999" parentLayerIndex="112" autoNamed="false">
+                    <DOMLayer name="background_9" color="#009999" parentLayerIndex="113" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="11" keyMode="9728">
                                    <elements/>
@@ -7217,15 +6821,15 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_8" color="#FF4FFF" parentLayerIndex="89" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi8" color="#FF0000" parentLayerIndex="117" autoNamed="false">
+                    <DOMLayer name="materi_8" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi8" color="#FF0000" parentLayerIndex="118" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="10" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="10" keyMode="9728">
                                    <elements>
-                                        <DOMStaticText selected="true" fontRenderingMode="standard" left="-1003.45" width="1453.8" height="208.2" isSelectable="false">
+                                        <DOMStaticText fontRenderingMode="standard" left="-1003.45" width="1453.8" height="208.2" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="1341.85" ty="39.35"/>
                                              </matrix>
@@ -7242,7 +6846,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi8" color="#FF800A" parentLayerIndex="117" autoNamed="false">
+                    <DOMLayer name="btn_back_materi8" color="#FF800A" parentLayerIndex="118" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="10" keyMode="9728">
                                    <elements/>
@@ -7261,7 +6865,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="video_8" color="#FF0000" parentLayerIndex="117" autoNamed="false">
+                    <DOMLayer name="video_8" color="#FF0000" parentLayerIndex="118" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="10" keyMode="9728">
                                    <elements/>
@@ -7271,7 +6875,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_8" color="#009999" parentLayerIndex="117" autoNamed="false">
+                    <DOMLayer name="background_8" color="#009999" parentLayerIndex="118" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="10" keyMode="9728">
                                    <elements/>
@@ -7287,15 +6891,15 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_7" color="#FF4FFF" parentLayerIndex="89" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi7" color="#FF0000" parentLayerIndex="122" autoNamed="false">
+                    <DOMLayer name="materi_7" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi7" color="#FF0000" parentLayerIndex="123" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="9" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="9" keyMode="9728">
                                    <elements>
-                                        <DOMStaticText selected="true" fontRenderingMode="standard" left="-391.6" width="927.2" height="103.1" autoExpand="true" isSelectable="false">
+                                        <DOMStaticText fontRenderingMode="standard" left="-391.6" width="927.2" height="103.1" autoExpand="true" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="1015" ty="54.3"/>
                                              </matrix>
@@ -7312,7 +6916,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi7" color="#FF800A" parentLayerIndex="122" autoNamed="false">
+                    <DOMLayer name="btn_back_materi7" color="#FF800A" parentLayerIndex="123" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="9" keyMode="9728">
                                    <elements/>
@@ -7331,7 +6935,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="video_7" color="#FF0000" parentLayerIndex="122" autoNamed="false">
+                    <DOMLayer name="video_7" color="#FF0000" parentLayerIndex="123" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="9" keyMode="9728">
                                    <elements/>
@@ -7341,7 +6945,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_7" color="#009999" parentLayerIndex="122" autoNamed="false">
+                    <DOMLayer name="background_7" color="#009999" parentLayerIndex="123" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="9" keyMode="9728">
                                    <elements/>
@@ -7357,15 +6961,15 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_6" color="#FF4FFF" parentLayerIndex="89" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi6" color="#FF0000" parentLayerIndex="127" autoNamed="false">
+                    <DOMLayer name="materi_6" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi6" color="#FF0000" parentLayerIndex="128" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="8" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="8" keyMode="9728">
                                    <elements>
-                                        <DOMStaticText selected="true" fontRenderingMode="standard" left="-464.8" width="1073.6" height="103.1" autoExpand="true" isSelectable="false">
+                                        <DOMStaticText fontRenderingMode="standard" left="-464.8" width="1073.6" height="103.1" autoExpand="true" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="977" ty="54.3"/>
                                              </matrix>
@@ -7382,7 +6986,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi6" color="#FF800A" parentLayerIndex="127" autoNamed="false">
+                    <DOMLayer name="btn_back_materi6" color="#FF800A" parentLayerIndex="128" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="8" keyMode="9728">
                                    <elements/>
@@ -7401,7 +7005,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="video_6" color="#FF0000" parentLayerIndex="127" autoNamed="false">
+                    <DOMLayer name="video_6" color="#FF0000" parentLayerIndex="128" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="8" keyMode="9728">
                                    <elements/>
@@ -7411,7 +7015,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_6" color="#009999" parentLayerIndex="127" autoNamed="false">
+                    <DOMLayer name="background_6" color="#009999" parentLayerIndex="128" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="8" keyMode="9728">
                                    <elements/>
@@ -7427,15 +7031,15 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_5" color="#FF4FFF" parentLayerIndex="89" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi5" color="#FF0000" parentLayerIndex="132" autoNamed="false">
+                    <DOMLayer name="materi_5" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi5" color="#FF0000" parentLayerIndex="133" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="7" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="7" keyMode="9728">
                                    <elements>
-                                        <DOMStaticText selected="true" fontRenderingMode="standard" left="-525.15" width="1194.3" height="103.1" autoExpand="true" isSelectable="false">
+                                        <DOMStaticText fontRenderingMode="standard" left="-525.15" width="1194.3" height="103.1" autoExpand="true" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="977" ty="54.3"/>
                                              </matrix>
@@ -7452,7 +7056,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi5" color="#FF800A" parentLayerIndex="132" autoNamed="false">
+                    <DOMLayer name="btn_back_materi5" color="#FF800A" parentLayerIndex="133" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="7" keyMode="9728">
                                    <elements/>
@@ -7471,7 +7075,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="video_5" color="#009999" parentLayerIndex="132" autoNamed="false">
+                    <DOMLayer name="video_5" color="#009999" parentLayerIndex="133" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="7" keyMode="9728">
                                    <elements/>
@@ -7481,7 +7085,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_5" color="#009999" parentLayerIndex="132" autoNamed="false">
+                    <DOMLayer name="background_5" color="#009999" parentLayerIndex="133" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="7" keyMode="9728">
                                    <elements/>
@@ -7497,15 +7101,15 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_4" color="#FF4FFF" parentLayerIndex="89" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi4" color="#FF0000" parentLayerIndex="137" autoNamed="false">
+                    <DOMLayer name="materi_4" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi4" color="#FF0000" parentLayerIndex="138" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="6" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="6" keyMode="9728">
                                    <elements>
-                                        <DOMStaticText selected="true" fontRenderingMode="standard" left="-594.35" width="1332.7" height="103.1" autoExpand="true" isSelectable="false">
+                                        <DOMStaticText fontRenderingMode="standard" left="-594.35" width="1332.7" height="103.1" autoExpand="true" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="1016.9" ty="54.3"/>
                                              </matrix>
@@ -7522,7 +7126,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi4" color="#FF800A" parentLayerIndex="137" autoNamed="false">
+                    <DOMLayer name="btn_back_materi4" color="#FF800A" parentLayerIndex="138" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="6" keyMode="9728">
                                    <elements/>
@@ -7541,7 +7145,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="video_4" color="#FF4FFF" parentLayerIndex="137" autoNamed="false">
+                    <DOMLayer name="video_4" color="#FF4FFF" parentLayerIndex="138" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="6" keyMode="9728">
                                    <elements/>
@@ -7551,7 +7155,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_4" color="#009999" parentLayerIndex="137" autoNamed="false">
+                    <DOMLayer name="background_4" color="#009999" parentLayerIndex="138" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="6" keyMode="9728">
                                    <elements/>
@@ -7567,8 +7171,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_3" color="#FF4FFF" parentLayerIndex="89" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi3" color="#FF0000" parentLayerIndex="142" autoNamed="false">
+                    <DOMLayer name="materi_3" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi3" color="#FF0000" parentLayerIndex="143" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements/>
@@ -7592,7 +7196,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi3" color="#FF800A" parentLayerIndex="142" autoNamed="false">
+                    <DOMLayer name="btn_back_materi3" color="#FF800A" parentLayerIndex="143" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements/>
@@ -7611,7 +7215,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="video_3" color="#FF800A" parentLayerIndex="142" autoNamed="false">
+                    <DOMLayer name="video_3" color="#FF800A" parentLayerIndex="143" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements/>
@@ -7621,7 +7225,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_3" color="#009999" parentLayerIndex="142" autoNamed="false">
+                    <DOMLayer name="background_3" color="#009999" parentLayerIndex="143" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements/>
@@ -7637,8 +7241,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_2" color="#FF4FFF" parentLayerIndex="89" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi2" color="#FF0000" parentLayerIndex="147" autoNamed="false">
+                    <DOMLayer name="materi_2" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi2" color="#FF0000" parentLayerIndex="148" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="4" keyMode="9728">
                                    <elements/>
@@ -7662,7 +7266,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi2" color="#FF800A" parentLayerIndex="147" autoNamed="false">
+                    <DOMLayer name="btn_back_materi2" color="#FF800A" parentLayerIndex="148" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="4" keyMode="9728">
                                    <elements/>
@@ -7681,7 +7285,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="video_2" color="#9933CC" parentLayerIndex="147" autoNamed="false">
+                    <DOMLayer name="video_2" color="#9933CC" parentLayerIndex="148" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="4" keyMode="9728">
                                    <elements/>
@@ -7691,7 +7295,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_2" color="#009999" parentLayerIndex="147" autoNamed="false">
+                    <DOMLayer name="background_2" color="#009999" parentLayerIndex="148" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="4" keyMode="9728">
                                    <elements/>
@@ -7707,8 +7311,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_1" color="#FF4FFF" parentLayerIndex="89" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi1" color="#FF0000" parentLayerIndex="152" autoNamed="false">
+                    <DOMLayer name="materi_1" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi1" color="#FF0000" parentLayerIndex="153" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements/>
@@ -7732,7 +7336,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi1" color="#FF800A" parentLayerIndex="152" autoNamed="false">
+                    <DOMLayer name="btn_back_materi1" color="#FF800A" parentLayerIndex="153" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements/>
@@ -7751,7 +7355,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="video_1" color="#00FFFF" parentLayerIndex="152" autoNamed="false">
+                    <DOMLayer name="video_1" color="#00FFFF" parentLayerIndex="153" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements/>
@@ -7761,7 +7365,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_1" color="#009999" parentLayerIndex="152" autoNamed="false">
+                    <DOMLayer name="background_1" color="#009999" parentLayerIndex="153" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements/>
@@ -7777,8 +7381,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi" color="#00FFFF" parentLayerIndex="89" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="btn_materi13" color="#FF800A" parentLayerIndex="157" autoNamed="false">
+                    <DOMLayer name="btn_materi" color="#00FFFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="btn_materi13" color="#FF800A" parentLayerIndex="158" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -7797,7 +7401,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi12" color="#FF800A" parentLayerIndex="157" autoNamed="false">
+                    <DOMLayer name="btn_materi12" color="#FF800A" parentLayerIndex="158" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -7816,7 +7420,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi11" color="#FF800A" parentLayerIndex="157" autoNamed="false">
+                    <DOMLayer name="btn_materi11" color="#FF800A" parentLayerIndex="158" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -7835,7 +7439,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi10" color="#FF800A" parentLayerIndex="157" autoNamed="false">
+                    <DOMLayer name="btn_materi10" color="#FF800A" parentLayerIndex="158" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -7854,7 +7458,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi9" color="#FF800A" parentLayerIndex="157" autoNamed="false">
+                    <DOMLayer name="btn_materi9" color="#FF800A" parentLayerIndex="158" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -7873,7 +7477,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi8" color="#FF800A" parentLayerIndex="157" autoNamed="false">
+                    <DOMLayer name="btn_materi8" color="#FF800A" parentLayerIndex="158" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -7892,7 +7496,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi7" color="#FF800A" parentLayerIndex="157" autoNamed="false">
+                    <DOMLayer name="btn_materi7" color="#FF800A" parentLayerIndex="158" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -7911,7 +7515,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi6" color="#FF800A" parentLayerIndex="157" autoNamed="false">
+                    <DOMLayer name="btn_materi6" color="#FF800A" parentLayerIndex="158" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -7930,7 +7534,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi5" color="#FF800A" parentLayerIndex="157" autoNamed="false">
+                    <DOMLayer name="btn_materi5" color="#FF800A" parentLayerIndex="158" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -7949,7 +7553,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi4" color="#FF800A" parentLayerIndex="157" autoNamed="false">
+                    <DOMLayer name="btn_materi4" color="#FF800A" parentLayerIndex="158" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -7968,7 +7572,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi3" color="#FF800A" parentLayerIndex="157" autoNamed="false">
+                    <DOMLayer name="btn_materi3" color="#FF800A" parentLayerIndex="158" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -7987,7 +7591,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi2" color="#FF800A" parentLayerIndex="157" autoNamed="false">
+                    <DOMLayer name="btn_materi2" color="#FF800A" parentLayerIndex="158" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8006,7 +7610,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi1" color="#9933CC" parentLayerIndex="157" autoNamed="false">
+                    <DOMLayer name="btn_materi1" color="#9933CC" parentLayerIndex="158" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8025,8 +7629,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="89" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="172" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8048,7 +7652,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="172" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8067,7 +7671,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="172" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8086,7 +7690,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="172" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8105,7 +7709,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="172" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8124,7 +7728,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="172" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8146,7 +7750,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="172" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8170,7 +7774,7 @@ function changeBackMateri13(e:MouseEvent):void{
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="layar_beranda" color="#FF4FFF" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_beranda" color="#FF4F4F" parentLayerIndex="179" autoNamed="false">
+                    <DOMLayer name="actions_beranda" color="#FF4F4F" parentLayerIndex="180" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8179,16 +7783,8 @@ function changeBackMateri13(e:MouseEvent):void{
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.MouseEvent;
 
-
 // 1. Hentikan timeline agar tidak auto-play
 stop();
-
-// 2. Atur alignment (perataan) ke pojok kiri atas
-stage.align = StageAlign.TOP_LEFT;
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
 
 //event button beranda ke materi
 materi_btn.addEventListener(MouseEvent.CLICK, changeBerandaMateri);
@@ -8206,8 +7802,8 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="179" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="181" autoNamed="false">
+                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="180" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="182" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8229,7 +7825,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="181" autoNamed="false">
+                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="182" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8248,7 +7844,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="181" autoNamed="false">
+                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="182" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8267,7 +7863,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="181" autoNamed="false">
+                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="182" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8286,7 +7882,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="181" autoNamed="false">
+                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="182" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8305,7 +7901,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="181" autoNamed="false">
+                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="182" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8327,7 +7923,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="181" autoNamed="false">
+                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="182" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8350,8 +7946,8 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="isi_beranda" color="#669900" parentLayerIndex="179" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="Poin_5" color="#FF0000" parentLayerIndex="189" autoNamed="false">
+                    <DOMLayer name="isi_beranda" color="#669900" parentLayerIndex="180" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Poin_5" color="#FF0000" parentLayerIndex="190" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8370,7 +7966,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_4" color="#009999" parentLayerIndex="189" autoNamed="false">
+                    <DOMLayer name="Poin_4" color="#009999" parentLayerIndex="190" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8389,7 +7985,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_3" color="#FF4FFF" parentLayerIndex="189" autoNamed="false">
+                    <DOMLayer name="Poin_3" color="#FF4FFF" parentLayerIndex="190" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8408,7 +8004,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_2" color="#FF800A" parentLayerIndex="189" autoNamed="false">
+                    <DOMLayer name="Poin_2" color="#FF800A" parentLayerIndex="190" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8427,7 +8023,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_1" color="#9933CC" parentLayerIndex="189" autoNamed="false">
+                    <DOMLayer name="Poin_1" color="#9933CC" parentLayerIndex="190" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8446,7 +8042,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Pancasila" color="#00FFFF" parentLayerIndex="189" autoNamed="false">
+                    <DOMLayer name="Pancasila" color="#00FFFF" parentLayerIndex="190" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8466,29 +8062,17 @@ function changeBerandaKuis(e:MouseEvent):void{
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="layar_awal" color="#9933CC" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions_awal" color="#669900" parentLayerIndex="196" autoNamed="false">
+                    <DOMLayer name="actions_awal" color="#669900" parentLayerIndex="197" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.display.StageScaleMode;
-import flash.display.StageAlign;
-import flash.events.Event;
-
-// 1. Hentikan timeline agar tidak auto-play
-//stop();
-
-// 3. Atur scale mode (mode skala)
-// Ini kode yang membuat 1920x1080 pas di semua layar
-stage.scaleMode = StageScaleMode.SHOW_ALL;
-
-
-]]></script>
+                                        <script><![CDATA[//stop();]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_awal" color="#FF800A" parentLayerIndex="196" autoNamed="false">
+                    <DOMLayer name="layar_awal" color="#FF800A" parentLayerIndex="197" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -8578,6 +8162,17 @@ stage.scaleMode = StageScaleMode.SHOW_ALL;
      </persistentData>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="268237" publishTime="1765893346"/>
+          <PublishItem publishSize="268232" publishTime="1765893136"/>
+          <PublishItem publishSize="268238" publishTime="1765892051"/>
+          <PublishItem publishSize="268238" publishTime="1765891827"/>
+          <PublishItem publishSize="268238" publishTime="1765891724"/>
+          <PublishItem publishSize="268258" publishTime="1765888916"/>
+          <PublishItem publishSize="268276" publishTime="1765888288"/>
+          <PublishItem publishSize="268292" publishTime="1765888218"/>
+          <PublishItem publishSize="268291" publishTime="1765888138"/>
+          <PublishItem publishSize="268292" publishTime="1765888093"/>
+          <PublishItem publishSize="268126" publishTime="1765885744"/>
           <PublishItem publishSize="268126" publishTime="1765846074"/>
           <PublishItem publishSize="258945" publishTime="1765799398"/>
           <PublishItem publishSize="258585" publishTime="1765799016"/>
@@ -8587,16 +8182,5 @@ stage.scaleMode = StageScaleMode.SHOW_ALL;
           <PublishItem publishSize="243143" publishTime="1765798436"/>
           <PublishItem publishSize="243143" publishTime="1765797142"/>
           <PublishItem publishSize="243143" publishTime="1765796286"/>
-          <PublishItem publishSize="254288" publishTime="1765789050"/>
-          <PublishItem publishSize="254220" publishTime="1765788615"/>
-          <PublishItem publishSize="254216" publishTime="1765788306"/>
-          <PublishItem publishSize="254216" publishTime="1765787179"/>
-          <PublishItem publishSize="253536" publishTime="1765785688"/>
-          <PublishItem publishSize="253536" publishTime="1765785506"/>
-          <PublishItem publishSize="255115" publishTime="1765726445"/>
-          <PublishItem publishSize="255115" publishTime="1765726340"/>
-          <PublishItem publishSize="163056" publishTime="1765696423"/>
-          <PublishItem publishSize="172027" publishTime="1765693371"/>
-          <PublishItem publishSize="172027" publishTime="1765693255"/>
      </publishHistory>
 </DOMDocument>
