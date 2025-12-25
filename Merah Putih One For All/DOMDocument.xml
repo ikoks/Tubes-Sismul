@@ -1,25 +1,35 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#E7E7E7" gridColor="#FF0000" width="1920" height="1080" frameRate="30" currentTimeline="1" xflVersion="23.0" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 23.0 build 103" majorVersion="23" buildNumber="103" gridSnapTo="true" guidesLocked="true" rulerVisible="true" viewAngle3D="122.353661987282" vanishingPoint3DX="960" vanishingPoint3DY="540" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="67077F9231F4524E8014F36E482D441F">
      <folders>
-          <DOMFolderItem name="Background" itemID="69383eff-000001ee" isExpanded="true"/>
-          <DOMFolderItem name="Buttons" itemID="69383f3c-000001fa" isExpanded="true"/>
-          <DOMFolderItem name="Buttons/Kuis" itemID="693e5ecd-0000039a" isExpanded="true"/>
+          <DOMFolderItem name="Audio" itemID="694d2566-00000173"/>
+          <DOMFolderItem name="Background" itemID="69383eff-000001ee"/>
+          <DOMFolderItem name="Buttons" itemID="69383f3c-000001fa"/>
+          <DOMFolderItem name="Buttons/Kuis" itemID="693e5ecd-0000039a"/>
           <DOMFolderItem name="Buttons/layar" itemID="69384007-00000226"/>
           <DOMFolderItem name="Buttons/Materi" itemID="69384b80-00000633"/>
           <DOMFolderItem name="Buttons/Navbar" itemID="69383f67-00000207"/>
           <DOMFolderItem name="Buttons/Poin" itemID="69383fb1-00000211"/>
-          <DOMFolderItem name="Movie_Clips" itemID="693ebe13-00000172" isExpanded="true"/>
-          <DOMFolderItem name="Movie_Clips/Kuis" itemID="693ebe2c-00000176" isExpanded="true"/>
+          <DOMFolderItem name="Movie_Clips" itemID="693ebe13-00000172"/>
+          <DOMFolderItem name="Movie_Clips/Kuis" itemID="693ebe2c-00000176"/>
           <DOMFolderItem name="Objects" itemID="69384017-0000022b"/>
           <DOMFolderItem name="Pancasila" itemID="69383fd2-0000021a"/>
           <DOMFolderItem name="Poin_Pancasila" itemID="69383f4f-000001fe"/>
           <DOMFolderItem name="Teks" itemID="69383f0b-000001f5"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Font 1" itemID="693ed543-00000200" font="ComicSansMS-Bold" size="0" id="1" sourceLastImported="1765725507" embedRanges="9999|1|2|3|4"/>
+          <DOMFontItem name="Teks/Font 1" itemID="693ed543-00000200" font="ComicSansMS-Bold" size="0" id="1" sourceLastImported="1765725507" embedRanges="9999|1|2|3|4"/>
      </fonts>
      <media>
           <DOMBitmapItem name="Background/Background_2.jpg" itemID="69384b79-0000062f" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Background/Background_2.jpg" sourceLastImported="1765298484" externalFileSize="15591" allowSmoothing="true" quality="50" href="Background/Background_2.jpg" bitmapDataHRef="M 2 1763050781.dat" frameRight="12520" frameBottom="7040" isJPEG="true"/>
           <DOMBitmapItem name="Background/Background_3.jpeg" itemID="693ec07f-00000182" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Background/Background_3.jpeg" sourceLastImported="1765885617" externalFileSize="8489" allowSmoothing="true" quality="50" href="Background/Background_3.jpeg" bitmapDataHRef="M 5 1765720191.dat" frameRight="14700" frameBottom="6900" isJPEG="true"/>
+          <DOMSoundItem name="Audio/BANGUN PEMUDI PEMUDA ORCHESTRA INSTRUMEN LAGU NASIONAL INDONESIA ( NO VOCAL ).wav" itemID="694d25b6-00000177" linkageExportForAS="true" linkageClassName="bgm_menukuis" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Audio/BANGUN PEMUDI PEMUDA ORCHESTRA INSTRUMEN LAGU NASIONAL INDONESIA ( NO VOCAL ).wav" sourceLastImported="1766674249" externalFileSize="3221150" href="Audio/BANGUN PEMUDI PEMUDA ORCHESTRA INSTRUMEN LAGU NASIONAL INDONESIA ( NO VOCAL ).wav" soundDataHRef="M 5 1766663606.dat" format="22kHz 16bit Stereo" sampleCount="2219519" dataLength="8878076"/>
+          <DOMSoundItem name="Audio/BERKIBARLAH BENDERAKU - LAGU NASIONAL - INSTRUMENTAL DAN LIRIK.wav" itemID="694d25b7-0000017b" linkageExportForAS="true" linkageClassName="bgm_introkuis" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Audio/BERKIBARLAH BENDERAKU - LAGU NASIONAL - INSTRUMENTAL DAN LIRIK.wav" sourceLastImported="1766674249" externalFileSize="3646168" href="Audio/BERKIBARLAH BENDERAKU - LAGU NASIONAL - INSTRUMENTAL DAN LIRIK.wav" soundDataHRef="M 6 1766663607.dat" format="22kHz 16bit Stereo" sampleCount="2512383" dataLength="10049532"/>
+          <DOMSoundItem name="Audio/Garuda Pancasila Lirik Instrument.wav" itemID="694d25b7-0000017f" linkageExportForAS="true" linkageClassName="bgm_beranda" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Audio/Garuda Pancasila Lirik Instrument.wav" sourceLastImported="1766674249" externalFileSize="2889756" href="Audio/Garuda Pancasila Lirik Instrument.wav" soundDataHRef="M 7 1766663607.dat" format="22kHz 16bit Stereo" sampleCount="1991168" dataLength="7964672"/>
+          <DOMSoundItem name="Audio/HARI MERDEKA 17 AGUSTUS [ INSTRUMEN LIRIK ].wav" itemID="694d25b7-00000183" linkageExportForAS="true" linkageClassName="bgm_hasil" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Audio/HARI MERDEKA 17 AGUSTUS &amp;#091 INSTRUMEN LIRIK &amp;#093.wav" sourceLastImported="1766663947" href="Audio/HARI MERDEKA 17 AGUSTUS &amp;#091 INSTRUMEN LIRIK &amp;#093.wav" soundDataHRef="M 8 1766663607.dat" format="44kHz 16bit Stereo" sampleCount="8168448" dataLength="32673792"/>
+          <DOMSoundItem name="Audio/KULIHAT IBU PERTIWI - LAGU NASIONAL - INSTRUMENTAL PIANO DAN LIRIK.wav" itemID="694d25b8-00000187" linkageExportForAS="true" linkageClassName="bgm_baca2" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Audio/KULIHAT IBU PERTIWI - LAGU NASIONAL - INSTRUMENTAL PIANO DAN LIRIK.wav" sourceLastImported="1766674249" externalFileSize="5560236" href="Audio/KULIHAT IBU PERTIWI - LAGU NASIONAL - INSTRUMENTAL PIANO DAN LIRIK.wav" soundDataHRef="M 9 1766663608.dat" format="22kHz 16bit Stereo" sampleCount="3831296" dataLength="15325184"/>
+          <DOMSoundItem name="Audio/MAJU TAK GENTAR INSTRUMENTAL ( Tanpa Vokal ).wav" itemID="694d25b8-0000018b" linkageExportForAS="true" linkageClassName="bgm_kuis" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Audio/MAJU TAK GENTAR INSTRUMENTAL ( Tanpa Vokal ).wav" sourceLastImported="1766674250" externalFileSize="4691624" href="Audio/MAJU TAK GENTAR INSTRUMENTAL ( Tanpa Vokal ).wav" soundDataHRef="M 10 1766663608.dat" format="22kHz 16bit Stereo" sampleCount="3232768" dataLength="12931072"/>
+          <DOMSoundItem name="Audio/RAYUAN PULAU KELAPA - LAGU NASIONAL - INSTRUMENTAL DAN LIRIK.wav" itemID="694d25b9-0000018f" linkageExportForAS="true" linkageClassName="bgm_menumateri" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Audio/RAYUAN PULAU KELAPA - LAGU NASIONAL - INSTRUMENTAL DAN LIRIK.wav" sourceLastImported="1766674250" externalFileSize="9730912" href="Audio/RAYUAN PULAU KELAPA - LAGU NASIONAL - INSTRUMENTAL DAN LIRIK.wav" soundDataHRef="M 11 1766663609.dat" format="22kHz 16bit Stereo" sampleCount="6705152" dataLength="26820608"/>
+          <DOMSoundItem name="Audio/SYUKUR - LAGU NASIONAL - INSTRUMENTAL PIANO DAN LIRIK.wav" itemID="694d25b9-00000193" linkageExportForAS="true" linkageClassName="bgm_baca1" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Audio/SYUKUR - LAGU NASIONAL - INSTRUMENTAL PIANO DAN LIRIK.wav" sourceLastImported="1766674250" externalFileSize="5839618" href="Audio/SYUKUR - LAGU NASIONAL - INSTRUMENTAL PIANO DAN LIRIK.wav" soundDataHRef="M 12 1766663609.dat" format="22kHz 16bit Stereo" sampleCount="4023808" dataLength="16095232"/>
+          <DOMSoundItem name="Audio/Tanah Airku - Violin Cover by Firman Putra.wav" itemID="694d25ba-00000197" linkageExportForAS="true" linkageClassName="bgm_awal" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Audio/Tanah Airku - Violin Cover by Firman Putra.wav" sourceLastImported="1766674251" externalFileSize="6173986" href="Audio/Tanah Airku - Violin Cover by Firman Putra.wav" soundDataHRef="M 13 1766663610.dat" format="22kHz 16bit Stereo" sampleCount="4254208" dataLength="17016832"/>
           <DOMBitmapItem name="Teks/Teks-Pancasila.png" itemID="69384b79-00000630" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Teks/Teks-Pancasila.png" sourceLastImported="1765295323" externalFileSize="18685" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Teks/Teks-Pancasila.png" bitmapDataHRef="M 5 1763793154.dat" frameRight="12620" frameBottom="2040"/>
           <DOMBitmapItem name="Background/Textured.jpeg" itemID="69384fd3-00000811" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Background/Textured.jpeg" sourceLastImported="1765345765" externalFileSize="54855" allowSmoothing="true" quality="50" href="Background/Textured.jpeg" bitmapDataHRef="M 3 1765298131.dat" frameRight="12500" frameBottom="8320" isJPEG="true"/>
      </media>
@@ -85,7 +95,7 @@
           <Include href="Teks/Teks_2.xml" loadImmediate="false" itemID="6921d013-00000601" lastModified="1763889390"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="18" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="actions_global" color="#00FFFF" autoNamed="false">
                          <frames>
@@ -104,6 +114,11 @@ import flash.display.MovieClip;
 // Cek Sistem Operasi
 var jenisOS:String = Capabilities.os.toLowerCase();
 
+// Variabel lagu
+var channelMusik:SoundChannel = new SoundChannel();
+var volumeMusik:SoundTransform = new SoundTransform(0.6); // Volume 60%
+var laguSedangMain:String = ""; // Untuk mengingat lagu apa yang sedang main
+
 // Logika IF (Jika Android) dan ELSE (Jika Desktop/Lainnya)
 if (jenisOS.indexOf("android") >= 0 || jenisOS.indexOf("iphone") >= 0) {
 	
@@ -121,7 +136,28 @@ if (jenisOS.indexOf("android") >= 0 || jenisOS.indexOf("iphone") >= 0) {
 	stage.displayState = StageDisplayState.FULL_SCREEN;
 }
 
-]]></script>
+
+//Mengatur Lagu
+function putarLagu(KelasLagu:Class, namaLagu:String):void {
+	// Cek: Kalau lagu yang diminta SAMA dengan yang lagi main, jangan di-restart (biarkan lanjut)
+	if(laguSedangMain == namaLagu) return;
+	
+	// Kalau beda, matikan lagu lama
+	SoundMixer.stopAll();
+	
+	// Mainkan lagu baru
+	var lagu:Sound = new KelasLagu() as Sound;
+	channelMusik = lagu.play(0, 9999); // Looping 9999
+	channelMusik.soundTransform = volumeMusik;
+	
+	// Catat nama lagu baru
+	laguSedangMain = namaLagu;
+}
+
+function stopMusik():void {
+	SoundMixer.stopAll();
+	laguSedangMain = "";
+}]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
@@ -137,8 +173,11 @@ if (jenisOS.indexOf("android") >= 0 || jenisOS.indexOf("iphone") >= 0) {
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Menu Kuis
+putarLagu(bgm_menukuis, "menukuis");
 
 //event button kuis ke beranda
 beranda_btn.addEventListener(MouseEvent.CLICK, changeKuisBeranda);
@@ -244,8 +283,11 @@ function changeKuis13(e:MouseEvent):void{
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Intor Kuis
+putarLagu(bgm_introkuis, "introkuis");
 
 //event button kembali ke materi 1
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis13);
@@ -262,8 +304,10 @@ function mulaiKuis13(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="54" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[// 1. Setup Layar
-stop();
+                                        <script><![CDATA[stop();
+
+// Panggil lagu Kuis
+putarLagu(bgm_kuis, "kuis");
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -338,6 +382,9 @@ import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
+
+// Panggil lagu Hasil
+putarLagu(bgm_hasil, "hasil");
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -657,8 +704,11 @@ if(getChildByName("btn_kembali")){
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Intor Kuis
+putarLagu(bgm_introkuis, "introkuis");
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis12);
@@ -675,11 +725,12 @@ function mulaiKuis12(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="51" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[// 1. Setup Layar
-stop();
+                                        <script><![CDATA[stop();
+
+// Panggil lagu Kuis
+putarLagu(bgm_kuis, "kuis");
 
 // --- DATABASE SOAL ---
-// Pastikan tidak redeclare jika frame dimuat ulang
 bankSoal = [
     {
         t: "Pergeseran nilai-nilai Pancasila di era globalisasi ditandai dengan...", 
@@ -752,6 +803,9 @@ import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
+
+// Panggil lagu Hasil
+putarLagu(bgm_hasil, "hasil");
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -1076,8 +1130,11 @@ if(getChildByName("btn_kembali")){
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Intor Kuis
+putarLagu(bgm_introkuis, "introkuis");
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis11);
@@ -1094,8 +1151,10 @@ function mulaiKuis11(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="48" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[// 1. Setup Layar
-stop();
+                                        <script><![CDATA[stop();
+
+// Panggil lagu Kuis
+putarLagu(bgm_kuis, "kuis");
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -1170,6 +1229,9 @@ import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
+
+// Panggil lagu Hasil
+putarLagu(bgm_hasil, "hasil");
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -1494,8 +1556,11 @@ if(getChildByName("btn_kembali")){
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Intor Kuis
+putarLagu(bgm_introkuis, "introkuis");
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis10);
@@ -1512,8 +1577,10 @@ function mulaiKuis10(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="45" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[// 1. Setup Layar
-stop();
+                                        <script><![CDATA[stop();
+
+// Panggil lagu Kuis
+putarLagu(bgm_kuis, "kuis");
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -1588,6 +1655,9 @@ import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
+
+// Panggil lagu Hasil
+putarLagu(bgm_hasil, "hasil");
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -1912,8 +1982,11 @@ if(getChildByName("btn_kembali")){
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Intor Kuis
+putarLagu(bgm_introkuis, "introkuis");
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis9);
@@ -1930,8 +2003,10 @@ function mulaiKuis9(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="42" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[// 1. Setup Layar
-stop();
+                                        <script><![CDATA[stop();
+
+// Panggil lagu Kuis
+putarLagu(bgm_kuis, "kuis");
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -2006,6 +2081,9 @@ import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
+
+// Panggil lagu Hasil
+putarLagu(bgm_hasil, "hasil");
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -2330,8 +2408,11 @@ if(getChildByName("btn_kembali")){
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Intor Kuis
+putarLagu(bgm_introkuis, "introkuis");
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis8);
@@ -2348,8 +2429,10 @@ function mulaiKuis8(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="39" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[// 1. Setup Layar
-stop();
+                                        <script><![CDATA[stop();
+
+// Panggil lagu Kuis
+putarLagu(bgm_kuis, "kuis");
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -2424,6 +2507,9 @@ import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
+
+// Panggil lagu Hasil
+putarLagu(bgm_hasil, "hasil");
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -2748,8 +2834,11 @@ if(getChildByName("btn_kembali")){
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Intor Kuis
+putarLagu(bgm_introkuis, "introkuis");
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis7);
@@ -2766,8 +2855,10 @@ function mulaiKuis7(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="36" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[// 1. Setup Layar
-stop();
+                                        <script><![CDATA[stop();
+
+// Panggil lagu Kuis
+putarLagu(bgm_kuis, "kuis");
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -2842,6 +2933,9 @@ import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
+
+// Panggil lagu Hasil
+putarLagu(bgm_hasil, "hasil");
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -3166,8 +3260,11 @@ if(getChildByName("btn_kembali")){
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Intor Kuis
+putarLagu(bgm_introkuis, "introkuis");
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis6);
@@ -3184,8 +3281,10 @@ function mulaiKuis6(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="33" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[// 1. Setup Layar
-stop();
+                                        <script><![CDATA[stop();
+
+// Panggil lagu Kuis
+putarLagu(bgm_kuis, "kuis");
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -3260,6 +3359,9 @@ import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
+
+// Panggil lagu Hasil
+putarLagu(bgm_hasil, "hasil");
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -3584,8 +3686,11 @@ if(getChildByName("btn_kembali")){
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Intor Kuis
+putarLagu(bgm_introkuis, "introkuis");
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis5);
@@ -3603,8 +3708,10 @@ function mulaiKuis5(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="30" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[// 1. Setup Layar
-stop();
+                                        <script><![CDATA[stop();
+
+// Panggil lagu Kuis
+putarLagu(bgm_kuis, "kuis");
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -3679,6 +3786,9 @@ import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
+
+// Panggil lagu Hasil
+putarLagu(bgm_hasil, "hasil");
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -4003,8 +4113,11 @@ if(getChildByName("btn_kembali")){
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Intor Kuis
+putarLagu(bgm_introkuis, "introkuis");
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis4);
@@ -4022,8 +4135,10 @@ function mulaiKuis4(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="27" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[// 1. Setup Layar
-stop();
+                                        <script><![CDATA[stop();
+
+// Panggil lagu Kuis
+putarLagu(bgm_kuis, "kuis");
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -4098,6 +4213,9 @@ import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
+
+// Panggil lagu Hasil
+putarLagu(bgm_hasil, "hasil");
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -4422,8 +4540,11 @@ if(getChildByName("btn_kembali")){
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Intor Kuis
+putarLagu(bgm_introkuis, "introkuis");
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis3);
@@ -4441,8 +4562,10 @@ function mulaiKuis3(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="24" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[// 1. Setup Layar
-stop();
+                                        <script><![CDATA[stop();
+
+// Panggil lagu Kuis
+putarLagu(bgm_kuis, "kuis");
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -4517,6 +4640,9 @@ import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
+
+// Panggil lagu Hasil
+putarLagu(bgm_hasil, "hasil");
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -4831,7 +4957,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_2" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="kuis_2" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="actions_kuis2" color="#00FFFF" parentLayerIndex="58" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
@@ -4841,8 +4967,11 @@ if(getChildByName("btn_kembali")){
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Intor Kuis
+putarLagu(bgm_introkuis, "introkuis");
 
 //event button kembali ke Kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis2);
@@ -4860,8 +4989,10 @@ function mulaiKuis2(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="21" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[// 1. Setup Layar
-stop();
+                                        <script><![CDATA[stop();
+
+// Panggil lagu Kuis
+putarLagu(bgm_kuis, "kuis");
 
 // --- DATABASE SOAL ---
 bankSoal = [
@@ -4936,6 +5067,9 @@ import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
+
+// Panggil lagu Hasil
+putarLagu(bgm_hasil, "hasil");
 
 // Ambil skor dari variabel global yang kita simpan tadi
 nilaiAkhir = 0;
@@ -5250,7 +5384,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_1" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="kuis_1" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="actions_kuis1" color="#00FFFF" parentLayerIndex="63" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="17" keyMode="9728">
@@ -5260,8 +5394,11 @@ if(getChildByName("btn_kembali")){
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Intor Kuis
+putarLagu(bgm_introkuis, "introkuis");
 
 //event button kembali ke kuis
 btn_kembali.addEventListener(MouseEvent.CLICK, changeBackKuis1);
@@ -5279,11 +5416,12 @@ function mulaiKuis1(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="18" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[// 1. Setup Layar
-stop();
+                                        <script><![CDATA[stop();
+
+// Panggil lagu Kuis
+putarLagu(bgm_kuis, "kuis");
 
 // --- DATABASE SOAL ---
-// Pastikan tidak redeclare jika frame dimuat ulang
 var bankSoal:Array = [
 	{
 		t: "Pancasila merupakan bagian dari empat Konsensus Nasional yang menjadi pilar bangsa Indonesia. Selain Pancasila, tiga konsensus nasional lainnya adalah...",
@@ -5465,6 +5603,9 @@ import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
 stop();
+
+// Panggil lagu Hasil
+putarLagu(bgm_hasil, "hasil");
 
 // Ambil skor dari variabel global yang kita simpan tadi
 var nilaiAkhir:int = 0;
@@ -6172,8 +6313,11 @@ if(getChildByName("btn_kembali")){
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Menu Materi
+putarLagu(bgm_menumateri, "menumateri");
 
 //event button materi ke beranda
 beranda_btn.addEventListener(MouseEvent.CLICK, changeMateriBeranda);
@@ -6278,8 +6422,11 @@ function changeMateri13(e:MouseEvent):void{
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Materi
+putarLagu(bgm_baca1, "baca1");
 
 //event button kembali ke materi 1
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri1);
@@ -6293,8 +6440,11 @@ function changeBackMateri1(e:MouseEvent):void{
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Materi
+putarLagu(bgm_baca2, "baca2");
 
 //event button kembali ke materi 2
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri2);
@@ -6308,8 +6458,11 @@ function changeBackMateri2(e:MouseEvent):void{
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Materi
+putarLagu(bgm_baca1, "baca1");
 
 //event button kembali ke materi 3
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri3);
@@ -6323,8 +6476,11 @@ function changeBackMateri3(e:MouseEvent):void{
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Materi
+putarLagu(bgm_baca2, "baca2");
 
 //event button kembali ke materi 4
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri4);
@@ -6338,8 +6494,11 @@ function changeBackMateri4(e:MouseEvent):void{
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Materi
+putarLagu(bgm_baca1, "baca1");
 
 //event button kembali ke materi 5
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri5);
@@ -6353,8 +6512,11 @@ function changeBackMateri5(e:MouseEvent):void{
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Materi
+putarLagu(bgm_baca2, "baca2");
 
 //event button kembali ke materi 6
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri6);
@@ -6368,8 +6530,11 @@ function changeBackMateri6(e:MouseEvent):void{
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Materi
+putarLagu(bgm_baca1, "baca1");
 
 //event button kembali ke materi 7
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri7);
@@ -6383,8 +6548,11 @@ function changeBackMateri7(e:MouseEvent):void{
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Materi
+putarLagu(bgm_baca2, "baca2");
 
 //event button kembali ke materi 8
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri8);
@@ -6398,8 +6566,11 @@ function changeBackMateri8(e:MouseEvent):void{
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Materi
+putarLagu(bgm_baca1, "baca1");
 
 //event button kembali ke materi 9
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri9);
@@ -6413,8 +6584,11 @@ function changeBackMateri9(e:MouseEvent):void{
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Materi
+putarLagu(bgm_baca2, "baca2");
 
 //event button kembali ke materi 10
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri10);
@@ -6428,8 +6602,11 @@ function changeBackMateri10(e:MouseEvent):void{
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Materi
+putarLagu(bgm_baca1, "baca1");
 
 //event button kembali ke materi 11
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri11);
@@ -6443,8 +6620,11 @@ function changeBackMateri11(e:MouseEvent):void{
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Materi
+putarLagu(bgm_baca2, "baca2");
 
 //event button kembali ke materi 12
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri12);
@@ -6458,8 +6638,11 @@ function changeBackMateri12(e:MouseEvent):void{
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Materi
+putarLagu(bgm_baca1, "baca1");
 
 //event button kembali ke materi 13
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri13);
@@ -7773,7 +7956,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_beranda" color="#FF4FFF" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="layar_beranda" color="#FF4FFF" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="actions_beranda" color="#FF4F4F" parentLayerIndex="180" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
@@ -7783,8 +7966,11 @@ function changeBackMateri13(e:MouseEvent):void{
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.MouseEvent;
 
-// 1. Hentikan timeline agar tidak auto-play
+// Hentikan timeline agar tidak auto-play
 stop();
+
+// Panggil lagu Beranda
+putarLagu(bgm_beranda, "beranda");
 
 //event button beranda ke materi
 materi_btn.addEventListener(MouseEvent.CLICK, changeBerandaMateri);
@@ -8145,23 +8331,26 @@ function changeBerandaKuis(e:MouseEvent):void{
      </extendedSwatchLists>
      <persistentData>
           <PD n="com.air.artemis.airdest" v="Merah Putih One For All.app"/>
-          <PD n="ane.tmp.unzipped.folder" v="C:\Users\asus\AppData\Local\Temp\Tmp_ANE_File_Unzipped_Packages"/>
           <PD n="com.air.oldTargetPlatform" v="Desktop"/>
+          <PD n="ane.tmp.unzipped.folder" v="C:\Users\asus\AppData\Local\Temp\Tmp_ANE_File_Unzipped_Packages"/>
           <PD n="com.air.sdk.path" v="D:\Kuliah\Semester 5\Sistem Multimedia\AIRSDK_3311935"/>
           <PD n="com.air.artemis.pubair" v="false"/>
-          <PD n="com.air.artemis.pubipa" v="false"/>
           <PD n="com.air.agistri.proctype" v="armv8"/>
+          <PD n="com.air.artemis.pubipa" v="false"/>
           <PD n="flash.swf.basename" v="Merah Putih One For All"/>
           <PD n="com.air.agistri.runtimetype" v="embed"/>
           <PD n="com.air.agistri.publishtype" v="release"/>
-          <PD n="com.air.artemis.pubcaptive" v="true"/>
           <PD n="com.air.agistri.hostip" v="Default"/>
-          <PD n="swf.folder.path" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes-Sismul/"/>
+          <PD n="com.air.artemis.pubcaptive" v="true"/>
           <PD n="flash.fla.filepath" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes-Sismul/Merah Putih One For All/Merah Putih One For All.xfl"/>
+          <PD n="swf.folder.path" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes-Sismul/"/>
           <PD n="com.air.artemis.pubexe" v="false"/>
      </persistentData>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="13890117" publishTime="1766674374"/>
+          <PublishItem publishSize="29170367" publishTime="1766666061"/>
+          <PublishItem publishSize="29170574" publishTime="1766664973"/>
           <PublishItem publishSize="268237" publishTime="1765893346"/>
           <PublishItem publishSize="268232" publishTime="1765893136"/>
           <PublishItem publishSize="268238" publishTime="1765892051"/>
@@ -8179,8 +8368,5 @@ function changeBerandaKuis(e:MouseEvent):void{
           <PublishItem publishSize="243142" publishTime="1765798831"/>
           <PublishItem publishSize="243143" publishTime="1765798781"/>
           <PublishItem publishSize="243143" publishTime="1765798611"/>
-          <PublishItem publishSize="243143" publishTime="1765798436"/>
-          <PublishItem publishSize="243143" publishTime="1765797142"/>
-          <PublishItem publishSize="243143" publishTime="1765796286"/>
      </publishHistory>
 </DOMDocument>
