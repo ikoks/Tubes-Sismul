@@ -1,0 +1,120 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/Kuis/btn_back" itemID="693ec897-00000196" symbolType="button" lastModified="1765722411">
+  <timeline>
+    <DOMTimeline name="btn_back" currentFrame="3">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CCCCCC"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-2000 -900|2000 -900!2000 -900[2300 -900 2300 -600!2300 -600|2300 600!2300 600[2300 900 2000 900!2000 900|-2000 900!-2000 900[-2300 900 -2300 600!-2300 600|-2300 -600!-2300 -600[-2300 -900 -2000 -900"/>
+                  </edges>
+                </DOMShape>
+                <DOMDynamicText fontRenderingMode="standard" width="100" height="27.9" isSelectable="false" lineType="multiline no wrap">
+                  <matrix>
+                    <Matrix a="1.880859375" d="1.880859375" tx="-94" ty="-26.2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Kembali</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="27.9" size="20" bitmapSize="400" face="ComicSansMS-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#666666"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-2000 -900|2000 -900!2000 -900[2300 -900 2300 -600!2300 -600|2300 600!2300 600[2300 900 2000 900!2000 900|-2000 900!-2000 900[-2300 900 -2300 600!-2300 600|-2300 -600!-2300 -600[-2300 -900 -2000 -900"/>
+                  </edges>
+                </DOMShape>
+                <DOMDynamicText fontRenderingMode="standard" width="100" height="27.9" isSelectable="false" lineType="multiline no wrap">
+                  <matrix>
+                    <Matrix a="1.880859375" d="1.880859375" tx="-94" ty="-26.2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Kembali</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="27.9" size="20" bitmapSize="400" face="ComicSansMS-Bold" fillColor="#FF0000"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#666666"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-1960 -860|2040 -860!2040 -860[2340 -860 2340 -560!2340 -560|2340 640!2340 640[2340 940 2040 940!2040 940|-1960 940!-1960 940[-2260 940 -2260 640!-2260 640|-2260 -560!-2260 -560[-2260 -860 -1960 -860"/>
+                  </edges>
+                </DOMShape>
+                <DOMDynamicText fontRenderingMode="standard" width="100" height="27.9" isSelectable="false" lineType="multiline no wrap">
+                  <matrix>
+                    <Matrix a="1.880859375" d="1.880859375" tx="-92" ty="-24.2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Kembali</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="27.9" size="20" bitmapSize="400" face="ComicSansMS-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#666666"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-1960 -860S2|2040 -860!2040 -860[2340 -860 2340 -560!2340 -560|2340 640!2340 640[2340 940 2040 940!2040 940|-1960 940!-1960 940[-2260 940 -2260 640!-2260 640|-2260 -560!-2260 -560[-2260 -860 -1960 -860"/>
+                  </edges>
+                </DOMShape>
+                <DOMDynamicText selected="true" fontRenderingMode="standard" width="100" height="27.9" isSelectable="false" lineType="multiline no wrap">
+                  <matrix>
+                    <Matrix a="1.880859375" d="1.880859375" tx="-92" ty="-24.2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Kembali</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="27.9" size="20" bitmapSize="400" face="ComicSansMS-Bold" fillColor="#FF0000"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
