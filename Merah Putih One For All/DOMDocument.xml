@@ -97,7 +97,7 @@
           <Include href="Teks/Teks_2.xml" loadImmediate="false" itemID="6921d013-00000601" lastModified="1763889390"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="3" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="actions_global" color="#00FFFF" autoNamed="false">
                          <frames>
@@ -115,6 +115,9 @@ import flash.display.MovieClip;
 
 // Cek Sistem Operasi
 var jenisOS:String = Capabilities.os.toLowerCase();
+
+// Variabel youtube
+var linkYoutube:String = "";
 
 // Variabel lagu
 var channelMusik:SoundChannel = new SoundChannel();
@@ -141,7 +144,6 @@ if (jenisOS.indexOf("android") >= 0 || jenisOS.indexOf("iphone") >= 0) {
 
 //Mengatur Lagu
 function putarLagu(KelasLagu:Class, namaLagu:String):void {
-	// Cek: Kalau lagu yang diminta SAMA dengan yang lagi main, jangan di-restart (biarkan lanjut)
 	if(laguSedangMain == namaLagu) return;
 	
 	// Kalau beda, matikan lagu lama
@@ -6337,85 +6339,111 @@ function changeMateriKuis(e:MouseEvent):void{
 btn_materi1.addEventListener(MouseEvent.CLICK, changeMateri1);
 function changeMateri1(e:MouseEvent):void{
 	gotoAndStop(4);
+	
+	linkYoutube = "https://youtu.be/AEVMZ-wua6A?si=9fwESvK0z33gePD_";
 }
 
 //event button materi 2
 btn_materi2.addEventListener(MouseEvent.CLICK, changeMateri2);
 function changeMateri2(e:MouseEvent):void{
 	gotoAndStop(5);
+	
+	linkYoutube = "https://youtu.be/Aab5m_dIReE?si=FP7YeE6Ohs5MAum8";
 }
 
 //event button materi 3
 btn_materi3.addEventListener(MouseEvent.CLICK, changeMateri3);
 function changeMateri3(e:MouseEvent):void{
 	gotoAndStop(6);
+	
+	linkYoutube = "https://youtu.be/idyVpLm4U1I?si=ZuGXIa63ApM2jxKc";
 }
 
 //event button materi 4
 btn_materi4.addEventListener(MouseEvent.CLICK, changeMateri4);
 function changeMateri4(e:MouseEvent):void{
 	gotoAndStop(7);
+	
+	linkYoutube = "https://youtu.be/x-4bMTFs6M0?si=mIhEyfPx_ix1SrUz";
 }
 
 //event button materi 5
 btn_materi5.addEventListener(MouseEvent.CLICK, changeMateri5);
 function changeMateri5(e:MouseEvent):void{
 	gotoAndStop(8);
+	
+	linkYoutube = "https://youtu.be/iuwHyRDyGUA?si=LX8UxcRqhGjhck6O";
 }
 
 //event button materi 6
 btn_materi6.addEventListener(MouseEvent.CLICK, changeMateri6);
 function changeMateri6(e:MouseEvent):void{
 	gotoAndStop(9);
+	
+	linkYoutube = "https://youtu.be/uRecgCxYwWw?si=S5NJb_7275oKpcoZ";
 }
 
 //event button materi 7
 btn_materi7.addEventListener(MouseEvent.CLICK, changeMateri7);
 function changeMateri7(e:MouseEvent):void{
 	gotoAndStop(10);
+	
+	linkYoutube = "https://youtu.be/gBrwjMy2K54?si=lb1lBckXlohwTqcg";
 }
 
 //event button materi 8
 btn_materi8.addEventListener(MouseEvent.CLICK, changeMateri8);
 function changeMateri8(e:MouseEvent):void{
 	gotoAndStop(11);
+	
+	linkYoutube = "https://youtu.be/TYYiI9GNYX4?si=QB2OXqNK4jwoQEst";
 }
 
 //event button materi 9
 btn_materi9.addEventListener(MouseEvent.CLICK, changeMateri9);
 function changeMateri9(e:MouseEvent):void{
 	gotoAndStop(12);
+	
+	linkYoutube = "https://youtu.be/4xQsjKbPOSU?si=KCkz9fTu67MPXvt7";
 }
 
 //event button materi 10
 btn_materi10.addEventListener(MouseEvent.CLICK, changeMateri10);
 function changeMateri10(e:MouseEvent):void{
 	gotoAndStop(13);
+	
+	linkYoutube = "https://youtu.be/TPUE-x3pKVc?si=JBfX4smtBRXCv2BH";
 }
 
 //event button materi 11
 btn_materi11.addEventListener(MouseEvent.CLICK, changeMateri11);
 function changeMateri11(e:MouseEvent):void{
 	gotoAndStop(14);
+	
+	linkYoutube = "https://youtu.be/0YpYtr6wR1M?si=fqCF5W57g9Z2JSh8";
 }
 
 //event button materi 12
 btn_materi12.addEventListener(MouseEvent.CLICK, changeMateri12);
 function changeMateri12(e:MouseEvent):void{
 	gotoAndStop(15);
+	
+	linkYoutube = "https://youtu.be/l_rHpzHDTTA?si=RYiKWcwQxvn0vV9j";
 }
 
 //event button materi 13
 btn_materi13.addEventListener(MouseEvent.CLICK, changeMateri13);
 function changeMateri13(e:MouseEvent):void{
 	gotoAndStop(16);
+	
+	linkYoutube = "https://youtu.be/IVhAs0ZREiI?si=PLAKXmVH8dLyajes";
 }]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="actions_isi_materi" color="#00FFFF" parentLayerIndex="90" autoNamed="false">
+                    <DOMLayer name="actions_isi_materi" color="#00FFFF" parentLayerIndex="90" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements/>
@@ -6429,6 +6457,27 @@ stop();
 
 // Panggil lagu Materi
 putarLagu(bgm_baca1, "baca1");
+
+// Membaca link yang tadi diset di Menu
+if(getChildByName("btn_play1")) {
+    // Bersihkan listener lama
+    if(btn_play1.hasEventListener(MouseEvent.CLICK)) btn_play1.removeEventListener(MouseEvent.CLICK, bukaYoutube);
+    
+    // Pasang listener baru
+    btn_play1.addEventListener(MouseEvent.CLICK, bukaYoutube);
+}
+
+function bukaYoutube(e:MouseEvent):void {
+	stopMusik();
+	
+    // Cek dulu apakah linknya ada isinya?
+    if(linkYoutube != "") {
+        var request:URLRequest = new URLRequest(linkYoutube);
+        navigateToURL(request, "_blank");
+    } else {
+        trace("Link Youtube belum diisi!");
+    }
+}
 
 //event button kembali ke materi 1
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri1);
@@ -6448,6 +6497,15 @@ stop();
 // Panggil lagu Materi
 putarLagu(bgm_baca2, "baca2");
 
+// Membaca link yang tadi diset di Menu
+if(getChildByName("btn_play2")) {
+    // Bersihkan listener lama
+    if(btn_play2.hasEventListener(MouseEvent.CLICK)) btn_play2.removeEventListener(MouseEvent.CLICK, bukaYoutube);
+    
+    // Pasang listener baru
+    btn_play2.addEventListener(MouseEvent.CLICK, bukaYoutube);
+}
+
 //event button kembali ke materi 2
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri2);
 function changeBackMateri2(e:MouseEvent):void{
@@ -6465,6 +6523,15 @@ stop();
 
 // Panggil lagu Materi
 putarLagu(bgm_baca1, "baca1");
+
+// Membaca link yang tadi diset di Menu
+if(getChildByName("btn_play3")) {
+    // Bersihkan listener lama
+    if(btn_play3.hasEventListener(MouseEvent.CLICK)) btn_play3.removeEventListener(MouseEvent.CLICK, bukaYoutube);
+    
+    // Pasang listener baru
+    btn_play3.addEventListener(MouseEvent.CLICK, bukaYoutube);
+}
 
 //event button kembali ke materi 3
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri3);
@@ -6484,6 +6551,15 @@ stop();
 // Panggil lagu Materi
 putarLagu(bgm_baca2, "baca2");
 
+// Membaca link yang tadi diset di Menu
+if(getChildByName("btn_play4")) {
+    // Bersihkan listener lama
+    if(btn_play4.hasEventListener(MouseEvent.CLICK)) btn_play4.removeEventListener(MouseEvent.CLICK, bukaYoutube);
+    
+    // Pasang listener baru
+    btn_play4.addEventListener(MouseEvent.CLICK, bukaYoutube);
+}
+
 //event button kembali ke materi 4
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri4);
 function changeBackMateri4(e:MouseEvent):void{
@@ -6501,6 +6577,15 @@ stop();
 
 // Panggil lagu Materi
 putarLagu(bgm_baca1, "baca1");
+
+// Membaca link yang tadi diset di Menu
+if(getChildByName("btn_play5")) {
+    // Bersihkan listener lama
+    if(btn_play5.hasEventListener(MouseEvent.CLICK)) btn_play5.removeEventListener(MouseEvent.CLICK, bukaYoutube);
+    
+    // Pasang listener baru
+    btn_play5.addEventListener(MouseEvent.CLICK, bukaYoutube);
+}
 
 //event button kembali ke materi 5
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri5);
@@ -6520,6 +6605,15 @@ stop();
 // Panggil lagu Materi
 putarLagu(bgm_baca2, "baca2");
 
+// Membaca link yang tadi diset di Menu
+if(getChildByName("btn_play6")) {
+    // Bersihkan listener lama
+    if(btn_play6.hasEventListener(MouseEvent.CLICK)) btn_play6.removeEventListener(MouseEvent.CLICK, bukaYoutube);
+    
+    // Pasang listener baru
+    btn_play6.addEventListener(MouseEvent.CLICK, bukaYoutube);
+}
+
 //event button kembali ke materi 6
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri6);
 function changeBackMateri6(e:MouseEvent):void{
@@ -6537,6 +6631,15 @@ stop();
 
 // Panggil lagu Materi
 putarLagu(bgm_baca1, "baca1");
+
+// Membaca link yang tadi diset di Menu
+if(getChildByName("btn_play7")) {
+    // Bersihkan listener lama
+    if(btn_play7.hasEventListener(MouseEvent.CLICK)) btn_play7.removeEventListener(MouseEvent.CLICK, bukaYoutube);
+    
+    // Pasang listener baru
+    btn_play7.addEventListener(MouseEvent.CLICK, bukaYoutube);
+}
 
 //event button kembali ke materi 7
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri7);
@@ -6556,6 +6659,15 @@ stop();
 // Panggil lagu Materi
 putarLagu(bgm_baca2, "baca2");
 
+// Membaca link yang tadi diset di Menu
+if(getChildByName("btn_play8")) {
+    // Bersihkan listener lama
+    if(btn_play8.hasEventListener(MouseEvent.CLICK)) btn_play8.removeEventListener(MouseEvent.CLICK, bukaYoutube);
+    
+    // Pasang listener baru
+    btn_play8.addEventListener(MouseEvent.CLICK, bukaYoutube);
+}
+
 //event button kembali ke materi 8
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri8);
 function changeBackMateri8(e:MouseEvent):void{
@@ -6573,6 +6685,15 @@ stop();
 
 // Panggil lagu Materi
 putarLagu(bgm_baca1, "baca1");
+
+// Membaca link yang tadi diset di Menu
+if(getChildByName("btn_play9")) {
+    // Bersihkan listener lama
+    if(btn_play9.hasEventListener(MouseEvent.CLICK)) btn_play9.removeEventListener(MouseEvent.CLICK, bukaYoutube);
+    
+    // Pasang listener baru
+    btn_play9.addEventListener(MouseEvent.CLICK, bukaYoutube);
+}
 
 //event button kembali ke materi 9
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri9);
@@ -6592,6 +6713,15 @@ stop();
 // Panggil lagu Materi
 putarLagu(bgm_baca2, "baca2");
 
+// Membaca link yang tadi diset di Menu
+if(getChildByName("btn_play10")) {
+    // Bersihkan listener lama
+    if(btn_play10.hasEventListener(MouseEvent.CLICK)) btn_play10.removeEventListener(MouseEvent.CLICK, bukaYoutube);
+    
+    // Pasang listener baru
+    btn_play10.addEventListener(MouseEvent.CLICK, bukaYoutube);
+}
+
 //event button kembali ke materi 10
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri10);
 function changeBackMateri10(e:MouseEvent):void{
@@ -6609,6 +6739,15 @@ stop();
 
 // Panggil lagu Materi
 putarLagu(bgm_baca1, "baca1");
+
+// Membaca link yang tadi diset di Menu
+if(getChildByName("btn_play11")) {
+    // Bersihkan listener lama
+    if(btn_play11.hasEventListener(MouseEvent.CLICK)) btn_play11.removeEventListener(MouseEvent.CLICK, bukaYoutube);
+    
+    // Pasang listener baru
+    btn_play11.addEventListener(MouseEvent.CLICK, bukaYoutube);
+}
 
 //event button kembali ke materi 11
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri11);
@@ -6628,6 +6767,15 @@ stop();
 // Panggil lagu Materi
 putarLagu(bgm_baca2, "baca2");
 
+// Membaca link yang tadi diset di Menu
+if(getChildByName("btn_play12")) {
+    // Bersihkan listener lama
+    if(btn_play12.hasEventListener(MouseEvent.CLICK)) btn_play12.removeEventListener(MouseEvent.CLICK, bukaYoutube);
+    
+    // Pasang listener baru
+    btn_play12.addEventListener(MouseEvent.CLICK, bukaYoutube);
+}
+
 //event button kembali ke materi 12
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri12);
 function changeBackMateri12(e:MouseEvent):void{
@@ -6645,6 +6793,15 @@ stop();
 
 // Panggil lagu Materi
 putarLagu(bgm_baca1, "baca1");
+
+// Membaca link yang tadi diset di Menu
+if(getChildByName("btn_play13")) {
+    // Bersihkan listener lama
+    if(btn_play13.hasEventListener(MouseEvent.CLICK)) btn_play13.removeEventListener(MouseEvent.CLICK, bukaYoutube);
+    
+    // Pasang listener baru
+    btn_play13.addEventListener(MouseEvent.CLICK, bukaYoutube);
+}
 
 //event button kembali ke materi 13
 btn_back_materi.addEventListener(MouseEvent.CLICK, changeBackMateri13);
@@ -8540,7 +8697,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="195" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="195" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8766,19 +8923,28 @@ function changeBerandaKuis(e:MouseEvent):void{
           <PD n="com.air.oldTargetPlatform" v="Desktop"/>
           <PD n="com.air.sdk.path" v="D:\Kuliah\Semester 5\Sistem Multimedia\AIRSDK_3311935"/>
           <PD n="com.air.artemis.pubair" v="false"/>
-          <PD n="com.air.artemis.pubipa" v="false"/>
           <PD n="com.air.agistri.proctype" v="armv8"/>
+          <PD n="com.air.artemis.pubipa" v="false"/>
           <PD n="flash.swf.basename" v="Merah Putih One For All"/>
           <PD n="com.air.agistri.runtimetype" v="embed"/>
           <PD n="com.air.agistri.publishtype" v="release"/>
-          <PD n="com.air.artemis.pubcaptive" v="true"/>
           <PD n="com.air.agistri.hostip" v="Default"/>
-          <PD n="swf.folder.path" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes-Sismul/"/>
+          <PD n="com.air.artemis.pubcaptive" v="true"/>
           <PD n="flash.fla.filepath" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes-Sismul/Merah Putih One For All/Merah Putih One For All.xfl"/>
+          <PD n="swf.folder.path" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes-Sismul/"/>
           <PD n="com.air.artemis.pubexe" v="false"/>
      </persistentData>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="13896481" publishTime="1767021158"/>
+          <PublishItem publishSize="13896641" publishTime="1767020774"/>
+          <PublishItem publishSize="13896472" publishTime="1767019358"/>
+          <PublishItem publishSize="13896478" publishTime="1767019157"/>
+          <PublishItem publishSize="13896481" publishTime="1767018807"/>
+          <PublishItem publishSize="13896481" publishTime="1767017875"/>
+          <PublishItem publishSize="13869429" publishTime="1767017407"/>
+          <PublishItem publishSize="13895915" publishTime="1767014087"/>
+          <PublishItem publishSize="13869429" publishTime="1767014045"/>
           <PublishItem publishSize="13895525" publishTime="1766737422"/>
           <PublishItem publishSize="13890117" publishTime="1766674374"/>
           <PublishItem publishSize="29170367" publishTime="1766666061"/>
@@ -8790,14 +8956,5 @@ function changeBerandaKuis(e:MouseEvent):void{
           <PublishItem publishSize="268238" publishTime="1765891724"/>
           <PublishItem publishSize="268258" publishTime="1765888916"/>
           <PublishItem publishSize="268276" publishTime="1765888288"/>
-          <PublishItem publishSize="268292" publishTime="1765888218"/>
-          <PublishItem publishSize="268291" publishTime="1765888138"/>
-          <PublishItem publishSize="268292" publishTime="1765888093"/>
-          <PublishItem publishSize="268126" publishTime="1765885744"/>
-          <PublishItem publishSize="268126" publishTime="1765846074"/>
-          <PublishItem publishSize="258945" publishTime="1765799398"/>
-          <PublishItem publishSize="258585" publishTime="1765799016"/>
-          <PublishItem publishSize="243142" publishTime="1765798831"/>
-          <PublishItem publishSize="243143" publishTime="1765798781"/>
      </publishHistory>
 </DOMDocument>
