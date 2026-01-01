@@ -4,15 +4,15 @@
       <layers>
         <DOMLayer name="garuda" color="#9933CC" autoNamed="false" animationType="motion object">
           <frames>
-            <DOMFrame index="0" duration="90" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195" propagateRotMap="[0]" propagateScaleXMap="[1]" propagateScaleYMap="[1]" propagateSkewXMap="[0]" propagateSkewYMap="[0]">
+            <DOMFrame index="0" duration="90" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195" propagateRotMap="[0,0,0,0]" propagateScaleXMap="[1]" propagateScaleYMap="[1]" propagateSkewXMap="[0]" propagateSkewYMap="[0]">
               <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="90000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500152" xformPtYOffsetPct="0.499425" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,14.9981" next="0,14.9981" previous="0,14.9981" roving="0" timevalue="29000"/><Keyframe anchor="0,-15.0038" next="0,-15.0038" previous="0,-15.0038" roving="0" timevalue="59000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="89000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,32.7087" next="0,32.7087" previous="0,32.7087" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,32.7087" next="0,32.7087" previous="0,32.7087" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
               <elements>
                 <DOMSymbolInstance libraryItemName="Pancasila/Garuda-Pancasila.ai">
                   <matrix>
-                    <Matrix a="0.327102661132812" d="0.327102661132812" tx="703.45" ty="26.4"/>
+                    <Matrix a="0.327072143554688" d="0.327072143554688" tx="703.45" ty="26.4"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="328.95" y="327.15"/>
+                    <Point x="329" y="327.15"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
@@ -38,7 +38,7 @@
                         </FillStyle>
                       </fills>
                       <edges>
-                        <Edge fillStyle1="1" edges="!718 0|31592 0!31592 0[32310 0 32310 507!32310 507|32310 8623!32310 8623[32310 9130 31592 9130!31592 9130|718 9130!718 9130[0 9130 0 8623!0 8623|0 507!0 507[0 0 718 0"/>
+                        <Edge fillStyle1="1" edges="!718 0S2|31592 0!31592 0[32310 0 32310 507!32310 507|32310 8623!32310 8623[32310 9130 31592 9130!31592 9130|718 9130!718 9130[0 9130 0 8623!0 8623|0 507!0 507[0 0 718 0"/>
                       </edges>
                     </DOMShape>
                     <DOMDynamicText fontRenderingMode="standard" left="-174.95" width="493.9" height="115.65" autoExpand="true" isSelectable="false" lineType="multiline">

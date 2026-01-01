@@ -8,11 +8,12 @@
           <DOMFolderItem name="Buttons/Materi" itemID="69384b80-00000633"/>
           <DOMFolderItem name="Buttons/Navbar" itemID="69383f67-00000207"/>
           <DOMFolderItem name="Buttons/Poin" itemID="69383fb1-00000211"/>
-          <DOMFolderItem name="Movie_Clips" itemID="693ebe13-00000172"/>
+          <DOMFolderItem name="Movie_Clips" itemID="693ebe13-00000172" isExpanded="true"/>
           <DOMFolderItem name="Movie_Clips/Animasi" itemID="6953d94c-00000263" isExpanded="true"/>
-          <DOMFolderItem name="Movie_Clips/Beranda" itemID="6956264f-000008bb" isExpanded="true"/>
-          <DOMFolderItem name="Movie_Clips/Kuis" itemID="693ebe2c-00000176" isExpanded="true"/>
-          <DOMFolderItem name="Movie_Clips/Materi" itemID="694e3850-00000197" isExpanded="true"/>
+          <DOMFolderItem name="Movie_Clips/Beranda" itemID="6956264f-000008bb"/>
+          <DOMFolderItem name="Movie_Clips/Kuis" itemID="693ebe2c-00000176"/>
+          <DOMFolderItem name="Movie_Clips/Materi" itemID="695657c2-000012c8"/>
+          <DOMFolderItem name="Movie_Clips/Poin" itemID="6956571a-0000125c"/>
           <DOMFolderItem name="Objects" itemID="69384017-0000022b"/>
           <DOMFolderItem name="Pancasila" itemID="69383fd2-0000021a"/>
           <DOMFolderItem name="Poin_Pancasila" itemID="69383f4f-000001fe"/>
@@ -39,6 +40,7 @@
           <DOMBitmapItem name="Background/Textured.jpeg" itemID="69384fd3-00000811" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Background/Textured.jpeg" sourceLastImported="1765345765" externalFileSize="54855" allowSmoothing="true" quality="50" href="Background/Textured.jpeg" bitmapDataHRef="M 3 1765298131.dat" frameRight="12500" frameBottom="8320" isJPEG="true"/>
      </media>
      <symbols>
+          <Include href="Background/background_garuda.xml" loadImmediate="false" itemID="6954b4cc-000005ab" lastModified="1767267098"/>
           <Include href="Background/Background1.xml" loadImmediate="false" itemID="69383ef6-000001ed" lastModified="1765293814"/>
           <Include href="Buttons/Kuis/btn_back.xml" itemIcon="0" loadImmediate="false" itemID="693ec897-00000196" lastModified="1767151995"/>
           <Include href="Buttons/Kuis/btn_cobalagi.xml" itemIcon="0" loadImmediate="false" itemID="693ed23a-000001ea" lastModified="1767152021"/>
@@ -80,12 +82,49 @@
           <Include href="Buttons/Poin/poin_3.xml" itemIcon="0" loadImmediate="false" itemID="6922d838-0000018f" lastModified="1767151166"/>
           <Include href="Buttons/Poin/poin_4.xml" itemIcon="0" loadImmediate="false" itemID="6922d840-00000194" lastModified="1767151185"/>
           <Include href="Buttons/Poin/poin_5.xml" itemIcon="0" loadImmediate="false" itemID="6922d84a-00000199" lastModified="1767151203"/>
-          <Include href="Movie_Clips/Animasi/mc_awalberanda.xml" loadImmediate="false" itemID="69563736-00000e26" lastModified="1767257910"/>
+          <Include href="Movie_Clips/Animasi/mc_awalberanda.xml" loadImmediate="false" itemID="69563736-00000e26" lastModified="1767266840"/>
+          <Include href="Movie_Clips/Animasi/mc_berandakuis.xml" loadImmediate="false" itemID="695661d0-0000222f" lastModified="1767270271"/>
+          <Include href="Movie_Clips/Animasi/mc_berandamateri.xml" loadImmediate="false" itemID="69565794-0000125e" lastModified="1767268658"/>
+          <Include href="Movie_Clips/Animasi/mc_kuisberanda.xml" loadImmediate="false" itemID="6956701a-00003b21" lastModified="1767272659"/>
+          <Include href="Movie_Clips/Animasi/mc_kuismateri.xml" loadImmediate="false" itemID="6956724d-00003dc4" lastModified="1767273276"/>
+          <Include href="Movie_Clips/Animasi/mc_materiberanda.xml" loadImmediate="false" itemID="6956680e-00003120" lastModified="1767270744"/>
+          <Include href="Movie_Clips/Animasi/mc_materikuis.xml" loadImmediate="false" itemID="69567382-00003e33" lastModified="1767273616"/>
           <Include href="Movie_Clips/Beranda/mc_beranda.xml" loadImmediate="false" itemID="695624a1-000005b7" lastModified="1767253153"/>
           <Include href="Movie_Clips/Beranda/mc_kuis.xml" loadImmediate="false" itemID="6956249a-000005b6" lastModified="1767253146"/>
           <Include href="Movie_Clips/Beranda/mc_materi.xml" loadImmediate="false" itemID="69562493-000005b5" lastModified="1767253139"/>
           <Include href="Movie_Clips/Kuis/bar_time.xml" loadImmediate="false" itemID="693ecd84-000001ad" lastModified="1765723524"/>
+          <Include href="Movie_Clips/Kuis/mc_kuis1.xml" loadImmediate="false" itemID="69565e6e-00001c47" lastModified="1767267959"/>
+          <Include href="Movie_Clips/Kuis/mc_kuis2.xml" loadImmediate="false" itemID="69565ee5-00001c48" lastModified="1767268069"/>
+          <Include href="Movie_Clips/Kuis/mc_kuis3.xml" loadImmediate="false" itemID="69565ef4-00001c49" lastModified="1767268084"/>
+          <Include href="Movie_Clips/Kuis/mc_kuis4.xml" loadImmediate="false" itemID="69565f00-00001c4a" lastModified="1767268096"/>
+          <Include href="Movie_Clips/Kuis/mc_kuis5.xml" loadImmediate="false" itemID="69565f0d-00001c4b" lastModified="1767268109"/>
+          <Include href="Movie_Clips/Kuis/mc_kuis6.xml" loadImmediate="false" itemID="69565f1d-00001c4c" lastModified="1767268125"/>
+          <Include href="Movie_Clips/Kuis/mc_kuis7.xml" loadImmediate="false" itemID="69565f2a-00001c4d" lastModified="1767268138"/>
+          <Include href="Movie_Clips/Kuis/mc_kuis8.xml" loadImmediate="false" itemID="69565f37-00001c4e" lastModified="1767268182"/>
+          <Include href="Movie_Clips/Kuis/mc_kuis9.xml" loadImmediate="false" itemID="69565f44-00001c4f" lastModified="1767268187"/>
+          <Include href="Movie_Clips/Kuis/mc_kuis10.xml" loadImmediate="false" itemID="69565f50-00001c50" lastModified="1767268176"/>
+          <Include href="Movie_Clips/Kuis/mc_kuis11.xml" loadImmediate="false" itemID="69565f68-00001c51" lastModified="1767268200"/>
+          <Include href="Movie_Clips/Kuis/mc_kuis12.xml" loadImmediate="false" itemID="69565f78-00001c52" lastModified="1767268216"/>
+          <Include href="Movie_Clips/Kuis/mc_kuis13.xml" loadImmediate="false" itemID="69565f83-00001c53" lastModified="1767268227"/>
           <Include href="Movie_Clips/Kuis/mc_tombol_jawaban.xml" loadImmediate="false" itemID="693eb64b-00000167" lastModified="1765785676"/>
+          <Include href="Movie_Clips/Materi/mc_materi1.xml" loadImmediate="false" itemID="695653b1-00000cc6" lastModified="1767265222"/>
+          <Include href="Movie_Clips/Materi/mc_materi2.xml" loadImmediate="false" itemID="69565429-00000cc7" lastModified="1767265321"/>
+          <Include href="Movie_Clips/Materi/mc_materi3.xml" loadImmediate="false" itemID="69565439-00000cc8" lastModified="1767265337"/>
+          <Include href="Movie_Clips/Materi/mc_materi4.xml" loadImmediate="false" itemID="6956544f-00000cc9" lastModified="1767265359"/>
+          <Include href="Movie_Clips/Materi/mc_materi5.xml" loadImmediate="false" itemID="69565468-00000cca" lastModified="1767265384"/>
+          <Include href="Movie_Clips/Materi/mc_materi6.xml" loadImmediate="false" itemID="69565476-00000ccb" lastModified="1767265398"/>
+          <Include href="Movie_Clips/Materi/mc_materi7.xml" loadImmediate="false" itemID="69565482-00000ccc" lastModified="1767265410"/>
+          <Include href="Movie_Clips/Materi/mc_materi8.xml" loadImmediate="false" itemID="6956548f-00000ccd" lastModified="1767265423"/>
+          <Include href="Movie_Clips/Materi/mc_materi9.xml" loadImmediate="false" itemID="6956549b-00000cce" lastModified="1767265435"/>
+          <Include href="Movie_Clips/Materi/mc_materi10.xml" loadImmediate="false" itemID="695654a6-00000ccf" lastModified="1767265451"/>
+          <Include href="Movie_Clips/Materi/mc_materi11.xml" loadImmediate="false" itemID="695654bd-00000cd0" lastModified="1767265469"/>
+          <Include href="Movie_Clips/Materi/mc_materi12.xml" loadImmediate="false" itemID="695654cf-00000cd1" lastModified="1767265487"/>
+          <Include href="Movie_Clips/Materi/mc_materi13.xml" loadImmediate="false" itemID="695654e0-00000cd2" lastModified="1767265504"/>
+          <Include href="Movie_Clips/Poin/mc_poin1.xml" loadImmediate="false" itemID="6956256a-0000084e" lastModified="1767254303"/>
+          <Include href="Movie_Clips/Poin/mc_poin2.xml" loadImmediate="false" itemID="69562561-0000084d" lastModified="1767254379"/>
+          <Include href="Movie_Clips/Poin/mc_poin3.xml" loadImmediate="false" itemID="69562559-0000084c" lastModified="1767254406"/>
+          <Include href="Movie_Clips/Poin/mc_poin4.xml" loadImmediate="false" itemID="69562550-0000084b" lastModified="1767254444"/>
+          <Include href="Movie_Clips/Poin/mc_poin5.xml" loadImmediate="false" itemID="69562548-0000084a" lastModified="1767254477"/>
           <Include href="Objects/Navbar_1.xml" loadImmediate="false" itemID="6921b4d7-000005cb" lastModified="1765296375"/>
           <Include href="Objects/selected.xml" loadImmediate="false" itemID="6922f3e1-00000204" lastModified="1763898337"/>
           <Include href="Pancasila/Banteng.ai.xml" loadImmediate="false" itemID="6922d2af-0000014e" lastModified="1767252507"/>
@@ -95,11 +134,6 @@
           <Include href="Pancasila/PadiDanKapas.ai.xml" loadImmediate="false" itemID="6922d2ca-00000152" lastModified="1767252526"/>
           <Include href="Pancasila/Pohon.ai.xml" loadImmediate="false" itemID="6922d2bb-00000150" lastModified="1767252531"/>
           <Include href="Pancasila/Rantai.ai.xml" loadImmediate="false" itemID="6922d2a1-0000014c" lastModified="1767252537"/>
-          <Include href="Poin_Pancasila/mc_poin1.xml" loadImmediate="false" itemID="6956256a-0000084e" lastModified="1767254303"/>
-          <Include href="Poin_Pancasila/mc_poin2.xml" loadImmediate="false" itemID="69562561-0000084d" lastModified="1767254379"/>
-          <Include href="Poin_Pancasila/mc_poin3.xml" loadImmediate="false" itemID="69562559-0000084c" lastModified="1767254406"/>
-          <Include href="Poin_Pancasila/mc_poin4.xml" loadImmediate="false" itemID="69562550-0000084b" lastModified="1767254444"/>
-          <Include href="Poin_Pancasila/mc_poin5.xml" loadImmediate="false" itemID="69562548-0000084a" lastModified="1767254477"/>
           <Include href="Poin_Pancasila/poin1.xml" loadImmediate="false" itemID="6922d913-0000019e" lastModified="1767252552"/>
           <Include href="Poin_Pancasila/poin2.xml" loadImmediate="false" itemID="6922e211-000001a8" lastModified="1767252558"/>
           <Include href="Poin_Pancasila/poin3.xml" loadImmediate="false" itemID="6922e2b2-000001ad" lastModified="1767252562"/>
@@ -109,7 +143,7 @@
           <Include href="Teks/Teks_2.xml" loadImmediate="false" itemID="6921d013-00000601" lastModified="1763889390"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="2" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="actions_global" color="#00FFFF" autoNamed="false">
                          <frames>
@@ -178,7 +212,45 @@ function stopMusik():void {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_kuis" color="#009999" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="layar_kuis" color="#009999" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="animasi_kuismateri" color="#FF4FFF" parentLayerIndex="1" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="16" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="16" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/mc_kuismateri" name="mc_kuismateri">
+                                             <matrix>
+                                                  <Matrix tx="0.05" ty="0.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="animasi_kuisberanda" color="#FF4FFF" parentLayerIndex="1" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="16" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="16" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/mc_kuisberanda" name="mc_kuisberanda">
+                                             <matrix>
+                                                  <Matrix tx="0.05" ty="0.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
                     <DOMLayer name="actions_kuis" color="#009999" parentLayerIndex="1" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
@@ -194,16 +266,28 @@ stop();
 // Panggil lagu Menu Kuis
 putarLagu(bgm_menukuis, "menukuis");
 
+// Fungsi yang dipanggil oleh TOMBOL (Buat memicu animasi)
+function gantikuisberanda(frameKe:int):void {
+    halamanTujuan = frameKe; // Catat tujuannya
+    mc_kuisberanda.gotoAndPlay(2); // Jalankan animasi
+}
+
 //event button kuis ke beranda
 beranda_btn.addEventListener(MouseEvent.CLICK, changeKuisBeranda);
 function changeKuisBeranda(e:MouseEvent):void{
-	gotoAndStop(2);
+	gantikuisberanda(2);
+}
+
+// Fungsi yang dipanggil oleh TOMBOL (Buat memicu animasi)
+function gantikuismateri(frameKe:int):void {
+    halamanTujuan = frameKe; // Catat tujuannya
+    mc_kuismateri.gotoAndPlay(2); // Jalankan animasi
 }
 
 //event button kuis ke materi
 materi_btn.addEventListener(MouseEvent.CLICK, changeKuisMateri);
 function changeKuisMateri(e:MouseEvent):void{
-	gotoAndStop(3);
+	gantikuismateri(3);
 }
 
 //event button kuis 1
@@ -289,7 +373,7 @@ function changeKuis13(e:MouseEvent):void{
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="kuis_13" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis13" color="#00FFFF" parentLayerIndex="3" autoNamed="false">
+                    <DOMLayer name="actions_kuis13" color="#00FFFF" parentLayerIndex="5" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="53" keyMode="9728">
                                    <elements/>
@@ -435,7 +519,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="3" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="5" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="53" keyMode="9728">
                                    <elements/>
@@ -520,7 +604,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi13" color="#9933CC" parentLayerIndex="3" autoNamed="false">
+                    <DOMLayer name="kuis_materi13" color="#9933CC" parentLayerIndex="5" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="53" keyMode="9728">
                                    <elements/>
@@ -656,7 +740,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="3" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="5" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="53" keyMode="9728">
                                    <elements/>
@@ -710,7 +794,7 @@ if(getChildByName("btn_kembali")){
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="kuis_12" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis12" color="#00FFFF" parentLayerIndex="8" autoNamed="false">
+                    <DOMLayer name="actions_kuis12" color="#00FFFF" parentLayerIndex="10" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="50" keyMode="9728">
                                    <elements/>
@@ -856,7 +940,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="8" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="10" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="50" keyMode="9728">
                                    <elements/>
@@ -943,7 +1027,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi12" color="#9933CC" parentLayerIndex="8" autoNamed="false">
+                    <DOMLayer name="kuis_materi12" color="#9933CC" parentLayerIndex="10" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="50" keyMode="9728">
                                    <elements/>
@@ -1082,7 +1166,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="8" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="10" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="50" keyMode="9728">
                                    <elements/>
@@ -1136,7 +1220,7 @@ if(getChildByName("btn_kembali")){
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="kuis_11" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis11" color="#00FFFF" parentLayerIndex="13" autoNamed="false">
+                    <DOMLayer name="actions_kuis11" color="#00FFFF" parentLayerIndex="15" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="47" keyMode="9728">
                                    <elements/>
@@ -1282,7 +1366,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="13" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="15" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="47" keyMode="9728">
                                    <elements/>
@@ -1369,7 +1453,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi11" color="#9933CC" parentLayerIndex="13" autoNamed="false">
+                    <DOMLayer name="kuis_materi11" color="#9933CC" parentLayerIndex="15" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="47" keyMode="9728">
                                    <elements/>
@@ -1508,7 +1592,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="13" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="15" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="47" keyMode="9728">
                                    <elements/>
@@ -1562,7 +1646,7 @@ if(getChildByName("btn_kembali")){
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="kuis_10" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis10" color="#00FFFF" parentLayerIndex="18" autoNamed="false">
+                    <DOMLayer name="actions_kuis10" color="#00FFFF" parentLayerIndex="20" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="44" keyMode="9728">
                                    <elements/>
@@ -1708,7 +1792,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="18" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="20" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="44" keyMode="9728">
                                    <elements/>
@@ -1795,7 +1879,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi10" color="#9933CC" parentLayerIndex="18" autoNamed="false">
+                    <DOMLayer name="kuis_materi10" color="#9933CC" parentLayerIndex="20" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="44" keyMode="9728">
                                    <elements/>
@@ -1934,7 +2018,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="18" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="20" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="44" keyMode="9728">
                                    <elements/>
@@ -1988,7 +2072,7 @@ if(getChildByName("btn_kembali")){
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="kuis_9" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis9" color="#00FFFF" parentLayerIndex="23" autoNamed="false">
+                    <DOMLayer name="actions_kuis9" color="#00FFFF" parentLayerIndex="25" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="41" keyMode="9728">
                                    <elements/>
@@ -2134,7 +2218,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="23" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="25" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="41" keyMode="9728">
                                    <elements/>
@@ -2221,7 +2305,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi9" color="#9933CC" parentLayerIndex="23" autoNamed="false">
+                    <DOMLayer name="kuis_materi9" color="#9933CC" parentLayerIndex="25" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="41" keyMode="9728">
                                    <elements/>
@@ -2360,7 +2444,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="23" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="25" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="41" keyMode="9728">
                                    <elements/>
@@ -2414,7 +2498,7 @@ if(getChildByName("btn_kembali")){
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="kuis_8" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis8" color="#00FFFF" parentLayerIndex="28" autoNamed="false">
+                    <DOMLayer name="actions_kuis8" color="#00FFFF" parentLayerIndex="30" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="38" keyMode="9728">
                                    <elements/>
@@ -2560,7 +2644,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="28" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="30" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="38" keyMode="9728">
                                    <elements/>
@@ -2647,7 +2731,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi8" color="#9933CC" parentLayerIndex="28" autoNamed="false">
+                    <DOMLayer name="kuis_materi8" color="#9933CC" parentLayerIndex="30" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="38" keyMode="9728">
                                    <elements/>
@@ -2786,7 +2870,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="28" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="30" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="38" keyMode="9728">
                                    <elements/>
@@ -2840,7 +2924,7 @@ if(getChildByName("btn_kembali")){
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="kuis_7" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis7" color="#00FFFF" parentLayerIndex="33" autoNamed="false">
+                    <DOMLayer name="actions_kuis7" color="#00FFFF" parentLayerIndex="35" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="35" keyMode="9728">
                                    <elements/>
@@ -2986,7 +3070,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="33" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="35" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="35" keyMode="9728">
                                    <elements/>
@@ -3073,7 +3157,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi7" color="#9933CC" parentLayerIndex="33" autoNamed="false">
+                    <DOMLayer name="kuis_materi7" color="#9933CC" parentLayerIndex="35" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="35" keyMode="9728">
                                    <elements/>
@@ -3212,7 +3296,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="33" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="35" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="35" keyMode="9728">
                                    <elements/>
@@ -3266,7 +3350,7 @@ if(getChildByName("btn_kembali")){
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="kuis_6" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis6" color="#00FFFF" parentLayerIndex="38" autoNamed="false">
+                    <DOMLayer name="actions_kuis6" color="#00FFFF" parentLayerIndex="40" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="32" keyMode="9728">
                                    <elements/>
@@ -3412,7 +3496,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="38" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="40" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="32" keyMode="9728">
                                    <elements/>
@@ -3499,7 +3583,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi6" color="#9933CC" parentLayerIndex="38" autoNamed="false">
+                    <DOMLayer name="kuis_materi6" color="#9933CC" parentLayerIndex="40" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="32" keyMode="9728">
                                    <elements/>
@@ -3638,7 +3722,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="38" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="40" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="32" keyMode="9728">
                                    <elements/>
@@ -3692,7 +3776,7 @@ if(getChildByName("btn_kembali")){
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="kuis_5" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis5" color="#00FFFF" parentLayerIndex="43" autoNamed="false">
+                    <DOMLayer name="actions_kuis5" color="#00FFFF" parentLayerIndex="45" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="29" keyMode="9728">
                                    <elements/>
@@ -3839,7 +3923,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="43" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="45" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="29" keyMode="9728">
                                    <elements/>
@@ -3926,7 +4010,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi5" color="#9933CC" parentLayerIndex="43" autoNamed="false">
+                    <DOMLayer name="kuis_materi5" color="#9933CC" parentLayerIndex="45" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="29" keyMode="9728">
                                    <elements/>
@@ -4065,7 +4149,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="43" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="45" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="29" keyMode="9728">
                                    <elements/>
@@ -4119,7 +4203,7 @@ if(getChildByName("btn_kembali")){
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="kuis_4" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis4" color="#00FFFF" parentLayerIndex="48" autoNamed="false">
+                    <DOMLayer name="actions_kuis4" color="#00FFFF" parentLayerIndex="50" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="26" keyMode="9728">
                                    <elements/>
@@ -4266,7 +4350,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="48" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="50" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="26" keyMode="9728">
                                    <elements/>
@@ -4353,7 +4437,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi4" color="#9933CC" parentLayerIndex="48" autoNamed="false">
+                    <DOMLayer name="kuis_materi4" color="#9933CC" parentLayerIndex="50" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="26" keyMode="9728">
                                    <elements/>
@@ -4492,7 +4576,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="48" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="50" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="26" keyMode="9728">
                                    <elements/>
@@ -4546,7 +4630,7 @@ if(getChildByName("btn_kembali")){
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="kuis_3" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis3" color="#00FFFF" parentLayerIndex="53" autoNamed="false">
+                    <DOMLayer name="actions_kuis3" color="#00FFFF" parentLayerIndex="55" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="23" keyMode="9728">
                                    <elements/>
@@ -4693,7 +4777,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="53" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="55" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="23" keyMode="9728">
                                    <elements/>
@@ -4780,7 +4864,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi3" color="#9933CC" parentLayerIndex="53" autoNamed="false">
+                    <DOMLayer name="kuis_materi3" color="#9933CC" parentLayerIndex="55" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="23" keyMode="9728">
                                    <elements/>
@@ -4919,7 +5003,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="53" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="55" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="23" keyMode="9728">
                                    <elements/>
@@ -4973,7 +5057,7 @@ if(getChildByName("btn_kembali")){
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="kuis_2" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis2" color="#00FFFF" parentLayerIndex="58" autoNamed="false">
+                    <DOMLayer name="actions_kuis2" color="#00FFFF" parentLayerIndex="60" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -5120,7 +5204,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="58" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="60" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -5207,7 +5291,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi2" color="#9933CC" parentLayerIndex="58" autoNamed="false">
+                    <DOMLayer name="kuis_materi2" color="#9933CC" parentLayerIndex="60" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -5346,7 +5430,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="58" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="60" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -5400,7 +5484,7 @@ if(getChildByName("btn_kembali")){
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="kuis_1" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_kuis1" color="#00FFFF" parentLayerIndex="63" autoNamed="false">
+                    <DOMLayer name="actions_kuis1" color="#00FFFF" parentLayerIndex="65" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="17" keyMode="9728">
                                    <elements/>
@@ -5656,7 +5740,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="63" autoNamed="false">
+                    <DOMLayer name="hasil" color="#FF800A" parentLayerIndex="65" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="19" keyMode="9728">
                                    <elements/>
@@ -5740,7 +5824,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_materi1" color="#9933CC" parentLayerIndex="63" autoNamed="false">
+                    <DOMLayer name="kuis_materi1" color="#9933CC" parentLayerIndex="65" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="18" keyMode="9728">
                                    <elements/>
@@ -5876,7 +5960,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="63" autoNamed="false">
+                    <DOMLayer name="menu" color="#9933CC" parentLayerIndex="65" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="17" keyMode="9728">
                                    <elements/>
@@ -5930,7 +6014,7 @@ if(getChildByName("btn_kembali")){
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="btn_kuis" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="btn_kuis13" color="#FF800A" parentLayerIndex="68" autoNamed="false">
+                    <DOMLayer name="btn_kuis13" color="#FF800A" parentLayerIndex="70" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -5949,7 +6033,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis12" color="#FF800A" parentLayerIndex="68" autoNamed="false">
+                    <DOMLayer name="btn_kuis12" color="#FF800A" parentLayerIndex="70" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -5968,7 +6052,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis11" color="#FF800A" parentLayerIndex="68" autoNamed="false">
+                    <DOMLayer name="btn_kuis11" color="#FF800A" parentLayerIndex="70" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -5987,7 +6071,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis10" color="#FF800A" parentLayerIndex="68" autoNamed="false">
+                    <DOMLayer name="btn_kuis10" color="#FF800A" parentLayerIndex="70" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6006,7 +6090,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis9" color="#FF800A" parentLayerIndex="68" autoNamed="false">
+                    <DOMLayer name="btn_kuis9" color="#FF800A" parentLayerIndex="70" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6025,7 +6109,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis8" color="#FF800A" parentLayerIndex="68" autoNamed="false">
+                    <DOMLayer name="btn_kuis8" color="#FF800A" parentLayerIndex="70" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6044,7 +6128,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis7" color="#FF800A" parentLayerIndex="68" autoNamed="false">
+                    <DOMLayer name="btn_kuis7" color="#FF800A" parentLayerIndex="70" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6063,7 +6147,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis6" color="#FF800A" parentLayerIndex="68" autoNamed="false">
+                    <DOMLayer name="btn_kuis6" color="#FF800A" parentLayerIndex="70" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6082,7 +6166,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis5" color="#FF800A" parentLayerIndex="68" autoNamed="false">
+                    <DOMLayer name="btn_kuis5" color="#FF800A" parentLayerIndex="70" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6101,7 +6185,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis4" color="#FF800A" parentLayerIndex="68" autoNamed="false">
+                    <DOMLayer name="btn_kuis4" color="#FF800A" parentLayerIndex="70" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6120,7 +6204,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis3" color="#FF800A" parentLayerIndex="68" autoNamed="false">
+                    <DOMLayer name="btn_kuis3" color="#FF800A" parentLayerIndex="70" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6139,7 +6223,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis2" color="#FF800A" parentLayerIndex="68" autoNamed="false">
+                    <DOMLayer name="btn_kuis2" color="#FF800A" parentLayerIndex="70" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6158,7 +6242,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis1" color="#9933CC" parentLayerIndex="68" autoNamed="false">
+                    <DOMLayer name="btn_kuis1" color="#9933CC" parentLayerIndex="70" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6178,7 +6262,7 @@ if(getChildByName("btn_kembali")){
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="82" autoNamed="false">
+                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="84" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6200,7 +6284,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="82" autoNamed="false">
+                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="84" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6219,7 +6303,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="82" autoNamed="false">
+                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="84" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6238,7 +6322,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="82" autoNamed="false">
+                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="84" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6257,7 +6341,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="82" autoNamed="false">
+                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="84" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6276,7 +6360,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="82" autoNamed="false">
+                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="84" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6298,7 +6382,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="82" autoNamed="false">
+                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="84" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
                                    <elements/>
@@ -6321,8 +6405,8 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_materi" color="#FF4FFF" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_materi" color="#009999" parentLayerIndex="90" autoNamed="false">
+                    <DOMLayer name="layar_materi" color="#FF4FFF" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="actions_materi" color="#009999" parentLayerIndex="92" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -6337,16 +6421,28 @@ stop();
 // Panggil lagu Menu Materi
 putarLagu(bgm_menumateri, "menumateri");
 
+// Fungsi yang dipanggil oleh TOMBOL (Buat memicu animasi)
+function gantimateriberanda(frameKe:int):void {
+    halamanTujuan = frameKe; // Catat tujuannya
+    mc_materiberanda.gotoAndPlay(2); // Jalankan animasi
+}
+
 //event button materi ke beranda
 beranda_btn.addEventListener(MouseEvent.CLICK, changeMateriBeranda);
 function changeMateriBeranda(e:MouseEvent):void{
-	gotoAndStop(2);
+	gantimateriberanda(2);
+}
+
+// Fungsi yang dipanggil oleh TOMBOL (Buat memicu animasi)
+function gantimaterikuis(frameKe:int):void {
+    halamanTujuan = frameKe; // Catat tujuannya
+    mc_materikuis.gotoAndPlay(2); // Jalankan animasi
 }
 
 //event button materi ke kuis
 kuis_btn.addEventListener(MouseEvent.CLICK, changeMateriKuis);
 function changeMateriKuis(e:MouseEvent):void{
-	gotoAndStop(17);
+	gantimaterikuis(17);
 }
 
 //event button materi 1
@@ -6457,7 +6553,7 @@ function changeMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="actions_isi_materi" color="#00FFFF" parentLayerIndex="90" autoNamed="false">
+                    <DOMLayer name="actions_isi_materi" color="#00FFFF" parentLayerIndex="92" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements/>
@@ -6827,8 +6923,46 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_13" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi13" color="#FF0000" parentLayerIndex="93" autoNamed="false">
+                    <DOMLayer name="animasi_materikuis" color="#FF800A" parentLayerIndex="92" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/mc_materikuis" name="mc_materikuis">
+                                             <matrix>
+                                                  <Matrix tx="0.05" ty="0.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="animasi_materiberanda" color="#FF800A" parentLayerIndex="92" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/mc_materiberanda" name="mc_materiberanda">
+                                             <matrix>
+                                                  <Matrix tx="0.05" ty="0.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="materi_13" color="#FF4FFF" parentLayerIndex="92" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi13" color="#FF0000" parentLayerIndex="97" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="15" keyMode="9728">
                                    <elements/>
@@ -6852,7 +6986,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi13" color="#FF800A" parentLayerIndex="93" autoNamed="false">
+                    <DOMLayer name="btn_back_materi13" color="#FF800A" parentLayerIndex="97" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="15" keyMode="9728">
                                    <elements/>
@@ -6871,7 +7005,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_video13" color="#9933CC" parentLayerIndex="93" autoNamed="false">
+                    <DOMLayer name="btn_video13" color="#9933CC" parentLayerIndex="97" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="15" keyMode="9728">
                                    <elements/>
@@ -6890,7 +7024,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_13" color="#00FFFF" parentLayerIndex="93" autoNamed="false">
+                    <DOMLayer name="materi_13" color="#00FFFF" parentLayerIndex="97" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="15" keyMode="9728">
                                    <elements/>
@@ -6914,7 +7048,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_13" color="#009999" parentLayerIndex="93" autoNamed="false">
+                    <DOMLayer name="background_13" color="#009999" parentLayerIndex="97" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="15" keyMode="9728">
                                    <elements/>
@@ -6930,8 +7064,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_12" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi12" color="#FF0000" parentLayerIndex="99" autoNamed="false">
+                    <DOMLayer name="materi_12" color="#FF4FFF" parentLayerIndex="92" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi12" color="#FF0000" parentLayerIndex="103" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="14" keyMode="9728">
                                    <elements/>
@@ -6955,7 +7089,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi12" color="#FF800A" parentLayerIndex="99" autoNamed="false">
+                    <DOMLayer name="btn_back_materi12" color="#FF800A" parentLayerIndex="103" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="14" keyMode="9728">
                                    <elements/>
@@ -6974,7 +7108,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_video12" color="#9933CC" parentLayerIndex="99" autoNamed="false">
+                    <DOMLayer name="btn_video12" color="#9933CC" parentLayerIndex="103" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="14" keyMode="9728">
                                    <elements/>
@@ -6993,7 +7127,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_12" color="#00FFFF" parentLayerIndex="99" autoNamed="false">
+                    <DOMLayer name="materi_12" color="#00FFFF" parentLayerIndex="103" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="14" keyMode="9728">
                                    <elements/>
@@ -7017,7 +7151,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_12" color="#009999" parentLayerIndex="99" autoNamed="false">
+                    <DOMLayer name="background_12" color="#009999" parentLayerIndex="103" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="14" keyMode="9728">
                                    <elements/>
@@ -7033,8 +7167,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_11" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi11" color="#FF0000" parentLayerIndex="105" autoNamed="false">
+                    <DOMLayer name="materi_11" color="#FF4FFF" parentLayerIndex="92" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi11" color="#FF0000" parentLayerIndex="109" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="13" keyMode="9728">
                                    <elements/>
@@ -7058,7 +7192,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi11" color="#FF800A" parentLayerIndex="105" autoNamed="false">
+                    <DOMLayer name="btn_back_materi11" color="#FF800A" parentLayerIndex="109" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="13" keyMode="9728">
                                    <elements/>
@@ -7077,7 +7211,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_video11" color="#9933CC" parentLayerIndex="105" autoNamed="false">
+                    <DOMLayer name="btn_video11" color="#9933CC" parentLayerIndex="109" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="13" keyMode="9728">
                                    <elements/>
@@ -7096,7 +7230,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_11" color="#00FFFF" parentLayerIndex="105" autoNamed="false">
+                    <DOMLayer name="materi_11" color="#00FFFF" parentLayerIndex="109" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="13" keyMode="9728">
                                    <elements/>
@@ -7120,7 +7254,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_11" color="#009999" parentLayerIndex="105" autoNamed="false">
+                    <DOMLayer name="background_11" color="#009999" parentLayerIndex="109" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="13" keyMode="9728">
                                    <elements/>
@@ -7136,8 +7270,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_10" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi10" color="#FF0000" parentLayerIndex="111" autoNamed="false">
+                    <DOMLayer name="materi_10" color="#FF4FFF" parentLayerIndex="92" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi10" color="#FF0000" parentLayerIndex="115" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="12" keyMode="9728">
                                    <elements/>
@@ -7161,7 +7295,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi10" color="#FF800A" parentLayerIndex="111" autoNamed="false">
+                    <DOMLayer name="btn_back_materi10" color="#FF800A" parentLayerIndex="115" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="12" keyMode="9728">
                                    <elements/>
@@ -7180,7 +7314,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_video10" color="#9933CC" parentLayerIndex="111" autoNamed="false">
+                    <DOMLayer name="btn_video10" color="#9933CC" parentLayerIndex="115" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="12" keyMode="9728">
                                    <elements/>
@@ -7199,7 +7333,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_10" color="#00FFFF" parentLayerIndex="111" autoNamed="false">
+                    <DOMLayer name="materi_10" color="#00FFFF" parentLayerIndex="115" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="12" keyMode="9728">
                                    <elements/>
@@ -7223,7 +7357,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_10" color="#009999" parentLayerIndex="111" autoNamed="false">
+                    <DOMLayer name="background_10" color="#009999" parentLayerIndex="115" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="12" keyMode="9728">
                                    <elements/>
@@ -7239,8 +7373,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_9" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi9" color="#FF0000" parentLayerIndex="117" autoNamed="false">
+                    <DOMLayer name="materi_9" color="#FF4FFF" parentLayerIndex="92" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi9" color="#FF0000" parentLayerIndex="121" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="11" keyMode="9728">
                                    <elements/>
@@ -7264,7 +7398,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi9" color="#FF800A" parentLayerIndex="117" autoNamed="false">
+                    <DOMLayer name="btn_back_materi9" color="#FF800A" parentLayerIndex="121" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="11" keyMode="9728">
                                    <elements/>
@@ -7283,7 +7417,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_video9" color="#9933CC" parentLayerIndex="117" autoNamed="false">
+                    <DOMLayer name="btn_video9" color="#9933CC" parentLayerIndex="121" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="11" keyMode="9728">
                                    <elements/>
@@ -7302,7 +7436,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_9" color="#00FFFF" parentLayerIndex="117" autoNamed="false">
+                    <DOMLayer name="materi_9" color="#00FFFF" parentLayerIndex="121" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="11" keyMode="9728">
                                    <elements/>
@@ -7326,7 +7460,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_9" color="#009999" parentLayerIndex="117" autoNamed="false">
+                    <DOMLayer name="background_9" color="#009999" parentLayerIndex="121" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="11" keyMode="9728">
                                    <elements/>
@@ -7342,8 +7476,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_8" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi8" color="#FF0000" parentLayerIndex="123" autoNamed="false">
+                    <DOMLayer name="materi_8" color="#FF4FFF" parentLayerIndex="92" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi8" color="#FF0000" parentLayerIndex="127" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="10" keyMode="9728">
                                    <elements/>
@@ -7367,7 +7501,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi8" color="#FF800A" parentLayerIndex="123" autoNamed="false">
+                    <DOMLayer name="btn_back_materi8" color="#FF800A" parentLayerIndex="127" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="10" keyMode="9728">
                                    <elements/>
@@ -7386,7 +7520,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_video8" color="#9933CC" parentLayerIndex="123" autoNamed="false">
+                    <DOMLayer name="btn_video8" color="#9933CC" parentLayerIndex="127" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="10" keyMode="9728">
                                    <elements/>
@@ -7405,7 +7539,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_8" color="#00FFFF" parentLayerIndex="123" autoNamed="false">
+                    <DOMLayer name="materi_8" color="#00FFFF" parentLayerIndex="127" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="10" keyMode="9728">
                                    <elements/>
@@ -7429,7 +7563,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_8" color="#009999" parentLayerIndex="123" autoNamed="false">
+                    <DOMLayer name="background_8" color="#009999" parentLayerIndex="127" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="10" keyMode="9728">
                                    <elements/>
@@ -7445,8 +7579,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_7" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi7" color="#FF0000" parentLayerIndex="129" autoNamed="false">
+                    <DOMLayer name="materi_7" color="#FF4FFF" parentLayerIndex="92" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi7" color="#FF0000" parentLayerIndex="133" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="9" keyMode="9728">
                                    <elements/>
@@ -7470,7 +7604,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi7" color="#FF800A" parentLayerIndex="129" autoNamed="false">
+                    <DOMLayer name="btn_back_materi7" color="#FF800A" parentLayerIndex="133" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="9" keyMode="9728">
                                    <elements/>
@@ -7489,7 +7623,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_video7" color="#9933CC" parentLayerIndex="129" autoNamed="false">
+                    <DOMLayer name="btn_video7" color="#9933CC" parentLayerIndex="133" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="9" keyMode="9728">
                                    <elements/>
@@ -7508,7 +7642,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_7" color="#00FFFF" parentLayerIndex="129" autoNamed="false">
+                    <DOMLayer name="materi_7" color="#00FFFF" parentLayerIndex="133" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="9" keyMode="9728">
                                    <elements/>
@@ -7532,7 +7666,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_7" color="#009999" parentLayerIndex="129" autoNamed="false">
+                    <DOMLayer name="background_7" color="#009999" parentLayerIndex="133" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="9" keyMode="9728">
                                    <elements/>
@@ -7548,8 +7682,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_6" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi6" color="#FF0000" parentLayerIndex="135" autoNamed="false">
+                    <DOMLayer name="materi_6" color="#FF4FFF" parentLayerIndex="92" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi6" color="#FF0000" parentLayerIndex="139" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="8" keyMode="9728">
                                    <elements/>
@@ -7573,7 +7707,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi6" color="#FF800A" parentLayerIndex="135" autoNamed="false">
+                    <DOMLayer name="btn_back_materi6" color="#FF800A" parentLayerIndex="139" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="8" keyMode="9728">
                                    <elements/>
@@ -7592,7 +7726,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_video6" color="#9933CC" parentLayerIndex="135" autoNamed="false">
+                    <DOMLayer name="btn_video6" color="#9933CC" parentLayerIndex="139" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="8" keyMode="9728">
                                    <elements/>
@@ -7611,7 +7745,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_6" color="#00FFFF" parentLayerIndex="135" autoNamed="false">
+                    <DOMLayer name="materi_6" color="#00FFFF" parentLayerIndex="139" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="8" keyMode="9728">
                                    <elements/>
@@ -7635,7 +7769,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_6" color="#009999" parentLayerIndex="135" autoNamed="false">
+                    <DOMLayer name="background_6" color="#009999" parentLayerIndex="139" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="8" keyMode="9728">
                                    <elements/>
@@ -7651,8 +7785,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_5" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi5" color="#FF0000" parentLayerIndex="141" autoNamed="false">
+                    <DOMLayer name="materi_5" color="#FF4FFF" parentLayerIndex="92" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi5" color="#FF0000" parentLayerIndex="145" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="7" keyMode="9728">
                                    <elements/>
@@ -7676,7 +7810,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi5" color="#FF800A" parentLayerIndex="141" autoNamed="false">
+                    <DOMLayer name="btn_back_materi5" color="#FF800A" parentLayerIndex="145" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="7" keyMode="9728">
                                    <elements/>
@@ -7695,7 +7829,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_video5" color="#9933CC" parentLayerIndex="141" autoNamed="false">
+                    <DOMLayer name="btn_video5" color="#9933CC" parentLayerIndex="145" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="7" keyMode="9728">
                                    <elements/>
@@ -7714,7 +7848,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_5" color="#00FFFF" parentLayerIndex="141" autoNamed="false">
+                    <DOMLayer name="materi_5" color="#00FFFF" parentLayerIndex="145" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="7" keyMode="9728">
                                    <elements/>
@@ -7738,7 +7872,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_5" color="#009999" parentLayerIndex="141" autoNamed="false">
+                    <DOMLayer name="background_5" color="#009999" parentLayerIndex="145" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="7" keyMode="9728">
                                    <elements/>
@@ -7754,8 +7888,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_4" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi4" color="#FF0000" parentLayerIndex="147" autoNamed="false">
+                    <DOMLayer name="materi_4" color="#FF4FFF" parentLayerIndex="92" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi4" color="#FF0000" parentLayerIndex="151" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="6" keyMode="9728">
                                    <elements/>
@@ -7779,7 +7913,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi4" color="#FF800A" parentLayerIndex="147" autoNamed="false">
+                    <DOMLayer name="btn_back_materi4" color="#FF800A" parentLayerIndex="151" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="6" keyMode="9728">
                                    <elements/>
@@ -7798,7 +7932,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_video4" color="#9933CC" parentLayerIndex="147" autoNamed="false">
+                    <DOMLayer name="btn_video4" color="#9933CC" parentLayerIndex="151" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="6" keyMode="9728">
                                    <elements/>
@@ -7817,7 +7951,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_4" color="#00FFFF" parentLayerIndex="147" autoNamed="false">
+                    <DOMLayer name="materi_4" color="#00FFFF" parentLayerIndex="151" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="6" keyMode="9728">
                                    <elements/>
@@ -7841,7 +7975,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_4" color="#009999" parentLayerIndex="147" autoNamed="false">
+                    <DOMLayer name="background_4" color="#009999" parentLayerIndex="151" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="6" keyMode="9728">
                                    <elements/>
@@ -7857,8 +7991,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_3" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi3" color="#FF0000" parentLayerIndex="153" autoNamed="false">
+                    <DOMLayer name="materi_3" color="#FF4FFF" parentLayerIndex="92" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi3" color="#FF0000" parentLayerIndex="157" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements/>
@@ -7882,7 +8016,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi3" color="#FF800A" parentLayerIndex="153" autoNamed="false">
+                    <DOMLayer name="btn_back_materi3" color="#FF800A" parentLayerIndex="157" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements/>
@@ -7901,7 +8035,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_video3" color="#9933CC" parentLayerIndex="153" autoNamed="false">
+                    <DOMLayer name="btn_video3" color="#9933CC" parentLayerIndex="157" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements/>
@@ -7920,7 +8054,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_3" color="#00FFFF" parentLayerIndex="153" autoNamed="false">
+                    <DOMLayer name="materi_3" color="#00FFFF" parentLayerIndex="157" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements/>
@@ -7944,7 +8078,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_3" color="#009999" parentLayerIndex="153" autoNamed="false">
+                    <DOMLayer name="background_3" color="#009999" parentLayerIndex="157" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements/>
@@ -7960,8 +8094,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_2" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi2" color="#FF0000" parentLayerIndex="159" autoNamed="false">
+                    <DOMLayer name="materi_2" color="#FF4FFF" parentLayerIndex="92" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi2" color="#FF0000" parentLayerIndex="163" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="4" keyMode="9728">
                                    <elements/>
@@ -7985,7 +8119,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi2" color="#FF800A" parentLayerIndex="159" autoNamed="false">
+                    <DOMLayer name="btn_back_materi2" color="#FF800A" parentLayerIndex="163" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="4" keyMode="9728">
                                    <elements/>
@@ -8004,7 +8138,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_video2" color="#9933CC" parentLayerIndex="159" autoNamed="false">
+                    <DOMLayer name="btn_video2" color="#9933CC" parentLayerIndex="163" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="4" keyMode="9728">
                                    <elements/>
@@ -8023,7 +8157,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_2" color="#00FFFF" parentLayerIndex="159" autoNamed="false">
+                    <DOMLayer name="materi_2" color="#00FFFF" parentLayerIndex="163" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="4" keyMode="9728">
                                    <elements/>
@@ -8047,7 +8181,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_2" color="#009999" parentLayerIndex="159" autoNamed="false">
+                    <DOMLayer name="background_2" color="#009999" parentLayerIndex="163" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="4" keyMode="9728">
                                    <elements/>
@@ -8063,8 +8197,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_1" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="judul_materi1" color="#FF0000" parentLayerIndex="165" autoNamed="false">
+                    <DOMLayer name="materi_1" color="#FF4FFF" parentLayerIndex="92" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="judul_materi1" color="#FF0000" parentLayerIndex="169" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements/>
@@ -8088,7 +8222,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_back_materi1" color="#FF800A" parentLayerIndex="165" autoNamed="false">
+                    <DOMLayer name="btn_back_materi1" color="#FF800A" parentLayerIndex="169" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements/>
@@ -8107,7 +8241,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_video1" color="#9933CC" parentLayerIndex="165" autoNamed="false">
+                    <DOMLayer name="btn_video1" color="#9933CC" parentLayerIndex="169" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements/>
@@ -8126,7 +8260,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_1" color="#00FFFF" parentLayerIndex="165" autoNamed="false">
+                    <DOMLayer name="materi_1" color="#00FFFF" parentLayerIndex="169" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements/>
@@ -8150,7 +8284,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background_1" color="#009999" parentLayerIndex="165" autoNamed="false">
+                    <DOMLayer name="background_1" color="#009999" parentLayerIndex="169" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements/>
@@ -8166,8 +8300,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi" color="#00FFFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="btn_materi13" color="#FF800A" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="btn_materi" color="#00FFFF" parentLayerIndex="92" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="btn_materi13" color="#FF800A" parentLayerIndex="175" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8186,7 +8320,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi12" color="#FF800A" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="btn_materi12" color="#FF800A" parentLayerIndex="175" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8205,7 +8339,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi11" color="#FF800A" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="btn_materi11" color="#FF800A" parentLayerIndex="175" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8224,7 +8358,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi10" color="#FF800A" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="btn_materi10" color="#FF800A" parentLayerIndex="175" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8243,7 +8377,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi9" color="#FF800A" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="btn_materi9" color="#FF800A" parentLayerIndex="175" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8262,7 +8396,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi8" color="#FF800A" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="btn_materi8" color="#FF800A" parentLayerIndex="175" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8281,7 +8415,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi7" color="#FF800A" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="btn_materi7" color="#FF800A" parentLayerIndex="175" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8300,7 +8434,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi6" color="#FF800A" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="btn_materi6" color="#FF800A" parentLayerIndex="175" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8319,7 +8453,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi5" color="#FF800A" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="btn_materi5" color="#FF800A" parentLayerIndex="175" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8338,7 +8472,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi4" color="#FF800A" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="btn_materi4" color="#FF800A" parentLayerIndex="175" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8357,7 +8491,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi3" color="#FF800A" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="btn_materi3" color="#FF800A" parentLayerIndex="175" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8376,7 +8510,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi2" color="#FF800A" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="btn_materi2" color="#FF800A" parentLayerIndex="175" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8395,7 +8529,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi1" color="#9933CC" parentLayerIndex="171" autoNamed="false">
+                    <DOMLayer name="btn_materi1" color="#9933CC" parentLayerIndex="175" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8414,8 +8548,8 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="185" autoNamed="false">
+                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="92" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="189" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8437,7 +8571,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="185" autoNamed="false">
+                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="189" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8456,7 +8590,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="185" autoNamed="false">
+                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="189" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8475,7 +8609,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="185" autoNamed="false">
+                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="189" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8494,7 +8628,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="185" autoNamed="false">
+                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="189" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8513,7 +8647,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="185" autoNamed="false">
+                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="189" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8535,7 +8669,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="185" autoNamed="false">
+                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="189" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements/>
@@ -8559,7 +8693,7 @@ function changeBackMateri13(e:MouseEvent):void{
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="layar_beranda" color="#FF4FFF" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions_beranda" color="#FF4F4F" parentLayerIndex="193" autoNamed="false">
+                    <DOMLayer name="actions_beranda" color="#FF4F4F" parentLayerIndex="197" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8574,24 +8708,74 @@ stop();
 // Panggil lagu Beranda
 putarLagu(bgm_beranda, "beranda");
 
+// Fungsi yang dipanggil oleh TOMBOL (Buat memicu animasi)
+function gantiberandamateri(frameKe:int):void {
+    halamanTujuan = frameKe; // Catat tujuannya
+    mc_berandamateri.gotoAndPlay(2); // Jalankan animasi
+}
+
 //event button beranda ke materi
 materi_btn.addEventListener(MouseEvent.CLICK, changeBerandaMateri);
 function changeBerandaMateri(e:MouseEvent):void{
-	gotoAndStop(3);
+	gantiberandamateri(3);
+}
+
+// Fungsi yang dipanggil oleh TOMBOL (Buat memicu animasi)
+function gantiberandakuis(frameKe:int):void {
+    halamanTujuan = frameKe; // Catat tujuannya
+    mc_berandakuis.gotoAndPlay(2); // Jalankan animasi
 }
 
 //event button beranda ke kuis
 kuis_btn.addEventListener(MouseEvent.CLICK, changeBerandaKuis);
 function changeBerandaKuis(e:MouseEvent):void{
-	gotoAndStop(17);
+	gantiberandakuis(17);
 }]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="193" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="195" autoNamed="false">
+                    <DOMLayer name="animasi_berandakuis" color="#9933CC" parentLayerIndex="197" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/mc_berandakuis" name="mc_berandakuis">
+                                             <matrix>
+                                                  <Matrix tx="0.05" ty="0.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="animasi_berandamateri" color="#00FFFF" parentLayerIndex="197" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/mc_berandamateri" name="mc_berandamateri">
+                                             <matrix>
+                                                  <Matrix tx="0.05" ty="0.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="197" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="201" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8613,7 +8797,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="195" autoNamed="false">
+                    <DOMLayer name="Selected" color="#9933CC" parentLayerIndex="201" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8632,7 +8816,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="195" autoNamed="false">
+                    <DOMLayer name="Kuis" color="#00FFFF" parentLayerIndex="201" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8651,7 +8835,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="195" autoNamed="false">
+                    <DOMLayer name="Materi" color="#FF4F4F" parentLayerIndex="201" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8670,7 +8854,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="195" autoNamed="false">
+                    <DOMLayer name="Beranda" color="#669900" parentLayerIndex="201" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8689,7 +8873,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="195" autoNamed="false">
+                    <DOMLayer name="Judul_Desc" color="#FF0000" parentLayerIndex="201" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8711,7 +8895,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="195" autoNamed="false">
+                    <DOMLayer name="navbar" color="#009999" parentLayerIndex="201" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8734,8 +8918,8 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="isi_beranda" color="#669900" parentLayerIndex="193" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="Poin_5" color="#FF0000" parentLayerIndex="203" autoNamed="false">
+                    <DOMLayer name="isi_beranda" color="#669900" parentLayerIndex="197" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="Poin_5" color="#FF0000" parentLayerIndex="209" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8754,7 +8938,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_4" color="#009999" parentLayerIndex="203" autoNamed="false">
+                    <DOMLayer name="Poin_4" color="#009999" parentLayerIndex="209" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8773,7 +8957,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_3" color="#FF4FFF" parentLayerIndex="203" autoNamed="false">
+                    <DOMLayer name="Poin_3" color="#FF4FFF" parentLayerIndex="209" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8792,7 +8976,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_2" color="#FF800A" parentLayerIndex="203" autoNamed="false">
+                    <DOMLayer name="Poin_2" color="#FF800A" parentLayerIndex="209" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8811,7 +8995,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Poin_1" color="#9933CC" parentLayerIndex="203" autoNamed="false">
+                    <DOMLayer name="Poin_1" color="#9933CC" parentLayerIndex="209" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8830,7 +9014,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Pancasila" color="#00FFFF" parentLayerIndex="203" autoNamed="false">
+                    <DOMLayer name="Pancasila" color="#00FFFF" parentLayerIndex="209" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -8849,8 +9033,8 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_awal" color="#9933CC" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="actions_awal" color="#669900" parentLayerIndex="210" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="layar_awal" color="#9933CC" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="actions_awal" color="#669900" parentLayerIndex="216" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
@@ -8863,7 +9047,7 @@ putarLagu(bgm_awal, "awal");
 var halamanTujuan:int = 0;
 
 // Fungsi yang dipanggil oleh TOMBOL (Buat memicu animasi)
-function gantiHalaman(frameKe:int):void {
+function gantiawalberanda(frameKe:int):void {
     halamanTujuan = frameKe; // Catat tujuannya
     mc_awalberanda.gotoAndPlay(2); // Jalankan animasi
 }
@@ -8874,7 +9058,7 @@ function pindahSekarang():void {
 
 btn_layar1.addEventListener(MouseEvent.CLICK, changeAwalBeranda);
 function changeAwalBeranda(e:MouseEvent):void{
-	gantiHalaman(2);
+	gantiawalberanda(2);
 }
 
 ]]></script>
@@ -8883,7 +9067,7 @@ function changeAwalBeranda(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="animasi" color="#00FFFF" parentLayerIndex="210" autoNamed="false">
+                    <DOMLayer name="animasi" color="#00FFFF" parentLayerIndex="216" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -8899,7 +9083,7 @@ function changeAwalBeranda(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_awal" color="#FF800A" parentLayerIndex="210" autoNamed="false">
+                    <DOMLayer name="layar_awal" color="#FF800A" parentLayerIndex="216" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -9239,19 +9423,31 @@ function changeAwalBeranda(e:MouseEvent):void{
           <PD n="com.air.oldTargetPlatform" v="Desktop"/>
           <PD n="com.air.sdk.path" v="D:\Kuliah\Semester 5\Sistem Multimedia\AIRSDK_3311935"/>
           <PD n="com.air.artemis.pubair" v="false"/>
-          <PD n="com.air.agistri.proctype" v="armv8"/>
           <PD n="com.air.artemis.pubipa" v="false"/>
+          <PD n="com.air.agistri.proctype" v="armv8"/>
           <PD n="flash.swf.basename" v="Merah Putih One For All"/>
           <PD n="com.air.agistri.runtimetype" v="embed"/>
           <PD n="com.air.agistri.publishtype" v="release"/>
-          <PD n="com.air.agistri.hostip" v="Default"/>
           <PD n="com.air.artemis.pubcaptive" v="true"/>
-          <PD n="flash.fla.filepath" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes-Sismul/Merah Putih One For All/Merah Putih One For All.xfl"/>
+          <PD n="com.air.agistri.hostip" v="Default"/>
           <PD n="swf.folder.path" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes-Sismul/"/>
+          <PD n="flash.fla.filepath" v="D:/Kuliah/Semester 5/Sistem Multimedia/Tubes-Sismul/Merah Putih One For All/Merah Putih One For All.xfl"/>
           <PD n="com.air.artemis.pubexe" v="false"/>
      </persistentData>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="13967067" publishTime="1767273649"/>
+          <PublishItem publishSize="13946791" publishTime="1767272696"/>
+          <PublishItem publishSize="13917779" publishTime="1767272673"/>
+          <PublishItem publishSize="13941800" publishTime="1767270794"/>
+          <PublishItem publishSize="13913003" publishTime="1767270772"/>
+          <PublishItem publishSize="13936890" publishTime="1767269119"/>
+          <PublishItem publishSize="13908263" publishTime="1767269075"/>
+          <PublishItem publishSize="13925141" publishTime="1767267123"/>
+          <PublishItem publishSize="13925052" publishTime="1767266979"/>
+          <PublishItem publishSize="13925055" publishTime="1767266901"/>
+          <PublishItem publishSize="13925033" publishTime="1767266691"/>
+          <PublishItem publishSize="13912211" publishTime="1767263075"/>
           <PublishItem publishSize="13912251" publishTime="1767258198"/>
           <PublishItem publishSize="13912251" publishTime="1767257953"/>
           <PublishItem publishSize="13912253" publishTime="1767257349"/>
@@ -9260,8 +9456,5 @@ function changeAwalBeranda(e:MouseEvent):void{
           <PublishItem publishSize="13912171" publishTime="1767256926"/>
           <PublishItem publishSize="13912171" publishTime="1767256889"/>
           <PublishItem publishSize="13912168" publishTime="1767256725"/>
-          <PublishItem publishSize="13912153" publishTime="1767256638"/>
-          <PublishItem publishSize="13912103" publishTime="1767255954"/>
-          <PublishItem publishSize="13883958" publishTime="1767255760"/>
      </publishHistory>
 </DOMDocument>
