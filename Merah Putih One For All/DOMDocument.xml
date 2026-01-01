@@ -2,14 +2,16 @@
      <folders>
           <DOMFolderItem name="Audio" itemID="694d2566-00000173"/>
           <DOMFolderItem name="Background" itemID="69383eff-000001ee"/>
-          <DOMFolderItem name="Buttons" itemID="69383f3c-000001fa" isExpanded="true"/>
+          <DOMFolderItem name="Buttons" itemID="69383f3c-000001fa"/>
           <DOMFolderItem name="Buttons/Kuis" itemID="693e5ecd-0000039a"/>
           <DOMFolderItem name="Buttons/layar" itemID="69384007-00000226"/>
-          <DOMFolderItem name="Buttons/Materi" itemID="69384b80-00000633" isExpanded="true"/>
+          <DOMFolderItem name="Buttons/Materi" itemID="69384b80-00000633"/>
           <DOMFolderItem name="Buttons/Navbar" itemID="69383f67-00000207"/>
           <DOMFolderItem name="Buttons/Poin" itemID="69383fb1-00000211"/>
           <DOMFolderItem name="Movie_Clips" itemID="693ebe13-00000172"/>
-          <DOMFolderItem name="Movie_Clips/Kuis" itemID="693ebe2c-00000176"/>
+          <DOMFolderItem name="Movie_Clips/Animasi" itemID="6953d94c-00000263" isExpanded="true"/>
+          <DOMFolderItem name="Movie_Clips/Beranda" itemID="6956264f-000008bb" isExpanded="true"/>
+          <DOMFolderItem name="Movie_Clips/Kuis" itemID="693ebe2c-00000176" isExpanded="true"/>
           <DOMFolderItem name="Movie_Clips/Materi" itemID="694e3850-00000197" isExpanded="true"/>
           <DOMFolderItem name="Objects" itemID="69384017-0000022b"/>
           <DOMFolderItem name="Pancasila" itemID="69383fd2-0000021a"/>
@@ -26,6 +28,8 @@
           <DOMSoundItem name="Audio/BERKIBARLAH BENDERAKU - LAGU NASIONAL - INSTRUMENTAL DAN LIRIK.wav" itemID="694d25b7-0000017b" linkageExportForAS="true" linkageClassName="bgm_introkuis" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Audio/BERKIBARLAH BENDERAKU - LAGU NASIONAL - INSTRUMENTAL DAN LIRIK.wav" sourceLastImported="1766674249" externalFileSize="3646168" href="Audio/BERKIBARLAH BENDERAKU - LAGU NASIONAL - INSTRUMENTAL DAN LIRIK.wav" soundDataHRef="M 6 1766663607.dat" format="22kHz 16bit Stereo" sampleCount="2512383" dataLength="10049532"/>
           <DOMSoundItem name="Audio/Garuda Pancasila Lirik Instrument.wav" itemID="694d25b7-0000017f" linkageExportForAS="true" linkageClassName="bgm_beranda" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Audio/Garuda Pancasila Lirik Instrument.wav" sourceLastImported="1766674249" externalFileSize="2889756" href="Audio/Garuda Pancasila Lirik Instrument.wav" soundDataHRef="M 7 1766663607.dat" format="22kHz 16bit Stereo" sampleCount="1991168" dataLength="7964672"/>
           <DOMSoundItem name="Audio/HARI MERDEKA 17 AGUSTUS [ INSTRUMEN LIRIK ].wav" itemID="694d25b7-00000183" linkageExportForAS="true" linkageClassName="bgm_hasil" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Audio/HARI MERDEKA 17 AGUSTUS &amp;#091 INSTRUMEN LIRIK &amp;#093.wav" sourceLastImported="1766663947" href="Audio/HARI MERDEKA 17 AGUSTUS &amp;#091 INSTRUMEN LIRIK &amp;#093.wav" soundDataHRef="M 8 1766663607.dat" format="44kHz 16bit Stereo" sampleCount="8168448" dataLength="32673792"/>
+          <DOMSoundItem name="Audio/klik1.wav" itemID="6953e611-0000026c" linkageExportForAS="true" linkageClassName="klik1" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Audio/klik1.wav" sourceLastImported="1767150870" externalFileSize="64590" href="Audio/klik1.wav" soundDataHRef="M 15 1767106065.dat" format="44kHz 16bit Stereo" sampleCount="16128" dataLength="64512"/>
+          <DOMSoundItem name="Audio/klik2.wav" itemID="6953e611-00000270" linkageExportForAS="true" linkageClassName="klik2" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Audio/klik2.wav" sourceLastImported="1767150870" externalFileSize="198222" href="Audio/klik2.wav" soundDataHRef="M 16 1767106065.dat" format="44kHz 16bit Stereo" sampleCount="45511" dataLength="182044"/>
           <DOMSoundItem name="Audio/KULIHAT IBU PERTIWI - LAGU NASIONAL - INSTRUMENTAL PIANO DAN LIRIK.wav" itemID="694d25b8-00000187" linkageExportForAS="true" linkageClassName="bgm_baca2" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Audio/KULIHAT IBU PERTIWI - LAGU NASIONAL - INSTRUMENTAL PIANO DAN LIRIK.wav" sourceLastImported="1766674249" externalFileSize="5560236" href="Audio/KULIHAT IBU PERTIWI - LAGU NASIONAL - INSTRUMENTAL PIANO DAN LIRIK.wav" soundDataHRef="M 9 1766663608.dat" format="22kHz 16bit Stereo" sampleCount="3831296" dataLength="15325184"/>
           <DOMSoundItem name="Audio/MAJU TAK GENTAR INSTRUMENTAL ( Tanpa Vokal ).wav" itemID="694d25b8-0000018b" linkageExportForAS="true" linkageClassName="bgm_kuis" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Audio/MAJU TAK GENTAR INSTRUMENTAL ( Tanpa Vokal ).wav" sourceLastImported="1766674250" externalFileSize="4691624" href="Audio/MAJU TAK GENTAR INSTRUMENTAL ( Tanpa Vokal ).wav" soundDataHRef="M 10 1766663608.dat" format="22kHz 16bit Stereo" sampleCount="3232768" dataLength="12931072"/>
           <DOMSoundItem name="Audio/RAYUAN PULAU KELAPA - LAGU NASIONAL - INSTRUMENTAL DAN LIRIK.wav" itemID="694d25b9-0000018f" linkageExportForAS="true" linkageClassName="bgm_menumateri" sourceExternalFilepath="../Merah Putih One For All/LIBRARY/Audio/RAYUAN PULAU KELAPA - LAGU NASIONAL - INSTRUMENTAL DAN LIRIK.wav" sourceLastImported="1766674250" externalFileSize="9730912" href="Audio/RAYUAN PULAU KELAPA - LAGU NASIONAL - INSTRUMENTAL DAN LIRIK.wav" soundDataHRef="M 11 1766663609.dat" format="22kHz 16bit Stereo" sampleCount="6705152" dataLength="26820608"/>
@@ -36,68 +40,76 @@
      </media>
      <symbols>
           <Include href="Background/Background1.xml" loadImmediate="false" itemID="69383ef6-000001ed" lastModified="1765293814"/>
-          <Include href="Buttons/Kuis/btn_back.xml" itemIcon="0" loadImmediate="false" itemID="693ec897-00000196" lastModified="1765722411"/>
-          <Include href="Buttons/Kuis/btn_cobalagi.xml" itemIcon="0" loadImmediate="false" itemID="693ed23a-000001ea" lastModified="1765724849"/>
-          <Include href="Buttons/Kuis/btn_kuis1.xml" itemIcon="0" loadImmediate="false" itemID="693e5f9d-000003ca" lastModified="1765695389"/>
-          <Include href="Buttons/Kuis/btn_kuis2.xml" itemIcon="0" loadImmediate="false" itemID="693e5f96-000003c9" lastModified="1765695382"/>
-          <Include href="Buttons/Kuis/btn_kuis3.xml" itemIcon="0" loadImmediate="false" itemID="693e5f8f-000003c8" lastModified="1765695375"/>
-          <Include href="Buttons/Kuis/btn_kuis4.xml" itemIcon="0" loadImmediate="false" itemID="693e5f82-000003c7" lastModified="1765695362"/>
-          <Include href="Buttons/Kuis/btn_kuis5.xml" itemIcon="0" loadImmediate="false" itemID="693e5f7c-000003c6" lastModified="1765695356"/>
-          <Include href="Buttons/Kuis/btn_kuis6.xml" itemIcon="0" loadImmediate="false" itemID="693e5f76-000003c5" lastModified="1765695350"/>
-          <Include href="Buttons/Kuis/btn_kuis7.xml" itemIcon="0" loadImmediate="false" itemID="693e5f6e-000003c4" lastModified="1765695342"/>
-          <Include href="Buttons/Kuis/btn_kuis8.xml" itemIcon="0" loadImmediate="false" itemID="693e5f64-000003c3" lastModified="1765695332"/>
-          <Include href="Buttons/Kuis/btn_kuis9.xml" itemIcon="0" loadImmediate="false" itemID="693e5f5c-000003c2" lastModified="1765695324"/>
-          <Include href="Buttons/Kuis/btn_kuis10.xml" itemIcon="0" loadImmediate="false" itemID="693e5f54-000003c1" lastModified="1765695316"/>
-          <Include href="Buttons/Kuis/btn_kuis11.xml" itemIcon="0" loadImmediate="false" itemID="693e5f42-000003c0" lastModified="1765695298"/>
-          <Include href="Buttons/Kuis/btn_kuis12.xml" itemIcon="0" loadImmediate="false" itemID="693e5f3a-000003bf" lastModified="1765695290"/>
-          <Include href="Buttons/Kuis/btn_kuis13.xml" itemIcon="0" loadImmediate="false" itemID="693e5f31-000003be" lastModified="1765695281"/>
-          <Include href="Buttons/Kuis/btn_start.xml" itemIcon="0" loadImmediate="false" itemID="693ec74a-00000194" lastModified="1765722243"/>
-          <Include href="Buttons/layar/layar_awal.xml" itemIcon="0" loadImmediate="false" itemID="69217bc7-000003b5" lastModified="1763809195"/>
-          <Include href="Buttons/Materi/btn_back_materi.xml" itemIcon="0" loadImmediate="false" itemID="69390c47-0000025b" lastModified="1765346375"/>
-          <Include href="Buttons/Materi/btn_materi1.xml" itemIcon="0" loadImmediate="false" itemID="693e5e88-00000396" lastModified="1765695112"/>
-          <Include href="Buttons/Materi/btn_materi2.xml" itemIcon="0" loadImmediate="false" itemID="69344723-000001a8" lastModified="1765297622"/>
-          <Include href="Buttons/Materi/btn_materi3.xml" itemIcon="0" loadImmediate="false" itemID="69344731-000001ac" lastModified="1765297648"/>
-          <Include href="Buttons/Materi/btn_materi4.xml" itemIcon="0" loadImmediate="false" itemID="6934473c-000001b0" lastModified="1765297674"/>
-          <Include href="Buttons/Materi/btn_materi5.xml" itemIcon="0" loadImmediate="false" itemID="6934474c-000001b4" lastModified="1765297695"/>
-          <Include href="Buttons/Materi/btn_materi6.xml" itemIcon="0" loadImmediate="false" itemID="6934477f-000001b8" lastModified="1765297715"/>
-          <Include href="Buttons/Materi/btn_materi7.xml" itemIcon="0" loadImmediate="false" itemID="6934478c-000001bc" lastModified="1765297740"/>
-          <Include href="Buttons/Materi/btn_materi8.xml" itemIcon="0" loadImmediate="false" itemID="69344798-000001c0" lastModified="1765297761"/>
-          <Include href="Buttons/Materi/btn_materi9.xml" itemIcon="0" loadImmediate="false" itemID="693447a1-000001c4" lastModified="1765297782"/>
-          <Include href="Buttons/Materi/btn_materi10.xml" itemIcon="0" loadImmediate="false" itemID="693447ab-000001c8" lastModified="1765297808"/>
-          <Include href="Buttons/Materi/btn_materi11.xml" itemIcon="0" loadImmediate="false" itemID="693447b6-000001cc" lastModified="1765297827"/>
-          <Include href="Buttons/Materi/btn_materi12.xml" itemIcon="0" loadImmediate="false" itemID="693447c2-000001d0" lastModified="1765297851"/>
-          <Include href="Buttons/Materi/btn_materi13.xml" itemIcon="0" loadImmediate="false" itemID="693447cd-000001d4" lastModified="1765297873"/>
-          <Include href="Buttons/Materi/btn_play.xml" itemIcon="0" loadImmediate="false" itemID="694e388a-00000199" lastModified="1766735559"/>
-          <Include href="Buttons/Navbar/beranda.xml" itemIcon="0" loadImmediate="false" itemID="6921d3f4-0000061a" lastModified="1765295720"/>
-          <Include href="Buttons/Navbar/kuis.xml" itemIcon="0" loadImmediate="false" itemID="6921d390-00000610" lastModified="1765295860"/>
-          <Include href="Buttons/Navbar/materi.xml" itemIcon="0" loadImmediate="false" itemID="6921d3ef-00000619" lastModified="1765296022"/>
-          <Include href="Buttons/Navbar/profile.xml" itemIcon="0" loadImmediate="false" itemID="6921d3e5-00000616" lastModified="1765296286"/>
-          <Include href="Buttons/Poin/poin_1.xml" itemIcon="0" loadImmediate="false" itemID="6922d82c-0000018d" lastModified="1763893491"/>
-          <Include href="Buttons/Poin/poin_2.xml" itemIcon="0" loadImmediate="false" itemID="6922d81a-00000189" lastModified="1763894032"/>
-          <Include href="Buttons/Poin/poin_3.xml" itemIcon="0" loadImmediate="false" itemID="6922d838-0000018f" lastModified="1763893982"/>
-          <Include href="Buttons/Poin/poin_4.xml" itemIcon="0" loadImmediate="false" itemID="6922d840-00000194" lastModified="1763894107"/>
-          <Include href="Buttons/Poin/poin_5.xml" itemIcon="0" loadImmediate="false" itemID="6922d84a-00000199" lastModified="1763894189"/>
+          <Include href="Buttons/Kuis/btn_back.xml" itemIcon="0" loadImmediate="false" itemID="693ec897-00000196" lastModified="1767151995"/>
+          <Include href="Buttons/Kuis/btn_cobalagi.xml" itemIcon="0" loadImmediate="false" itemID="693ed23a-000001ea" lastModified="1767152021"/>
+          <Include href="Buttons/Kuis/btn_kuis1.xml" itemIcon="0" loadImmediate="false" itemID="693e5f9d-000003ca" lastModified="1767151735"/>
+          <Include href="Buttons/Kuis/btn_kuis2.xml" itemIcon="0" loadImmediate="false" itemID="693e5f96-000003c9" lastModified="1767151751"/>
+          <Include href="Buttons/Kuis/btn_kuis3.xml" itemIcon="0" loadImmediate="false" itemID="693e5f8f-000003c8" lastModified="1767151768"/>
+          <Include href="Buttons/Kuis/btn_kuis4.xml" itemIcon="0" loadImmediate="false" itemID="693e5f82-000003c7" lastModified="1767151785"/>
+          <Include href="Buttons/Kuis/btn_kuis5.xml" itemIcon="0" loadImmediate="false" itemID="693e5f7c-000003c6" lastModified="1767151801"/>
+          <Include href="Buttons/Kuis/btn_kuis6.xml" itemIcon="0" loadImmediate="false" itemID="693e5f76-000003c5" lastModified="1767151819"/>
+          <Include href="Buttons/Kuis/btn_kuis7.xml" itemIcon="0" loadImmediate="false" itemID="693e5f6e-000003c4" lastModified="1767151838"/>
+          <Include href="Buttons/Kuis/btn_kuis8.xml" itemIcon="0" loadImmediate="false" itemID="693e5f64-000003c3" lastModified="1767151852"/>
+          <Include href="Buttons/Kuis/btn_kuis9.xml" itemIcon="0" loadImmediate="false" itemID="693e5f5c-000003c2" lastModified="1767151868"/>
+          <Include href="Buttons/Kuis/btn_kuis10.xml" itemIcon="0" loadImmediate="false" itemID="693e5f54-000003c1" lastModified="1767151890"/>
+          <Include href="Buttons/Kuis/btn_kuis11.xml" itemIcon="0" loadImmediate="false" itemID="693e5f42-000003c0" lastModified="1767151910"/>
+          <Include href="Buttons/Kuis/btn_kuis12.xml" itemIcon="0" loadImmediate="false" itemID="693e5f3a-000003bf" lastModified="1767151935"/>
+          <Include href="Buttons/Kuis/btn_kuis13.xml" itemIcon="0" loadImmediate="false" itemID="693e5f31-000003be" lastModified="1767151951"/>
+          <Include href="Buttons/Kuis/btn_start.xml" itemIcon="0" loadImmediate="false" itemID="693ec74a-00000194" lastModified="1767151977"/>
+          <Include href="Buttons/layar/layar_awal.xml" itemIcon="0" loadImmediate="false" itemID="69217bc7-000003b5" lastModified="1767257168"/>
+          <Include href="Buttons/Materi/btn_back_materi.xml" itemIcon="0" loadImmediate="false" itemID="69390c47-0000025b" lastModified="1767151662"/>
+          <Include href="Buttons/Materi/btn_materi1.xml" itemIcon="0" loadImmediate="false" itemID="693e5e88-00000396" lastModified="1767151393"/>
+          <Include href="Buttons/Materi/btn_materi2.xml" itemIcon="0" loadImmediate="false" itemID="69344723-000001a8" lastModified="1767151410"/>
+          <Include href="Buttons/Materi/btn_materi3.xml" itemIcon="0" loadImmediate="false" itemID="69344731-000001ac" lastModified="1767151424"/>
+          <Include href="Buttons/Materi/btn_materi4.xml" itemIcon="0" loadImmediate="false" itemID="6934473c-000001b0" lastModified="1767151441"/>
+          <Include href="Buttons/Materi/btn_materi5.xml" itemIcon="0" loadImmediate="false" itemID="6934474c-000001b4" lastModified="1767151458"/>
+          <Include href="Buttons/Materi/btn_materi6.xml" itemIcon="0" loadImmediate="false" itemID="6934477f-000001b8" lastModified="1767151478"/>
+          <Include href="Buttons/Materi/btn_materi7.xml" itemIcon="0" loadImmediate="false" itemID="6934478c-000001bc" lastModified="1767151511"/>
+          <Include href="Buttons/Materi/btn_materi8.xml" itemIcon="0" loadImmediate="false" itemID="69344798-000001c0" lastModified="1767151530"/>
+          <Include href="Buttons/Materi/btn_materi9.xml" itemIcon="0" loadImmediate="false" itemID="693447a1-000001c4" lastModified="1767151547"/>
+          <Include href="Buttons/Materi/btn_materi10.xml" itemIcon="0" loadImmediate="false" itemID="693447ab-000001c8" lastModified="1767151564"/>
+          <Include href="Buttons/Materi/btn_materi11.xml" itemIcon="0" loadImmediate="false" itemID="693447b6-000001cc" lastModified="1767151583"/>
+          <Include href="Buttons/Materi/btn_materi12.xml" itemIcon="0" loadImmediate="false" itemID="693447c2-000001d0" lastModified="1767151612"/>
+          <Include href="Buttons/Materi/btn_materi13.xml" itemIcon="0" loadImmediate="false" itemID="693447cd-000001d4" lastModified="1767151631"/>
+          <Include href="Buttons/Materi/btn_play.xml" itemIcon="0" loadImmediate="false" itemID="694e388a-00000199" lastModified="1767151693"/>
+          <Include href="Buttons/Navbar/beranda.xml" itemIcon="0" loadImmediate="false" itemID="6921d3f4-0000061a" lastModified="1767151259"/>
+          <Include href="Buttons/Navbar/kuis.xml" itemIcon="0" loadImmediate="false" itemID="6921d390-00000610" lastModified="1767151362"/>
+          <Include href="Buttons/Navbar/materi.xml" itemIcon="0" loadImmediate="false" itemID="6921d3ef-00000619" lastModified="1767151281"/>
+          <Include href="Buttons/Poin/poin_1.xml" itemIcon="0" loadImmediate="false" itemID="6922d82c-0000018d" lastModified="1767151105"/>
+          <Include href="Buttons/Poin/poin_2.xml" itemIcon="0" loadImmediate="false" itemID="6922d81a-00000189" lastModified="1767151136"/>
+          <Include href="Buttons/Poin/poin_3.xml" itemIcon="0" loadImmediate="false" itemID="6922d838-0000018f" lastModified="1767151166"/>
+          <Include href="Buttons/Poin/poin_4.xml" itemIcon="0" loadImmediate="false" itemID="6922d840-00000194" lastModified="1767151185"/>
+          <Include href="Buttons/Poin/poin_5.xml" itemIcon="0" loadImmediate="false" itemID="6922d84a-00000199" lastModified="1767151203"/>
+          <Include href="Movie_Clips/Animasi/mc_awalberanda.xml" loadImmediate="false" itemID="69563736-00000e26" lastModified="1767257910"/>
+          <Include href="Movie_Clips/Beranda/mc_beranda.xml" loadImmediate="false" itemID="695624a1-000005b7" lastModified="1767253153"/>
+          <Include href="Movie_Clips/Beranda/mc_kuis.xml" loadImmediate="false" itemID="6956249a-000005b6" lastModified="1767253146"/>
+          <Include href="Movie_Clips/Beranda/mc_materi.xml" loadImmediate="false" itemID="69562493-000005b5" lastModified="1767253139"/>
           <Include href="Movie_Clips/Kuis/bar_time.xml" loadImmediate="false" itemID="693ecd84-000001ad" lastModified="1765723524"/>
           <Include href="Movie_Clips/Kuis/mc_tombol_jawaban.xml" loadImmediate="false" itemID="693eb64b-00000167" lastModified="1765785676"/>
           <Include href="Objects/Navbar_1.xml" loadImmediate="false" itemID="6921b4d7-000005cb" lastModified="1765296375"/>
           <Include href="Objects/selected.xml" loadImmediate="false" itemID="6922f3e1-00000204" lastModified="1763898337"/>
-          <Include href="Pancasila/Banteng.ai.xml" itemIcon="1" loadImmediate="false" itemID="6922d2af-0000014e" lastModified="1763889839"/>
-          <Include href="Pancasila/Bintang.ai.xml" itemIcon="1" loadImmediate="false" itemID="6922d00d-00000140" lastModified="1763889165"/>
-          <Include href="Pancasila/Garuda-Pancasila.ai.xml" itemIcon="1" loadImmediate="false" itemID="692178c9-000003a9" lastModified="1763801289"/>
-          <Include href="Pancasila/Isi_Beranda.xml" itemIcon="1" loadImmediate="false" itemID="69384171-00000230" lastModified="1765294848"/>
-          <Include href="Pancasila/PadiDanKapas.ai.xml" itemIcon="1" loadImmediate="false" itemID="6922d2ca-00000152" lastModified="1763889866"/>
-          <Include href="Pancasila/Pohon.ai.xml" itemIcon="1" loadImmediate="false" itemID="6922d2bb-00000150" lastModified="1763889851"/>
-          <Include href="Pancasila/Rantai.ai.xml" itemIcon="1" loadImmediate="false" itemID="6922d2a1-0000014c" lastModified="1763889825"/>
-          <Include href="Poin_Pancasila/poin1.xml" itemIcon="1" loadImmediate="false" itemID="6922d913-0000019e" lastModified="1765294802"/>
-          <Include href="Poin_Pancasila/poin2.xml" itemIcon="1" loadImmediate="false" itemID="6922e211-000001a8" lastModified="1765294950"/>
-          <Include href="Poin_Pancasila/poin3.xml" itemIcon="1" loadImmediate="false" itemID="6922e2b2-000001ad" lastModified="1765295027"/>
-          <Include href="Poin_Pancasila/poin4.xml" itemIcon="1" loadImmediate="false" itemID="6922e32e-000001b2" lastModified="1765295117"/>
-          <Include href="Poin_Pancasila/poin5.xml" itemIcon="1" loadImmediate="false" itemID="6922e380-000001b7" lastModified="1765295182"/>
+          <Include href="Pancasila/Banteng.ai.xml" loadImmediate="false" itemID="6922d2af-0000014e" lastModified="1767252507"/>
+          <Include href="Pancasila/Bintang.ai.xml" loadImmediate="false" itemID="6922d00d-00000140" lastModified="1767252513"/>
+          <Include href="Pancasila/Garuda-Pancasila.ai.xml" loadImmediate="false" itemID="692178c9-000003a9" lastModified="1767252361"/>
+          <Include href="Pancasila/Isi_Beranda.xml" loadImmediate="false" itemID="69384171-00000230" lastModified="1767252871"/>
+          <Include href="Pancasila/PadiDanKapas.ai.xml" loadImmediate="false" itemID="6922d2ca-00000152" lastModified="1767252526"/>
+          <Include href="Pancasila/Pohon.ai.xml" loadImmediate="false" itemID="6922d2bb-00000150" lastModified="1767252531"/>
+          <Include href="Pancasila/Rantai.ai.xml" loadImmediate="false" itemID="6922d2a1-0000014c" lastModified="1767252537"/>
+          <Include href="Poin_Pancasila/mc_poin1.xml" loadImmediate="false" itemID="6956256a-0000084e" lastModified="1767254303"/>
+          <Include href="Poin_Pancasila/mc_poin2.xml" loadImmediate="false" itemID="69562561-0000084d" lastModified="1767254379"/>
+          <Include href="Poin_Pancasila/mc_poin3.xml" loadImmediate="false" itemID="69562559-0000084c" lastModified="1767254406"/>
+          <Include href="Poin_Pancasila/mc_poin4.xml" loadImmediate="false" itemID="69562550-0000084b" lastModified="1767254444"/>
+          <Include href="Poin_Pancasila/mc_poin5.xml" loadImmediate="false" itemID="69562548-0000084a" lastModified="1767254477"/>
+          <Include href="Poin_Pancasila/poin1.xml" loadImmediate="false" itemID="6922d913-0000019e" lastModified="1767252552"/>
+          <Include href="Poin_Pancasila/poin2.xml" loadImmediate="false" itemID="6922e211-000001a8" lastModified="1767252558"/>
+          <Include href="Poin_Pancasila/poin3.xml" loadImmediate="false" itemID="6922e2b2-000001ad" lastModified="1767252562"/>
+          <Include href="Poin_Pancasila/poin4.xml" loadImmediate="false" itemID="6922e32e-000001b2" lastModified="1767252567"/>
+          <Include href="Poin_Pancasila/poin5.xml" loadImmediate="false" itemID="6922e380-000001b7" lastModified="1767252572"/>
           <Include href="Teks/Teks_1.xml" loadImmediate="false" itemID="6921b3fc-000005c7" lastModified="1763816444"/>
           <Include href="Teks/Teks_2.xml" loadImmediate="false" itemID="6921d013-00000601" lastModified="1763889390"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="3" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;557&lt;/guideline&gt;&lt;guideline direction="v"&gt;969&lt;/guideline&gt;&lt;guideline direction="v"&gt;30&lt;/guideline&gt;&lt;guideline direction="v"&gt;1890&lt;/guideline&gt;&lt;guideline direction="h"&gt;30&lt;/guideline&gt;&lt;guideline direction="h"&gt;1050&lt;/guideline&gt;&lt;/guidelines&gt;' layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="actions_global" color="#00FFFF" autoNamed="false">
                          <frames>
@@ -140,7 +152,6 @@ if (jenisOS.indexOf("android") >= 0 || jenisOS.indexOf("iphone") >= 0) {
 	// Otomatis Fullscreen kalau di Laptop/PC
 	stage.displayState = StageDisplayState.FULL_SCREEN;
 }
-
 
 //Mengatur Lagu
 function putarLagu(KelasLagu:Class, namaLagu:String):void {
@@ -277,7 +288,7 @@ function changeKuis13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_13" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="kuis_13" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="actions_kuis13" color="#00FFFF" parentLayerIndex="3" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="53" keyMode="9728">
@@ -698,7 +709,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_12" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="kuis_12" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="actions_kuis12" color="#00FFFF" parentLayerIndex="8" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="50" keyMode="9728">
@@ -1124,7 +1135,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_11" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="kuis_11" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="actions_kuis11" color="#00FFFF" parentLayerIndex="13" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="47" keyMode="9728">
@@ -1550,7 +1561,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_10" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="kuis_10" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="actions_kuis10" color="#00FFFF" parentLayerIndex="18" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="44" keyMode="9728">
@@ -1976,7 +1987,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_9" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="kuis_9" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="actions_kuis9" color="#00FFFF" parentLayerIndex="23" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="41" keyMode="9728">
@@ -2402,7 +2413,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_8" color="#00FFFF" parentLayerIndex="23" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="kuis_8" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="actions_kuis8" color="#00FFFF" parentLayerIndex="28" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="38" keyMode="9728">
@@ -2828,7 +2839,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_7" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="kuis_7" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="actions_kuis7" color="#00FFFF" parentLayerIndex="33" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="35" keyMode="9728">
@@ -3254,7 +3265,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_6" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="kuis_6" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="actions_kuis6" color="#00FFFF" parentLayerIndex="38" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="32" keyMode="9728">
@@ -3680,7 +3691,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_5" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="kuis_5" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="actions_kuis5" color="#00FFFF" parentLayerIndex="43" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="29" keyMode="9728">
@@ -4107,7 +4118,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_4" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="kuis_4" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="actions_kuis4" color="#00FFFF" parentLayerIndex="48" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="26" keyMode="9728">
@@ -4534,7 +4545,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_3" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="kuis_3" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="actions_kuis3" color="#00FFFF" parentLayerIndex="53" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="23" keyMode="9728">
@@ -4961,7 +4972,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_2" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="kuis_2" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="actions_kuis2" color="#00FFFF" parentLayerIndex="58" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
@@ -5388,7 +5399,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kuis_1" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="kuis_1" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="actions_kuis1" color="#00FFFF" parentLayerIndex="63" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="17" keyMode="9728">
@@ -5910,12 +5921,15 @@ if(getChildByName("btn_kembali")){
                                              <matrix>
                                                   <Matrix a="1.39131164550781" d="1.39131164550781" tx="1290.5" ty="719.05"/>
                                              </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_kuis" color="#00FFFF" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="btn_kuis" color="#00FFFF" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="btn_kuis13" color="#FF800A" parentLayerIndex="68" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
@@ -6163,7 +6177,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="1" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="1" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="82" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="16" keyMode="9728">
@@ -6307,7 +6321,7 @@ if(getChildByName("btn_kembali")){
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_materi" color="#FF4FFF" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="layar_materi" color="#FF4FFF" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="actions_materi" color="#009999" parentLayerIndex="90" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
@@ -6443,7 +6457,7 @@ function changeMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="actions_isi_materi" color="#00FFFF" parentLayerIndex="90" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="actions_isi_materi" color="#00FFFF" parentLayerIndex="90" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="3" keyMode="9728">
                                    <elements/>
@@ -6813,7 +6827,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_13" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="materi_13" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="judul_materi13" color="#FF0000" parentLayerIndex="93" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="15" keyMode="9728">
@@ -6916,7 +6930,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_12" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="materi_12" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="judul_materi12" color="#FF0000" parentLayerIndex="99" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="14" keyMode="9728">
@@ -7019,7 +7033,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_11" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="materi_11" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="judul_materi11" color="#FF0000" parentLayerIndex="105" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="13" keyMode="9728">
@@ -7122,7 +7136,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_10" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="materi_10" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="judul_materi10" color="#FF0000" parentLayerIndex="111" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="12" keyMode="9728">
@@ -7225,7 +7239,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_9" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="materi_9" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="judul_materi9" color="#FF0000" parentLayerIndex="117" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="11" keyMode="9728">
@@ -7328,7 +7342,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_8" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="materi_8" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="judul_materi8" color="#FF0000" parentLayerIndex="123" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="10" keyMode="9728">
@@ -7431,7 +7445,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_7" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="materi_7" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="judul_materi7" color="#FF0000" parentLayerIndex="129" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="9" keyMode="9728">
@@ -7534,7 +7548,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_6" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="materi_6" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="judul_materi6" color="#FF0000" parentLayerIndex="135" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="8" keyMode="9728">
@@ -7637,7 +7651,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_5" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="materi_5" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="judul_materi5" color="#FF0000" parentLayerIndex="141" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="7" keyMode="9728">
@@ -7740,7 +7754,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_4" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="materi_4" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="judul_materi4" color="#FF0000" parentLayerIndex="147" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="6" keyMode="9728">
@@ -7843,7 +7857,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_3" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="materi_3" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="judul_materi3" color="#FF0000" parentLayerIndex="153" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
@@ -7946,7 +7960,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_2" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="materi_2" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="judul_materi2" color="#FF0000" parentLayerIndex="159" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="4" keyMode="9728">
@@ -8049,7 +8063,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="materi_1" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="materi_1" color="#FF4FFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="judul_materi1" color="#FF0000" parentLayerIndex="165" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="3" keyMode="9728">
@@ -8152,7 +8166,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="btn_materi" color="#00FFFF" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="btn_materi" color="#00FFFF" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="btn_materi13" color="#FF800A" parentLayerIndex="171" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
@@ -8400,7 +8414,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="90" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="navbar" color="#9933CC" parentLayerIndex="90" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="Garuda" color="#FF4F4F" parentLayerIndex="185" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="2" keyMode="9728">
@@ -8544,7 +8558,7 @@ function changeBackMateri13(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_beranda" color="#FF4FFF" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="layar_beranda" color="#FF4FFF" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="actions_beranda" color="#FF4F4F" parentLayerIndex="193" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
@@ -8823,7 +8837,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="1" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Pancasila/Isi_Beranda" symbolType="graphic" loop="loop">
+                                        <DOMSymbolInstance libraryItemName="Pancasila/Isi_Beranda">
                                              <matrix>
                                                   <Matrix tx="157.1" ty="156.9"/>
                                              </matrix>
@@ -8835,14 +8849,53 @@ function changeBerandaKuis(e:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layar_awal" color="#9933CC" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="actions_awal" color="#669900" parentLayerIndex="210" autoNamed="false">
+                    <DOMLayer name="layar_awal" color="#9933CC" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="actions_awal" color="#669900" parentLayerIndex="210" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[//stop();]]></script>
+                                        <script><![CDATA[stop();
+
+// Panggil lagu Beranda
+putarLagu(bgm_awal, "awal");
+
+// Variabel penampung (untuk mengingat mau ke halaman berapa)
+var halamanTujuan:int = 0;
+
+// Fungsi yang dipanggil oleh TOMBOL (Buat memicu animasi)
+function gantiHalaman(frameKe:int):void {
+    halamanTujuan = frameKe; // Catat tujuannya
+    mc_awalberanda.gotoAndPlay(2); // Jalankan animasi
+}
+
+function pindahSekarang():void {
+    gotoAndStop(halamanTujuan); // Pindah beneran
+}
+
+btn_layar1.addEventListener(MouseEvent.CLICK, changeAwalBeranda);
+function changeAwalBeranda(e:MouseEvent):void{
+	gantiHalaman(2);
+}
+
+]]></script>
                                    </Actionscript>
                                    <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="animasi" color="#00FFFF" parentLayerIndex="210" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/mc_awalberanda" name="mc_awalberanda">
+                                             <matrix>
+                                                  <Matrix tx="0.05" ty="0.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
@@ -8850,7 +8903,7 @@ function changeBerandaKuis(e:MouseEvent):void{
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/layar/layar_awal" name="layar_awal_btn" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Buttons/layar/layar_awal" name="btn_layar1" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="-18" ty="-20"/>
                                              </matrix>
@@ -8866,6 +8919,269 @@ function changeBerandaKuis(e:MouseEvent):void{
           </DOMTimeline>
      </timelines>
      <scripts/>
+     <swatchLists>
+          <swatchList>
+               <swatchListInfo name="Default Swatches"/>
+
+               <swatches>
+                    <swatchListInfo name="Default Swatches"/>
+
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#003300" hue="80" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#006600" hue="80" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009900" hue="80" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC00" hue="80" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF00" hue="80" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330000" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#333300" hue="40" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#336600" hue="60" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#339900" hue="67" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#33CC00" hue="70" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#33FF00" hue="72" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#660000" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663300" hue="20" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#666600" hue="40" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#669900" hue="53" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#66CC00" hue="60" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#66FF00" hue="64" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#333333" brightness="48"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000033" hue="160" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#003333" hue="120" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#006633" hue="100" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009933" hue="93" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC33" hue="90" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF33" hue="88" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330033" hue="200" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#333333" brightness="48"/>
+                    <SolidSwatchItem color="#336633" hue="80" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#339933" hue="80" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC33" hue="80" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF33" hue="80" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660033" hue="220" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663333" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#666633" hue="40" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#669933" hue="60" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#66CC33" hue="67" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#66FF33" hue="70" saturation="239" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#666666" brightness="96"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000066" hue="160" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#003366" hue="140" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#006666" hue="120" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009966" hue="107" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC66" hue="100" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF66" hue="96" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330066" hue="180" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#333366" hue="160" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#336666" hue="120" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#339966" hue="100" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC66" hue="93" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF66" hue="90" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660066" hue="200" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663366" hue="200" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#666666" brightness="96"/>
+                    <SolidSwatchItem color="#669966" hue="80" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#66CC66" hue="80" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FF66" hue="80" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#999999" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000099" hue="160" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#003399" hue="147" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#006699" hue="133" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#009999" hue="120" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC99" hue="110" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF99" hue="104" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330099" hue="173" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#333399" hue="160" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#336699" hue="140" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#339999" hue="120" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC99" hue="107" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF99" hue="100" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660099" hue="187" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#663399" hue="180" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#666699" hue="160" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#669999" hue="120" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#66CC99" hue="100" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FF99" hue="93" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#CCCCCC" brightness="192"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000CC" hue="160" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0033CC" hue="150" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0066CC" hue="140" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0099CC" hue="130" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00CCCC" hue="120" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FFCC" hue="112" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3300CC" hue="170" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#3333CC" hue="160" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#3366CC" hue="147" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#3399CC" hue="133" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33CCCC" hue="120" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FFCC" hue="110" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6600CC" hue="180" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#6633CC" hue="173" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#6666CC" hue="160" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#6699CC" hue="140" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66CCCC" hue="120" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FFCC" hue="107" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FFFFFF" brightness="240"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000FF" hue="160" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0033FF" hue="152" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0066FF" hue="144" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0099FF" hue="136" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#00CCFF" hue="128" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#00FFFF" hue="120" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3300FF" hue="168" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3333FF" hue="160" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#3366FF" hue="150" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#3399FF" hue="140" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#33CCFF" hue="130" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#33FFFF" hue="120" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6600FF" hue="176" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#6633FF" hue="170" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6666FF" hue="160" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#6699FF" hue="147" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#66CCFF" hue="133" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#66FFFF" hue="120" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FF0000" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990000" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993300" hue="13" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#996600" hue="27" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#999900" hue="40" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#99CC00" hue="50" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#99FF00" hue="56" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#CC0000" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3300" hue="10" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC6600" hue="20" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC9900" hue="30" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CCCC00" hue="40" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CCFF00" hue="48" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF0000" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3300" hue="8" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF6600" hue="16" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF9900" hue="24" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FFCC00" hue="32" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FFFF00" hue="40" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#00FF00" hue="80" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990033" hue="227" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993333" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996633" hue="20" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#999933" hue="40" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#99CC33" hue="53" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#99FF33" hue="60" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#CC0033" hue="230" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3333" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6633" hue="13" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC9933" hue="27" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CCCC33" hue="40" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CCFF33" hue="50" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF0033" hue="232" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3333" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6633" hue="10" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF9933" hue="20" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FFCC33" hue="30" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FFFF33" hue="40" saturation="239" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000FF" hue="160" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990066" hue="213" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993366" hue="220" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996666" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#999966" hue="40" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#99CC66" hue="60" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#99FF66" hue="67" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#CC0066" hue="220" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3366" hue="227" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6666" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC9966" hue="20" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CCCC66" hue="40" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CCFF66" hue="53" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF0066" hue="224" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3366" hue="230" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6666" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF9966" hue="13" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FFCC66" hue="27" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FFFF66" hue="40" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FFFF00" hue="40" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990099" hue="200" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993399" hue="200" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996699" hue="200" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#999999" brightness="144"/>
+                    <SolidSwatchItem color="#99CC99" hue="80" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99FF99" hue="80" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC0099" hue="210" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3399" hue="213" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6699" hue="220" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC9999" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCCC99" hue="40" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCFF99" hue="60" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FF0099" hue="216" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3399" hue="220" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6699" hue="227" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF9999" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCC99" hue="20" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFFF99" hue="40" saturation="239" brightness="192"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#00FFFF" hue="120" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#9900CC" hue="190" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#9933CC" hue="187" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#9966CC" hue="180" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#9999CC" hue="160" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99CCCC" hue="120" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99FFCC" hue="100" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC00CC" hue="200" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC33CC" hue="200" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC66CC" hue="200" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC99CC" hue="200" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCCCCC" brightness="192"/>
+                    <SolidSwatchItem color="#CCFFCC" hue="80" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FF00CC" hue="208" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF33CC" hue="210" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF66CC" hue="213" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF99CC" hue="220" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCCCC" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FFFFCC" hue="40" saturation="239" brightness="216"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FF00FF" hue="200" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#9900FF" hue="184" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#9933FF" hue="180" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#9966FF" hue="173" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#9999FF" hue="160" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#99CCFF" hue="140" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#99FFFF" hue="120" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC00FF" hue="192" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#CC33FF" hue="190" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#CC66FF" hue="187" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#CC99FF" hue="180" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CCCCFF" hue="160" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#CCFFFF" hue="120" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FF00FF" hue="200" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF33FF" hue="200" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF66FF" hue="200" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF99FF" hue="200" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCCFF" hue="200" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FFFFFF" brightness="240"/>
+                    <SolidSwatchItem color="#E7E7E7" brightness="217"/>
+               </swatches>
+          </swatchList>
+     </swatchLists>
      <extendedSwatchLists>
           <swatchList>
                <swatchListInfo name="Default Swatches"/>
@@ -8936,25 +9252,16 @@ function changeBerandaKuis(e:MouseEvent):void{
      </persistentData>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="13896481" publishTime="1767021158"/>
-          <PublishItem publishSize="13896641" publishTime="1767020774"/>
-          <PublishItem publishSize="13896472" publishTime="1767019358"/>
-          <PublishItem publishSize="13896478" publishTime="1767019157"/>
-          <PublishItem publishSize="13896481" publishTime="1767018807"/>
-          <PublishItem publishSize="13896481" publishTime="1767017875"/>
-          <PublishItem publishSize="13869429" publishTime="1767017407"/>
-          <PublishItem publishSize="13895915" publishTime="1767014087"/>
-          <PublishItem publishSize="13869429" publishTime="1767014045"/>
-          <PublishItem publishSize="13895525" publishTime="1766737422"/>
-          <PublishItem publishSize="13890117" publishTime="1766674374"/>
-          <PublishItem publishSize="29170367" publishTime="1766666061"/>
-          <PublishItem publishSize="29170574" publishTime="1766664973"/>
-          <PublishItem publishSize="268237" publishTime="1765893346"/>
-          <PublishItem publishSize="268232" publishTime="1765893136"/>
-          <PublishItem publishSize="268238" publishTime="1765892051"/>
-          <PublishItem publishSize="268238" publishTime="1765891827"/>
-          <PublishItem publishSize="268238" publishTime="1765891724"/>
-          <PublishItem publishSize="268258" publishTime="1765888916"/>
-          <PublishItem publishSize="268276" publishTime="1765888288"/>
+          <PublishItem publishSize="13912251" publishTime="1767258198"/>
+          <PublishItem publishSize="13912251" publishTime="1767257953"/>
+          <PublishItem publishSize="13912253" publishTime="1767257349"/>
+          <PublishItem publishSize="13912214" publishTime="1767257187"/>
+          <PublishItem publishSize="13912188" publishTime="1767257028"/>
+          <PublishItem publishSize="13912171" publishTime="1767256926"/>
+          <PublishItem publishSize="13912171" publishTime="1767256889"/>
+          <PublishItem publishSize="13912168" publishTime="1767256725"/>
+          <PublishItem publishSize="13912153" publishTime="1767256638"/>
+          <PublishItem publishSize="13912103" publishTime="1767255954"/>
+          <PublishItem publishSize="13883958" publishTime="1767255760"/>
      </publishHistory>
 </DOMDocument>
