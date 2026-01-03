@@ -1,0 +1,528 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipoin5" itemID="6958f887-00000690" lastModified="1767438613">
+  <timeline>
+    <DOMTimeline name="mc_animasipoin5" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="39.25" ty="833.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="124.05" ty="765.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="-0.8" ty="683.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="84" ty="615.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="-0.8" ty="503.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="84" ty="435.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="-0.8" ty="353.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="84" ty="285.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="306.75" ty="813.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="391.55" ty="745.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="266.7" ty="663.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="351.5" ty="595.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="266.7" ty="483.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="351.5" ty="415.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="266.7" ty="333.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="351.5" ty="265.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="566.75" ty="777"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="651.55" ty="708.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="526.7" ty="627"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="611.5" ty="558.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="526.7" ty="447"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="611.5" ty="378.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="526.7" ty="297"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="611.5" ty="228.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="816.75" ty="740.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="901.55" ty="671.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="776.7" ty="590.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="861.5" ty="521.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="776.7" ty="410.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="861.5" ty="341.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="776.7" ty="260.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="861.5" ty="191.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="1066.75" ty="694.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="1151.55" ty="625.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="1026.7" ty="544.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="1111.5" ty="475.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="1026.7" ty="364.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="1111.5" ty="295.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="1026.7" ty="214.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="1111.5" ty="145.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="1346.75" ty="647"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="1431.55" ty="578.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="1306.7" ty="497"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="1391.5" ty="428.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="1306.7" ty="317"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="1391.5" ty="248.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="1306.7" ty="167"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="1391.5" ty="98.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="1626.75" ty="590.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="1711.55" ty="522.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="1586.7" ty="440.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="1671.5" ty="372.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="1586.7" ty="260.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="1671.5" ty="192.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="1586.7" ty="110.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="1671.5" ty="42.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="1906.75" ty="544.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="1991.55" ty="475.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="1866.7" ty="394.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="1951.5" ty="325.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="1866.7" ty="214.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="1951.5" ty="145.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasipadi">
+                  <matrix>
+                    <Matrix a="3.2335205078125" d="3.2335205078125" tx="1866.7" ty="64.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin5/mc_animasikapas">
+                  <matrix>
+                    <Matrix a="3.3359375" d="3.3359375" tx="1951.5" ty="-4.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="13.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,69 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Movie_Clips/Animasi/Animasi_Poin3/mc_poin3" itemID="6959138a-000007a7" lastModified="1767445425">
+  <timeline>
+    <DOMTimeline name="mc_poin3" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="animasi_poin3" color="#9933CC" current="true" isSelected="true" autoNamed="false" open="false" layerType="folder"/>
+        <DOMLayer name="actions" color="#9933CC" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="61" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mask_poin3" color="#FF4FFF" parentLayerIndex="0" autoNamed="false" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="59" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin3/mask_poin3">
+                  <matrix>
+                    <Matrix a="982.568786621094" d="982.568786621094" tx="115.95" ty="1215.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.85" y="0.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="60" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin3/mask_poin3" centerPoint3DX="951.1" centerPoint3DY="680.85">
+                  <matrix>
+                    <Matrix a="982.568786621094" d="982.568786621094" tx="115.95" ty="-154.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.85" y="0.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="poin3" color="#FF800A" parentLayerIndex="2" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="60" keyMode="9728" rigPropagationMatrix='{"a":-2147483648,"b":0,"c":0,"d":-2147483648,"tx":-922027392,"ty":-566989056}'>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Animasi/Animasi_Poin3/mc_pohon">
+                  <matrix>
+                    <Matrix a="1.16978454589844" d="1.16978454589844" tx="392.8" ty="103"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="462" y="441.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

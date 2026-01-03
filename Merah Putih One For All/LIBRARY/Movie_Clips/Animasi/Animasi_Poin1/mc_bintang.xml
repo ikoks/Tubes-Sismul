@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Movie_Clips/Animasi/Animasi_Poin1/mc_bintang" itemID="6957dffe-000002c5" lastModified="1767366654">
+  <timeline>
+    <DOMTimeline name="mc_bintang" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFD900"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!2004 1038S2|1332 1373!1332 1373|1330 2250!1330 2250|785 1615!785 1615|0 1895!0 1895|435 1133!435 1133|34 510!34 510|759 705!759 705|1219 0!1219 0|1300 850!1300 850|2004 1038"/>
+                    <Edge cubics="!2004 1038(;2004,1038 1332,1373 1332,1373q2004 1038 1332 1373);"/>
+                    <Edge cubics="!1332 1373(;1332,1373 1330,2250 1330,2250q1332 1373 1330 2250);"/>
+                    <Edge cubics="!1330 2250(;1330,2250 785,1615 785,1615q1330 2250 785 1615);"/>
+                    <Edge cubics="!785 1615(;785,1615 0,1895 0,1895q785 1615 0 1895);"/>
+                    <Edge cubics="!0 1895(;0,1895 435,1133 435,1133q0 1895 435 1133);"/>
+                    <Edge cubics="!435 1133(;435,1133 34,510 34,510q435 1133 34 510);"/>
+                    <Edge cubics="!34 510(;34,510 759,705 759,705q34 510 759 705);"/>
+                    <Edge cubics="!1219 0(;1219,0 1300,850 1300,850q1219 0 1300 850);"/>
+                    <Edge cubics="!1300 850(;1300,850 2004,1038 2004,1038q1300 850 2004 1038);"/>
+                    <Edge cubics="!759 705(;759,705 1219,0 1219,0q759 705 1219 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

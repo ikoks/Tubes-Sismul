@@ -1,0 +1,82 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Movie_Clips/Pancasila/Isi_Beranda" itemID="69384171-00000230" lastModified="1767252871">
+  <timeline>
+    <DOMTimeline name="Isi_Beranda" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="garuda" color="#9933CC" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="90" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195" propagateRotMap="[0,0,0,0]" propagateScaleXMap="[1]" propagateScaleYMap="[1]" propagateSkewXMap="[0]" propagateSkewYMap="[0]">
+              <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="90000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500152" xformPtYOffsetPct="0.499425" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,14.9981" next="0,14.9981" previous="0,14.9981" roving="0" timevalue="29000"/><Keyframe anchor="0,-15.0038" next="0,-15.0038" previous="0,-15.0038" roving="0" timevalue="59000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="89000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,32.7087" next="0,32.7087" previous="0,32.7087" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,32.7087" next="0,32.7087" previous="0,32.7087" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Movie_Clips/Pancasila/Garuda-Pancasila.ai">
+                  <matrix>
+                    <Matrix a="0.327072143554688" d="0.327072143554688" tx="703.45" ty="26.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="329" y="327.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="card_dan_teks" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="90" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="0.05224609375" c="-0.276824951171875" d="0" tx="-22.3" ty="230.55"/>
+                            </matrix>
+                            <GradientEntry color="#FF0000" ratio="0"/>
+                            <GradientEntry color="#FFFFFF" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!718 0S2|31592 0!31592 0[32310 0 32310 507!32310 507|32310 8623!32310 8623[32310 9130 31592 9130!31592 9130|718 9130!718 9130[0 9130 0 8623!0 8623|0 507!0 507[0 0 718 0"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMDynamicText fontRenderingMode="standard" left="-174.95" width="493.9" height="115.65" autoExpand="true" isSelectable="false" lineType="multiline">
+                      <matrix>
+                        <Matrix a="0.722686767578125" d="0.722686767578125" tx="760.9" ty="231.6"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>PANCASILA</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="115.65" size="83" bitmapSize="1660" face="ComicSansMS-Bold" fillColor="#FF0000"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMDynamicText>
+                    <DOMDynamicText selected="true" fontRenderingMode="standard" left="-1035.8" width="1249.7" height="133.6" isSelectable="false" lineType="multiline">
+                      <matrix>
+                        <Matrix tx="1228.75" ty="308.65"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>Dasar Negara Republik Indonesia yang mengandung nilai-nilai luhur bangsa.&#xD;Mari kita pelajari, pahami, dan amalkan Pancasila dalam kehidupan sehari-hari untuk membangun Indonesia yang lebih baik.</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="43.2" size="31" bitmapSize="620" face="ComicSansMS-Bold" fillColor="#FF0000"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMDynamicText>
+                  </members>
+                </DOMGroup>
+              </elements>
+              <frameFilters>
+                <DropShadowFilter alpha="0.6" blurX="7" blurY="7" distance="3" quality="3" strength="0.81"/>
+              </frameFilters>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

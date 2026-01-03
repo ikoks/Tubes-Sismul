@@ -1,0 +1,54 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Movie_Clips/Animasi/Animasi_Poin5/mc_padi" itemID="6958f2de-000005f6" lastModified="1767437022">
+  <timeline>
+    <DOMTimeline name="mc_padi" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-44.6" ty="-66.4"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F0EA49"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!980 1444[986 1488 986 1516!986 1516[985 1548 976 1594!976 1594[945 1562 932 1545!932 1545[909 1517 898 1479!898 1479[879 1404 924 1328!924 1328[953 1373 963 1393!963 1393[971 1410 980 1444"/>
+                    <Edge cubics="!980 1444(;988,1500 989,1530 976,1594q980 1444Q986 1488q986 1516Q985 1548q976 1594);"/>
+                    <Edge cubics="!976 1594(;945,1557 915,1539 898,1479q976 1594Q945 1562q932 1545Q909 1517q898 1479);"/>
+                    <Edge cubics="!898 1479(;885,1427 895,1377 924,1328q898 1479Q879 1404q924 1328);"/>
+                    <Edge cubics="!924 1328(;964,1390 968,1400 980,1444q924 1328Q953 1373q963 1393Q971 1410q980 1444);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-44.6" ty="-66.4"/>
+                  </matrix>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="10">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!924 1328[953 1373 963 1393!963 1393[971 1410 980 1444!980 1444[986 1488 986 1516!986 1516[985 1548 976 1594!976 1594[945 1562 932 1545!932 1545[909 1517 898 1479!898 1479[879 1404 924 1328"/>
+                    <Edge cubics="!924 1328(;964,1390 968,1400 980,1444q924 1328Q953 1373q963 1393Q971 1410q980 1444);"/>
+                    <Edge cubics="!980 1444(;988,1500 989,1530 976,1594q980 1444Q986 1488q986 1516Q985 1548q976 1594);"/>
+                    <Edge cubics="!976 1594(;945,1557 915,1539 898,1479q976 1594Q945 1562q932 1545Q909 1517q898 1479);"/>
+                    <Edge cubics="!898 1479(;885,1427 895,1377 924,1328q898 1479Q879 1404q924 1328);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

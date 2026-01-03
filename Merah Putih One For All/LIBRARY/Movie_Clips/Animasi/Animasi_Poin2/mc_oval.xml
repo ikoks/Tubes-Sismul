@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Movie_Clips/Animasi/Animasi_Poin2/mc_oval" itemID="6958d988-000001a0" lastModified="1767430536">
+  <timeline>
+    <DOMTimeline name="mc_oval" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFD900"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="10">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!4216 2697S6[4216 3813 3599 4602!3599 4602[2982 5393 2109 5393!2109 5393[1235 5393 618 4602!618 4602[0 3813 0 2697!0 2697[0 1579 618 789!618 789[1235 0 2109 0!2109 0[2982 0 3599 789!3599 789[4216 1579 4216 2697"/>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!3339 2698S5[3339 3349 2978 3809!2978 3809[2618 4270 2110 4270!2110 4270[1599 4270 1239 3809!1239 3809[880 3349 880 2698!880 2698[880 2046 1239 1585!1239 1585[1599 1125 2110 1125!2110 1125[2618 1125 2978 1585!2978 1585[3339 2046 3339
+ 2698"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
